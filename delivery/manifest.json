@@ -1,0 +1,13 @@
+{
+  "sourceCommit": "28d9c29bdbe5ae1296a93d2f7aeb43a0828d0ca7",
+  "branch": "dev/anatomy-proof-20261031",
+  "repository": "https://github.com/Poej77577/makharij-3d",
+  "stage": "anatomical-rest-study",
+  "anatomicalGatePassed": false,
+  "sitePublished": false,
+  "sourceZipSha256": "4b860a295a196ecee07bef38378438c181d54c45aca959f87c52b38d8f140953",
+  "modelSha256": "a0cde6193898eeace6107b73468af8dccdf0cbd7a6ef97f70c43f56c212ffaaf",
+  "sourceZipBytes": 37036537,
+  "remoteRestoreVerified": true,
+  "restoreVerification": "Fresh clone from GitHub; commit and Blender/GLB/JS/status/video hashes matched."
+}
