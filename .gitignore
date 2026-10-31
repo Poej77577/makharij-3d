@@ -1,0 +1,9 @@
+node_modules/
+dist/
+research/
+assets/candidates/
+*.log
+__pycache__/
+
+# Blender automatic backups; editable current sources are retained
+*.blend[0-9]

@@ -1,0 +1,214 @@
+{
+  "restSha256": "a37b23ec7fc4f6df4526feb744a2c6ed877c1e7bc2e3fd2bde4cdbc0089c0648",
+  "sourceContactBand_m": [
+    -0.012,
+    -0.011,
+    -0.01,
+    -0.009000000000000001,
+    -0.008,
+    -0.007,
+    -0.006,
+    -0.005,
+    -0.004,
+    -0.002999999999999999,
+    -0.002,
+    -0.0010000000000000009,
+    0.0,
+    0.0010000000000000009,
+    0.002,
+    0.002999999999999999,
+    0.004,
+    0.005000000000000001,
+    0.006000000000000002,
+    0.006999999999999999,
+    0.008,
+    0.009000000000000001,
+    0.009999999999999998,
+    0.011,
+    0.012
+  ],
+  "constraints": 25,
+  "activeHistory": [
+    {
+      "iteration": 0,
+      "restAnchors": 7382,
+      "blockingVertices": 70,
+      "newRestAnchors": 70
+    },
+    {
+      "iteration": 1,
+      "restAnchors": 7452,
+      "blockingVertices": 0,
+      "newRestAnchors": 0
+    }
+  ],
+  "heldClearSourceVertices": 7452,
+  "states": [
+    {
+      "fraction": 0.0,
+      "collisions": [],
+      "minimumAreaRatio": 0.999999999999939
+    },
+    {
+      "fraction": 0.041666666666666664,
+      "collisions": [],
+      "minimumAreaRatio": 0.9985992721613149
+    },
+    {
+      "fraction": 0.08333333333333333,
+      "collisions": [],
+      "minimumAreaRatio": 0.9975122151578404
+    },
+    {
+      "fraction": 0.125,
+      "collisions": [],
+      "minimumAreaRatio": 0.9967730952705877
+    },
+    {
+      "fraction": 0.16666666666666666,
+      "collisions": [],
+      "minimumAreaRatio": 0.996377045659892
+    },
+    {
+      "fraction": 0.20833333333333331,
+      "collisions": [],
+      "minimumAreaRatio": 0.9954724514852342
+    },
+    {
+      "fraction": 0.25,
+      "collisions": [],
+      "minimumAreaRatio": 0.9943930827082653
+    },
+    {
+      "fraction": 0.29166666666666663,
+      "collisions": [],
+      "minimumAreaRatio": 0.9932634028461328
+    },
+    {
+      "fraction": 0.3333333333333333,
+      "collisions": [],
+      "minimumAreaRatio": 0.9920873717571749
+    },
+    {
+      "fraction": 0.375,
+      "collisions": [],
+      "minimumAreaRatio": 0.9908691033785698
+    },
+    {
+      "fraction": 0.41666666666666663,
+      "collisions": [],
+      "minimumAreaRatio": 0.9896128351458788
+    },
+    {
+      "fraction": 0.4583333333333333,
+      "collisions": [],
+      "minimumAreaRatio": 0.9883229179704082
+    },
+    {
+      "fraction": 0.5,
+      "collisions": [],
+      "minimumAreaRatio": 0.9870038116388343
+    },
+    {
+      "fraction": 0.5416666666666666,
+      "collisions": [],
+      "minimumAreaRatio": 0.9856600769048213
+    },
+    {
+      "fraction": 0.5833333333333333,
+      "collisions": [],
+      "minimumAreaRatio": 0.9842963609419005
+    },
+    {
+      "fraction": 0.625,
+      "collisions": [],
+      "minimumAreaRatio": 0.9829173762373417
+    },
+    {
+      "fraction": 0.6666666666666666,
+      "collisions": [],
+      "minimumAreaRatio": 0.9815278746636075
+    },
+    {
+      "fraction": 0.7083333333333333,
+      "collisions": [],
+      "minimumAreaRatio": 0.9801326189470458
+    },
+    {
+      "fraction": 0.75,
+      "collisions": [],
+      "minimumAreaRatio": 0.9787363053360361
+    },
+    {
+      "fraction": 0.7916666666666666,
+      "collisions": [
+        "SOFT_PALATE"
+      ],
+      "minimumAreaRatio": 0.9773424860487975
+    },
+    {
+      "fraction": 0.8333333333333333,
+      "collisions": [
+        "SOFT_PALATE"
+      ],
+      "minimumAreaRatio": 0.9759568674087933
+    },
+    {
+      "fraction": 0.875,
+      "collisions": [
+        "SOFT_PALATE"
+      ],
+      "minimumAreaRatio": 0.9745839882323746
+    },
+    {
+      "fraction": 0.9166666666666666,
+      "collisions": [
+        "SOFT_PALATE"
+      ],
+      "minimumAreaRatio": 0.9732282735973997
+    },
+    {
+      "fraction": 0.9583333333333333,
+      "collisions": [
+        "SOFT_PALATE"
+      ],
+      "minimumAreaRatio": 0.9718940183904193
+    },
+    {
+      "fraction": 1.0,
+      "collisions": [
+        "SOFT_PALATE"
+      ],
+      "minimumAreaRatio": 0.9705853740493761
+    }
+  ],
+  "crossSectionGaps_mm": [
+    8.708141973872069,
+    8.886318680849252,
+    8.958500528351289,
+    8.918462837313752,
+    8.75402761527912,
+    8.381796571638525,
+    7.723300885561791,
+    6.974659541413891,
+    1.5748777008999164,
+    0.07834778571351723,
+    0.4573879843862881,
+    0.11324249892324,
+    0.11016270881705043,
+    0.45406827285096224,
+    0.07846192049878638,
+    1.5717423219099165,
+    6.978991371238545,
+    7.816045982901106,
+    8.484670641643408,
+    8.798024306666953,
+    8.918272186976118,
+    8.958223382058305,
+    8.885451457159457,
+    8.706568308483222
+  ],
+  "constraintResidualMax_mm": 8.716781504472571,
+  "maxDisplacement_mm": 10.379525448703967,
+  "scope": "candidate only, no final GLB/path or qualified review"
+}

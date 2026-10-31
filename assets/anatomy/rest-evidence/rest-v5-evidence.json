@@ -1,0 +1,22 @@
+{
+  "asset": "badin-prepared-rest-v5",
+  "glbSha256": "35a303218855240ca8fc6b3112964bfe5db5354a87ecdb0b7ab8022a46c41c2a",
+  "views": {
+    "rest-v5-front.png": {
+      "kind": "actual neutral source front crop",
+      "hiddenOutsideTeachingField": [
+        "NASAL_LINING",
+        "PHARYNX",
+        "SOFT_PALATE"
+      ]
+    },
+    "rest-v5-sagittal-left.png": {
+      "kind": "temporary actual source midsagittal section",
+      "cameraSide": "negative Z; +X projects LEFT",
+      "tongueSectionCap": true,
+      "fullDeliveredGLBCut": false
+    }
+  },
+  "nasalReferenceStatus": "existing unmeasured oval approximation DOES NOT meet requested conchae/cavity reference; rebuild pending",
+  "review": "not independently anatomical/tajwid reviewed"
+}

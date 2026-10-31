@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/artisynth/artisynth_models",
+  "upstream_commit": "e37be3f1b4831f347c055cbf7124b6bd57414f98",
+  "snapshot_purpose": "Unchanged selected anatomical source meshes and exact upstream provenance code required to rebuild project anatomy; not a runnable full ArtiSynth installation.",
+  "created_utc_date": "2026-10-31",
+  "license_file": "LICENSE",
+  "upstream_copyright": "Copyright (c) 2014, contributing Authors and Organizations as indicated in subpackage COPYRIGHT notices. All rights reserved.",
+  "upstream_subpackage_copyright_files": "No tracked file named COPYRIGHT was found in the acquired upstream tree. Original LICENSE and included source files preserved unchanged.",
+  "frame_contract": {
+    "face_obj_units": "m",
+    "jawTongue_badinpalate_obj_units": "m",
+    "jawTongue_softpalate_obj_units": "mm",
+    "native_axes": {
+      "X": "posterior",
+      "Y": "lateral",
+      "Z": "superior"
+    },
+    "canonical_units": "m",
+    "canonical_axes": {
+      "X": "anterior",
+      "Y": "superior",
+      "Z": "lateral"
+    },
+    "native_m_to_canonical_m_matrix": [
+      [
+        -1,
+        0,
+        0,
+        0.14
+      ],
+      [
+        0,
+        0,
+        1,
+        -0.1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "softpalate_orig_extra_transform": "Apply AirwaySkinDemo.XSoftPalate in native mm before unit/canonical conversion; init/up/down already registered, do not apply twice.",
+    "up_down_init_common_frame_evidence": "132 exactly unchanged attachment vertices with full 3D rank; rigid identity-fit residual 1.53e-14 mm; see docs/assets/softpalate-frame-anchors.json.",
+    "raw_airway_shared_frame_evidence": "face and jawTongue raw badinairway.obj SHA256 both 978696d93fcaf22c501c25c6ed7be026d7a5e12150a71ddcb188b301f94dd7cd; 39394 indexed vertices identical. Reference airway meshes omitted from compact runtime-build subset."
+  },
+  "provenance_limits": [
+    "Same-source model assembly is not proof of a single donor. Teeth and soft-palate donor identities are unknown.",
+    "Source code co-loads dental/tongue geometry, but this is compatibility evidence only, not measured anatomical registration.",
+    "BadinFaceDemo default FEM prefix is badinface_oop_csa_midsagittal. face.node/face.elem are a different acquired alternative, included for explicit source-derived context preparation.",
+    "softpalate up/down are native source poses, not automatically contact-safe with our assembled tongue.",
+    "No acquired nasal cavity mesh is included; any generated nasal lining must remain explicitly authored and unmeasured.",
+    "This bundle preserves upstream files byte-for-byte; project-specific edits belong in build scripts/derived assets."
+  ],
+  "attribution_from_upstream_getAbout": "Ian Stavness, John E Lloyd, Yohan Payan, and Sidney Fels. Coupled Hard-Soft Tissue Simulation with Contact and Constraints Applied to Jaw-Tongue-Hyoid Dynamics. International Journal for Numerical Methods in Biomedical Engineering, 27:367-390, 2011. Cited by BadinJawHyoidTongue.getAbout; does not establish provenance of each individual mesh.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "upstream_path": "LICENSE",
+      "bytes": 1564,
+      "sha256": "cf8c3cf168bb2661cf51ca26159e2203e2e7d0158ec20d17409abb565a3f8294",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/LICENSE",
+      "modified": false
+    },
+    {
+      "path": "README",
+      "upstream_path": "README",
+      "bytes": 714,
+      "sha256": "a0a970a3b860f4f84ae79477b175ae9712c0505a296d99f25e534ed36a7060c3",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/README",
+      "modified": false
+    },
+    {
+      "path": "VERSION",
+      "upstream_path": "VERSION",
+      "bytes": 21,
+      "sha256": "4c67959e0e079ab38a8c5494fa0adf5ecfd51b3b7e55b0ba2bf1565dbcd39851",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/VERSION",
+      "modified": false
+    },
+    {
+      "path": "face/geometry/badintongue.obj",
+      "upstream_path": "src/artisynth/models/face/geometry/badintongue.obj",
+      "bytes": 57978,
+      "sha256": "fdd98f011539e5d0346133f173fc4c650aa45e27f3649505ff65e763d890a212",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/face/geometry/badintongue.obj",
+      "modified": false
+    },
+    {
+      "path": "face/geometry/upperteeth.obj",
+      "upstream_path": "src/artisynth/models/face/geometry/upperteeth.obj",
+      "bytes": 1025751,
+      "sha256": "bb3f63d23ad5150656db585ca06f50d3ca610eaaf34349de6d4a054a6cc30f18",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/face/geometry/upperteeth.obj",
+      "modified": false
+    },
+    {
+      "path": "face/geometry/lowerteeth.obj",
+      "upstream_path": "src/artisynth/models/face/geometry/lowerteeth.obj",
+      "bytes": 971515,
+      "sha256": "4ce347316b4772eaf7f17a077db1d2ca62604980f1096686beff24f793b7abb1",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/face/geometry/lowerteeth.obj",
+      "modified": false
+    },
+    {
+      "path": "face/geometry/badinface_upperlip_filled.obj",
+      "upstream_path": "src/artisynth/models/face/geometry/badinface_upperlip_filled.obj",
+      "bytes": 41033,
+      "sha256": "be41e9a838de42aa3e4e3fdd3c99ce71fc0496f1e376166e741a00cad7d569e6",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/face/geometry/badinface_upperlip_filled.obj",
+      "modified": false
+    },
+    {
+      "path": "face/geometry/badinface_lowerlip_filled.obj",
+      "upstream_path": "src/artisynth/models/face/geometry/badinface_lowerlip_filled.obj",
+      "bytes": 33516,
+      "sha256": "1d1d86aa679c71580f200c858f4129ae86bb400b763ad9259c324a3f727893e3",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/face/geometry/badinface_lowerlip_filled.obj",
+      "modified": false
+    },
+    {
+      "path": "face/geometry/badinskin.obj",
+      "upstream_path": "src/artisynth/models/face/geometry/badinskin.obj",
+      "bytes": 11589357,
+      "sha256": "f8cd321382f4caf8a6aeedc1b5685fdb992a6aaf3cd55d404a8ef447ab5e18ce",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/face/geometry/badinskin.obj",
+      "modified": false
+    },
+    {
+      "path": "face/geometry/face.node",
+      "upstream_path": "src/artisynth/models/face/geometry/face.node",
+      "bytes": 601680,
+      "sha256": "3b1fd64507be2941301c19ff05adc24e06c108eae34f575245764317bcc5bcdd",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/face/geometry/face.node",
+      "modified": false
+    },
+    {
+      "path": "face/geometry/face.elem",
+      "upstream_path": "src/artisynth/models/face/geometry/face.elem",
+      "bytes": 539070,
+      "sha256": "fc1e3144f59dbdc284d4115b8e54145a13c8ca6f4aff389458020103763874f7",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/face/geometry/face.elem",
+      "modified": false
+    },
+    {
+      "path": "face/geometry/badinface_oop_csa_midsagittal.node",
+      "upstream_path": "src/artisynth/models/face/geometry/badinface_oop_csa_midsagittal.node",
+      "bytes": 601680,
+      "sha256": "dbb0b877e9b4d3644de0d8cf6d02a3564c82837b91a78722fef50047746a06cb",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/face/geometry/badinface_oop_csa_midsagittal.node",
+      "modified": false
+    },
+    {
+      "path": "face/geometry/badinface_oop_csa_midsagittal.elem",
+      "upstream_path": "src/artisynth/models/face/geometry/badinface_oop_csa_midsagittal.elem",
+      "bytes": 539070,
+      "sha256": "5fa5676f248a46d613ea52c3330ea341ff00e880a2f639da097f717c992b2af5",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/face/geometry/badinface_oop_csa_midsagittal.elem",
+      "modified": false
+    },
+    {
+      "path": "jawTongue/geometry/badinpalate.obj",
+      "upstream_path": "src/artisynth/models/jawTongue/geometry/badinpalate.obj",
+      "bytes": 229031,
+      "sha256": "4dd24ca794e839ba7c15ca6e145c6ce6b3d7d38e92198b82e2c63acf596aa7e5",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/jawTongue/geometry/badinpalate.obj",
+      "modified": false
+    },
+    {
+      "path": "jawTongue/geometry/softpalate_orig.obj",
+      "upstream_path": "src/artisynth/models/jawTongue/geometry/softpalate_orig.obj",
+      "bytes": 234254,
+      "sha256": "609afe4f7c2e265590963a3653fe980f43a5039b584a5546e908d95121a4cc97",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/jawTongue/geometry/softpalate_orig.obj",
+      "modified": false
+    },
+    {
+      "path": "jawTongue/geometry/softpalate_init.obj",
+      "upstream_path": "src/artisynth/models/jawTongue/geometry/softpalate_init.obj",
+      "bytes": 240134,
+      "sha256": "145ce1d9af91936095bbcaf9d33405e88475d22e91ec3c3cca9fb4b5a62b2781",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/jawTongue/geometry/softpalate_init.obj",
+      "modified": false
+    },
+    {
+      "path": "jawTongue/geometry/softpalate_up.obj",
+      "upstream_path": "src/artisynth/models/jawTongue/geometry/softpalate_up.obj",
+      "bytes": 243656,
+      "sha256": "c8827f758273ac0e28e8d3be4e46e705dbe880fb6d4a41112f1d0ae9e3fd8b81",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/jawTongue/geometry/softpalate_up.obj",
+      "modified": false
+    },
+    {
+      "path": "jawTongue/geometry/softpalate_down.obj",
+      "upstream_path": "src/artisynth/models/jawTongue/geometry/softpalate_down.obj",
+      "bytes": 243751,
+      "sha256": "a649db92bbcad569fddebd4052704cd5fe8936b99d4fee6763d72afae6dae910",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/jawTongue/geometry/softpalate_down.obj",
+      "modified": false
+    },
+    {
+      "path": "face/BadinFaceDemo.java",
+      "upstream_path": "src/artisynth/models/face/BadinFaceDemo.java",
+      "bytes": 44299,
+      "sha256": "3712ade4a593b8d2f206570a63e80110475d77a352a832ef51a44d2b332b6f01",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/face/BadinFaceDemo.java",
+      "modified": false
+    },
+    {
+      "path": "face/BadinJawTongueFaceDemo.java",
+      "upstream_path": "src/artisynth/models/face/BadinJawTongueFaceDemo.java",
+      "bytes": 15884,
+      "sha256": "f98f46103c03cc24c16a6c4d2de07a30776d16eb0d1e9e0237b322132588f5e0",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/face/BadinJawTongueFaceDemo.java",
+      "modified": false
+    },
+    {
+      "path": "face/MeshEdit.java",
+      "upstream_path": "src/artisynth/models/face/MeshEdit.java",
+      "bytes": 5796,
+      "sha256": "51a0b281d25cee333214ef6dfd195ef07ed76c33ba5b25766908b9151746d110",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/face/MeshEdit.java",
+      "modified": false
+    },
+    {
+      "path": "jawTongue/BadinJawHyoid.java",
+      "upstream_path": "src/artisynth/models/jawTongue/BadinJawHyoid.java",
+      "bytes": 47201,
+      "sha256": "a84a2fd68e3d1cca1225c3883d76e3b5a1febd2f4a3463d90550d662273f40a3",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/jawTongue/BadinJawHyoid.java",
+      "modified": false
+    },
+    {
+      "path": "jawTongue/BadinJawHyoidTongue.java",
+      "upstream_path": "src/artisynth/models/jawTongue/BadinJawHyoidTongue.java",
+      "bytes": 15814,
+      "sha256": "35c1e00931612b2edcfffa3b22dfc50710d1e83b5bae0fb7f8f718a3f6b56360",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/jawTongue/BadinJawHyoidTongue.java",
+      "modified": false
+    },
+    {
+      "path": "jawTongue/BadinDataDemo.java",
+      "upstream_path": "src/artisynth/models/jawTongue/BadinDataDemo.java",
+      "bytes": 41412,
+      "sha256": "c0e1e9308dd0262dbd58aca726eb4947bc5d30059a10f383b185211797b4994d",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/jawTongue/BadinDataDemo.java",
+      "modified": false
+    },
+    {
+      "path": "jawTongue/AirwaySkinDemo.java",
+      "upstream_path": "src/artisynth/models/jawTongue/AirwaySkinDemo.java",
+      "bytes": 7756,
+      "sha256": "7d3764f3a0a4a6bfa41feec39349c3fd6b8b444a2e014d8e4dc9279b340c4b16",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/jawTongue/AirwaySkinDemo.java",
+      "modified": false
+    },
+    {
+      "path": "jawTongue/KinematicSoftPalateDemo.java",
+      "upstream_path": "src/artisynth/models/jawTongue/KinematicSoftPalateDemo.java",
+      "bytes": 1846,
+      "sha256": "816ca77f5752db1798f9ce37abbea9140ee7ef137b81c651dc5812adb407e413",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/jawTongue/KinematicSoftPalateDemo.java",
+      "modified": false
+    },
+    {
+      "path": "jawTongue/MeshBlendController.java",
+      "upstream_path": "src/artisynth/models/jawTongue/MeshBlendController.java",
+      "bytes": 1730,
+      "sha256": "491f0d2b4ae24456ee1e2fc1714c3f63c5cd1cb3b48fb03d49991584c7c0e98b",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/jawTongue/MeshBlendController.java",
+      "modified": false
+    },
+    {
+      "path": "palateV2/SoftPalateModel.java",
+      "upstream_path": "src/artisynth/models/palateV2/SoftPalateModel.java",
+      "bytes": 18562,
+      "sha256": "6d6872017bcfc6dde255c1b8191c26875ff1ae1c2992cc9233a47a8129fe449a",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/palateV2/SoftPalateModel.java",
+      "modified": false
+    },
+    {
+      "path": "face/geometry/upper_lip_surface_Ian.elem.txt",
+      "upstream_path": "src/artisynth/models/face/geometry/upper_lip_surface_Ian.elem.txt",
+      "bytes": 8836,
+      "sha256": "a2c3ed42293fe4721ffdebc4b290be6210a6f2404b474527df85932bea527ca1",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/face/geometry/upper_lip_surface_Ian.elem.txt",
+      "modified": false
+    },
+    {
+      "path": "face/geometry/lower_lip_surface_Ian.elem.txt",
+      "upstream_path": "src/artisynth/models/face/geometry/lower_lip_surface_Ian.elem.txt",
+      "bytes": 7030,
+      "sha256": "94e699487c11845a6373293a99b7dcd731cff2d58d6c927993b3142863a7a4ff",
+      "source_url": "https://github.com/artisynth/artisynth_models/blob/e37be3f1b4831f347c055cbf7124b6bd57414f98/src/artisynth/models/face/geometry/lower_lip_surface_Ian.elem.txt",
+      "modified": false
+    }
+  ],
+  "total_source_bytes": 17409941
+}

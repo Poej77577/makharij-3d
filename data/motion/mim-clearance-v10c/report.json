@@ -1,0 +1,833 @@
+{
+  "restSha256": "a37b23ec7fc4f6df4526feb744a2c6ed877c1e7bc2e3fd2bde4cdbc0089c0648",
+  "sourceCandidate": "mim-joint-v10b",
+  "states": [
+    {
+      "stage": "rest",
+      "fraction": 0.0,
+      "jawFraction": 0,
+      "preparationFraction": 0
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.0,
+      "jawFraction": 0,
+      "preparationFraction": 0.0
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.14285714285714285,
+      "jawFraction": 0,
+      "preparationFraction": 0.14285714285714285
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.2857142857142857,
+      "jawFraction": 0,
+      "preparationFraction": 0.2857142857142857
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.42857142857142855,
+      "jawFraction": 0,
+      "preparationFraction": 0.42857142857142855
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.5714285714285714,
+      "jawFraction": 0,
+      "preparationFraction": 0.5714285714285714
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.7142857142857142,
+      "jawFraction": 0,
+      "preparationFraction": 0.7142857142857142
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.8571428571428571,
+      "jawFraction": 0,
+      "preparationFraction": 0.8571428571428571
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 1.0,
+      "jawFraction": 0,
+      "preparationFraction": 1.0
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.0,
+      "jawFraction": 0.0,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.03333333333333333,
+      "jawFraction": 0.03333333333333333,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.06666666666666667,
+      "jawFraction": 0.06666666666666667,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.1,
+      "jawFraction": 0.1,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.13333333333333333,
+      "jawFraction": 0.13333333333333333,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.16666666666666666,
+      "jawFraction": 0.16666666666666666,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.2,
+      "jawFraction": 0.2,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.23333333333333334,
+      "jawFraction": 0.23333333333333334,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.26666666666666666,
+      "jawFraction": 0.26666666666666666,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.3,
+      "jawFraction": 0.3,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.3333333333333333,
+      "jawFraction": 0.3333333333333333,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.36666666666666664,
+      "jawFraction": 0.36666666666666664,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.4,
+      "jawFraction": 0.4,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.43333333333333335,
+      "jawFraction": 0.43333333333333335,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.4666666666666667,
+      "jawFraction": 0.4666666666666667,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.5,
+      "jawFraction": 0.5,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.5333333333333333,
+      "jawFraction": 0.5333333333333333,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.5666666666666667,
+      "jawFraction": 0.5666666666666667,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.6,
+      "jawFraction": 0.6,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.6333333333333333,
+      "jawFraction": 0.6333333333333333,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.6666666666666666,
+      "jawFraction": 0.6666666666666666,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.7,
+      "jawFraction": 0.7,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.7333333333333333,
+      "jawFraction": 0.7333333333333333,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.7666666666666666,
+      "jawFraction": 0.7666666666666666,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.8,
+      "jawFraction": 0.8,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.8333333333333334,
+      "jawFraction": 0.8333333333333334,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.8666666666666667,
+      "jawFraction": 0.8666666666666667,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.9,
+      "jawFraction": 0.9,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.9333333333333333,
+      "jawFraction": 0.9333333333333333,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.9666666666666667,
+      "jawFraction": 0.9666666666666667,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 1.0,
+      "jawFraction": 1.0,
+      "preparationFraction": 1
+    }
+  ],
+  "checks": [
+    {
+      "stateIndex": 0.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 1.0
+    },
+    {
+      "stateIndex": 0.5,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9999999999994825
+    },
+    {
+      "stateIndex": 1.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9999999999989645
+    },
+    {
+      "stateIndex": 1.5,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9933287501293518
+    },
+    {
+      "stateIndex": 2.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9867095522962582
+    },
+    {
+      "stateIndex": 2.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9801706467475374
+    },
+    {
+      "stateIndex": 3.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9736869823889622
+    },
+    {
+      "stateIndex": 3.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9672671366226354
+    },
+    {
+      "stateIndex": 4.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9609058985118755
+    },
+    {
+      "stateIndex": 4.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9545628770151009
+    },
+    {
+      "stateIndex": 5.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9482548354281624
+    },
+    {
+      "stateIndex": 5.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9419946232448526
+    },
+    {
+      "stateIndex": 6.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9357819388478144
+    },
+    {
+      "stateIndex": 6.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9296178985048767
+    },
+    {
+      "stateIndex": 7.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9235043251946428
+    },
+    {
+      "stateIndex": 7.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9174424305878984
+    },
+    {
+      "stateIndex": 8.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9114340727022904
+    },
+    {
+      "stateIndex": 8.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9114725878253259
+    },
+    {
+      "stateIndex": 9.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.911511102448132
+    },
+    {
+      "stateIndex": 9.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.911385316520871
+    },
+    {
+      "stateIndex": 10.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9112595886042825
+    },
+    {
+      "stateIndex": 10.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9111369628757131
+    },
+    {
+      "stateIndex": 11.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9042584014316627
+    },
+    {
+      "stateIndex": 11.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.8736726782306222
+    },
+    {
+      "stateIndex": 12.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.8417420377794322
+    },
+    {
+      "stateIndex": 12.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.809819928192324
+    },
+    {
+      "stateIndex": 13.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.7780146319392689
+    },
+    {
+      "stateIndex": 13.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.7462590804664052
+    },
+    {
+      "stateIndex": 14.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.7146480663818741
+    },
+    {
+      "stateIndex": 14.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.6831307004380865
+    },
+    {
+      "stateIndex": 15.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.6517957838739004
+    },
+    {
+      "stateIndex": 15.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.6206074541557488
+    },
+    {
+      "stateIndex": 16.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.5896555259051734
+    },
+    {
+      "stateIndex": 16.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.5589204268466808
+    },
+    {
+      "stateIndex": 17.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.5285009536676212
+    },
+    {
+      "stateIndex": 17.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.4984034117987076
+    },
+    {
+      "stateIndex": 18.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.46874292893803776
+    },
+    {
+      "stateIndex": 18.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.43955655248113956
+    },
+    {
+      "stateIndex": 19.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.4109966859524221
+    },
+    {
+      "stateIndex": 19.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3831590452422221
+    },
+    {
+      "stateIndex": 20.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3562557937670724
+    },
+    {
+      "stateIndex": 20.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3304805174935648
+    },
+    {
+      "stateIndex": 21.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3061487423702882
+    },
+    {
+      "stateIndex": 21.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.2836053314150282
+    },
+    {
+      "stateIndex": 22.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.263330616791606
+    },
+    {
+      "stateIndex": 22.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.24584264113206808
+    },
+    {
+      "stateIndex": 23.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.23180492223067475
+    },
+    {
+      "stateIndex": 23.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.2218608864955052
+    },
+    {
+      "stateIndex": 24.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.21657428162140632
+    },
+    {
+      "stateIndex": 24.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.21628798962579968
+    },
+    {
+      "stateIndex": 25.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.22106508555345314
+    },
+    {
+      "stateIndex": 25.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.230760522002414
+    },
+    {
+      "stateIndex": 26.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.244709481299377
+    },
+    {
+      "stateIndex": 26.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.26244319821470186
+    },
+    {
+      "stateIndex": 27.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.2831032448448377
+    },
+    {
+      "stateIndex": 27.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.30627913396991335
+    },
+    {
+      "stateIndex": 28.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3312969597266897
+    },
+    {
+      "stateIndex": 28.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.35787762784414656
+    },
+    {
+      "stateIndex": 29.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.38560219332064993
+    },
+    {
+      "stateIndex": 29.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.4142961058685994
+    },
+    {
+      "stateIndex": 30.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.40216608645736895
+    },
+    {
+      "stateIndex": 30.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3864624493322437
+    },
+    {
+      "stateIndex": 31.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.37284789205730307
+    },
+    {
+      "stateIndex": 31.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.36751876042206155
+    },
+    {
+      "stateIndex": 32.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3656202166090339
+    },
+    {
+      "stateIndex": 32.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.37586821376175417
+    },
+    {
+      "stateIndex": 33.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.39010590636247033
+    },
+    {
+      "stateIndex": 33.5,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3798756144148478
+    },
+    {
+      "stateIndex": 34.0,
+      "intersections": [],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.34126686811380735
+    },
+    {
+      "stateIndex": 34.5,
+      "intersections": [
+        "GINGIVA_LOWER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.30914746473663635
+    },
+    {
+      "stateIndex": 35.0,
+      "intersections": [
+        "GINGIVA_LOWER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.2819212676466367
+    },
+    {
+      "stateIndex": 35.5,
+      "intersections": [
+        "GINGIVA_LOWER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.2646187840340068
+    },
+    {
+      "stateIndex": 36.0,
+      "intersections": [
+        "GINGIVA_LOWER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.25382555795984596
+    },
+    {
+      "stateIndex": 36.5,
+      "intersections": [
+        "GINGIVA_LOWER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.25108904403882193
+    },
+    {
+      "stateIndex": 37.0,
+      "intersections": [
+        "GINGIVA_LOWER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.25326636880630243
+    },
+    {
+      "stateIndex": 37.5,
+      "intersections": [
+        "GINGIVA_LOWER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.24436037394235335
+    },
+    {
+      "stateIndex": 38.0,
+      "intersections": [
+        "GINGIVA_LOWER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.23233556025480184
+    },
+    {
+      "stateIndex": 38.5,
+      "intersections": [
+        "GINGIVA_LOWER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.24975320364871378
+    },
+    {
+      "stateIndex": 39.0,
+      "intersections": [
+        "GINGIVA_LOWER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.25483610822629554
+    }
+  ],
+  "crossSectionGaps_mm": [
+    1.1828030545061705,
+    0.9420909433814865,
+    0.8561873117599649,
+    1.002252798592879,
+    1.1312103828274729,
+    1.0404662988974915,
+    0.953038932986105,
+    0.9372365908300245,
+    0.9905692356083058,
+    0.9756528967431365,
+    0.9738187423035816,
+    1.0226743166739365,
+    1.1251390925335751,
+    1.172110905745425,
+    1.242158401995243,
+    1.5676475221140458,
+    1.6929140875675002,
+    1.5749466025076242,
+    1.5622967272459338,
+    1.402914469672557,
+    1.107440840656733,
+    0.8308525369486294,
+    0.5939845206099595,
+    0.36630808037109647,
+    0.23567673004988882,
+    0.33021411433786413,
+    0.38582921643577356,
+    0.4585883293914298,
+    0.9232051876481696,
+    0.7832156577657416,
+    0.8997824472460657,
+    0.9614282779194931,
+    0.9662154139929046,
+    0.8784057200029953,
+    0.7205335683884745,
+    0.5646493839265873,
+    0.42484969051631716,
+    0.3259539838346672,
+    0.2647984326798197,
+    0.27143853689093184,
+    0.3042719547679929,
+    0.40202020751293294,
+    0.5383296056156315,
+    0.6452822872848751,
+    0.8218380092207663,
+    0.9893842384225118,
+    1.156649394579121,
+    1.3189869995185164,
+    1.3324592784979952,
+    1.1841410218040347,
+    1.3206051716919993,
+    1.4361371906684768,
+    1.2286229977875183,
+    1.0475150773877058,
+    1.0667255796882367,
+    1.0654804050271807,
+    0.8847029533522192,
+    0.7473151873423463,
+    0.6587091870346418,
+    0.5664931378506995,
+    0.5075787269127705,
+    0.525253863641678,
+    0.5971933253107772,
+    0.8290197343976795
+  ],
+  "scope": "candidate only; closure and final GLB checks pending"
+}

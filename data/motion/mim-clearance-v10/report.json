@@ -1,0 +1,928 @@
+{
+  "restSha256": "a37b23ec7fc4f6df4526feb744a2c6ed877c1e7bc2e3fd2bde4cdbc0089c0648",
+  "sourceCandidate": "mim-joint-v10b",
+  "states": [
+    {
+      "stage": "rest",
+      "fraction": 0.0,
+      "jawFraction": 0,
+      "preparationFraction": 0
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.0,
+      "jawFraction": 0,
+      "preparationFraction": 0.0
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.14285714285714285,
+      "jawFraction": 0,
+      "preparationFraction": 0.14285714285714285
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.2857142857142857,
+      "jawFraction": 0,
+      "preparationFraction": 0.2857142857142857
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.42857142857142855,
+      "jawFraction": 0,
+      "preparationFraction": 0.42857142857142855
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.5714285714285714,
+      "jawFraction": 0,
+      "preparationFraction": 0.5714285714285714
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.7142857142857142,
+      "jawFraction": 0,
+      "preparationFraction": 0.7142857142857142
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.8571428571428571,
+      "jawFraction": 0,
+      "preparationFraction": 0.8571428571428571
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 1.0,
+      "jawFraction": 0,
+      "preparationFraction": 1.0
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.0,
+      "jawFraction": 0.0,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.03333333333333333,
+      "jawFraction": 0.03333333333333333,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.06666666666666667,
+      "jawFraction": 0.06666666666666667,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.1,
+      "jawFraction": 0.1,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.13333333333333333,
+      "jawFraction": 0.13333333333333333,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.16666666666666666,
+      "jawFraction": 0.16666666666666666,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.2,
+      "jawFraction": 0.2,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.23333333333333334,
+      "jawFraction": 0.23333333333333334,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.26666666666666666,
+      "jawFraction": 0.26666666666666666,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.3,
+      "jawFraction": 0.3,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.3333333333333333,
+      "jawFraction": 0.3333333333333333,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.36666666666666664,
+      "jawFraction": 0.36666666666666664,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.4,
+      "jawFraction": 0.4,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.43333333333333335,
+      "jawFraction": 0.43333333333333335,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.4666666666666667,
+      "jawFraction": 0.4666666666666667,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.5,
+      "jawFraction": 0.5,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.5333333333333333,
+      "jawFraction": 0.5333333333333333,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.5666666666666667,
+      "jawFraction": 0.5666666666666667,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.6,
+      "jawFraction": 0.6,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.6333333333333333,
+      "jawFraction": 0.6333333333333333,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.6666666666666666,
+      "jawFraction": 0.6666666666666666,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.7,
+      "jawFraction": 0.7,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.7333333333333333,
+      "jawFraction": 0.7333333333333333,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.7666666666666666,
+      "jawFraction": 0.7666666666666666,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.8,
+      "jawFraction": 0.8,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.8333333333333334,
+      "jawFraction": 0.8333333333333334,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.8666666666666667,
+      "jawFraction": 0.8666666666666667,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.9,
+      "jawFraction": 0.9,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.9333333333333333,
+      "jawFraction": 0.9333333333333333,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.9666666666666667,
+      "jawFraction": 0.9666666666666667,
+      "preparationFraction": 1
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 1.0,
+      "jawFraction": 1.0,
+      "preparationFraction": 1
+    }
+  ],
+  "checks": [
+    {
+      "stateIndex": 0.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 1.0
+    },
+    {
+      "stateIndex": 0.5,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9999999999994825
+    },
+    {
+      "stateIndex": 1.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.9999999999989645
+    },
+    {
+      "stateIndex": 1.5,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.8119310523420052
+    },
+    {
+      "stateIndex": 2.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.6255091608343656
+    },
+    {
+      "stateIndex": 2.5,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.4554941838392289
+    },
+    {
+      "stateIndex": 3.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.29431465319116035
+    },
+    {
+      "stateIndex": 3.5,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.17767250012971572
+    },
+    {
+      "stateIndex": 4.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.1591254999100944
+    },
+    {
+      "stateIndex": 4.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.23258770163600304
+    },
+    {
+      "stateIndex": 5.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3428719260663209
+    },
+    {
+      "stateIndex": 5.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.443061707264608
+    },
+    {
+      "stateIndex": 6.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.4248942396164031
+    },
+    {
+      "stateIndex": 6.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3924401001653649
+    },
+    {
+      "stateIndex": 7.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.36048692291605283
+    },
+    {
+      "stateIndex": 7.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.34297017509511996
+    },
+    {
+      "stateIndex": 8.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.32569865109485374
+    },
+    {
+      "stateIndex": 8.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3295158901023417
+    },
+    {
+      "stateIndex": 9.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3329806262067456
+    },
+    {
+      "stateIndex": 9.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3395681413560927
+    },
+    {
+      "stateIndex": 10.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.34627625068270057
+    },
+    {
+      "stateIndex": 10.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3570211503151953
+    },
+    {
+      "stateIndex": 11.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3679683650438551
+    },
+    {
+      "stateIndex": 11.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.38227664180605275
+    },
+    {
+      "stateIndex": 12.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3968342109006755
+    },
+    {
+      "stateIndex": 12.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.4162676920113466
+    },
+    {
+      "stateIndex": 13.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.4360245367374573
+    },
+    {
+      "stateIndex": 13.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.46203916966805403
+    },
+    {
+      "stateIndex": 14.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.48844211617504957
+    },
+    {
+      "stateIndex": 14.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.5187621835210651
+    },
+    {
+      "stateIndex": 15.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.5494229046415032
+    },
+    {
+      "stateIndex": 15.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.5496258172814016
+    },
+    {
+      "stateIndex": 16.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.518550713666489
+    },
+    {
+      "stateIndex": 16.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.48326735824706885
+    },
+    {
+      "stateIndex": 17.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.448113008516252
+    },
+    {
+      "stateIndex": 17.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.4112533900834297
+    },
+    {
+      "stateIndex": 18.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3746129678157235
+    },
+    {
+      "stateIndex": 18.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3351386239745097
+    },
+    {
+      "stateIndex": 19.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.29612538779247805
+    },
+    {
+      "stateIndex": 19.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.2575900149287207
+    },
+    {
+      "stateIndex": 20.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.22003407505363787
+    },
+    {
+      "stateIndex": 20.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.18400960372421551
+    },
+    {
+      "stateIndex": 21.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.1506084361324678
+    },
+    {
+      "stateIndex": 21.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.12203206062871068
+    },
+    {
+      "stateIndex": 22.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.10209765697410703
+    },
+    {
+      "stateIndex": 22.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.09615703751901496
+    },
+    {
+      "stateIndex": 23.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.10629490436996837
+    },
+    {
+      "stateIndex": 23.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.12818522469261917
+    },
+    {
+      "stateIndex": 24.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.15703986488862695
+    },
+    {
+      "stateIndex": 24.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.19850753119346723
+    },
+    {
+      "stateIndex": 25.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.20863567493024335
+    },
+    {
+      "stateIndex": 25.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.21782476524083763
+    },
+    {
+      "stateIndex": 26.0,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.23127933187434221
+    },
+    {
+      "stateIndex": 26.5,
+      "intersections": [
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.24851248933086253
+    },
+    {
+      "stateIndex": 27.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.26865417304315614
+    },
+    {
+      "stateIndex": 27.5,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.29127934775364245
+    },
+    {
+      "stateIndex": 28.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3157120398254958
+    },
+    {
+      "stateIndex": 28.5,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.34167040239284097
+    },
+    {
+      "stateIndex": 29.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.36873833525588795
+    },
+    {
+      "stateIndex": 29.5,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3967432599598917
+    },
+    {
+      "stateIndex": 30.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.39104177337673285
+    },
+    {
+      "stateIndex": 30.5,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.374920945566761
+    },
+    {
+      "stateIndex": 31.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3604713090042027
+    },
+    {
+      "stateIndex": 31.5,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.35043590182920176
+    },
+    {
+      "stateIndex": 32.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3422717420811449
+    },
+    {
+      "stateIndex": 32.5,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3486743759935549
+    },
+    {
+      "stateIndex": 33.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER",
+        "LOWER_TEETH"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3584781519657208
+    },
+    {
+      "stateIndex": 33.5,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER",
+        "LOWER_TEETH"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.36323469733301555
+    },
+    {
+      "stateIndex": 34.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER",
+        "LOWER_TEETH"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.3249370222395881
+    },
+    {
+      "stateIndex": 34.5,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER",
+        "LOWER_TEETH"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.2891128536560343
+    },
+    {
+      "stateIndex": 35.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER",
+        "LOWER_TEETH"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.25747523927367927
+    },
+    {
+      "stateIndex": 35.5,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER",
+        "LOWER_TEETH"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.22943057369799394
+    },
+    {
+      "stateIndex": 36.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER",
+        "LOWER_TEETH"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.20794539819994592
+    },
+    {
+      "stateIndex": 36.5,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER",
+        "LOWER_TEETH"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.19253731352940293
+    },
+    {
+      "stateIndex": 37.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER",
+        "LOWER_TEETH"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.14559425406329116
+    },
+    {
+      "stateIndex": 37.5,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER",
+        "LOWER_TEETH"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.11774125306036916
+    },
+    {
+      "stateIndex": 38.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER",
+        "LOWER_TEETH"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.0898881744149156
+    },
+    {
+      "stateIndex": 38.5,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER",
+        "LOWER_TEETH"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.0811540465279858
+    },
+    {
+      "stateIndex": 39.0,
+      "intersections": [
+        "GINGIVA_LOWER",
+        "GINGIVA_UPPER",
+        "LOWER_TEETH"
+      ],
+      "centralUpperLowerIntersection": false,
+      "minimumAreaRatio": 0.07241583825878571
+    }
+  ],
+  "scope": "candidate only; closure and final GLB checks pending"
+}

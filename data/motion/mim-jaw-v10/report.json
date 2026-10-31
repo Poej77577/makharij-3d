@@ -1,0 +1,66 @@
+{
+  "restSha256": "a37b23ec7fc4f6df4526feb744a2c6ed877c1e7bc2e3fd2bde4cdbc0089c0648",
+  "jawDegrees": 6,
+  "tongueMaxDisplacement_mm": 0.17708811391073007,
+  "tongueMinAreaRatio": 0.9568737826784777,
+  "tongueNegativeFaceDot": 0,
+  "pairs": [
+    {
+      "pair": [
+        "TONGUE",
+        "LOWER_TEETH"
+      ],
+      "intersection": false
+    },
+    {
+      "pair": [
+        "TONGUE",
+        "UPPER_TEETH"
+      ],
+      "intersection": false
+    },
+    {
+      "pair": [
+        "TONGUE",
+        "HARD_PALATE"
+      ],
+      "intersection": false
+    },
+    {
+      "pair": [
+        "TONGUE",
+        "SOFT_PALATE"
+      ],
+      "intersection": false
+    },
+    {
+      "pair": [
+        "TONGUE",
+        "GINGIVA_LOWER"
+      ],
+      "intersection": false
+    },
+    {
+      "pair": [
+        "TONGUE",
+        "LIP_CONTEXT"
+      ],
+      "intersection": false
+    },
+    {
+      "pair": [
+        "LIP_CONTEXT",
+        "LOWER_TEETH"
+      ],
+      "intersection": false
+    },
+    {
+      "pair": [
+        "LIP_CONTEXT",
+        "UPPER_TEETH"
+      ],
+      "intersection": true
+    }
+  ],
+  "status": "candidate, not integrated or verified through motion"
+}

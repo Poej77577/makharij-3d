@@ -1,0 +1,381 @@
+{
+  "restSha256": "a37b23ec7fc4f6df4526feb744a2c6ed877c1e7bc2e3fd2bde4cdbc0089c0648",
+  "source": "actual acquired FEM lip contact faces, jaw-coordinated closure with exact triangle-plane handles",
+  "jawDegrees": 4,
+  "tonguePreparation": "mim-jaw-v10/targets.npz swept-dental clearance",
+  "surfacePointConstraints": 130,
+  "anchors": 462,
+  "sections_m": [
+    -0.02,
+    -0.019375,
+    -0.01875,
+    -0.018125000000000002,
+    -0.0175,
+    -0.016875,
+    -0.01625,
+    -0.015625,
+    -0.015,
+    -0.014375,
+    -0.01375,
+    -0.013125000000000001,
+    -0.0125,
+    -0.011875,
+    -0.01125,
+    -0.010625,
+    -0.01,
+    -0.009375,
+    -0.00875,
+    -0.008125,
+    -0.0075,
+    -0.006875000000000001,
+    -0.00625,
+    -0.005625,
+    -0.005000000000000001,
+    -0.004375,
+    -0.00375,
+    -0.0031249999999999993,
+    -0.0024999999999999988,
+    -0.0018750000000000017,
+    -0.0012500000000000011,
+    -0.0006250000000000006,
+    0.0,
+    0.0006250000000000006,
+    0.0012500000000000011,
+    0.0018750000000000017,
+    0.0024999999999999988,
+    0.0031249999999999993,
+    0.00375,
+    0.004375,
+    0.005000000000000001,
+    0.0056250000000000015,
+    0.006249999999999999,
+    0.006874999999999999,
+    0.0075,
+    0.008125,
+    0.00875,
+    0.009375000000000001,
+    0.009999999999999998,
+    0.010624999999999999,
+    0.01125,
+    0.011875,
+    0.0125,
+    0.013125000000000001,
+    0.013750000000000002,
+    0.014375000000000002,
+    0.015000000000000003,
+    0.015625000000000003,
+    0.016249999999999997,
+    0.016874999999999998,
+    0.017499999999999998,
+    0.018125,
+    0.01875,
+    0.019375,
+    0.02
+  ],
+  "states": [
+    {
+      "stage": "rest",
+      "fraction": 0.0,
+      "obstacleIntersections": null,
+      "minimumAreaRatio": 1.0,
+      "collisionCheckStatus": "not executed in this historical candidate"
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.0,
+      "obstacleIntersections": null,
+      "minimumAreaRatio": 0.9999999999991902,
+      "collisionCheckStatus": "not executed in this historical candidate"
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.14285714285714285,
+      "obstacleIntersections": null,
+      "minimumAreaRatio": 0.9902089887573777,
+      "collisionCheckStatus": "not executed in this historical candidate"
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.2857142857142857,
+      "obstacleIntersections": null,
+      "minimumAreaRatio": 0.9790141141408953,
+      "collisionCheckStatus": "not executed in this historical candidate"
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.42857142857142855,
+      "obstacleIntersections": null,
+      "minimumAreaRatio": 0.9673555460033005,
+      "collisionCheckStatus": "not executed in this historical candidate"
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.5714285714285714,
+      "obstacleIntersections": null,
+      "minimumAreaRatio": 0.9555575834324334,
+      "collisionCheckStatus": "not executed in this historical candidate"
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.7142857142857142,
+      "obstacleIntersections": null,
+      "minimumAreaRatio": 0.943785614085374,
+      "collisionCheckStatus": "not executed in this historical candidate"
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 0.8571428571428571,
+      "obstacleIntersections": null,
+      "minimumAreaRatio": 0.9321342542817671,
+      "collisionCheckStatus": "not executed in this historical candidate"
+    },
+    {
+      "stage": "tissue-prepare",
+      "fraction": 1.0,
+      "obstacleIntersections": null,
+      "minimumAreaRatio": 0.9206598286671075,
+      "collisionCheckStatus": "not executed in this historical candidate"
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.0,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.9187762165871043
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.03333333333333333,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.8979731813144349
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.06666666666666667,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.8774724445459855
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.1,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.8188544969551823
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.13333333333333333,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.7569001868576408
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.16666666666666666,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.6952681268446668
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.2,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.6340968635361632
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.23333333333333334,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.5735669304499817
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.26666666666666666,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.5139321781437911
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.3,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.45556736480586013
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.3333333333333333,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.3990489572551265
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.36666666666666664,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.3452981588108828
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.4,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.29583298527870394
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.43333333333333335,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.2531726379622171
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.4666666666666667,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.22126873421170104
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.5,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.20516601519389982
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.5333333333333333,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.208629082523694
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.5666666666666667,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.2312717804215784
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.6,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.2686473377162532
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.6333333333333333,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.3156982735570445
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.6666666666666666,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.36873601617338736
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.7,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.3901812551720453
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.7333333333333333,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.3610385715310837
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.7666666666666666,
+      "obstacleIntersections": [
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.35266102354593337
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.8,
+      "obstacleIntersections": [
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.3746365840395663
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.8333333333333334,
+      "obstacleIntersections": [
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.32980165038828074
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.8666666666666667,
+      "obstacleIntersections": [
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.27353743887546694
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.9,
+      "obstacleIntersections": [
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.24645942180567101
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.9333333333333333,
+      "obstacleIntersections": [
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.24545833723913058
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.9666666666666667,
+      "obstacleIntersections": [
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.24230390991085313
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 1.0,
+      "obstacleIntersections": [
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.23568816828320377
+    }
+  ],
+  "crossSectionGaps_mm": [
+    0.1959548416674501,
+    0.07952753702154206,
+    0.20843435095386562,
+    0.12977448609746522,
+    0.13604627015177245,
+    0.1659365846153832,
+    0.15450358621469917,
+    0.13562995412413767,
+    0.14342839581317504,
+    0.1704570430093473,
+    0.19718006864018017,
+    0.2154750331814947,
+    0.15867632592185524,
+    0.20718335532967053,
+    0.2601825324324236,
+    0.16849633672683048,
+    0.20184418148612837,
+    0.18874497944293842,
+    0.20153329114566843,
+    0.2080891942514397,
+    0.20264591432566798,
+    0.18323652548296954,
+    0.17725955811237962,
+    0.13766556526084409,
+    0.02265884273804112,
+    0.22339088904183044,
+    0.19143518842960702,
+    0.11746878325764795,
+    0.15700557066016696,
+    0.1330228205074756,
+    0.140817086837092,
+    0.18216265889298783
+  ],
+  "centralUpperLowerIntersection": true,
+  "maxDisplacement_mm": 11.386247954483684,
+  "constraintResidualMax_mm": 0.3277425143431699,
+  "scope": "candidate; requires final exported geometry/path/closure checks",
+  "validationCorrection": "Preparation collision arrays were placeholders; corrected to null/unrun. This candidate failed and was never integrated."
+}

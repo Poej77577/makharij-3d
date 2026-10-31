@@ -1,0 +1,369 @@
+{
+  "version": "authored-nasal-lining-v2",
+  "units": "m",
+  "axes": {
+    "X": "anterior",
+    "Y": "superior",
+    "Z": "lateral"
+  },
+  "sourceStatus": "AUTHORED UNMEASURED reconstruction from oral/face frame; no acquired nasal donor surface",
+  "clinicalOrTajwidApproval": false,
+  "nominalWallThickness_m": 0.0012,
+  "palatalFloorLayer": "outer floor is source-conforming 0.8mm above actual oral roof wherever its vertical triangle intersection exists; variable authored separator thickness, no acquired bone claim",
+  "palatalSeparator_m": {
+    "rear": 0.02662380336225033,
+    "middle": 0.02662521655112505,
+    "front": 0.02012380336225033
+  },
+  "sourceBounds_m": {
+    "hardPalate": [
+      [
+        0.026121683418750763,
+        0.0050632343627512455,
+        -0.029024025425314903
+      ],
+      [
+        0.08482582867145538,
+        0.02324187010526657,
+        0.029877793043851852
+      ]
+    ],
+    "pharynx": [
+      [
+        0.0005648975493386388,
+        -0.07216081023216248,
+        -0.028768742457032204
+      ],
+      [
+        0.0888495072722435,
+        0.0183388814330101,
+        0.02883078344166279
+      ]
+    ],
+    "face": [
+      [
+        0.058901358395814896,
+        -0.049155086278915405,
+        -0.04715690016746521
+      ],
+      [
+        0.12524709105491638,
+        0.042990442365407944,
+        0.04715690016746521
+      ]
+    ]
+  },
+  "anchors": {
+    "palateFloor": [
+      {
+        "bodyFraction": 0.03571428571428571,
+        "innerFloor_m": [
+          0.04406753128533226,
+          0.0319063480405347,
+          0.0
+        ],
+        "outerWall_m": [
+          0.04406031512486892,
+          0.02356977686012594,
+          0.0
+        ],
+        "verticalSourceRoofHitY_m": 0.02276977686012594,
+        "sourceCoverage": true,
+        "actualHardPalateSurfaceDistance": {
+          "distance_m": 0.0007875424666081784,
+          "nearestSourcePoint_m": [
+            0.04396650812733776,
+            0.02279449793923682,
+            -0.0001018134507345907
+          ],
+          "method": "actual source triangle"
+        }
+      },
+      {
+        "bodyFraction": 0.20187215916872908,
+        "innerFloor_m": [
+          0.05299190336143757,
+          0.02691558934592165,
+          0.0
+        ],
+        "outerWall_m": [
+          0.05294265169842832,
+          0.02342998215426632,
+          0.0
+        ],
+        "verticalSourceRoofHitY_m": 0.022629982154266322,
+        "sourceCoverage": true,
+        "actualHardPalateSurfaceDistance": {
+          "distance_m": 0.0007981843515188437,
+          "nearestSourcePoint_m": [
+            0.052942923541909465,
+            0.02263360933050437,
+            -5.3744866583658286e-05
+          ],
+          "method": "actual source triangle"
+        }
+      },
+      {
+        "bodyFraction": 0.3680300326231724,
+        "innerFloor_m": [
+          0.061411980837433135,
+          0.025831477968055343,
+          0.0
+        ],
+        "outerWall_m": [
+          0.061277990412747174,
+          0.021450503881920057,
+          0.0
+        ],
+        "verticalSourceRoofHitY_m": 0.02065050388192006,
+        "sourceCoverage": true,
+        "actualHardPalateSurfaceDistance": {
+          "distance_m": 0.0006829200149436445,
+          "nearestSourcePoint_m": [
+            0.06092830980397838,
+            0.020867529198406773,
+            6.514397166505141e-05
+          ],
+          "method": "actual source triangle"
+        }
+      },
+      {
+        "bodyFraction": 0.5341879060776158,
+        "innerFloor_m": [
+          0.06966260843204389,
+          0.025051164657683894,
+          0.0
+        ],
+        "outerWall_m": [
+          0.06941834989740372,
+          0.016166392850851176,
+          0.0
+        ],
+        "verticalSourceRoofHitY_m": 0.015366392850851177,
+        "sourceCoverage": true,
+        "actualHardPalateSurfaceDistance": {
+          "distance_m": 0.0006257328101642029,
+          "nearestSourcePoint_m": [
+            0.06905530102780558,
+            0.01566247416993014,
+            7.617762806952518e-05
+          ],
+          "method": "actual source triangle"
+        }
+      },
+      {
+        "bodyFraction": 0.7003457795320591,
+        "innerFloor_m": [
+          0.07851883910927962,
+          0.023883223384055997,
+          0.0
+        ],
+        "outerWall_m": [
+          0.07820027366044224,
+          0.00989804784834426,
+          0.0
+        ],
+        "verticalSourceRoofHitY_m": 0.00909804784834426,
+        "sourceCoverage": true,
+        "actualHardPalateSurfaceDistance": {
+          "distance_m": 0.0007146012919292818,
+          "nearestSourcePoint_m": [
+            0.07784835083701167,
+            0.009276716952156249,
+            -2.7445404312054613e-05
+          ],
+          "method": "actual source triangle"
+        }
+      }
+    ],
+    "anteriorFloorExtension": {
+      "inner_m": [
+        0.09632369938831227,
+        0.020406873892365597,
+        0.0
+      ],
+      "outer_m": [
+        0.0960556141079755,
+        0.01923720287773509,
+        0.0
+      ],
+      "sourceCoverage": false,
+      "sourceDistance": {
+        "distance_m": 0.01708659619551954,
+        "nearestSourcePoint_m": [
+          0.08468329161405563,
+          0.006490117870271206,
+          -0.0003658885834738612
+        ],
+        "method": "actual source triangle"
+      },
+      "meaning": "anterior extension/vestibule beyond acquired palatal coverage remains authored; not a measured palate connection"
+    },
+    "posteriorSourceWall": {
+      "point_m": [
+        0.02029377272559633,
+        0.0163388814330101,
+        0.0
+      ],
+      "method": "+X ray into actual source pharyngeal surface",
+      "triangle": 989
+    },
+    "posteriorOuterLining_m": [
+      0.020093772725596332,
+      0.0163388814330101,
+      0
+    ],
+    "posteriorConnectionDistance": {
+      "distance_m": 6.680371939399376e-05,
+      "nearestSourcePoint_m": [
+        0.02011608641022069,
+        0.016275918903066868,
+        7.458059425177136e-07
+      ],
+      "method": "actual source triangle"
+    },
+    "posteriorOpenPortCenter_m": [
+      0.02609377272559633,
+      0.0163388814330101,
+      0
+    ],
+    "anteriorVestibuleOpenPortCenter_m": [
+      0.12224709105491638,
+      0.026123803362250328,
+      0
+    ],
+    "nasalBodyRear_m": [
+      0.042093772725596335,
+      0.04062380336225033,
+      0
+    ],
+    "nasalBodyFront_m": [
+      0.09882582867145538,
+      0.03132380336225033,
+      0
+    ]
+  },
+  "formulas": {
+    "floor": "quadratic Bezier from actual midline palatal roof quantiles + authored 2.5–4mm separator; anterior floor at least rear-6.5mm",
+    "airHeight_m": "reference H=.028*(1-.20*smoothstep(u))+.002*sin(pi*u)^2; posterior choana flares from .60*H to H during first25% of body; center follows reference H",
+    "halfWidth_m": "min(.017,.27*sourcePalateWidth)*(.86+.12*sin(pi*u)-.30*smoothstep(u))",
+    "posterior": "superior pharyngeal open port, AP half-height4.8mm; posterior and side tissue only through the bend, anterior/floor C-window leaves existing SOFT_PALATE as the moving wall; fixed full floor starts anterior to the bend over hard palate; source apposition measured below",
+    "vestibule": "cubic Bezier tangent transition, open air port behind anterior source face bound",
+    "conchae": "closed curved scroll ribbons, bilateral, tapered to12% at longitudinal ends; local thickness caps, no centroid fan across C-shaped meatus"
+  },
+  "checks": {
+    "NASAL_LINING": {
+      "vertices": 3896,
+      "triangles": 7792,
+      "minimumTriangleArea_m2": 2.5260319930849653e-07,
+      "closedTissueVolume_m3": 1.767581953026932e-05,
+      "nonmanifoldEdges": 0,
+      "consistentWinding": true,
+      "posteriorOpenAnterior": true,
+      "fixedAnteriorDuctWall": false,
+      "movingAnteriorBoundary": "existing acquired SOFT_PALATE, not the authored lining",
+      "windowEndStation": 14
+    },
+    "NASAL_CONCHA_INFERIOR": {
+      "left": {
+        "vertices": 1150,
+        "triangles": 2296,
+        "minimumTriangleArea_m2": 4.770172783705826e-10,
+        "closedTissueVolume_m3": 5.786782056196755e-07,
+        "nonmanifoldEdges": 0,
+        "consistentWinding": true
+      },
+      "right": {
+        "vertices": 1150,
+        "triangles": 2296,
+        "minimumTriangleArea_m2": 4.770172783705826e-10,
+        "closedTissueVolume_m3": 5.786782056196755e-07,
+        "nonmanifoldEdges": 0,
+        "consistentWinding": true
+      },
+      "minimumFullThickness_m": 3.845357884338739e-05,
+      "nominalCentralFullThickness_m": 0.0016,
+      "planarSectionsChecked": 46,
+      "allSectionsSimple": true,
+      "attachmentOverlap_m": 0.0001,
+      "source": "authored tapered scroll, not acquired turbinates",
+      "intervalOfNasalBody": [
+        0.05,
+        0.95
+      ]
+    },
+    "NASAL_CONCHA_MIDDLE": {
+      "left": {
+        "vertices": 1050,
+        "triangles": 2096,
+        "minimumTriangleArea_m2": 3.5571793326324434e-10,
+        "closedTissueVolume_m3": 3.03583542161427e-07,
+        "nonmanifoldEdges": 0,
+        "consistentWinding": true
+      },
+      "right": {
+        "vertices": 1050,
+        "triangles": 2096,
+        "minimumTriangleArea_m2": 3.5571793326324434e-10,
+        "closedTissueVolume_m3": 3.03583542161427e-07,
+        "nonmanifoldEdges": 0,
+        "consistentWinding": true
+      },
+      "minimumFullThickness_m": 3.558626924296859e-05,
+      "nominalCentralFullThickness_m": 0.0012,
+      "planarSectionsChecked": 42,
+      "allSectionsSimple": true,
+      "attachmentOverlap_m": 0.0001,
+      "source": "authored tapered scroll, not acquired turbinates",
+      "intervalOfNasalBody": [
+        0.12,
+        0.82
+      ]
+    },
+    "NASAL_CONCHA_SUPERIOR": {
+      "left": {
+        "vertices": 850,
+        "triangles": 1696,
+        "minimumTriangleArea_m2": 1.5690469310547694e-10,
+        "closedTissueVolume_m3": 5.861990057355412e-08,
+        "nonmanifoldEdges": 0,
+        "consistentWinding": true
+      },
+      "right": {
+        "vertices": 850,
+        "triangles": 1696,
+        "minimumTriangleArea_m2": 1.5690469310547694e-10,
+        "closedTissueVolume_m3": 5.861990057355412e-08,
+        "nonmanifoldEdges": 0,
+        "consistentWinding": true
+      },
+      "minimumFullThickness_m": 2.344198689987799e-05,
+      "nominalCentralFullThickness_m": 0.00065,
+      "planarSectionsChecked": 34,
+      "allSectionsSimple": true,
+      "attachmentOverlap_m": 0.0001,
+      "source": "authored tapered scroll, not acquired turbinates",
+      "intervalOfNasalBody": [
+        0.08,
+        0.52
+      ]
+    }
+  },
+  "limits": [
+    "Roof, vestibule, conchae and wall thickness are authored assumptions, not measurements. Tapered concha tips are very thin; retain float32 positions or validate any quantized export against minimumFullThickness_m.",
+    "Septum omitted for the teaching cutaway; no claim of complete bilateral nasal anatomy.",
+    "Posterior source apposition is reported quantitatively, not assumed a measured registration. The open-anterior transition deliberately leaves the acquired velum as its moving anterior wall.",
+    "Concha root intentionally embeds .1mm in lining for tissue attachment; this is not an independent donor fit.",
+    "Finite topology/section checks do not replace global intersections, final GLB checks or qualified anatomical review."
+  ],
+  "softPalateBoundaryTrim": {
+    "operation": "difference of authored lining and outward-offset acquired velum; moving tissue remains the cavity boundary",
+    "clearance_m": 0.00015,
+    "verticesBefore": 3896,
+    "trianglesBefore": 7792,
+    "verticesAfter": 3938,
+    "trianglesAfter": 7868,
+    "closedTissueVolume_m3": 1.74410086755394e-05,
+    "clinicalMeasurement": false
+  }
+}

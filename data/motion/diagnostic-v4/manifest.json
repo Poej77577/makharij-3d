@@ -1,0 +1,1827 @@
+{
+  "version": "badin-local-surface-1",
+  "softPalateMotion": "preparedRest + nasalActivation*(sourceDown-sourceInit); preserves B baseline clearance correction",
+  "units": "m",
+  "rest": "assets/anatomy/rest-meshes.json",
+  "restSha256": "5ec20a1173fa65ffd9da1218cdcd90d74a7a29ff57b022f4cf933f9752dd74fd",
+  "softpalateVariantsSha256": "8d5f1936d0200b0257588052d4465613e93976238b66bb0df5f838b8dcf16d01",
+  "positionEncoding": "npz-float32-absolute-meters-dynamic-parts-only",
+  "interpolation": "piecewise-linear absolute canonical vertex positions between adjacent normalized frame times; static and absent parts use exact prepared rest; no runtime contact projection",
+  "keyAliases": {
+    "ra_00": null,
+    "ra_01": null,
+    "ra_02": "ra_02",
+    "ra_03": "ra_03",
+    "ra_04": "ra_04",
+    "ra_05": "ra_05",
+    "ra_06": "ra_06",
+    "ra_07": "ra_06",
+    "ra_08": "ra_08",
+    "ra_09": "ra_09",
+    "ra_10": "ra_10",
+    "ra_11": null,
+    "ra_12": null,
+    "ra_13": null,
+    "ra_14": null,
+    "ra_15": null,
+    "qaf_00": null,
+    "qaf_01": null,
+    "qaf_02": "qaf_02",
+    "qaf_03": "qaf_03",
+    "qaf_04": "qaf_04",
+    "qaf_05": "qaf_05",
+    "qaf_06": "qaf_05",
+    "qaf_07": "qaf_05",
+    "qaf_08": "qaf_05",
+    "qaf_09": "qaf_05",
+    "qaf_10": "qaf_10",
+    "qaf_11": "qaf_11",
+    "qaf_12": "qaf_12",
+    "qaf_13": null,
+    "qaf_14": null,
+    "qaf_15": null,
+    "mim_00": null,
+    "mim_01": null,
+    "mim_02": "mim_02",
+    "mim_03": "mim_03",
+    "mim_04": "mim_04",
+    "mim_05": "mim_05",
+    "mim_06": "mim_06",
+    "mim_07": "mim_06",
+    "mim_08": "mim_06",
+    "mim_09": "mim_06",
+    "mim_10": "mim_06",
+    "mim_11": "mim_06",
+    "mim_12": "mim_12",
+    "mim_13": "mim_02",
+    "mim_14": null,
+    "mim_15": null,
+    "fa_00": null,
+    "fa_01": null,
+    "fa_02": "fa_02",
+    "fa_03": "fa_03",
+    "fa_04": "fa_04",
+    "fa_05": "fa_05",
+    "fa_06": "fa_05",
+    "fa_07": "fa_05",
+    "fa_08": "fa_05",
+    "fa_09": "fa_05",
+    "fa_10": "fa_05",
+    "fa_11": "fa_05",
+    "fa_12": "fa_12",
+    "fa_13": null,
+    "fa_14": null,
+    "fa_15": null,
+    "ayn_00": null,
+    "ayn_01": null,
+    "ayn_02": "ayn_02",
+    "ayn_03": "ayn_03",
+    "ayn_04": "ayn_04",
+    "ayn_05": "ayn_05",
+    "ayn_06": "ayn_05",
+    "ayn_07": "ayn_05",
+    "ayn_08": "ayn_05",
+    "ayn_09": "ayn_05",
+    "ayn_10": "ayn_05",
+    "ayn_11": "ayn_05",
+    "ayn_12": "ayn_12",
+    "ayn_13": null,
+    "ayn_14": null,
+    "ayn_15": null
+  },
+  "clearance_m": 0.0002,
+  "sourceAnatomy": "Badin/ArtiSynth prepared rest, source provenance recorded by A/B",
+  "anatomicalReview": "pending",
+  "tajwidReview": "pending",
+  "clinicalRanges": false,
+  "surfaceClipIsNotFullCollisionProof": true,
+  "motions": {
+    "ra": {
+      "duration": 3.2,
+      "frames": [
+        {
+          "key": "ra_00",
+          "geometryKey": null,
+          "t": 0,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "ra_01",
+          "geometryKey": null,
+          "t": 0.08,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "ra_02",
+          "geometryKey": "ra_02",
+          "t": 0.16,
+          "file": "ra/ra_02.npz",
+          "activation": 0.05539358600583092,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 0.8975855042418129,
+              "meanDisplacement_mm": 0.08083369126000677,
+              "changedVertices": 5557,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9792102333006448
+            }
+          }
+        },
+        {
+          "key": "ra_03",
+          "geometryKey": "ra_03",
+          "t": 0.24,
+          "file": "ra/ra_03.npz",
+          "activation": 0.3935860058309037,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 140,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 6.3775812143497195,
+              "meanDisplacement_mm": 0.5578339830117899,
+              "changedVertices": 6350,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.43720128307487766
+            }
+          }
+        },
+        {
+          "key": "ra_04",
+          "geometryKey": "ra_04",
+          "t": 0.32,
+          "file": "ra/ra_04.npz",
+          "activation": 0.8017492711370262,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 492,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 12.353492880209895,
+              "meanDisplacement_mm": 0.937576801469884,
+              "changedVertices": 6799,
+              "restRelativeNegativeFaceDot": 88,
+              "nearCollapsedFaces": 3,
+              "minimumAreaRatio": 0.0015997810750343323
+            }
+          }
+        },
+        {
+          "key": "ra_05",
+          "geometryKey": "ra_05",
+          "t": 0.38,
+          "file": "ra/ra_05.npz",
+          "activation": 0.9854227405247814,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 587,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 14.426776054552597,
+              "meanDisplacement_mm": 1.0448789202435862,
+              "changedVertices": 6898,
+              "restRelativeNegativeFaceDot": 91,
+              "nearCollapsedFaces": 3,
+              "minimumAreaRatio": 0.0015997810750343633
+            }
+          }
+        },
+        {
+          "key": "ra_06",
+          "geometryKey": "ra_06",
+          "t": 0.4,
+          "file": "ra/ra_06.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 592,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 14.621384102106093,
+              "meanDisplacement_mm": 1.0524880915296602,
+              "changedVertices": 6906,
+              "restRelativeNegativeFaceDot": 94,
+              "nearCollapsedFaces": 3,
+              "minimumAreaRatio": 0.0015997810750343323
+            }
+          }
+        },
+        {
+          "key": "ra_07",
+          "geometryKey": "ra_06",
+          "t": 0.42,
+          "file": "ra/ra_06.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 592,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 14.621384102106093,
+              "meanDisplacement_mm": 1.0524880915296602,
+              "changedVertices": 6906,
+              "restRelativeNegativeFaceDot": 94,
+              "nearCollapsedFaces": 3,
+              "minimumAreaRatio": 0.0015997810750343323
+            }
+          }
+        },
+        {
+          "key": "ra_08",
+          "geometryKey": "ra_08",
+          "t": 0.46,
+          "file": "ra/ra_08.npz",
+          "activation": 0.944606413994169,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 568,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 14.104313831422388,
+              "meanDisplacement_mm": 1.0230045751257673,
+              "changedVertices": 6878,
+              "restRelativeNegativeFaceDot": 91,
+              "nearCollapsedFaces": 3,
+              "minimumAreaRatio": 0.001599781075019601
+            }
+          }
+        },
+        {
+          "key": "ra_09",
+          "geometryKey": "ra_09",
+          "t": 0.54,
+          "file": "ra/ra_09.npz",
+          "activation": 0.6064139941690958,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 332,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 9.6882364763177,
+              "meanDisplacement_mm": 0.7844927704368755,
+              "changedVertices": 6668,
+              "restRelativeNegativeFaceDot": 15,
+              "nearCollapsedFaces": 1,
+              "minimumAreaRatio": 0.004803311056475066
+            }
+          }
+        },
+        {
+          "key": "ra_10",
+          "geometryKey": "ra_10",
+          "t": 0.62,
+          "file": "ra/ra_10.npz",
+          "activation": 0.19825072886297357,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 3.2124112783391157,
+              "meanDisplacement_mm": 0.2892995266147607,
+              "changedVertices": 5900,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9319859484294115
+            }
+          }
+        },
+        {
+          "key": "ra_11",
+          "geometryKey": null,
+          "t": 0.7,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "ra_12",
+          "geometryKey": null,
+          "t": 0.78,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "ra_13",
+          "geometryKey": null,
+          "t": 0.86,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "ra_14",
+          "geometryKey": null,
+          "t": 0.94,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "ra_15",
+          "geometryKey": null,
+          "t": 1,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        }
+      ]
+    },
+    "qaf": {
+      "duration": 4.2,
+      "frames": [
+        {
+          "key": "qaf_00",
+          "geometryKey": null,
+          "t": 0,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "qaf_01",
+          "geometryKey": null,
+          "t": 0.08,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "qaf_02",
+          "geometryKey": "qaf_02",
+          "t": 0.16,
+          "file": "qaf/qaf_02.npz",
+          "activation": 0.0637232589895312,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 0.9788433288321063,
+              "meanDisplacement_mm": 0.16132407110820648,
+              "changedVertices": 8399,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9906835532128687
+            }
+          }
+        },
+        {
+          "key": "qaf_03",
+          "geometryKey": "qaf_03",
+          "t": 0.24,
+          "file": "qaf/qaf_03.npz",
+          "activation": 0.4424214838416022,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 261,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 6.778493307718225,
+              "meanDisplacement_mm": 1.063616941800201,
+              "changedVertices": 8677,
+              "restRelativeNegativeFaceDot": 35,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.04113169955682466
+            }
+          }
+        },
+        {
+          "key": "qaf_04",
+          "geometryKey": "qaf_04",
+          "t": 0.32,
+          "file": "qaf/qaf_04.npz",
+          "activation": 0.864815657715066,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 567,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 13.2501412393669,
+              "meanDisplacement_mm": 1.8878342052544643,
+              "changedVertices": 8834,
+              "restRelativeNegativeFaceDot": 151,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.015381812026668835
+            }
+          }
+        },
+        {
+          "key": "qaf_05",
+          "geometryKey": "qaf_05",
+          "t": 0.38,
+          "file": "qaf/qaf_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 618,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 15.321347527836359,
+              "meanDisplacement_mm": 2.124988324931823,
+              "changedVertices": 8834,
+              "restRelativeNegativeFaceDot": 188,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.015381812026669
+            }
+          }
+        },
+        {
+          "key": "qaf_06",
+          "geometryKey": "qaf_05",
+          "t": 0.4,
+          "file": "qaf/qaf_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 618,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 15.321347527836359,
+              "meanDisplacement_mm": 2.124988324931823,
+              "changedVertices": 8834,
+              "restRelativeNegativeFaceDot": 188,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.015381812026669
+            }
+          }
+        },
+        {
+          "key": "qaf_07",
+          "geometryKey": "qaf_05",
+          "t": 0.42,
+          "file": "qaf/qaf_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 618,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 15.321347527836359,
+              "meanDisplacement_mm": 2.124988324931823,
+              "changedVertices": 8834,
+              "restRelativeNegativeFaceDot": 188,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.015381812026669
+            }
+          }
+        },
+        {
+          "key": "qaf_08",
+          "geometryKey": "qaf_05",
+          "t": 0.46,
+          "file": "qaf/qaf_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 618,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 15.321347527836359,
+              "meanDisplacement_mm": 2.124988324931823,
+              "changedVertices": 8834,
+              "restRelativeNegativeFaceDot": 188,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.015381812026669
+            }
+          }
+        },
+        {
+          "key": "qaf_09",
+          "geometryKey": "qaf_05",
+          "t": 0.54,
+          "file": "qaf/qaf_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 618,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 15.321347527836359,
+              "meanDisplacement_mm": 2.124988324931823,
+              "changedVertices": 8834,
+              "restRelativeNegativeFaceDot": 188,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.015381812026669
+            }
+          }
+        },
+        {
+          "key": "qaf_10",
+          "geometryKey": "qaf_10",
+          "t": 0.62,
+          "file": "qaf/qaf_10.npz",
+          "activation": 0.8437500000000001,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 558,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 12.927386976611933,
+              "meanDisplacement_mm": 1.8501585118038066,
+              "changedVertices": 8834,
+              "restRelativeNegativeFaceDot": 149,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.015381812026669
+            }
+          }
+        },
+        {
+          "key": "qaf_11",
+          "geometryKey": "qaf_11",
+          "t": 0.7,
+          "file": "qaf/qaf_11.npz",
+          "activation": 0.5000000000000002,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 321,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 7.660673763918184,
+              "meanDisplacement_mm": 1.1859370852260493,
+              "changedVertices": 8710,
+              "restRelativeNegativeFaceDot": 53,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.04113169955682466
+            }
+          }
+        },
+        {
+          "key": "qaf_12",
+          "geometryKey": "qaf_12",
+          "t": 0.78,
+          "file": "qaf/qaf_12.npz",
+          "activation": 0.15624999999999978,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 14,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 2.4001325819689003,
+              "meanDisplacement_mm": 0.3951464278838212,
+              "changedVertices": 8522,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.5369983812479701
+            }
+          }
+        },
+        {
+          "key": "qaf_13",
+          "geometryKey": null,
+          "t": 0.86,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "qaf_14",
+          "geometryKey": null,
+          "t": 0.94,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "qaf_15",
+          "geometryKey": null,
+          "t": 1,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        }
+      ]
+    },
+    "mim": {
+      "duration": 4.6,
+      "frames": [
+        {
+          "key": "mim_00",
+          "geometryKey": null,
+          "t": 0,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_mutual_contact_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "mim_01",
+          "geometryKey": null,
+          "t": 0.08,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_mutual_contact_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "mim_02",
+          "geometryKey": "mim_02",
+          "t": 0.16,
+          "file": "mim/mim_02.npz",
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_mutual_contact_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "SOFT_PALATE": {
+              "maxDisplacement_mm": 1.5093581375687546,
+              "meanDisplacement_mm": 0.6541328306618817,
+              "changedVertices": 3655,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9576452786456539
+            }
+          }
+        },
+        {
+          "key": "mim_03",
+          "geometryKey": "mim_03",
+          "t": 0.24,
+          "file": "mim/mim_03.npz",
+          "activation": 0.2592592592592592,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 8,
+            "LOWER_LIP_mutual_contact_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "UPPER_LIP": {
+              "maxDisplacement_mm": 0.648139325206111,
+              "meanDisplacement_mm": 0.4038432437760279,
+              "changedVertices": 4136,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9791264936582594
+            },
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 2.20367059316335,
+              "meanDisplacement_mm": 1.002044483256515,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.6591353567678738
+            },
+            "SOFT_PALATE": {
+              "maxDisplacement_mm": 3.018716275137509,
+              "meanDisplacement_mm": 1.308265661323763,
+              "changedVertices": 3655,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9215192524818153
+            }
+          }
+        },
+        {
+          "key": "mim_04",
+          "geometryKey": "mim_04",
+          "t": 0.32,
+          "file": "mim/mim_04.npz",
+          "activation": 0.7407407407407407,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 27,
+            "LOWER_LIP_mutual_contact_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "UPPER_LIP": {
+              "maxDisplacement_mm": 1.8518266434460318,
+              "meanDisplacement_mm": 1.1538378393600799,
+              "changedVertices": 4136,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9418086780179599
+            },
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 6.296201694752431,
+              "meanDisplacement_mm": 2.8522990302085747,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 19,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.5431284940621511
+            },
+            "SOFT_PALATE": {
+              "maxDisplacement_mm": 3.018716275137509,
+              "meanDisplacement_mm": 1.308265661323763,
+              "changedVertices": 3655,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9215192524818153
+            }
+          }
+        },
+        {
+          "key": "mim_05",
+          "geometryKey": "mim_05",
+          "t": 0.38,
+          "file": "mim/mim_05.npz",
+          "activation": 0.9803240740740741,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 39,
+            "LOWER_LIP_mutual_contact_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "UPPER_LIP": {
+              "maxDisplacement_mm": 2.450776823435608,
+              "meanDisplacement_mm": 1.5270322655281061,
+              "changedVertices": 4136,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9239981796299547
+            },
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 8.332629430398919,
+              "meanDisplacement_mm": 3.768570189382992,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 32,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.5047170732680192
+            },
+            "SOFT_PALATE": {
+              "maxDisplacement_mm": 3.018716275137509,
+              "meanDisplacement_mm": 1.308265661323763,
+              "changedVertices": 3655,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9215192524818153
+            }
+          }
+        },
+        {
+          "key": "mim_06",
+          "geometryKey": "mim_06",
+          "t": 0.4,
+          "file": "mim/mim_06.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 41,
+            "LOWER_LIP_mutual_contact_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "UPPER_LIP": {
+              "maxDisplacement_mm": 2.4999659686521425,
+              "meanDisplacement_mm": 1.557681083136108,
+              "changedVertices": 4136,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9225592403731865
+            },
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 8.49987228791578,
+              "meanDisplacement_mm": 3.84366699722915,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 33,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.47914574121327697
+            },
+            "SOFT_PALATE": {
+              "maxDisplacement_mm": 3.018716275137509,
+              "meanDisplacement_mm": 1.308265661323763,
+              "changedVertices": 3655,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9215192524818153
+            }
+          }
+        },
+        {
+          "key": "mim_07",
+          "geometryKey": "mim_06",
+          "t": 0.42,
+          "file": "mim/mim_06.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 41,
+            "LOWER_LIP_mutual_contact_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "UPPER_LIP": {
+              "maxDisplacement_mm": 2.4999659686521425,
+              "meanDisplacement_mm": 1.557681083136108,
+              "changedVertices": 4136,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9225592403731865
+            },
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 8.49987228791578,
+              "meanDisplacement_mm": 3.84366699722915,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 33,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.47914574121327697
+            },
+            "SOFT_PALATE": {
+              "maxDisplacement_mm": 3.018716275137509,
+              "meanDisplacement_mm": 1.308265661323763,
+              "changedVertices": 3655,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9215192524818153
+            }
+          }
+        },
+        {
+          "key": "mim_08",
+          "geometryKey": "mim_06",
+          "t": 0.46,
+          "file": "mim/mim_06.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 41,
+            "LOWER_LIP_mutual_contact_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "UPPER_LIP": {
+              "maxDisplacement_mm": 2.4999659686521425,
+              "meanDisplacement_mm": 1.557681083136108,
+              "changedVertices": 4136,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9225592403731865
+            },
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 8.49987228791578,
+              "meanDisplacement_mm": 3.84366699722915,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 33,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.47914574121327697
+            },
+            "SOFT_PALATE": {
+              "maxDisplacement_mm": 3.018716275137509,
+              "meanDisplacement_mm": 1.308265661323763,
+              "changedVertices": 3655,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9215192524818153
+            }
+          }
+        },
+        {
+          "key": "mim_09",
+          "geometryKey": "mim_06",
+          "t": 0.54,
+          "file": "mim/mim_06.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 41,
+            "LOWER_LIP_mutual_contact_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "UPPER_LIP": {
+              "maxDisplacement_mm": 2.4999659686521425,
+              "meanDisplacement_mm": 1.557681083136108,
+              "changedVertices": 4136,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9225592403731865
+            },
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 8.49987228791578,
+              "meanDisplacement_mm": 3.84366699722915,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 33,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.47914574121327697
+            },
+            "SOFT_PALATE": {
+              "maxDisplacement_mm": 3.018716275137509,
+              "meanDisplacement_mm": 1.308265661323763,
+              "changedVertices": 3655,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9215192524818153
+            }
+          }
+        },
+        {
+          "key": "mim_10",
+          "geometryKey": "mim_06",
+          "t": 0.62,
+          "file": "mim/mim_06.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 41,
+            "LOWER_LIP_mutual_contact_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "UPPER_LIP": {
+              "maxDisplacement_mm": 2.4999659686521425,
+              "meanDisplacement_mm": 1.557681083136108,
+              "changedVertices": 4136,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9225592403731865
+            },
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 8.49987228791578,
+              "meanDisplacement_mm": 3.84366699722915,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 33,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.47914574121327697
+            },
+            "SOFT_PALATE": {
+              "maxDisplacement_mm": 3.018716275137509,
+              "meanDisplacement_mm": 1.308265661323763,
+              "changedVertices": 3655,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9215192524818153
+            }
+          }
+        },
+        {
+          "key": "mim_11",
+          "geometryKey": "mim_06",
+          "t": 0.7,
+          "file": "mim/mim_06.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 41,
+            "LOWER_LIP_mutual_contact_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "UPPER_LIP": {
+              "maxDisplacement_mm": 2.4999659686521425,
+              "meanDisplacement_mm": 1.557681083136108,
+              "changedVertices": 4136,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9225592403731865
+            },
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 8.49987228791578,
+              "meanDisplacement_mm": 3.84366699722915,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 33,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.47914574121327697
+            },
+            "SOFT_PALATE": {
+              "maxDisplacement_mm": 3.018716275137509,
+              "meanDisplacement_mm": 1.308265661323763,
+              "changedVertices": 3655,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9215192524818153
+            }
+          }
+        },
+        {
+          "key": "mim_12",
+          "geometryKey": "mim_12",
+          "t": 0.78,
+          "file": "mim/mim_12.npz",
+          "activation": 0.49999999999999956,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 18,
+            "LOWER_LIP_mutual_contact_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "UPPER_LIP": {
+              "maxDisplacement_mm": 1.2499829843260706,
+              "meanDisplacement_mm": 0.7788405415680534,
+              "changedVertices": 4136,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9602227891290915
+            },
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 4.249936143957886,
+              "meanDisplacement_mm": 1.9281103173330059,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 5,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.47923430330648614
+            },
+            "SOFT_PALATE": {
+              "maxDisplacement_mm": 3.018716275137509,
+              "meanDisplacement_mm": 1.308265661323763,
+              "changedVertices": 3655,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9215192524818153
+            }
+          }
+        },
+        {
+          "key": "mim_13",
+          "geometryKey": "mim_02",
+          "t": 0.86,
+          "file": "mim/mim_02.npz",
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_mutual_contact_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "SOFT_PALATE": {
+              "maxDisplacement_mm": 1.5093581375687546,
+              "meanDisplacement_mm": 0.6541328306618815,
+              "changedVertices": 3655,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9576452786456545
+            }
+          }
+        },
+        {
+          "key": "mim_14",
+          "geometryKey": null,
+          "t": 0.94,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_mutual_contact_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "mim_15",
+          "geometryKey": null,
+          "t": 1,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_mutual_contact_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        }
+      ]
+    },
+    "fa": {
+      "duration": 4.2,
+      "frames": [
+        {
+          "key": "fa_00",
+          "geometryKey": null,
+          "t": 0,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "fa_01",
+          "geometryKey": null,
+          "t": 0.08,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "fa_02",
+          "geometryKey": "fa_02",
+          "t": 0.16,
+          "file": "fa/fa_02.npz",
+          "activation": 0.0637232589895312,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 3
+          },
+          "deformationQuality": {
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 0.6863101914806901,
+              "meanDisplacement_mm": 0.31216107583384495,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9036609495767602
+            }
+          }
+        },
+        {
+          "key": "fa_03",
+          "geometryKey": "fa_03",
+          "t": 0.24,
+          "file": "fa/fa_03.npz",
+          "activation": 0.4424214838416022,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 41
+          },
+          "deformationQuality": {
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 4.764953615137357,
+              "meanDisplacement_mm": 2.1511912240599464,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 9,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.4248298973487936
+            }
+          }
+        },
+        {
+          "key": "fa_04",
+          "geometryKey": "fa_04",
+          "t": 0.32,
+          "file": "fa/fa_04.npz",
+          "activation": 0.864815657715066,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 95
+          },
+          "deformationQuality": {
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 9.314209741523639,
+              "meanDisplacement_mm": 4.178243168693476,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 50,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.6527635363269974
+            }
+          }
+        },
+        {
+          "key": "fa_05",
+          "geometryKey": "fa_05",
+          "t": 0.38,
+          "file": "fa/fa_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 119
+          },
+          "deformationQuality": {
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 10.770167790593389,
+              "meanDisplacement_mm": 4.817875316299408,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 54,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.6231010900157593
+            }
+          }
+        },
+        {
+          "key": "fa_06",
+          "geometryKey": "fa_05",
+          "t": 0.4,
+          "file": "fa/fa_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 119
+          },
+          "deformationQuality": {
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 10.770167790593389,
+              "meanDisplacement_mm": 4.817875316299408,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 54,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.6231010900157593
+            }
+          }
+        },
+        {
+          "key": "fa_07",
+          "geometryKey": "fa_05",
+          "t": 0.42,
+          "file": "fa/fa_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 119
+          },
+          "deformationQuality": {
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 10.770167790593389,
+              "meanDisplacement_mm": 4.817875316299408,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 54,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.6231010900157593
+            }
+          }
+        },
+        {
+          "key": "fa_08",
+          "geometryKey": "fa_05",
+          "t": 0.46,
+          "file": "fa/fa_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 119
+          },
+          "deformationQuality": {
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 10.770167790593389,
+              "meanDisplacement_mm": 4.817875316299408,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 54,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.6231010900157593
+            }
+          }
+        },
+        {
+          "key": "fa_09",
+          "geometryKey": "fa_05",
+          "t": 0.54,
+          "file": "fa/fa_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 119
+          },
+          "deformationQuality": {
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 10.770167790593389,
+              "meanDisplacement_mm": 4.817875316299408,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 54,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.6231010900157593
+            }
+          }
+        },
+        {
+          "key": "fa_10",
+          "geometryKey": "fa_05",
+          "t": 0.62,
+          "file": "fa/fa_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 119
+          },
+          "deformationQuality": {
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 10.770167790593389,
+              "meanDisplacement_mm": 4.817875316299408,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 54,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.6231010900157593
+            }
+          }
+        },
+        {
+          "key": "fa_11",
+          "geometryKey": "fa_05",
+          "t": 0.7,
+          "file": "fa/fa_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 119
+          },
+          "deformationQuality": {
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 10.770167790593389,
+              "meanDisplacement_mm": 4.817875316299408,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 54,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.6231010900157593
+            }
+          }
+        },
+        {
+          "key": "fa_12",
+          "geometryKey": "fa_12",
+          "t": 0.78,
+          "file": "fa/fa_12.npz",
+          "activation": 0.49999999999999956,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 45
+          },
+          "deformationQuality": {
+            "LOWER_LIP": {
+              "maxDisplacement_mm": 5.385083895296687,
+              "meanDisplacement_mm": 2.429358544602997,
+              "changedVertices": 3079,
+              "restRelativeNegativeFaceDot": 21,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.4194862493102167
+            }
+          }
+        },
+        {
+          "key": "fa_13",
+          "geometryKey": null,
+          "t": 0.86,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "fa_14",
+          "geometryKey": null,
+          "t": 0.94,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "fa_15",
+          "geometryKey": null,
+          "t": 1,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        }
+      ]
+    },
+    "ayn": {
+      "duration": 4.6,
+      "frames": [
+        {
+          "key": "ayn_00",
+          "geometryKey": null,
+          "t": 0,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "ayn_01",
+          "geometryKey": null,
+          "t": 0.08,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "ayn_02",
+          "geometryKey": "ayn_02",
+          "t": 0.16,
+          "file": "ayn/ayn_02.npz",
+          "activation": 0.0637232589895312,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 0.3875931337140795,
+              "meanDisplacement_mm": 0.10290568092813315,
+              "changedVertices": 8164,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.9908743040767534
+            }
+          }
+        },
+        {
+          "key": "ayn_03",
+          "geometryKey": "ayn_03",
+          "t": 0.24,
+          "file": "ayn/ayn_03.npz",
+          "activation": 0.4424214838416022,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 1,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 2.6910037569291854,
+              "meanDisplacement_mm": 0.7144507301401474,
+              "changedVertices": 8402,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.936763817715923
+            }
+          }
+        },
+        {
+          "key": "ayn_04",
+          "geometryKey": "ayn_04",
+          "t": 0.32,
+          "file": "ayn/ayn_04.npz",
+          "activation": 0.864815657715066,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 119,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 5.260192528976799,
+              "meanDisplacement_mm": 1.3866023223913588,
+              "changedVertices": 8496,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.3841756917314337
+            }
+          }
+        },
+        {
+          "key": "ayn_05",
+          "geometryKey": "ayn_05",
+          "t": 0.38,
+          "file": "ayn/ayn_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 166,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 6.082443676927384,
+              "meanDisplacement_mm": 1.5930449945202971,
+              "changedVertices": 8526,
+              "restRelativeNegativeFaceDot": 1,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.2382912801334431
+            }
+          }
+        },
+        {
+          "key": "ayn_06",
+          "geometryKey": "ayn_05",
+          "t": 0.4,
+          "file": "ayn/ayn_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 166,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 6.082443676927384,
+              "meanDisplacement_mm": 1.5930449945202971,
+              "changedVertices": 8526,
+              "restRelativeNegativeFaceDot": 1,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.2382912801334431
+            }
+          }
+        },
+        {
+          "key": "ayn_07",
+          "geometryKey": "ayn_05",
+          "t": 0.42,
+          "file": "ayn/ayn_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 166,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 6.082443676927384,
+              "meanDisplacement_mm": 1.5930449945202971,
+              "changedVertices": 8526,
+              "restRelativeNegativeFaceDot": 1,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.2382912801334431
+            }
+          }
+        },
+        {
+          "key": "ayn_08",
+          "geometryKey": "ayn_05",
+          "t": 0.46,
+          "file": "ayn/ayn_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 166,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 6.082443676927384,
+              "meanDisplacement_mm": 1.5930449945202971,
+              "changedVertices": 8526,
+              "restRelativeNegativeFaceDot": 1,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.2382912801334431
+            }
+          }
+        },
+        {
+          "key": "ayn_09",
+          "geometryKey": "ayn_05",
+          "t": 0.54,
+          "file": "ayn/ayn_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 166,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 6.082443676927384,
+              "meanDisplacement_mm": 1.5930449945202971,
+              "changedVertices": 8526,
+              "restRelativeNegativeFaceDot": 1,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.2382912801334431
+            }
+          }
+        },
+        {
+          "key": "ayn_10",
+          "geometryKey": "ayn_05",
+          "t": 0.62,
+          "file": "ayn/ayn_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 166,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 6.082443676927384,
+              "meanDisplacement_mm": 1.5930449945202971,
+              "changedVertices": 8526,
+              "restRelativeNegativeFaceDot": 1,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.2382912801334431
+            }
+          }
+        },
+        {
+          "key": "ayn_11",
+          "geometryKey": "ayn_05",
+          "t": 0.7,
+          "file": "ayn/ayn_05.npz",
+          "activation": 1.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 166,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 6.082443676927384,
+              "meanDisplacement_mm": 1.5930449945202971,
+              "changedVertices": 8526,
+              "restRelativeNegativeFaceDot": 1,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.2382912801334431
+            }
+          }
+        },
+        {
+          "key": "ayn_12",
+          "geometryKey": "ayn_12",
+          "t": 0.78,
+          "file": "ayn/ayn_12.npz",
+          "activation": 0.49999999999999956,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 3,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {
+            "TONGUE": {
+              "maxDisplacement_mm": 3.0412218384636884,
+              "meanDisplacement_mm": 0.8073771731346702,
+              "changedVertices": 8406,
+              "restRelativeNegativeFaceDot": 0,
+              "nearCollapsedFaces": 0,
+              "minimumAreaRatio": 0.8970934998663633
+            }
+          }
+        },
+        {
+          "key": "ayn_13",
+          "geometryKey": null,
+          "t": 0.86,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "ayn_14",
+          "geometryKey": null,
+          "t": 0.94,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        },
+        {
+          "key": "ayn_15",
+          "geometryKey": null,
+          "t": 1,
+          "file": null,
+          "activation": 0.0,
+          "constraintReport": {
+            "TONGUE_clipped_vertices": 0,
+            "UPPER_LIP_clipped_vertices": 0,
+            "LOWER_LIP_clipped_vertices": 0
+          },
+          "deformationQuality": {}
+        }
+      ]
+    }
+  }
+}

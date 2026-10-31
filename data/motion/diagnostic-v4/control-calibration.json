@@ -1,0 +1,95 @@
+{
+  "basis": "Prepared Badin canonical meters",
+  "axes": {
+    "x": "anterior",
+    "y": "superior",
+    "z": "lateral"
+  },
+  "landmarkSources": "Raw source midsagittal vertices transformed by x=.14-source.x,y=source.z-.1,z=source.y",
+  "artisticRangesNotClinical": true,
+  "sourceLandmarks": {
+    "tip": [
+      0.082426,
+      -8.4e-05,
+      0
+    ],
+    "blade": [
+      0.075419,
+      0.004954,
+      0
+    ],
+    "dorsum": [
+      0.045189,
+      0.013659,
+      0
+    ],
+    "root": [
+      0.02761,
+      0.009471,
+      0
+    ]
+  },
+  "additionalIndependentControls": [
+    "lips-close",
+    "lips-open",
+    "lips-round",
+    "lips-protrude",
+    "jaw-open",
+    "velum-down"
+  ],
+  "jawPivot_m": [
+    0.003,
+    0.037,
+    0
+  ],
+  "velumControl": "Acquired registered down-init delta added to prepared INIT+clearance baseline, preserving 132 unchanged source attachment vertices and B baseline clearance correction",
+  "independentTongueControls": {
+    "tip-lift": {
+      "field": "tip",
+      "axis": 1,
+      "demonstrationDisplacement_m": 0.01
+    },
+    "tip-advance": {
+      "field": "tip",
+      "axis": 0,
+      "demonstrationDisplacement_m": 0.003
+    },
+    "tip-retract": {
+      "field": "tip",
+      "axis": 0,
+      "demonstrationDisplacement_m": -0.003
+    },
+    "blade-lift": {
+      "field": "blade",
+      "axis": 1,
+      "demonstrationDisplacement_m": 0.007
+    },
+    "dorsum-lift": {
+      "field": "dorsum",
+      "axis": 1,
+      "demonstrationDisplacement_m": 0.01
+    },
+    "root-retract": {
+      "field": "root",
+      "axis": 0,
+      "demonstrationDisplacement_m": -0.004
+    },
+    "edges-lift": {
+      "field": "edges",
+      "axis": 1,
+      "demonstrationDisplacement_m": 0.004
+    },
+    "groove": {
+      "field": "groove",
+      "axis": 1,
+      "demonstrationDisplacement_m": -0.002
+    }
+  },
+  "constraint": "Segment swept vertex rays against prepared crown/palate/pharynx triangles, then external triangle collision checks required",
+  "limitations": [
+    "No muscle force simulation",
+    "No verified clinical parameter ranges",
+    "Actual softpalate_down target is registered with verified source transform; donor provenance remains A/B responsibility",
+    "Surface clipping alone cannot rule out edge/triangle crossings"
+  ]
+}

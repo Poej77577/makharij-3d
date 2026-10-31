@@ -1,0 +1,600 @@
+{
+  "tipParameters_mm": {
+    "retraction": 7.0,
+    "lift": 15.0
+  },
+  "version": "badin-smooth-field-first-contact-1",
+  "restSha256": "a37b23ec7fc4f6df4526feb744a2c6ed877c1e7bc2e3fd2bde4cdbc0089c0648",
+  "rest": "assets/anatomy/rest-meshes.json",
+  "units": "m",
+  "method": "Localized analytic nonrigid field; single scalar amplitude searched to FIRST exact triangle obstacle contact and minimum area ratio; 65 uniform scalar samples independently in generator, final integration QA still pending",
+  "baseline": {
+    "UPPER_TEETH": {
+      "hit": false,
+      "distance_m": 0.0012040692370601338
+    },
+    "LOWER_TEETH": {
+      "hit": false,
+      "distance_m": 0.00010438692869274955
+    },
+    "HARD_PALATE": {
+      "hit": false,
+      "distance_m": 0.0005581105641472009
+    },
+    "SOFT_PALATE": {
+      "hit": false,
+      "distance_m": 0.0002488507481779357
+    },
+    "GINGIVA_UPPER": {
+      "hit": false,
+      "distance_m": 0.0012301624691411443
+    },
+    "GINGIVA_LOWER": {
+      "hit": false,
+      "distance_m": 0.00027751300635912797
+    },
+    "PHARYNX": {
+      "hit": false,
+      "distance_m": 0.0009777287588230274
+    }
+  },
+  "baselineBlockers": [],
+  "results": {
+    "ra": {
+      "preparationSamples": [
+        {
+          "fraction": 0.0,
+          "safe": true
+        },
+        {
+          "fraction": 0.041666666666666664,
+          "safe": true
+        },
+        {
+          "fraction": 0.08333333333333333,
+          "safe": true
+        },
+        {
+          "fraction": 0.125,
+          "safe": true
+        },
+        {
+          "fraction": 0.16666666666666666,
+          "safe": true
+        },
+        {
+          "fraction": 0.20833333333333331,
+          "safe": true
+        },
+        {
+          "fraction": 0.25,
+          "safe": true
+        },
+        {
+          "fraction": 0.29166666666666663,
+          "safe": true
+        },
+        {
+          "fraction": 0.3333333333333333,
+          "safe": true
+        },
+        {
+          "fraction": 0.375,
+          "safe": true
+        },
+        {
+          "fraction": 0.41666666666666663,
+          "safe": true
+        },
+        {
+          "fraction": 0.4583333333333333,
+          "safe": true
+        },
+        {
+          "fraction": 0.5,
+          "safe": true
+        },
+        {
+          "fraction": 0.5416666666666666,
+          "safe": true
+        },
+        {
+          "fraction": 0.5833333333333333,
+          "safe": true
+        },
+        {
+          "fraction": 0.625,
+          "safe": true
+        },
+        {
+          "fraction": 0.6666666666666666,
+          "safe": true
+        },
+        {
+          "fraction": 0.7083333333333333,
+          "safe": true
+        },
+        {
+          "fraction": 0.75,
+          "safe": true
+        },
+        {
+          "fraction": 0.7916666666666666,
+          "safe": true
+        },
+        {
+          "fraction": 0.8333333333333333,
+          "safe": true
+        },
+        {
+          "fraction": 0.875,
+          "safe": true
+        },
+        {
+          "fraction": 0.9166666666666666,
+          "safe": true
+        },
+        {
+          "fraction": 0.9583333333333333,
+          "safe": true
+        },
+        {
+          "fraction": 1.0,
+          "safe": true
+        }
+      ],
+      "preRetractFirst": true,
+      "amplitude": 0.6573722839355469,
+      "firstFailureBracket": 0.6749999999999999,
+      "pathSafeAgainstInitiallyClearObstacles": true,
+      "baselineBlockers": [],
+      "targetRegion": {
+        "from": "tongue-tip",
+        "to": "upper-alveolar",
+        "minimumDistance_mm": 0.13291207105621117,
+        "p10Distance_mm": 0.8790805048878547,
+        "medianDistance_mm": 2.531002586266366,
+        "within0_3mm": 4,
+        "totalRegionVertices": 383
+      },
+      "quality": {
+        "minimumAreaRatio": 0.31040652081833836,
+        "nearCollapsedFaces": 0,
+        "restRelativeNegativeFaceDot": 0,
+        "obstacles": {
+          "UPPER_TEETH": {
+            "hit": false,
+            "distance_m": 0.00020524504888503678,
+            "requiredClearance_m": 0.00012,
+            "safe": true
+          },
+          "LOWER_TEETH": {
+            "hit": false,
+            "distance_m": 0.0001043862208876508,
+            "requiredClearance_m": 7.829019651956216e-05,
+            "safe": true
+          },
+          "HARD_PALATE": {
+            "hit": false,
+            "distance_m": 0.0001200022911498816,
+            "requiredClearance_m": 0.00012,
+            "safe": true
+          },
+          "SOFT_PALATE": {
+            "hit": false,
+            "distance_m": 0.0002488507481779357,
+            "requiredClearance_m": 0.00012,
+            "safe": true
+          },
+          "GINGIVA_UPPER": {
+            "hit": false,
+            "distance_m": 0.0002154164917960254,
+            "requiredClearance_m": 0.00012,
+            "safe": true
+          },
+          "GINGIVA_LOWER": {
+            "hit": false,
+            "distance_m": 0.00027751220751351337,
+            "requiredClearance_m": 0.00012,
+            "safe": true
+          },
+          "PHARYNX": {
+            "hit": false,
+            "distance_m": 0.0009776351404726649,
+            "requiredClearance_m": 0.00012,
+            "safe": true
+          }
+        }
+      },
+      "pathSamples": [
+        {
+          "amplitude": 0.0,
+          "safe": true,
+          "minimumAreaRatio": 0.5057582885499358
+        },
+        {
+          "amplitude": 0.01027144193649292,
+          "safe": true,
+          "minimumAreaRatio": 0.5145217752006198
+        },
+        {
+          "amplitude": 0.02054288387298584,
+          "safe": true,
+          "minimumAreaRatio": 0.5234120006915355
+        },
+        {
+          "amplitude": 0.030814325809478762,
+          "safe": true,
+          "minimumAreaRatio": 0.5253379472657382
+        },
+        {
+          "amplitude": 0.04108576774597168,
+          "safe": true,
+          "minimumAreaRatio": 0.5168792819176647
+        },
+        {
+          "amplitude": 0.0513572096824646,
+          "safe": true,
+          "minimumAreaRatio": 0.5085264850763747
+        },
+        {
+          "amplitude": 0.061628651618957524,
+          "safe": true,
+          "minimumAreaRatio": 0.49996308924061145
+        },
+        {
+          "amplitude": 0.07190009355545045,
+          "safe": true,
+          "minimumAreaRatio": 0.49137166033527385
+        },
+        {
+          "amplitude": 0.08217153549194336,
+          "safe": true,
+          "minimumAreaRatio": 0.4828986224077864
+        },
+        {
+          "amplitude": 0.09244297742843628,
+          "safe": true,
+          "minimumAreaRatio": 0.47455017373225244
+        },
+        {
+          "amplitude": 0.1027144193649292,
+          "safe": true,
+          "minimumAreaRatio": 0.4663334747380479
+        },
+        {
+          "amplitude": 0.11298586130142213,
+          "safe": true,
+          "minimumAreaRatio": 0.45825512636345833
+        },
+        {
+          "amplitude": 0.12325730323791505,
+          "safe": true,
+          "minimumAreaRatio": 0.4503225992115355
+        },
+        {
+          "amplitude": 0.13352874517440796,
+          "safe": true,
+          "minimumAreaRatio": 0.4425440316656533
+        },
+        {
+          "amplitude": 0.1438001871109009,
+          "safe": true,
+          "minimumAreaRatio": 0.4349275313337932
+        },
+        {
+          "amplitude": 0.1540716290473938,
+          "safe": true,
+          "minimumAreaRatio": 0.4274817563984278
+        },
+        {
+          "amplitude": 0.16434307098388673,
+          "safe": true,
+          "minimumAreaRatio": 0.42021565869411726
+        },
+        {
+          "amplitude": 0.17461451292037966,
+          "safe": true,
+          "minimumAreaRatio": 0.4131389883962018
+        },
+        {
+          "amplitude": 0.18488595485687256,
+          "safe": true,
+          "minimumAreaRatio": 0.4062613689233046
+        },
+        {
+          "amplitude": 0.1951573967933655,
+          "safe": true,
+          "minimumAreaRatio": 0.3995933548093383
+        },
+        {
+          "amplitude": 0.2054288387298584,
+          "safe": true,
+          "minimumAreaRatio": 0.39314546862602534
+        },
+        {
+          "amplitude": 0.21570028066635133,
+          "safe": true,
+          "minimumAreaRatio": 0.3851243519924965
+        },
+        {
+          "amplitude": 0.22597172260284426,
+          "safe": true,
+          "minimumAreaRatio": 0.3771961695259709
+        },
+        {
+          "amplitude": 0.23624316453933716,
+          "safe": true,
+          "minimumAreaRatio": 0.36946710497482715
+        },
+        {
+          "amplitude": 0.2465146064758301,
+          "safe": true,
+          "minimumAreaRatio": 0.36194944611275065
+        },
+        {
+          "amplitude": 0.256786048412323,
+          "safe": true,
+          "minimumAreaRatio": 0.35465729549961383
+        },
+        {
+          "amplitude": 0.26705749034881593,
+          "safe": true,
+          "minimumAreaRatio": 0.34760444517556494
+        },
+        {
+          "amplitude": 0.27732893228530886,
+          "safe": true,
+          "minimumAreaRatio": 0.34080569547316214
+        },
+        {
+          "amplitude": 0.2876003742218018,
+          "safe": true,
+          "minimumAreaRatio": 0.3342769205070263
+        },
+        {
+          "amplitude": 0.2978718161582947,
+          "safe": true,
+          "minimumAreaRatio": 0.3280335795311677
+        },
+        {
+          "amplitude": 0.3081432580947876,
+          "safe": true,
+          "minimumAreaRatio": 0.32209284598226023
+        },
+        {
+          "amplitude": 0.31841470003128053,
+          "safe": true,
+          "minimumAreaRatio": 0.31647165676146344
+        },
+        {
+          "amplitude": 0.32868614196777346,
+          "safe": true,
+          "minimumAreaRatio": 0.3111869557743813
+        },
+        {
+          "amplitude": 0.3389575839042664,
+          "safe": true,
+          "minimumAreaRatio": 0.30620396634012587
+        },
+        {
+          "amplitude": 0.3492290258407593,
+          "safe": true,
+          "minimumAreaRatio": 0.3015205195831423
+        },
+        {
+          "amplitude": 0.3595004677772522,
+          "safe": true,
+          "minimumAreaRatio": 0.29723395873433384
+        },
+        {
+          "amplitude": 0.36977190971374513,
+          "safe": true,
+          "minimumAreaRatio": 0.29336235294851437
+        },
+        {
+          "amplitude": 0.38004335165023806,
+          "safe": true,
+          "minimumAreaRatio": 0.2899218962511479
+        },
+        {
+          "amplitude": 0.390314793586731,
+          "safe": true,
+          "minimumAreaRatio": 0.2869282623169601
+        },
+        {
+          "amplitude": 0.4005862355232239,
+          "safe": true,
+          "minimumAreaRatio": 0.2843953963974057
+        },
+        {
+          "amplitude": 0.4108576774597168,
+          "safe": true,
+          "minimumAreaRatio": 0.28233571076273034
+        },
+        {
+          "amplitude": 0.42112911939620973,
+          "safe": true,
+          "minimumAreaRatio": 0.28075973206517596
+        },
+        {
+          "amplitude": 0.43140056133270266,
+          "safe": true,
+          "minimumAreaRatio": 0.27967567009785604
+        },
+        {
+          "amplitude": 0.4416720032691956,
+          "safe": true,
+          "minimumAreaRatio": 0.2788214679859791
+        },
+        {
+          "amplitude": 0.4519434452056885,
+          "safe": true,
+          "minimumAreaRatio": 0.2782054863509986
+        },
+        {
+          "amplitude": 0.46221488714218145,
+          "safe": true,
+          "minimumAreaRatio": 0.27806492114103265
+        },
+        {
+          "amplitude": 0.4724863290786743,
+          "safe": true,
+          "minimumAreaRatio": 0.27840030403313804
+        },
+        {
+          "amplitude": 0.48275777101516726,
+          "safe": true,
+          "minimumAreaRatio": 0.27921015486257417
+        },
+        {
+          "amplitude": 0.4930292129516602,
+          "safe": true,
+          "minimumAreaRatio": 0.280490283038127
+        },
+        {
+          "amplitude": 0.5033006548881531,
+          "safe": true,
+          "minimumAreaRatio": 0.2810670851733629
+        },
+        {
+          "amplitude": 0.513572096824646,
+          "safe": true,
+          "minimumAreaRatio": 0.2807927794565251
+        },
+        {
+          "amplitude": 0.523843538761139,
+          "safe": true,
+          "minimumAreaRatio": 0.28095128608280007
+        },
+        {
+          "amplitude": 0.5341149806976319,
+          "safe": true,
+          "minimumAreaRatio": 0.2815421147303742
+        },
+        {
+          "amplitude": 0.5443864226341248,
+          "safe": true,
+          "minimumAreaRatio": 0.2825623706414829
+        },
+        {
+          "amplitude": 0.5546578645706177,
+          "safe": true,
+          "minimumAreaRatio": 0.28400745433205155
+        },
+        {
+          "amplitude": 0.5649293065071106,
+          "safe": true,
+          "minimumAreaRatio": 0.28587089251872944
+        },
+        {
+          "amplitude": 0.5752007484436036,
+          "safe": true,
+          "minimumAreaRatio": 0.2881446669242207
+        },
+        {
+          "amplitude": 0.5854721903800965,
+          "safe": true,
+          "minimumAreaRatio": 0.2908190341086923
+        },
+        {
+          "amplitude": 0.5957436323165894,
+          "safe": true,
+          "minimumAreaRatio": 0.2938831608167836
+        },
+        {
+          "amplitude": 0.6060150742530823,
+          "safe": true,
+          "minimumAreaRatio": 0.29732497303459765
+        },
+        {
+          "amplitude": 0.6162865161895752,
+          "safe": true,
+          "minimumAreaRatio": 0.30113150559847873
+        },
+        {
+          "amplitude": 0.6265579581260682,
+          "safe": true,
+          "minimumAreaRatio": 0.3036122499864783
+        },
+        {
+          "amplitude": 0.6368294000625611,
+          "safe": true,
+          "minimumAreaRatio": 0.3061115840680611
+        },
+        {
+          "amplitude": 0.647100841999054,
+          "safe": true,
+          "minimumAreaRatio": 0.30808703477639
+        },
+        {
+          "amplitude": 0.6573722839355469,
+          "safe": true,
+          "minimumAreaRatio": 0.31040652081833836
+        }
+      ],
+      "maxDisplacement_mm": 12.151824219358495,
+      "meanDisplacement_mm": 0.6609716956608341
+    }
+  },
+  "scientificReview": "pending",
+  "isAnatomicalApproval": false,
+  "lineage": {
+    "originalFit": "data/motion/tongue-fit-ra-v6c",
+    "originalRestSha256": "10bcd69ce70d1dd74be6f13ccbbda3068f0351df895c54c4319526bc1d21389a",
+    "inheritedAfterExactUnchangedOralMeshCheck": true,
+    "newNasalObstacles": "requires final GLB recheck"
+  },
+  "refinementTransfer": {
+    "parentFit": "data/motion/tongue-fit-ra-v9",
+    "parentRestSha256": "83b9a980a89cb6f5388a66047a8854e7e10834b66e050a717d504f758dc7bac6",
+    "comparedGlbSha256": "3a43edf352b1de986de88596ec1106ff7cd437a38710c9d8f13fa7ecdda91a2d",
+    "checks": {
+      "TONGUE": {
+        "unchangedPositionsAndIndices": true
+      },
+      "UPPER_TEETH": {
+        "unchangedPositionsAndIndices": true
+      },
+      "LOWER_TEETH": {
+        "unchangedPositionsAndIndices": true
+      },
+      "GINGIVA_UPPER": {
+        "unchangedPositionsAndIndices": true
+      },
+      "GINGIVA_LOWER": {
+        "unchangedPositionsAndIndices": true
+      },
+      "HARD_PALATE": {
+        "unchangedPositionsAndIndices": true
+      },
+      "PHARYNX": {
+        "unchangedPositionsAndIndices": true
+      },
+      "SOFT_PALATE": {
+        "unchangedPositionsAndIndices": true
+      },
+      "LIP_CONTEXT": {
+        "bidirectionalVertexSurfaceMax_m": 3.845567850814358e-09,
+        "queryUnits": "mm for numeric conditioning; stored geometry stays meters",
+        "absoluteAreaDifference_m2": 2.1492342627826844e-11,
+        "oldVertices": 2459,
+        "newVertices": 4957,
+        "scope": "source refinement script also places every new sample on an original triangle edge"
+      },
+      "NASAL_LINING": {
+        "unchangedPositionsAndIndices": true
+      },
+      "NASAL_CONCHA_INFERIOR": {
+        "unchangedPositionsAndIndices": true
+      },
+      "NASAL_CONCHA_MIDDLE": {
+        "unchangedPositionsAndIndices": true
+      },
+      "NASAL_CONCHA_SUPERIOR": {
+        "unchangedPositionsAndIndices": true
+      }
+    },
+    "qualification": "geometric calibration inheritance only; final exported motion needs independent QA"
+  }
+}

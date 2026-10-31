@@ -1,0 +1,441 @@
+{
+  "tipParameters_mm": {
+    "retraction": 3,
+    "lift": 12
+  },
+  "version": "badin-smooth-field-first-contact-1",
+  "restSha256": "10bcd69ce70d1dd74be6f13ccbbda3068f0351df895c54c4319526bc1d21389a",
+  "rest": "assets/anatomy/rest-meshes.json",
+  "units": "m",
+  "method": "Localized analytic nonrigid field; single scalar amplitude searched to FIRST exact triangle obstacle contact and minimum area ratio; 65 uniform scalar samples independently in generator, final integration QA still pending",
+  "baseline": {
+    "UPPER_TEETH": {
+      "hit": false,
+      "distance_m": 0.0012040692370601338
+    },
+    "LOWER_TEETH": {
+      "hit": false,
+      "distance_m": 0.00010438692869274955
+    },
+    "HARD_PALATE": {
+      "hit": false,
+      "distance_m": 0.0005581105641472009
+    },
+    "SOFT_PALATE": {
+      "hit": false,
+      "distance_m": 0.0002488507481779357
+    },
+    "GINGIVA_UPPER": {
+      "hit": false,
+      "distance_m": 0.0012301624691411443
+    },
+    "GINGIVA_LOWER": {
+      "hit": false,
+      "distance_m": 0.00027751300635912797
+    },
+    "PHARYNX": {
+      "hit": false,
+      "distance_m": 0.0009777287588230274
+    }
+  },
+  "baselineBlockers": [],
+  "results": {
+    "qaf": {
+      "preparationSamples": [],
+      "preRetractFirst": false,
+      "amplitude": 0.6371040344238281,
+      "firstFailureBracket": 0.65,
+      "pathSafeAgainstInitiallyClearObstacles": true,
+      "baselineBlockers": [],
+      "targetRegion": {
+        "from": "posterior-dorsum",
+        "to": "velum-oral",
+        "minimumDistance_mm": 1.6155396320065707,
+        "p10Distance_mm": 1.7351934218521172,
+        "medianDistance_mm": 3.710944828419804,
+        "within0_3mm": 0,
+        "totalRegionVertices": 71
+      },
+      "quality": {
+        "minimumAreaRatio": 0.9267692657597912,
+        "nearCollapsedFaces": 0,
+        "restRelativeNegativeFaceDot": 0,
+        "obstacles": {
+          "UPPER_TEETH": {
+            "hit": false,
+            "distance_m": 0.0011855072774996107,
+            "requiredClearance_m": 0.00012,
+            "safe": true
+          },
+          "LOWER_TEETH": {
+            "hit": false,
+            "distance_m": 9.454725339412556e-05,
+            "requiredClearance_m": 7.829019651956216e-05,
+            "safe": true
+          },
+          "HARD_PALATE": {
+            "hit": false,
+            "distance_m": 0.00013912117196399616,
+            "requiredClearance_m": 0.00012,
+            "safe": true
+          },
+          "SOFT_PALATE": {
+            "hit": false,
+            "distance_m": 0.0002486261717609523,
+            "requiredClearance_m": 0.00012,
+            "safe": true
+          },
+          "GINGIVA_UPPER": {
+            "hit": false,
+            "distance_m": 0.0012073352288206152,
+            "requiredClearance_m": 0.00012,
+            "safe": true
+          },
+          "GINGIVA_LOWER": {
+            "hit": false,
+            "distance_m": 0.0002723508314147987,
+            "requiredClearance_m": 0.00012,
+            "safe": true
+          },
+          "PHARYNX": {
+            "hit": false,
+            "distance_m": 0.00012000538885129973,
+            "requiredClearance_m": 0.00012,
+            "safe": true
+          }
+        }
+      },
+      "pathSamples": [
+        {
+          "amplitude": 0.0,
+          "safe": true,
+          "minimumAreaRatio": 1.0
+        },
+        {
+          "amplitude": 0.009954750537872314,
+          "safe": true,
+          "minimumAreaRatio": 0.9974773230470316
+        },
+        {
+          "amplitude": 0.01990950107574463,
+          "safe": true,
+          "minimumAreaRatio": 0.995036355783341
+        },
+        {
+          "amplitude": 0.029864251613616943,
+          "safe": true,
+          "minimumAreaRatio": 0.992679050760344
+        },
+        {
+          "amplitude": 0.03981900215148926,
+          "safe": true,
+          "minimumAreaRatio": 0.9904032436677139
+        },
+        {
+          "amplitude": 0.04977375268936157,
+          "safe": true,
+          "minimumAreaRatio": 0.9882109749003111
+        },
+        {
+          "amplitude": 0.05972850322723389,
+          "safe": true,
+          "minimumAreaRatio": 0.9861028433025255
+        },
+        {
+          "amplitude": 0.0696832537651062,
+          "safe": true,
+          "minimumAreaRatio": 0.9840804316303361
+        },
+        {
+          "amplitude": 0.07963800430297852,
+          "safe": true,
+          "minimumAreaRatio": 0.9821418620375746
+        },
+        {
+          "amplitude": 0.08959275484085083,
+          "safe": true,
+          "minimumAreaRatio": 0.9802887513324144
+        },
+        {
+          "amplitude": 0.09954750537872314,
+          "safe": true,
+          "minimumAreaRatio": 0.9785221305227778
+        },
+        {
+          "amplitude": 0.10950225591659546,
+          "safe": true,
+          "minimumAreaRatio": 0.9768429931679933
+        },
+        {
+          "amplitude": 0.11945700645446777,
+          "safe": true,
+          "minimumAreaRatio": 0.975249606961389
+        },
+        {
+          "amplitude": 0.1294117569923401,
+          "safe": true,
+          "minimumAreaRatio": 0.9737438985537376
+        },
+        {
+          "amplitude": 0.1393665075302124,
+          "safe": true,
+          "minimumAreaRatio": 0.9723258084700567
+        },
+        {
+          "amplitude": 0.14932125806808472,
+          "safe": true,
+          "minimumAreaRatio": 0.9709971868839117
+        },
+        {
+          "amplitude": 0.15927600860595703,
+          "safe": true,
+          "minimumAreaRatio": 0.9697559264485812
+        },
+        {
+          "amplitude": 0.16923075914382935,
+          "safe": true,
+          "minimumAreaRatio": 0.9683845861259016
+        },
+        {
+          "amplitude": 0.17918550968170166,
+          "safe": true,
+          "minimumAreaRatio": 0.9670565738998362
+        },
+        {
+          "amplitude": 0.18914026021957397,
+          "safe": true,
+          "minimumAreaRatio": 0.9657897664650605
+        },
+        {
+          "amplitude": 0.1990950107574463,
+          "safe": true,
+          "minimumAreaRatio": 0.9645825262701102
+        },
+        {
+          "amplitude": 0.2090497612953186,
+          "safe": true,
+          "minimumAreaRatio": 0.963437594119132
+        },
+        {
+          "amplitude": 0.21900451183319092,
+          "safe": true,
+          "minimumAreaRatio": 0.9623532190911064
+        },
+        {
+          "amplitude": 0.22895926237106323,
+          "safe": true,
+          "minimumAreaRatio": 0.9613319112838505
+        },
+        {
+          "amplitude": 0.23891401290893555,
+          "safe": true,
+          "minimumAreaRatio": 0.9603727742586332
+        },
+        {
+          "amplitude": 0.24886876344680786,
+          "safe": true,
+          "minimumAreaRatio": 0.959474183231084
+        },
+        {
+          "amplitude": 0.2588235139846802,
+          "safe": true,
+          "minimumAreaRatio": 0.9586394945003368
+        },
+        {
+          "amplitude": 0.2687782645225525,
+          "safe": true,
+          "minimumAreaRatio": 0.9578672801212494
+        },
+        {
+          "amplitude": 0.2787330150604248,
+          "safe": true,
+          "minimumAreaRatio": 0.9571559222335662
+        },
+        {
+          "amplitude": 0.2886877655982971,
+          "safe": true,
+          "minimumAreaRatio": 0.9565090964253683
+        },
+        {
+          "amplitude": 0.29864251613616943,
+          "safe": true,
+          "minimumAreaRatio": 0.9559235731897441
+        },
+        {
+          "amplitude": 0.30859726667404175,
+          "safe": true,
+          "minimumAreaRatio": 0.955402648134652
+        },
+        {
+          "amplitude": 0.31855201721191406,
+          "safe": true,
+          "minimumAreaRatio": 0.9543155326635591
+        },
+        {
+          "amplitude": 0.3285067677497864,
+          "safe": true,
+          "minimumAreaRatio": 0.9531693250947517
+        },
+        {
+          "amplitude": 0.3384615182876587,
+          "safe": true,
+          "minimumAreaRatio": 0.952041083783723
+        },
+        {
+          "amplitude": 0.348416268825531,
+          "safe": true,
+          "minimumAreaRatio": 0.9509307414982261
+        },
+        {
+          "amplitude": 0.3583710193634033,
+          "safe": true,
+          "minimumAreaRatio": 0.9498378192297429
+        },
+        {
+          "amplitude": 0.36832576990127563,
+          "safe": true,
+          "minimumAreaRatio": 0.9487628507108619
+        },
+        {
+          "amplitude": 0.37828052043914795,
+          "safe": true,
+          "minimumAreaRatio": 0.9477066214777641
+        },
+        {
+          "amplitude": 0.38823527097702026,
+          "safe": true,
+          "minimumAreaRatio": 0.9466684942006339
+        },
+        {
+          "amplitude": 0.3981900215148926,
+          "safe": true,
+          "minimumAreaRatio": 0.9456485723654565
+        },
+        {
+          "amplitude": 0.4081447720527649,
+          "safe": true,
+          "minimumAreaRatio": 0.9446468348777011
+        },
+        {
+          "amplitude": 0.4180995225906372,
+          "safe": true,
+          "minimumAreaRatio": 0.9436635011681439
+        },
+        {
+          "amplitude": 0.4280542731285095,
+          "safe": true,
+          "minimumAreaRatio": 0.9426979864027897
+        },
+        {
+          "amplitude": 0.43800902366638184,
+          "safe": true,
+          "minimumAreaRatio": 0.9417515186999162
+        },
+        {
+          "amplitude": 0.44796377420425415,
+          "safe": true,
+          "minimumAreaRatio": 0.9408234649050015
+        },
+        {
+          "amplitude": 0.45791852474212646,
+          "safe": true,
+          "minimumAreaRatio": 0.9399139101574705
+        },
+        {
+          "amplitude": 0.4678732752799988,
+          "safe": true,
+          "minimumAreaRatio": 0.9390230315467514
+        },
+        {
+          "amplitude": 0.4778280258178711,
+          "safe": true,
+          "minimumAreaRatio": 0.9381507923329951
+        },
+        {
+          "amplitude": 0.4877827763557434,
+          "safe": true,
+          "minimumAreaRatio": 0.9372967243688796
+        },
+        {
+          "amplitude": 0.4977375268936157,
+          "safe": true,
+          "minimumAreaRatio": 0.9364619341854324
+        },
+        {
+          "amplitude": 0.507692277431488,
+          "safe": true,
+          "minimumAreaRatio": 0.9356454020102702
+        },
+        {
+          "amplitude": 0.5176470279693604,
+          "safe": true,
+          "minimumAreaRatio": 0.9348482899309206
+        },
+        {
+          "amplitude": 0.5276017785072327,
+          "safe": true,
+          "minimumAreaRatio": 0.9340701717829156
+        },
+        {
+          "amplitude": 0.537556529045105,
+          "safe": true,
+          "minimumAreaRatio": 0.9333108625729457
+        },
+        {
+          "amplitude": 0.5475112795829773,
+          "safe": true,
+          "minimumAreaRatio": 0.9325706175686825
+        },
+        {
+          "amplitude": 0.5574660301208496,
+          "safe": true,
+          "minimumAreaRatio": 0.9318488640930227
+        },
+        {
+          "amplitude": 0.5674207806587219,
+          "safe": true,
+          "minimumAreaRatio": 0.9311466760588865
+        },
+        {
+          "amplitude": 0.5773755311965942,
+          "safe": true,
+          "minimumAreaRatio": 0.9304637542671744
+        },
+        {
+          "amplitude": 0.5873302817344666,
+          "safe": true,
+          "minimumAreaRatio": 0.9297998856922072
+        },
+        {
+          "amplitude": 0.5972850322723389,
+          "safe": true,
+          "minimumAreaRatio": 0.9291553488289593
+        },
+        {
+          "amplitude": 0.6072397828102112,
+          "safe": true,
+          "minimumAreaRatio": 0.9285299511402778
+        },
+        {
+          "amplitude": 0.6171945333480835,
+          "safe": true,
+          "minimumAreaRatio": 0.9279232832885908
+        },
+        {
+          "amplitude": 0.6271492838859558,
+          "safe": true,
+          "minimumAreaRatio": 0.9273366222844943
+        },
+        {
+          "amplitude": 0.6371040344238281,
+          "safe": true,
+          "minimumAreaRatio": 0.9267692657597912
+        }
+      ],
+      "maxDisplacement_mm": 8.567367170279498,
+      "meanDisplacement_mm": 0.13225285200663786
+    }
+  },
+  "scientificReview": "pending",
+  "isAnatomicalApproval": false
+}

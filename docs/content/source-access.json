@@ -1,0 +1,76 @@
+{
+  "retrieved": [
+    {
+      "url": "https://raw.githubusercontent.com/risan/quran-json/main/README.md",
+      "retrieved": "2026-10-30",
+      "path": "docs/content/quran-json-README.md",
+      "sha256": "e51600adf71d8ae3f694550a2c5ca3163d8bb4bb1b1fbcb578197db318616724",
+      "authority": "secondary software/data repository, not qualified Jordan curriculum review",
+      "scope": "actual source text accessed; no license extended to audio or book"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cpfair/quran-tajweed/master/README.md",
+      "retrieved": "2026-10-30",
+      "path": "docs/content/quran-tajweed-README.md",
+      "sha256": "89373f92f0806541aca3c144f2c4469fcc304f904d0ff58271b4a318244e7e8e",
+      "authority": "secondary software/data repository, not qualified Jordan curriculum review",
+      "scope": "actual source text accessed; no license extended to audio or book"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/risan/quran-json/main/LICENSE.txt",
+      "retrieved": "2026-10-30",
+      "path": "docs/content/quran-json-LICENSE.txt",
+      "sha256": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297",
+      "authority": "secondary software/data repository, not qualified Jordan curriculum review",
+      "scope": "actual source text accessed; no license extended to audio or book"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenITI/0850AH/e2715c62fb458ce3ddc43b962cd55677cdd7bc35/data/0833IbnJazari/0833IbnJazari.ManzumaJazariyya/0833IbnJazari.ManzumaJazariyya.Shamela0012093-ara1",
+      "retrieved": "2026-10-30",
+      "sha256": "78a09ca9cba86d5c70ca70c2de70cb93f6b1b956cd8a25fd1055e2327dc4ce3b",
+      "path": null,
+      "excerptFile": "docs/content/jazariyya-excerpts.json",
+      "fullSourceStoredInProject": false,
+      "authority": "classical primary text digitally transcribed from stated edition; not independently collated",
+      "scope": "traditional place and named traits only; no modern motion measurements or Jordan approval"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenITI/0850AH/e2715c62fb458ce3ddc43b962cd55677cdd7bc35/data/0833IbnJazari/0833IbnJazari.ManzumaJazariyya/0833IbnJazari.ManzumaJazariyya.Shamela0012093-ara1.yml",
+      "retrieved": "2026-10-30",
+      "path": "docs/content/jazariyya-edition.yml",
+      "sha256": "1e87a911b715ab0d336d4511bd70b4fb81b3f32396ba8579e7190e902dfa5015",
+      "authority": "OpenITI edition metadata",
+      "scope": "digital provenance only"
+    }
+  ],
+  "blocked": [
+    {
+      "url": "https://www.awqaf.gov.jo/",
+      "observed": "proxy CONNECT 403 Forbidden; no source text read"
+    },
+    {
+      "url": "https://qurancomplex.gov.sa/",
+      "observed": "proxy CONNECT 403 Forbidden; no source text read"
+    },
+    {
+      "url": "https://tanzil.net/docs/text_license",
+      "observed": "proxy CONNECT 403 Forbidden; no source text read"
+    },
+    {
+      "url": "https://everyayah.com/",
+      "observed": "proxy CONNECT 403 Forbidden; no source text read"
+    },
+    {
+      "url": "https://ar.wikisource.org/wiki/المقدمة_الجزرية",
+      "observed": "proxy CONNECT 403 Forbidden; no source text read"
+    },
+    {
+      "url": "https://github.com/cpfair/quran-tajweed/files/7281388/quran-uthmani.txt",
+      "observed": "proxy CONNECT 403 Forbidden; no source text read"
+    }
+  ],
+  "minhaj_al_darisin": {
+    "status": "not accessed",
+    "note": "GitHub repository search returned an unauthenticated user teaching page; not a trusted copy of the book and not used as a doctrinal source."
+  }
+}

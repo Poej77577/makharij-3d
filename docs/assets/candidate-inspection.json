@@ -1,0 +1,239 @@
+[
+  {
+    "path": "assets/candidates/vtl-neutral.obj",
+    "sha256": "2f69c35933e3a818fa1f2384e3b75e33d5d098301828ada82c8bf49890192306",
+    "vertices": 1811,
+    "polygons": 2988,
+    "triangles": 2988,
+    "bounds": [
+      [
+        -3.35073,
+        6.83018
+      ],
+      [
+        -7.95,
+        1.6
+      ],
+      [
+        -3.34479,
+        3.34479
+      ]
+    ],
+    "index_boundary_edges": 612,
+    "index_nonmanifold_edges": 0,
+    "degenerate_triangles": 169,
+    "groups": [
+      "TONGUE",
+      "UPPER TEETH",
+      "LOWER TEETH",
+      "UPPER LIP",
+      "LOWER LIP",
+      "UPPER COVER",
+      "LOWER COVER",
+      "LEFT COVER",
+      "RIGHT COVER",
+      "EPIGLOTTIS",
+      "UVULA"
+    ]
+  },
+  {
+    "path": "assets/candidates/artisynth_models/src/artisynth/models/face/geometry/badintongue.obj",
+    "sha256": "fdd98f011539e5d0346133f173fc4c650aa45e27f3649505ff65e763d890a212",
+    "vertices": 370,
+    "polygons": 736,
+    "triangles": 736,
+    "bounds": [
+      [
+        0.0569484723,
+        0.130988914
+      ],
+      [
+        -0.0324695534,
+        0.0324695534
+      ],
+      [
+        0.0546161989,
+        0.113977432
+      ]
+    ],
+    "index_boundary_edges": 0,
+    "index_nonmanifold_edges": 0,
+    "degenerate_triangles": 0,
+    "groups": []
+  },
+  {
+    "path": "assets/candidates/artisynth_models/src/artisynth/models/face/geometry/badinmaxilla.obj",
+    "sha256": "467e9fc810ed874b59e293fcf6a6966a90e39561beda43b454c5045d879ee4e2",
+    "vertices": 2985,
+    "polygons": 5808,
+    "triangles": 5808,
+    "bounds": [
+      [
+        0.048668937,
+        0.111586
+      ],
+      [
+        -0.03983,
+        0.03983
+      ],
+      [
+        0.099296735,
+        0.151574
+      ]
+    ],
+    "index_boundary_edges": 160,
+    "index_nonmanifold_edges": 0,
+    "degenerate_triangles": 0,
+    "groups": []
+  },
+  {
+    "path": "assets/candidates/artisynth_models/src/artisynth/models/face/geometry/badinjaw.obj",
+    "sha256": "a903416d0efc2b4458c53ea1683921a3abf55b1e915c9cb900adebd9c6e5457b",
+    "vertices": 2094,
+    "polygons": 4184,
+    "triangles": 4184,
+    "bounds": [
+      [
+        0.054138699,
+        0.14533428
+      ],
+      [
+        -0.060171449,
+        0.060171449
+      ],
+      [
+        0.054494,
+        0.14355388
+      ]
+    ],
+    "index_boundary_edges": 0,
+    "index_nonmanifold_edges": 0,
+    "degenerate_triangles": 0,
+    "groups": []
+  },
+  {
+    "path": "assets/candidates/artisynth_models/src/artisynth/models/face/geometry/badinface_upperlip_filled.obj",
+    "sha256": "be41e9a838de42aa3e4e3fdd3c99ce71fc0496f1e376166e741a00cad7d569e6",
+    "vertices": 636,
+    "polygons": 1268,
+    "triangles": 1268,
+    "bounds": [
+      [
+        0.03735604,
+        0.067012924
+      ],
+      [
+        -0.028552723,
+        0.028552723
+      ],
+      [
+        0.097079824,
+        0.11844757
+      ]
+    ],
+    "index_boundary_edges": 0,
+    "index_nonmanifold_edges": 0,
+    "degenerate_triangles": 0,
+    "groups": []
+  },
+  {
+    "path": "assets/candidates/artisynth_models/src/artisynth/models/face/geometry/badinface_lowerlip_filled.obj",
+    "sha256": "1d1d86aa679c71580f200c858f4129ae86bb400b763ad9259c324a3f727893e3",
+    "vertices": 516,
+    "polygons": 1028,
+    "triangles": 1028,
+    "bounds": [
+      [
+        0.042149828,
+        0.076524413
+      ],
+      [
+        -0.026247769,
+        0.026247769
+      ],
+      [
+        0.075712863,
+        0.10080886
+      ]
+    ],
+    "index_boundary_edges": 0,
+    "index_nonmanifold_edges": 0,
+    "degenerate_triangles": 0,
+    "groups": []
+  },
+  {
+    "path": "assets/candidates/artisynth_models/src/artisynth/models/face/geometry/badinairway.obj",
+    "sha256": "978696d93fcaf22c501c25c6ed7be026d7a5e12150a71ddcb188b301f94dd7cd",
+    "vertices": 39394,
+    "polygons": 78070,
+    "triangles": 78070,
+    "bounds": [
+      [
+        0.052138266897093055,
+        0.13499201950652429
+      ],
+      [
+        -0.022145701000000004,
+        0.020590200000000003
+      ],
+      [
+        0.040843047490412426,
+        0.1228244159633245
+      ]
+    ],
+    "index_boundary_edges": 0,
+    "index_nonmanifold_edges": 0,
+    "degenerate_triangles": 0,
+    "groups": []
+  },
+  {
+    "path": "assets/candidates/artisynth_models/src/artisynth/models/face/geometry/upperteeth.obj",
+    "sha256": "bb3f63d23ad5150656db585ca06f50d3ca610eaaf34349de6d4a054a6cc30f18",
+    "vertices": 14148,
+    "polygons": 28156,
+    "triangles": 28156,
+    "bounds": [
+      [
+        0.04094203,
+        0.10625956
+      ],
+      [
+        -0.035563169,
+        0.035971006
+      ],
+      [
+        0.098752242,
+        0.13849211
+      ]
+    ],
+    "index_boundary_edges": 164,
+    "index_nonmanifold_edges": 0,
+    "degenerate_triangles": 0,
+    "groups": []
+  },
+  {
+    "path": "assets/candidates/artisynth_models/src/artisynth/models/face/geometry/lowerteeth.obj",
+    "sha256": "4ce347316b4772eaf7f17a077db1d2ca62604980f1096686beff24f793b7abb1",
+    "vertices": 13288,
+    "polygons": 26482,
+    "triangles": 26482,
+    "bounds": [
+      [
+        0.051949232,
+        0.11017019
+      ],
+      [
+        -0.036904631,
+        0.035343104
+      ],
+      [
+        0.063605985,
+        0.10393097
+      ]
+    ],
+    "index_boundary_edges": 110,
+    "index_nonmanifold_edges": 0,
+    "degenerate_triangles": 0,
+    "groups": []
+  }
+]

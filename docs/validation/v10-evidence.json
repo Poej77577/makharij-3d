@@ -1,0 +1,63 @@
+{
+  "glb": {
+    "asset": "assets/anatomy/makharij-ra-prototype.glb",
+    "sha256": "be34ad893194cc3e192618c89d332916eb5f7976f08617917c94da41e252d6cb",
+    "samples": 104,
+    "testedObstaclePairsPerState": 12,
+    "failures": [],
+    "minimumTriangleAreaRatio": 0.2780739338502704,
+    "contactRegionGap_mm": 0.13291229486255493,
+    "nearContactTipVertices": 4,
+    "maxTongueDisplacement_mm": 12.151824129915767,
+    "computedSectionGeometry": {
+      "TONGUE": {
+        "watertight": true,
+        "consistentWinding": true
+      },
+      "SOFT_PALATE": {
+        "watertight": true,
+        "consistentWinding": true
+      },
+      "NASAL_LINING": {
+        "watertight": true,
+        "consistentWinding": true
+      },
+      "NASAL_CONCHA_INFERIOR": {
+        "watertight": true,
+        "consistentWinding": true
+      },
+      "NASAL_CONCHA_MIDDLE": {
+        "watertight": true,
+        "consistentWinding": true
+      },
+      "NASAL_CONCHA_SUPERIOR": {
+        "watertight": true,
+        "consistentWinding": true
+      }
+    },
+    "actualTargets": [
+      "ra_prepared",
+      "ra_contact"
+    ],
+    "duration_s": 3.2,
+    "scope": "Actual exported GLB decoded and evaluated at discrete cycle times, triangle intersections+area ratios+source-calibrated ROI distances only. No all-time, internal containment or anatomical/tajwid approval."
+  },
+  "browser": {
+    "pageErrors": [],
+    "assetSha256": "be34ad893194cc3e192618c89d332916eb5f7976f08617917c94da41e252d6cb",
+    "renderBundleSha256": "97d28d78139630b92a7dc23265ff4a11bed7ad5ae6280d20d6475379539507e4",
+    "actualCanvasRestPeakDiffer": true,
+    "actualCanvasReturnMatchesRest": true,
+    "recordedFullCycle": true,
+    "recordedPlaybackSpeed": 0.25,
+    "videoBytes": 221300,
+    "renderer": "Chromium SwiftShader software; no hardware phone performance claim",
+    "scope": "Ra technical prototype only; anatomy/tajwid qualification and other letters pending"
+  },
+  "sectionVisibility": {
+    "nasalHideChangesActualCanvas": true,
+    "nasalRestoreMatchesOriginal": true,
+    "fullVolumeChangesActualCanvas": true,
+    "sectionRestoreMatchesOriginal": true
+  }
+}

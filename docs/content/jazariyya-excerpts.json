@@ -1,0 +1,133 @@
+{
+  "source": {
+    "url": "https://raw.githubusercontent.com/OpenITI/0850AH/e2715c62fb458ce3ddc43b962cd55677cdd7bc35/data/0833IbnJazari/0833IbnJazari.ManzumaJazariyya/0833IbnJazari.ManzumaJazariyya.Shamela0012093-ara1",
+    "retrieved": "2026-10-30",
+    "sha256FullAccessedText": "78a09ca9cba86d5c70ca70c2de70cb93f6b1b956cd8a25fd1055e2327dc4ce3b",
+    "fullTextBytes": 12416,
+    "repository": "OpenITI/0850AH",
+    "commit": "e2715c62fb458ce3ddc43b962cd55677cdd7bc35",
+    "author": "Ibn al-Jazari (d.833 AH)",
+    "title": "منظومة المقدمة فيما يجب على القارئ أن يعلمه (الجزرية)",
+    "editionAsStatedInDigitalHeader": "دار المغني للنشر والتوزيع، الأولى 1422هـ / 2001م",
+    "digitalProvenance": "Shamela_0012093 via OpenITI; cleaned corpus text",
+    "authorityScope": "Accessed classical primary text; not official Jordan ministry curriculum, not modern biomechanics",
+    "collation": "not performed; no scan of print edition inspected",
+    "rights": "Classical original is historical. No blanket modern publisher/corpus/audio license inferred. Only limited exact source excerpts and factual provenance recorded."
+  },
+  "excerpts": [
+    {
+      "id": "j-place-jawf",
+      "pageMarker": "PageV01P008",
+      "exactExcerpt": "# فألف الجوف وأختاها ... وهي حروف مد للهواء تنتهي",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    },
+    {
+      "id": "j-place-throat",
+      "pageMarker": "PageV01P008",
+      "exactExcerpt": "# ثم لأقصى الحلق همز هاء ... ثم لوسطه فعين حاء",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    },
+    {
+      "id": "j-place-posterior",
+      "pageMarker": "PageV01P008",
+      "exactExcerpt": "# أدناه غين خاؤها والقاف ... أقصى اللسان فوق ثم الكاف",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    },
+    {
+      "id": "j-place-middle-edge",
+      "pageMarker": "PageV01P008",
+      "exactExcerpt": "# أسفل والوسط فجيم الشين يا ... والضاد من حافته إذ وليا",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    },
+    {
+      "id": "j-place-lam",
+      "pageMarker": "PageV01P008",
+      "exactExcerpt": "# لاضراس من أيسر أو يمناها ... واللام أدناها لمنتهاها",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    },
+    {
+      "id": "j-place-ra-nun",
+      "pageMarker": "PageV01P008",
+      "exactExcerpt": "# والنون من طرفه تحت اجعلوا ... والرا يدانيه لظهر أدخل",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    },
+    {
+      "id": "j-place-tdt",
+      "pageMarker": "PageV01P008",
+      "exactExcerpt": "# والطاء والدال وتا منه ومن ... عليا الثناياو الصفير مستكن",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    },
+    {
+      "id": "j-place-sibilant-dental",
+      "pageMarker": "PageV01P008",
+      "exactExcerpt": "# منه ومن فوق الثنايا السفلى ... والظاء والذال وثا للعليا",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    },
+    {
+      "id": "j-place-fa",
+      "pageMarker": "PageV01P008",
+      "exactExcerpt": "# من طرفيهما ومن بطن الشفه ... فالفا مع اطراف الثنايا المشرفه",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    },
+    {
+      "id": "j-place-lips-nasal",
+      "pageMarker": "PageV01P008",
+      "exactExcerpt": "# للشفتين الواو باء ميم ... وغنة مخرجها الخيشوم",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    },
+    {
+      "id": "j-sifat-hams-shidda",
+      "pageMarker": "PageV01P009",
+      "exactExcerpt": "# مهموسها \"فحثه شخص سكت\" ... شديدها لفظ \"أجد قط بكت\"",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    },
+    {
+      "id": "j-sifat-tawassut-isti",
+      "pageMarker": "PageV01P009",
+      "exactExcerpt": "# وبين رخو والشديد \"لن عمر\" ... وسبع علو \"خص ضغط قظ\" حصر",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    },
+    {
+      "id": "j-sifat-itbaq",
+      "pageMarker": "PageV01P009",
+      "exactExcerpt": "# وصاد ضاد طاء ظاء مطبقه ... و\"فر من لب\" الحروف المذلقه",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    },
+    {
+      "id": "j-sifat-qalqala",
+      "pageMarker": "PageV01P009",
+      "exactExcerpt": "# صفيرها صاد وزاي سين ... قلقلة \"قطب جد \"واللين",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    },
+    {
+      "id": "j-sifat-lateral",
+      "pageMarker": "PageV01P009",
+      "exactExcerpt": "# في اللام والرا وبتكرير جعل ... وللتفشي الشين ضادا استطل",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    },
+    {
+      "id": "j-ra-thin",
+      "pageMarker": "PageV01P012",
+      "exactExcerpt": "# ورقق الراء إذا ما كسرت ... كذاك بعد الكسر حيث سكنت",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    },
+    {
+      "id": "j-ra-context",
+      "pageMarker": "PageV01P012",
+      "exactExcerpt": "# إن لم تكن من قبل حرف استعلا ... أو كانت الكسرة ليست أصلا",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    },
+    {
+      "id": "j-ra-repeat",
+      "pageMarker": "PageV01P012",
+      "exactExcerpt": "# والخلف في فرق لكسر يوجد ... وأخف تكريرا إذا تشدد",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    },
+    {
+      "id": "j-nasal-shadda",
+      "pageMarker": "PageV01P016",
+      "exactExcerpt": "# وأظهر الغنة من نون ومن ... ميم إذا ما شددا وأخفين",
+      "note": "Unmodified digital-source excerpt; punctuation/orthography may contain transcription artifacts. Not collated against page image."
+    }
+  ]
+}

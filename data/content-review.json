@@ -1,0 +1,1962 @@
+{
+  "schemaVersion": "draft-requirements-1",
+  "status": "NOT runtime motion contract; NOT qualified review",
+  "referenceTarget": "Hafs an Asim; Jordan teaching practice; curriculum verification blocked",
+  "sourceEvidence": "docs/content/source-access.json",
+  "settings": [
+    {
+      "id": "ra",
+      "letter": "ر",
+      "group": "اللسان",
+      "traditionalPlace": "طرف اللسان مع اللثة العليا",
+      "modernInterpretation": "alveolar tap/trill family; exact realization and emphasis depend on context",
+      "activeParts": [
+        "tip",
+        "blade",
+        "root"
+      ],
+      "behavior": "short_contact_release",
+      "airway": "oral",
+      "explanation": "التكرير صفة تُضبط ولا يبالغ فيها؛ المثال أَرْ في سياق الفتح مفخم و إِرْ في سياق الكسر مرقق، ولا يعمم الحكم على كل سياق",
+      "teachingExample": {
+        "text": "أَرْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": true,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-ra-nun"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-ra-thin"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-ra-context"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-ra-repeat"
+        }
+      ]
+    },
+    {
+      "id": "qaf",
+      "letter": "ق",
+      "group": "اللسان",
+      "traditionalPlace": "أقصى اللسان مع ما فوقه من الحنك الأعلى",
+      "modernInterpretation": "posterior dorsal/uvular stop; not identical to kaf",
+      "activeParts": [
+        "dorsum",
+        "velum",
+        "jaw"
+      ],
+      "behavior": "stop_release",
+      "airway": "oral",
+      "explanation": "الاستعلاء والشدة؛ الساكن له قلقلة دون إضافة حركة مستقلة",
+      "teachingExample": {
+        "text": "أَقْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": true,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-posterior"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-hams-shidda"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-tawassut-isti"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-qalqala"
+        }
+      ]
+    },
+    {
+      "id": "mim",
+      "letter": "م",
+      "group": "الشفتان",
+      "traditionalPlace": "انطباق الشفتين؛ الغنة من الخيشوم",
+      "modernInterpretation": "bilabial nasal with open velopharyngeal route",
+      "activeParts": [
+        "upper_lip",
+        "lower_lip",
+        "velum"
+      ],
+      "behavior": "closure_sustain_release",
+      "airway": "nasal",
+      "explanation": "الغنة لا تلغي المخرج الفموي؛ الإظهار والإخفاء والإدغام سياقات منفصلة",
+      "teachingExample": {
+        "text": "أَمْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": true,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-lips-nasal"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-nasal-shadda"
+        }
+      ]
+    },
+    {
+      "id": "fa",
+      "letter": "ف",
+      "group": "الشفتان",
+      "traditionalPlace": "باطن الشفة السفلى مع أطراف الثنايا العليا",
+      "modernInterpretation": "voiceless labiodental fricative",
+      "activeParts": [
+        "lower_lip",
+        "upper_incisors"
+      ],
+      "behavior": "constriction_sustain_release",
+      "airway": "oral",
+      "explanation": "لا تستخدم إغلاق الشفتين؛ يلزم بقاء منفذ احتكاك",
+      "teachingExample": {
+        "text": "أَفْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": true,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-fa"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-hams-shidda"
+        }
+      ]
+    },
+    {
+      "id": "ayn",
+      "letter": "ع",
+      "group": "الحلق",
+      "traditionalPlace": "وسط الحلق",
+      "modernInterpretation": "pharyngeal/epilaryngeal constriction; modern descriptions vary with speaker and method",
+      "activeParts": [
+        "root",
+        "pharyngeal_walls",
+        "laryngeal_region"
+      ],
+      "behavior": "constriction_sustain_release",
+      "airway": "oral",
+      "explanation": "لا يختزل وسط الحلق في نقطة تماس لسانية؛ يلزم التصريح بأي تقريب حنجري",
+      "teachingExample": {
+        "text": "أَعْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": true,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-throat"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-tawassut-isti"
+        }
+      ]
+    },
+    {
+      "id": "hamza",
+      "letter": "ء",
+      "group": "الحلق",
+      "traditionalPlace": "أقصى الحلق",
+      "modernInterpretation": "glottal stop",
+      "activeParts": [
+        "vocal_folds"
+      ],
+      "behavior": "stop_release",
+      "airway": "oral",
+      "explanation": "إغلاق مزماري؛ لا تختلق تماسًا لسانيا",
+      "teachingExample": {
+        "text": "أَءْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-throat"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-hams-shidda"
+        }
+      ]
+    },
+    {
+      "id": "ha",
+      "letter": "ه",
+      "group": "الحلق",
+      "traditionalPlace": "أقصى الحلق",
+      "modernInterpretation": "glottal/laryngeal airflow; no oral closure",
+      "activeParts": [
+        "laryngeal_region"
+      ],
+      "behavior": "constriction_sustain_release",
+      "airway": "oral",
+      "explanation": "لا يكفي فتح الفم لتمثيل الفعل الحنجري",
+      "teachingExample": {
+        "text": "أَهْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-throat"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-hams-shidda"
+        }
+      ]
+    },
+    {
+      "id": "haa",
+      "letter": "ح",
+      "group": "الحلق",
+      "traditionalPlace": "وسط الحلق",
+      "modernInterpretation": "voiceless pharyngeal/epilaryngeal fricative",
+      "activeParts": [
+        "root",
+        "pharyngeal_walls",
+        "laryngeal_region"
+      ],
+      "behavior": "constriction_sustain_release",
+      "airway": "oral",
+      "explanation": "مشترك المنطقة مع العين؛ اختلاف الصوت لا يثبت اختلاف نقطة ثابتة",
+      "teachingExample": {
+        "text": "أَحْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-throat"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-hams-shidda"
+        }
+      ]
+    },
+    {
+      "id": "ghayn",
+      "letter": "غ",
+      "group": "الحلق",
+      "traditionalPlace": "أدنى الحلق",
+      "modernInterpretation": "voiced dorsal/uvular fricative",
+      "activeParts": [
+        "dorsum",
+        "velum"
+      ],
+      "behavior": "constriction_sustain_release",
+      "airway": "oral",
+      "explanation": "تشترك الخاء والغين في المنطقة العامة؛ الجهر التجويدي لا يساوي التصويت الحديث دائمًا",
+      "teachingExample": {
+        "text": "أَغْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-posterior"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-tawassut-isti"
+        }
+      ]
+    },
+    {
+      "id": "kha",
+      "letter": "خ",
+      "group": "الحلق",
+      "traditionalPlace": "أدنى الحلق",
+      "modernInterpretation": "voiceless dorsal/uvular fricative",
+      "activeParts": [
+        "dorsum",
+        "velum"
+      ],
+      "behavior": "constriction_sustain_release",
+      "airway": "oral",
+      "explanation": "لا إغلاق خلفي تام في الاحتكاك",
+      "teachingExample": {
+        "text": "أَخْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-posterior"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-hams-shidda"
+        }
+      ]
+    },
+    {
+      "id": "kaf",
+      "letter": "ك",
+      "group": "اللسان",
+      "traditionalPlace": "أقصى اللسان أسفل موضع القاف قليلًا",
+      "modernInterpretation": "velar stop",
+      "activeParts": [
+        "dorsum",
+        "velum"
+      ],
+      "behavior": "stop_release",
+      "airway": "oral",
+      "explanation": "تتميز عن القاف دون تحريك الطرف مكان الخلف",
+      "teachingExample": {
+        "text": "أَكْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-posterior"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-middle-edge"
+        }
+      ]
+    },
+    {
+      "id": "jim",
+      "letter": "ج",
+      "group": "اللسان",
+      "traditionalPlace": "وسط اللسان مع الحنك الأعلى",
+      "modernInterpretation": "postalveolar affricate/stop descriptions require recitation-specific review",
+      "activeParts": [
+        "blade",
+        "middle_tongue",
+        "hard_palate"
+      ],
+      "behavior": "stop_release",
+      "airway": "oral",
+      "explanation": "لا تنسخ احتكاك الشين؛ يلزم تحقق مقرئ من الأداء المختار",
+      "teachingExample": {
+        "text": "أَجْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-middle-edge"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-hams-shidda"
+        }
+      ]
+    },
+    {
+      "id": "shin",
+      "letter": "ش",
+      "group": "اللسان",
+      "traditionalPlace": "وسط اللسان مع الحنك الأعلى",
+      "modernInterpretation": "postalveolar fricative",
+      "activeParts": [
+        "blade",
+        "middle_tongue",
+        "hard_palate"
+      ],
+      "behavior": "constriction_sustain_release",
+      "airway": "oral",
+      "explanation": "التفشي لا يثبت بمحاكاة هواء غير مقاسة",
+      "teachingExample": {
+        "text": "أَشْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-middle-edge"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-lateral"
+        }
+      ]
+    },
+    {
+      "id": "ya",
+      "letter": "ي",
+      "group": "اللسان",
+      "traditionalPlace": "وسط اللسان؛ غير المدية",
+      "modernInterpretation": "palatal approximant",
+      "activeParts": [
+        "middle_tongue",
+        "hard_palate"
+      ],
+      "behavior": "approximant_sustain_release",
+      "airway": "oral",
+      "explanation": "تمييز الياء غير المدية عن المدية والسياق اللين",
+      "teachingExample": {
+        "text": "أَيْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-middle-edge"
+        }
+      ]
+    },
+    {
+      "id": "dad",
+      "letter": "ض",
+      "group": "اللسان",
+      "traditionalPlace": "حافة اللسان وما يليها من الأضراس العليا",
+      "modernInterpretation": "modern realizations and classical lateral description cannot be conflated",
+      "activeParts": [
+        "left_edge",
+        "right_edge",
+        "molars",
+        "root"
+      ],
+      "behavior": "lateral_contact_release",
+      "airway": "oral",
+      "explanation": "الاستطالة والحافة تحتاجان تحكمًا مستقلا؛ لا يثبتها رفع الظهر وحده",
+      "teachingExample": {
+        "text": "أَضْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-middle-edge"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-lam"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-lateral"
+        }
+      ]
+    },
+    {
+      "id": "lam",
+      "letter": "ل",
+      "group": "اللسان",
+      "traditionalPlace": "أدنى حافة اللسان إلى منتهاها مع اللثة العليا",
+      "modernInterpretation": "lateral approximant",
+      "activeParts": [
+        "tip",
+        "edges",
+        "alveolar_ridge"
+      ],
+      "behavior": "lateral_contact_release",
+      "airway": "oral_lateral",
+      "explanation": "إبقاء منفذ جانبي؛ تفخيم لام لفظ الجلالة حالة سياقية إضافية",
+      "teachingExample": {
+        "text": "أَلْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-lam"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-lateral"
+        }
+      ]
+    },
+    {
+      "id": "nun",
+      "letter": "ن",
+      "group": "اللسان",
+      "traditionalPlace": "طرف اللسان مع اللثة العليا؛ الغنة من الخيشوم",
+      "modernInterpretation": "alveolar nasal",
+      "activeParts": [
+        "tip",
+        "alveolar_ridge",
+        "velum"
+      ],
+      "behavior": "closure_sustain_release",
+      "airway": "nasal",
+      "explanation": "هذا النون الظاهرة؛ الإخفاء والإدغام والإقلاب لا تختزل في وضع واحد",
+      "teachingExample": {
+        "text": "أَنْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-ra-nun"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-nasal-shadda"
+        }
+      ]
+    },
+    {
+      "id": "ta",
+      "letter": "ت",
+      "group": "اللسان",
+      "traditionalPlace": "طرف اللسان مع أصول الثنايا العليا",
+      "modernInterpretation": "dental/alveolar stop",
+      "activeParts": [
+        "tip",
+        "blade",
+        "upper_incisor_roots"
+      ],
+      "behavior": "stop_release",
+      "airway": "oral",
+      "explanation": "تشارك الدال والطاء المخرج العام؛ الهمس صفة لا اختلاف مكاني مصطنع",
+      "teachingExample": {
+        "text": "أَتْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-tdt"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-hams-shidda"
+        }
+      ]
+    },
+    {
+      "id": "dal",
+      "letter": "د",
+      "group": "اللسان",
+      "traditionalPlace": "طرف اللسان مع أصول الثنايا العليا",
+      "modernInterpretation": "dental/alveolar stop",
+      "activeParts": [
+        "tip",
+        "blade",
+        "upper_incisor_roots"
+      ],
+      "behavior": "stop_release",
+      "airway": "oral",
+      "explanation": "القلقلة عند السكون؛ لا تضف حركة",
+      "teachingExample": {
+        "text": "أَدْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-tdt"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-qalqala"
+        }
+      ]
+    },
+    {
+      "id": "taa",
+      "letter": "ط",
+      "group": "اللسان",
+      "traditionalPlace": "طرف اللسان مع أصول الثنايا العليا",
+      "modernInterpretation": "emphatic dental/alveolar stop",
+      "activeParts": [
+        "tip",
+        "blade",
+        "root",
+        "dorsum"
+      ],
+      "behavior": "stop_release",
+      "airway": "oral",
+      "explanation": "التفخيم لا يتحقق بتغيير نقطة التماس الأمامية وحدها",
+      "teachingExample": {
+        "text": "أَطْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-tdt"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-itbaq"
+        }
+      ]
+    },
+    {
+      "id": "sin",
+      "letter": "س",
+      "group": "اللسان",
+      "traditionalPlace": "طرف اللسان مع ما فوق الثنايا السفلى",
+      "modernInterpretation": "sibilant fricative",
+      "activeParts": [
+        "tip",
+        "blade",
+        "groove",
+        "incisors"
+      ],
+      "behavior": "constriction_sustain_release",
+      "airway": "oral",
+      "explanation": "الصفير يتطلب ممرًا ضيقًا؛ لا إغلاق تام",
+      "teachingExample": {
+        "text": "أَسْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-sibilant-dental"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-qalqala"
+        }
+      ]
+    },
+    {
+      "id": "zay",
+      "letter": "ز",
+      "group": "اللسان",
+      "traditionalPlace": "طرف اللسان مع ما فوق الثنايا السفلى",
+      "modernInterpretation": "voiced sibilant fricative",
+      "activeParts": [
+        "tip",
+        "blade",
+        "groove",
+        "incisors"
+      ],
+      "behavior": "constriction_sustain_release",
+      "airway": "oral",
+      "explanation": "تشارك السين المخرج العام؛ لا اختراع اختلاف هندسي لتصوير الجهر",
+      "teachingExample": {
+        "text": "أَزْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-sibilant-dental"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-qalqala"
+        }
+      ]
+    },
+    {
+      "id": "sad",
+      "letter": "ص",
+      "group": "اللسان",
+      "traditionalPlace": "طرف اللسان مع ما فوق الثنايا السفلى",
+      "modernInterpretation": "emphatic sibilant fricative",
+      "activeParts": [
+        "tip",
+        "blade",
+        "groove",
+        "root",
+        "dorsum"
+      ],
+      "behavior": "constriction_sustain_release",
+      "airway": "oral",
+      "explanation": "الصاد مستعلية مطبقة مع استمرار ممر الصفير",
+      "teachingExample": {
+        "text": "أَصْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-sibilant-dental"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-itbaq"
+        }
+      ]
+    },
+    {
+      "id": "tha",
+      "letter": "ث",
+      "group": "اللسان",
+      "traditionalPlace": "طرف اللسان مع أطراف الثنايا العليا",
+      "modernInterpretation": "dental fricative",
+      "activeParts": [
+        "tip",
+        "upper_incisor_edges"
+      ],
+      "behavior": "constriction_sustain_release",
+      "airway": "oral",
+      "explanation": "تشارك الذال والظاء الموضع العام",
+      "teachingExample": {
+        "text": "أَثْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-sibilant-dental"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-fa"
+        }
+      ]
+    },
+    {
+      "id": "dhal",
+      "letter": "ذ",
+      "group": "اللسان",
+      "traditionalPlace": "طرف اللسان مع أطراف الثنايا العليا",
+      "modernInterpretation": "voiced dental fricative",
+      "activeParts": [
+        "tip",
+        "upper_incisor_edges"
+      ],
+      "behavior": "constriction_sustain_release",
+      "airway": "oral",
+      "explanation": "فرق الصفة لا يستدعي نقطة تماس مختلفة عن الثاء",
+      "teachingExample": {
+        "text": "أَذْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-sibilant-dental"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-fa"
+        }
+      ]
+    },
+    {
+      "id": "zaa",
+      "letter": "ظ",
+      "group": "اللسان",
+      "traditionalPlace": "طرف اللسان مع أطراف الثنايا العليا",
+      "modernInterpretation": "emphatic dental fricative",
+      "activeParts": [
+        "tip",
+        "upper_incisor_edges",
+        "root",
+        "dorsum"
+      ],
+      "behavior": "constriction_sustain_release",
+      "airway": "oral",
+      "explanation": "تمييزها عن ضاد الحافة",
+      "teachingExample": {
+        "text": "أَظْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-sibilant-dental"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-fa"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-itbaq"
+        }
+      ]
+    },
+    {
+      "id": "ba",
+      "letter": "ب",
+      "group": "الشفتان",
+      "traditionalPlace": "انطباق الشفتين",
+      "modernInterpretation": "bilabial oral stop",
+      "activeParts": [
+        "upper_lip",
+        "lower_lip",
+        "velum"
+      ],
+      "behavior": "stop_release",
+      "airway": "oral",
+      "explanation": "الطريق الأنفي مغلق بخلاف الميم؛ القلقلة لا تضيف حركة",
+      "teachingExample": {
+        "text": "أَبْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-lips-nasal"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-sifat-qalqala"
+        }
+      ]
+    },
+    {
+      "id": "waw",
+      "letter": "و",
+      "group": "الشفتان",
+      "traditionalPlace": "انضمام الشفتين دون انطباق؛ غير المدية",
+      "modernInterpretation": "labial-velar approximant",
+      "activeParts": [
+        "lips",
+        "dorsum"
+      ],
+      "behavior": "approximant_sustain_release",
+      "airway": "oral",
+      "explanation": "تفصل عن الواو المدية؛ لا يتحول التدوير إلى سد كامل",
+      "teachingExample": {
+        "text": "أَوْ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-lips-nasal"
+        }
+      ]
+    },
+    {
+      "id": "alif-madd",
+      "letter": "ا",
+      "group": "الجوف",
+      "traditionalPlace": "الجوف؛ ألف ساكنة قبلها فتح",
+      "modernInterpretation": "open vocal-tract vowel configuration",
+      "activeParts": [
+        "jaw",
+        "tongue",
+        "lips"
+      ],
+      "behavior": "vowel_sustain_release",
+      "airway": "oral",
+      "explanation": "تتبع ما قبلها تفخيمًا وترقيقًا؛ ليست نقطة تماس",
+      "teachingExample": {
+        "text": "بَا",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-jawf"
+        }
+      ]
+    },
+    {
+      "id": "waw-madd",
+      "letter": "و",
+      "group": "الجوف",
+      "traditionalPlace": "الجوف؛ واو ساكنة قبلها ضم",
+      "modernInterpretation": "high back rounded vowel configuration",
+      "activeParts": [
+        "dorsum",
+        "lips"
+      ],
+      "behavior": "vowel_sustain_release",
+      "airway": "oral",
+      "explanation": "زمن المد يتبع الحكم؛ لا تدع مزامنة قبل الاختبار",
+      "teachingExample": {
+        "text": "بُو",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-jawf"
+        }
+      ]
+    },
+    {
+      "id": "ya-madd",
+      "letter": "ي",
+      "group": "الجوف",
+      "traditionalPlace": "الجوف؛ ياء ساكنة قبلها كسر",
+      "modernInterpretation": "high front vowel configuration",
+      "activeParts": [
+        "middle_tongue",
+        "lips"
+      ],
+      "behavior": "vowel_sustain_release",
+      "airway": "oral",
+      "explanation": "المد هيئة للمجرى لا إغلاق على الحنك",
+      "teachingExample": {
+        "text": "بِي",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-jawf"
+        }
+      ]
+    },
+    {
+      "id": "ghunna",
+      "letter": "غنة",
+      "group": "الخيشوم",
+      "traditionalPlace": "الخيشوم؛ صفة للنون والميم وليست حرفًا جديدًا",
+      "modernInterpretation": "nasal airflow/resonance with context-dependent oral closure",
+      "activeParts": [
+        "velum",
+        "nasal_route"
+      ],
+      "behavior": "nasal_sustain_release",
+      "airway": "nasal",
+      "explanation": "لا تُعرض غنة منفصلة على أنها تلغي انطباق الشفتين للميم أو مخرج النون",
+      "teachingExample": {
+        "text": "مَّ / نَّ",
+        "type": "non-Quranic isolated practice syllable",
+        "reviewed": false
+      },
+      "quranExample": null,
+      "contactCalibration": null,
+      "controlValues": null,
+      "timeline": {
+        "requiredPhases": [
+          "rest",
+          "prepare",
+          "approach",
+          "contact_or_constriction",
+          "sustain_as_appropriate",
+          "release",
+          "return"
+        ],
+        "numericTiming": null,
+        "note": "stop closure/release differs from sustained fricatives/nasals/vowels; calibrate to actual geometry, not equal timings for all letters"
+      },
+      "audio": {
+        "status": "pending",
+        "file": null,
+        "license": null,
+        "synchronization": "not implemented or tested"
+      },
+      "verification": {
+        "technical": "not tested",
+        "anatomy": "pending qualified review",
+        "tajwid": "pending qualified Hafs/Jordan review",
+        "audio": "pending licensed recording and qualified review",
+        "fullyApproved": false
+      },
+      "evidenceLevel": "Traditional place/selected named traits source-mapped to actually accessed Jazariyyah digital text. Modern interpretation and motion are unverified design hypotheses; no qualified Hafs/Jordan review.",
+      "priority": false,
+      "traditionalSourceRefs": [
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-place-lips-nasal"
+        },
+        {
+          "file": "docs/content/jazariyya-excerpts.json",
+          "excerptId": "j-nasal-shadda"
+        }
+      ]
+    }
+  ],
+  "sourceStatus": {
+    "traditionalText": "primary classical digital text accessed and source-mapped",
+    "modernPhonetics": "no scholarly source accessed sufficient for biomechanical validation",
+    "JordanCurriculum": "not verified",
+    "MinhajAlDarisin": "not accessed"
+  }
+}

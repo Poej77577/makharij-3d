@@ -1,0 +1,245 @@
+{
+  "restSha256": "10bcd69ce70d1dd74be6f13ccbbda3068f0351df895c54c4319526bc1d21389a",
+  "source": "actual acquired FEM lip contact faces, exact triangle-plane handles",
+  "surfacePointConstraints": 66,
+  "anchors": 669,
+  "sections_m": [
+    -0.02,
+    -0.01875,
+    -0.0175,
+    -0.01625,
+    -0.015,
+    -0.01375,
+    -0.0125,
+    -0.01125,
+    -0.01,
+    -0.00875,
+    -0.0075,
+    -0.00625,
+    -0.005000000000000001,
+    -0.00375,
+    -0.0024999999999999988,
+    -0.0012500000000000011,
+    0.0,
+    0.0012500000000000011,
+    0.0024999999999999988,
+    0.00375,
+    0.005000000000000001,
+    0.006249999999999999,
+    0.0075,
+    0.00875,
+    0.009999999999999998,
+    0.01125,
+    0.0125,
+    0.013750000000000002,
+    0.015000000000000003,
+    0.016249999999999997,
+    0.017499999999999998,
+    0.01875,
+    0.02
+  ],
+  "states": [
+    {
+      "stage": "rest",
+      "fraction": 0.0,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 1.0
+    },
+    {
+      "stage": "prepare",
+      "fraction": 0.0,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.9999999999995883
+    },
+    {
+      "stage": "prepare",
+      "fraction": 0.14285714285714285,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.9389243850738566
+    },
+    {
+      "stage": "prepare",
+      "fraction": 0.2857142857142857,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.8729723533868128
+    },
+    {
+      "stage": "prepare",
+      "fraction": 0.42857142857142855,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.8070398828476493
+    },
+    {
+      "stage": "prepare",
+      "fraction": 0.5714285714285714,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.7425070592635721
+    },
+    {
+      "stage": "prepare",
+      "fraction": 0.7142857142857142,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.6799221877750325
+    },
+    {
+      "stage": "prepare",
+      "fraction": 0.8571428571428571,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.6195543467257651
+    },
+    {
+      "stage": "prepare",
+      "fraction": 1.0,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.5615744850994915
+    },
+    {
+      "stage": "close",
+      "fraction": 0.0,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.5563150112074816
+    },
+    {
+      "stage": "close",
+      "fraction": 0.058823529411764705,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.5375636497971696
+    },
+    {
+      "stage": "close",
+      "fraction": 0.11764705882352941,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.5150455970849467
+    },
+    {
+      "stage": "close",
+      "fraction": 0.1764705882352941,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.49178182795926534
+    },
+    {
+      "stage": "close",
+      "fraction": 0.23529411764705882,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.4683844267284039
+    },
+    {
+      "stage": "close",
+      "fraction": 0.29411764705882354,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.4392057980100086
+    },
+    {
+      "stage": "close",
+      "fraction": 0.3529411764705882,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.37252534552696315
+    },
+    {
+      "stage": "close",
+      "fraction": 0.4117647058823529,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.32594742055706244
+    },
+    {
+      "stage": "close",
+      "fraction": 0.47058823529411764,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.31218506029885523
+    },
+    {
+      "stage": "close",
+      "fraction": 0.5294117647058824,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.3387391881280567
+    },
+    {
+      "stage": "close",
+      "fraction": 0.5882352941176471,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.32502822001336984
+    },
+    {
+      "stage": "close",
+      "fraction": 0.6470588235294118,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.2857821641228434
+    },
+    {
+      "stage": "close",
+      "fraction": 0.7058823529411764,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.24779333794822925
+    },
+    {
+      "stage": "close",
+      "fraction": 0.7647058823529411,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.21129913195919647
+    },
+    {
+      "stage": "close",
+      "fraction": 0.8235294117647058,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.1765822117412418
+    },
+    {
+      "stage": "close",
+      "fraction": 0.8823529411764706,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.14400981275921543
+    },
+    {
+      "stage": "close",
+      "fraction": 0.9411764705882353,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.11415345840136266
+    },
+    {
+      "stage": "close",
+      "fraction": 1.0,
+      "obstacleIntersections": [
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.0881423844273832
+    }
+  ],
+  "crossSectionGaps_mm": [
+    0.17040762926403252,
+    0.11296545822931087,
+    0.15080074532343643,
+    0.1784062545618821,
+    0.2457350903379656,
+    0.15701015489724746,
+    0.1584197171902996,
+    0.3763336357835848,
+    0.2318541585778898,
+    0.3567033871518486,
+    0.23616961057735736,
+    0.16307036233808478,
+    0.23601086600209206,
+    0.18166858771385724,
+    0.7422662227285294,
+    0.19861707285972874,
+    0.19929994321168162,
+    0.22862706087483295,
+    0.20659249487243825,
+    0.21969736399921533,
+    0.1800744225059982,
+    0.1848184380555433,
+    0.17351507460567683,
+    0.16188190797852509,
+    0.1575681886020463,
+    0.18872211372616765,
+    0.2565960318216036,
+    0.1744086339637608,
+    0.17027067197122123,
+    0.18383126475354325,
+    0.22119884399385706,
+    0.6008848068250932
+  ],
+  "centralUpperLowerIntersection": false,
+  "maxDisplacement_mm": 9.174070519274027,
+  "constraintResidualMax_mm": 0.37775118271924807,
+  "scope": "candidate; requires final exported geometry/path/closure checks"
+}

@@ -1,0 +1,94 @@
+{
+  "speaker_donor_identity": "unknown; do not claim common subject",
+  "source": "AirwaySkinDemo.java XSoftPalate + BadinJawHyoid.java setMesh",
+  "original_units": "mm",
+  "matrix_orig_to_init": [
+    [
+      0.9943506976181058,
+      0.0,
+      0.10614466612310954,
+      -7.2117
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.10614466612310954,
+      0.0,
+      0.9943506976181058,
+      12.08155
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "original_to_init_rms_mm": 1.3510740503971624e-05,
+  "original_to_init_max_mm": 2.240550106055258e-05,
+  "source_vertex_count": 3787,
+  "shared_raw_airway_sha256": "978696d93fcaf22c501c25c6ed7be026d7a5e12150a71ddcb188b301f94dd7cd",
+  "raw_airway_identical_bytes": true,
+  "raw_airway_corresponding_max_delta_m": 0.0,
+  "palate_raw_to_mm_transform": [
+    [
+      1000,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1000,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1000,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "softpalate_init_to_mm_transform": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "limitations": [
+    "Pose registration of model files is verified; anatomical registration to donor imaging is not.",
+    "Tooth source donor not established.",
+    "No acquired nasal cavity mesh identified."
+  ]
+}

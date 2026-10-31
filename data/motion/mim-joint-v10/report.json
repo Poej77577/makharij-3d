@@ -1,0 +1,325 @@
+{
+  "restSha256": "a37b23ec7fc4f6df4526feb744a2c6ed877c1e7bc2e3fd2bde4cdbc0089c0648",
+  "source": "actual acquired FEM lip contact faces, jaw-coordinated closure with exact triangle-plane handles",
+  "jawDegrees": 6,
+  "tonguePreparation": "mim-jaw-v10/targets.npz swept-dental clearance",
+  "surfacePointConstraints": 98,
+  "anchors": 669,
+  "sections_m": [
+    -0.02,
+    -0.01916666666666667,
+    -0.018333333333333333,
+    -0.0175,
+    -0.016666666666666666,
+    -0.015833333333333335,
+    -0.015,
+    -0.014166666666666668,
+    -0.013333333333333332,
+    -0.0125,
+    -0.011666666666666667,
+    -0.010833333333333334,
+    -0.01,
+    -0.009166666666666667,
+    -0.008333333333333333,
+    -0.0075,
+    -0.006666666666666666,
+    -0.005833333333333333,
+    -0.004999999999999999,
+    -0.004166666666666666,
+    -0.003333333333333334,
+    -0.0024999999999999988,
+    -0.001666666666666667,
+    -0.0008333333333333318,
+    0.0,
+    0.0008333333333333352,
+    0.001666666666666667,
+    0.0025000000000000022,
+    0.003333333333333334,
+    0.004166666666666669,
+    0.005000000000000001,
+    0.005833333333333336,
+    0.006666666666666668,
+    0.0075,
+    0.008333333333333335,
+    0.009166666666666667,
+    0.010000000000000002,
+    0.010833333333333334,
+    0.011666666666666669,
+    0.0125,
+    0.013333333333333332,
+    0.014166666666666671,
+    0.015000000000000003,
+    0.015833333333333335,
+    0.016666666666666666,
+    0.017500000000000005,
+    0.018333333333333337,
+    0.01916666666666667,
+    0.02
+  ],
+  "states": [
+    {
+      "stage": "rest",
+      "fraction": 0.0,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 1.0
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.0,
+      "obstacleIntersections": [],
+      "minimumAreaRatio": 0.999999999995981
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.041666666666666664,
+      "obstacleIntersections": [
+        "UPPER_TEETH"
+      ],
+      "minimumAreaRatio": 0.8841258202814876
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.08333333333333333,
+      "obstacleIntersections": [
+        "UPPER_TEETH"
+      ],
+      "minimumAreaRatio": 0.7682253987094593
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.125,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.6531770241241722
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.16666666666666666,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.5400304106186407
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.20833333333333331,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.43061832587619464
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.25,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.3289105778314538
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.29166666666666663,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.244798225504501
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.3333333333333333,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.20154877843239224
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.375,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.22394642395504769
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.41666666666666663,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.29721105003314824
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.4583333333333333,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.3936156359719535
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.5,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.4367351835174869
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.5416666666666666,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.4312747396493908
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.5833333333333333,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.44232191436853535
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.625,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.42353128939664314
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.6666666666666666,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.3883258254661495
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.7083333333333333,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.35420867679206863
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.75,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.32148022629920925
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.7916666666666666,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.2091868018049659
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.8333333333333333,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.08040509277015905
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.875,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.10993921855423612
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.9166666666666666,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.04250164024148252
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 0.9583333333333333,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.010987108944887324
+    },
+    {
+      "stage": "joint-jaw-close",
+      "fraction": 1.0,
+      "obstacleIntersections": [
+        "UPPER_TEETH",
+        "LOWER_TEETH"
+      ],
+      "minimumAreaRatio": 0.02199770317617739
+    }
+  ],
+  "crossSectionGaps_mm": [
+    0.11133256113916926,
+    0.10403691388485474,
+    0.1250838852146095,
+    0.13950745487207167,
+    0.1431573788943461,
+    0.14735030516768569,
+    0.12756410109671354,
+    0.25931084802518073,
+    0.19861623544628265,
+    0.2038326020162739,
+    0.19643109034876177,
+    0.2068930557605095,
+    0.1979267765796838,
+    0.16193157579450893,
+    0.18696720818927928,
+    0.1670093565120107,
+    0.19045593274794576,
+    0.18437847014290917,
+    0.16485925096000845,
+    0.1992730554419849,
+    0.19578489718814743,
+    0.1910763540299908,
+    0.20941799847628562,
+    0.17695346705878084,
+    0.180486281185558,
+    0.17067706042403066,
+    0.1516010179978533,
+    0.18417772522266943,
+    0.14235024261034077,
+    0.13034537944735256,
+    0.032007417427009584,
+    0.18460016516966707
+  ],
+  "centralUpperLowerIntersection": true,
+  "maxDisplacement_mm": 12.811374249451994,
+  "constraintResidualMax_mm": 0.1004337835933775,
+  "scope": "candidate; requires final exported geometry/path/closure checks"
+}

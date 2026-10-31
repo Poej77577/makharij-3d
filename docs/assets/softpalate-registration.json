@@ -1,0 +1,60 @@
+{
+  "source": "AirwaySkinDemo.XSoftPalate",
+  "units": "mm",
+  "matrix": [
+    [
+      0.9943506976181058,
+      0.0,
+      0.10614466612310954,
+      -7.2117
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.10614466612310954,
+      0.0,
+      0.9943506976181058,
+      12.08155
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "original_to_init_residual_rms_mm": 1.3510740503971624e-05,
+  "original_to_init_residual_max_mm": 2.240550106055258e-05,
+  "fitted_matrix_orig_to_init": [
+    [
+      0.9943506964988231,
+      -1.3046950127626883e-09,
+      0.10614467660841717,
+      -7.21171345749994
+    ],
+    [
+      1.365279638258791e-09,
+      0.9999999999999999,
+      -4.98111584658664e-10,
+      -1.143035039050111e-07
+    ],
+    [
+      -0.10614467660841724,
+      6.402141230548168e-10,
+      0.9943506964988231,
+      12.081553534844545
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "fitted_residual_rms_mm": 4.717908820426491e-06,
+  "limits": "Registration between two distributed mesh versions; not measured anatomical registration between donors; donor identity unknown."
+}
