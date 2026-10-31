@@ -1,0 +1,745 @@
+{
+  "baseline": {
+    "tongueVolumeMm3": 97700.74241783527,
+    "oralProfile": [
+      {
+        "xMm": 62,
+        "tongueHeightMm": 103.05722045898438,
+        "roofHeightMm": 108.62645721435547,
+        "gapMm": 5.569236755371094
+      },
+      {
+        "xMm": 66,
+        "tongueHeightMm": 105.554931640625,
+        "roofHeightMm": 111.10807037353516,
+        "gapMm": 5.553138732910156
+      },
+      {
+        "xMm": 70,
+        "tongueHeightMm": 107.45635986328125,
+        "roofHeightMm": 114.05683898925781,
+        "gapMm": 6.6004791259765625
+      },
+      {
+        "xMm": 74,
+        "tongueHeightMm": 109.07920837402344,
+        "roofHeightMm": 116.87802124023438,
+        "gapMm": 7.7988128662109375
+      },
+      {
+        "xMm": 78,
+        "tongueHeightMm": 110.43620300292969,
+        "roofHeightMm": 119.43936920166016,
+        "gapMm": 9.003166198730469
+      },
+      {
+        "xMm": 82,
+        "tongueHeightMm": 111.41218566894531,
+        "roofHeightMm": 121.32269287109375,
+        "gapMm": 9.910507202148438
+      },
+      {
+        "xMm": 86,
+        "tongueHeightMm": 112.10143280029297,
+        "roofHeightMm": 122.01038360595703,
+        "gapMm": 9.908950805664062
+      },
+      {
+        "xMm": 90,
+        "tongueHeightMm": 112.49539947509766,
+        "roofHeightMm": 122.1156005859375,
+        "gapMm": 9.620201110839844
+      },
+      {
+        "xMm": 94,
+        "tongueHeightMm": 112.66764831542969,
+        "roofHeightMm": 122.17134857177734,
+        "gapMm": 9.503700256347656
+      },
+      {
+        "xMm": 98,
+        "tongueHeightMm": 112.25064849853516,
+        "roofHeightMm": 122.26823425292969,
+        "gapMm": 10.017585754394531
+      },
+      {
+        "xMm": 102,
+        "tongueHeightMm": 111.60423278808594,
+        "roofHeightMm": 121.48762512207031,
+        "gapMm": 9.883392333984375
+      },
+      {
+        "xMm": 106,
+        "tongueHeightMm": 110.58402252197266,
+        "roofHeightMm": 121.067626953125,
+        "gapMm": 10.483604431152344
+      },
+      {
+        "xMm": 110,
+        "tongueHeightMm": 109.03871154785156,
+        "roofHeightMm": 118.40595245361328,
+        "gapMm": 9.367240905761719
+      }
+    ],
+    "pharyngealProfile": [
+      {
+        "heightMm": 72,
+        "tongueBackMm": 126.99334716796875,
+        "wallFrontMm": 138.6832733154297,
+        "gapMm": 11.689926147460938
+      },
+      {
+        "heightMm": 76,
+        "tongueBackMm": 127.75942993164062,
+        "wallFrontMm": 138.65292358398438,
+        "gapMm": 10.89349365234375
+      },
+      {
+        "heightMm": 80,
+        "tongueBackMm": 127.98912048339844,
+        "wallFrontMm": 138.29493713378906,
+        "gapMm": 10.305816650390625
+      },
+      {
+        "heightMm": 84,
+        "tongueBackMm": 127.81205749511719,
+        "wallFrontMm": 137.86923217773438,
+        "gapMm": 10.057174682617188
+      },
+      {
+        "heightMm": 88,
+        "tongueBackMm": 127.2760009765625,
+        "wallFrontMm": 137.3164825439453,
+        "gapMm": 10.040481567382812
+      },
+      {
+        "heightMm": 92,
+        "tongueBackMm": 125.98066711425781,
+        "wallFrontMm": 136.8336639404297,
+        "gapMm": 10.852996826171875
+      }
+    ],
+    "meshAudit": {
+      "lower-gum": {
+        "vertices": 1922,
+        "faces": 3836,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 3330.1176860352443
+      },
+      "lower-left-canine": {
+        "vertices": 378,
+        "faces": 663,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 324.57548439896175
+      },
+      "lower-left-central-incisor": {
+        "vertices": 288,
+        "faces": 508,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 199.9193772470618
+      },
+      "lower-left-first-molar": {
+        "vertices": 502,
+        "faces": 899,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 597.121412862254
+      },
+      "lower-left-first-premolar": {
+        "vertices": 382,
+        "faces": 679,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 280.66651038403023
+      },
+      "lower-left-lateral-incisor": {
+        "vertices": 331,
+        "faces": 589,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 240.79835645857347
+      },
+      "lower-left-second-molar": {
+        "vertices": 448,
+        "faces": 778,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 445.6648854022695
+      },
+      "lower-left-second-premolar": {
+        "vertices": 384,
+        "faces": 682,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 270.30919913654475
+      },
+      "lower-right-canine": {
+        "vertices": 374,
+        "faces": 657,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 324.93647414111007
+      },
+      "lower-right-central-incisor": {
+        "vertices": 287,
+        "faces": 501,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 200.03437738596867
+      },
+      "lower-right-first-molar": {
+        "vertices": 482,
+        "faces": 860,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 594.1185171579887
+      },
+      "lower-right-first-premolar": {
+        "vertices": 389,
+        "faces": 684,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 279.4530714490838
+      },
+      "lower-right-lateral-incisor": {
+        "vertices": 337,
+        "faces": 586,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 240.94551534624657
+      },
+      "lower-right-second-molar": {
+        "vertices": 469,
+        "faces": 833,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 444.8168079350182
+      },
+      "lower-right-second-premolar": {
+        "vertices": 388,
+        "faces": 695,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 271.03970028702264
+      },
+      "mouth_floor": {
+        "vertices": 26406,
+        "faces": 26402,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 35218.94908136232
+      },
+      "nasal_wall": {
+        "vertices": 2592,
+        "faces": 2592,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 8887.888064053312
+      },
+      "oral_wall": {
+        "vertices": 12456,
+        "faces": 12454,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 8707.50954306931
+      },
+      "skin": {
+        "vertices": 29152,
+        "faces": 29160,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 676998.0187229092
+      },
+      "soft_palate": {
+        "vertices": 2664,
+        "faces": 2662,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 1661.8655896762352
+      },
+      "tongue": {
+        "vertices": 8834,
+        "faces": 8832,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 97700.74241783527
+      },
+      "upper-gum": {
+        "vertices": 1864,
+        "faces": 3697,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 3278.435450507744
+      },
+      "upper-left-canine": {
+        "vertices": 379,
+        "faces": 663,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 354.01458675962414
+      },
+      "upper-left-central-incisor": {
+        "vertices": 387,
+        "faces": 664,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 277.519195869666
+      },
+      "upper-left-first-molar": {
+        "vertices": 472,
+        "faces": 846,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 493.81631425048914
+      },
+      "upper-left-first-premolar": {
+        "vertices": 355,
+        "faces": 627,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 275.57122675213253
+      },
+      "upper-left-lateral-incisor": {
+        "vertices": 341,
+        "faces": 580,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 238.28613823678737
+      },
+      "upper-left-second-molar": {
+        "vertices": 388,
+        "faces": 688,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 395.3407780432453
+      },
+      "upper-left-second-premolar": {
+        "vertices": 307,
+        "faces": 532,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 275.96734811384
+      },
+      "upper-right-canine": {
+        "vertices": 374,
+        "faces": 657,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 353.699908257664
+      },
+      "upper-right-central-incisor": {
+        "vertices": 388,
+        "faces": 667,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 278.62014448050405
+      },
+      "upper-right-first-molar": {
+        "vertices": 514,
+        "faces": 934,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 494.2248807314714
+      },
+      "upper-right-first-premolar": {
+        "vertices": 372,
+        "faces": 657,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 276.52131674869185
+      },
+      "upper-right-lateral-incisor": {
+        "vertices": 333,
+        "faces": 571,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 229.36946375266174
+      },
+      "upper-right-second-molar": {
+        "vertices": 374,
+        "faces": 662,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 395.1770155948608
+      },
+      "upper-right-second-premolar": {
+        "vertices": 324,
+        "faces": 563,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 276.16818049646764
+      }
+    }
+  },
+  "reference": {
+    "tongueVolumeMm3": 74068.60700393408,
+    "oralProfile": [
+      {
+        "xMm": 62,
+        "tongueHeightMm": 100.69904327392578,
+        "roofHeightMm": 108.62645721435547,
+        "gapMm": 7.9274139404296875
+      },
+      {
+        "xMm": 66,
+        "tongueHeightMm": 100.5157470703125,
+        "roofHeightMm": 111.10807037353516,
+        "gapMm": 10.592323303222656
+      },
+      {
+        "xMm": 70,
+        "tongueHeightMm": 99.59530639648438,
+        "roofHeightMm": 114.05683898925781,
+        "gapMm": 14.461532592773438
+      },
+      {
+        "xMm": 74,
+        "tongueHeightMm": 99.07200622558594,
+        "roofHeightMm": 116.87802124023438,
+        "gapMm": 17.806015014648438
+      },
+      {
+        "xMm": 78,
+        "tongueHeightMm": 99.50936889648438,
+        "roofHeightMm": 119.43936920166016,
+        "gapMm": 19.93000030517578
+      },
+      {
+        "xMm": 82,
+        "tongueHeightMm": 100.44964599609375,
+        "roofHeightMm": 121.32269287109375,
+        "gapMm": 20.873046875
+      },
+      {
+        "xMm": 86,
+        "tongueHeightMm": 101.14118957519531,
+        "roofHeightMm": 122.01038360595703,
+        "gapMm": 20.86919403076172
+      },
+      {
+        "xMm": 90,
+        "tongueHeightMm": 101.52224731445312,
+        "roofHeightMm": 122.1156005859375,
+        "gapMm": 20.593353271484375
+      },
+      {
+        "xMm": 94,
+        "tongueHeightMm": 101.71849060058594,
+        "roofHeightMm": 122.17134857177734,
+        "gapMm": 20.452857971191406
+      },
+      {
+        "xMm": 98,
+        "tongueHeightMm": 101.2440185546875,
+        "roofHeightMm": 122.26823425292969,
+        "gapMm": 21.024215698242188
+      },
+      {
+        "xMm": 102,
+        "tongueHeightMm": 100.58503723144531,
+        "roofHeightMm": 121.48762512207031,
+        "gapMm": 20.902587890625
+      },
+      {
+        "xMm": 106,
+        "tongueHeightMm": 99.58932495117188,
+        "roofHeightMm": 121.067626953125,
+        "gapMm": 21.478302001953125
+      },
+      {
+        "xMm": 110,
+        "tongueHeightMm": 97.86949920654297,
+        "roofHeightMm": 118.40595245361328,
+        "gapMm": 20.536453247070312
+      }
+    ],
+    "pharyngealProfile": [
+      {
+        "heightMm": 72,
+        "tongueBackMm": 123.5920181274414,
+        "wallFrontMm": 143.18328857421875,
+        "gapMm": 19.591270446777344
+      },
+      {
+        "heightMm": 76,
+        "tongueBackMm": 122.90467834472656,
+        "wallFrontMm": 143.15292358398438,
+        "gapMm": 20.248245239257812
+      },
+      {
+        "heightMm": 80,
+        "tongueBackMm": 122.23035430908203,
+        "wallFrontMm": 142.79493713378906,
+        "gapMm": 20.56458282470703
+      },
+      {
+        "heightMm": 84,
+        "tongueBackMm": 121.81938171386719,
+        "wallFrontMm": 142.36923217773438,
+        "gapMm": 20.549850463867188
+      },
+      {
+        "heightMm": 88,
+        "tongueBackMm": 121.266357421875,
+        "wallFrontMm": 141.8164825439453,
+        "gapMm": 20.550125122070312
+      },
+      {
+        "heightMm": 92,
+        "tongueBackMm": 119.83245086669922,
+        "wallFrontMm": 141.33108520507812,
+        "gapMm": 21.498634338378906
+      }
+    ],
+    "meshAudit": {
+      "lower-gum": {
+        "vertices": 1922,
+        "faces": 3836,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 3330.1176860352443
+      },
+      "lower-left-canine": {
+        "vertices": 378,
+        "faces": 663,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 324.57548439896175
+      },
+      "lower-left-central-incisor": {
+        "vertices": 288,
+        "faces": 508,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 199.9193772470618
+      },
+      "lower-left-first-molar": {
+        "vertices": 502,
+        "faces": 899,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 597.121412862254
+      },
+      "lower-left-first-premolar": {
+        "vertices": 382,
+        "faces": 679,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 280.66651038403023
+      },
+      "lower-left-lateral-incisor": {
+        "vertices": 331,
+        "faces": 589,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 240.79835645857347
+      },
+      "lower-left-second-molar": {
+        "vertices": 448,
+        "faces": 778,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 445.6648854022695
+      },
+      "lower-left-second-premolar": {
+        "vertices": 384,
+        "faces": 682,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 270.30919913654475
+      },
+      "lower-right-canine": {
+        "vertices": 374,
+        "faces": 657,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 324.93647414111007
+      },
+      "lower-right-central-incisor": {
+        "vertices": 287,
+        "faces": 501,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 200.03437738596867
+      },
+      "lower-right-first-molar": {
+        "vertices": 482,
+        "faces": 860,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 594.1185171579887
+      },
+      "lower-right-first-premolar": {
+        "vertices": 389,
+        "faces": 684,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 279.4530714490838
+      },
+      "lower-right-lateral-incisor": {
+        "vertices": 337,
+        "faces": 586,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 240.94551534624657
+      },
+      "lower-right-second-molar": {
+        "vertices": 469,
+        "faces": 833,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 444.8168079350182
+      },
+      "lower-right-second-premolar": {
+        "vertices": 388,
+        "faces": 695,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 271.03970028702264
+      },
+      "nasal_wall": {
+        "vertices": 2592,
+        "faces": 2592,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 9038.87886472308
+      },
+      "oral_wall": {
+        "vertices": 12456,
+        "faces": 12454,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 9453.515185218896
+      },
+      "skin": {
+        "vertices": 29152,
+        "faces": 29160,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 676998.0187229092
+      },
+      "soft_palate": {
+        "vertices": 2664,
+        "faces": 2662,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 1820.8583634880147
+      },
+      "tongue": {
+        "vertices": 19698,
+        "faces": 39392,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 74068.60700393408
+      },
+      "upper-gum": {
+        "vertices": 1864,
+        "faces": 3697,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 3278.435450507744
+      },
+      "upper-left-canine": {
+        "vertices": 379,
+        "faces": 663,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 354.01458675962414
+      },
+      "upper-left-central-incisor": {
+        "vertices": 387,
+        "faces": 664,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 277.519195869666
+      },
+      "upper-left-first-molar": {
+        "vertices": 472,
+        "faces": 846,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 493.81631425048914
+      },
+      "upper-left-first-premolar": {
+        "vertices": 355,
+        "faces": 627,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 275.57122675213253
+      },
+      "upper-left-lateral-incisor": {
+        "vertices": 341,
+        "faces": 580,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 238.28613823678737
+      },
+      "upper-left-second-molar": {
+        "vertices": 388,
+        "faces": 688,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 395.3407780432453
+      },
+      "upper-left-second-premolar": {
+        "vertices": 307,
+        "faces": 532,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 275.96734811384
+      },
+      "upper-right-canine": {
+        "vertices": 374,
+        "faces": 657,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 353.699908257664
+      },
+      "upper-right-central-incisor": {
+        "vertices": 388,
+        "faces": 667,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 278.62014448050405
+      },
+      "upper-right-first-molar": {
+        "vertices": 514,
+        "faces": 934,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 494.2248807314714
+      },
+      "upper-right-first-premolar": {
+        "vertices": 372,
+        "faces": 657,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 276.52131674869185
+      },
+      "upper-right-lateral-incisor": {
+        "vertices": 333,
+        "faces": 571,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 229.36946375266174
+      },
+      "upper-right-second-molar": {
+        "vertices": 374,
+        "faces": 662,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 395.1770155948608
+      },
+      "upper-right-second-premolar": {
+        "vertices": 324,
+        "faces": 563,
+        "boundaryEdges": 0,
+        "nonmanifoldEdges": 0,
+        "volumeMm3": 276.16818049646764
+      }
+    }
+  }
+}
