@@ -1,0 +1,15 @@
+{
+  "retrieved": "2026-10-31",
+  "artisynth_commit": "e37be3f1b4831f347c055cbf7124b6bd57414f98",
+  "teeth_commit": "f2cfe96f19dba7ec3982f2b06e6a34a1f6670450",
+  "files": {
+    "model/source/bodyparts3d/manifest.json": "396b609ca1c2794c641a793070cf23b28d2dca83db0ef347ca6e86e866608097",
+    "model/source/bodyparts3d/ATTRIBUTION.md": "3386e7a8872d0efea86d736e08dfea8f0d894cdda426592a6f7ec0b7ecac28eb",
+    "model/source/bodyparts3d/teeth.glb": "89a1074b0806eb41c318d38c78a269134c5070be7b90cb2f93ab2de7d35ec239",
+    "model/source/artisynth/softpalate_superdown.obj": "22fecd3833c2acfa5c6a150aaf49c0368f5345b7d8c153bad64bdaf8a719f18b",
+    "model/source/artisynth/badinpalate.obj": "4dd24ca794e839ba7c15ca6e145c6ce6b3d7d38e92198b82e2c63acf596aa7e5",
+    "model/source/artisynth/badinface.obj": "999f7a9e8805229d449aecb7fca13ffdb94e2853f274f65c7fa90fe220e2a445",
+    "model/source/artisynth/softpalate_up.obj": "c8827f758273ac0e28e8d3be4e46e705dbe880fb6d4a41112f1d0ae9e3fd8b81",
+    "model/source/artisynth/badintongue.obj": "fdd98f011539e5d0346133f173fc4c650aa45e27f3649505ff65e763d890a212"
+  }
+}

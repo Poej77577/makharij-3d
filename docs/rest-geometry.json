@@ -1,0 +1,506 @@
+{
+  "lower-gum": {
+    "vertices": 1922,
+    "faces": 3836,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 3.3301176860352443e-06
+  },
+  "lower-left-canine": {
+    "vertices": 378,
+    "faces": 663,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 3.2457548439896177e-07
+  },
+  "lower-left-central-incisor": {
+    "vertices": 288,
+    "faces": 508,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 1.999193772470618e-07
+  },
+  "lower-left-first-molar": {
+    "vertices": 502,
+    "faces": 899,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 5.97121412862254e-07
+  },
+  "lower-left-first-premolar": {
+    "vertices": 382,
+    "faces": 679,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.806665103840302e-07
+  },
+  "lower-left-lateral-incisor": {
+    "vertices": 331,
+    "faces": 589,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.407983564585735e-07
+  },
+  "lower-left-second-molar": {
+    "vertices": 448,
+    "faces": 778,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 4.4566488540226947e-07
+  },
+  "lower-left-second-premolar": {
+    "vertices": 384,
+    "faces": 682,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.703091991365447e-07
+  },
+  "lower-right-canine": {
+    "vertices": 374,
+    "faces": 657,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 3.249364741411101e-07
+  },
+  "lower-right-central-incisor": {
+    "vertices": 287,
+    "faces": 501,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.0003437738596866e-07
+  },
+  "lower-right-first-molar": {
+    "vertices": 482,
+    "faces": 860,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 5.941185171579887e-07
+  },
+  "lower-right-first-premolar": {
+    "vertices": 389,
+    "faces": 684,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.794530714490838e-07
+  },
+  "lower-right-lateral-incisor": {
+    "vertices": 337,
+    "faces": 586,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.4094551534624656e-07
+  },
+  "lower-right-second-molar": {
+    "vertices": 469,
+    "faces": 833,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 4.4481680793501817e-07
+  },
+  "lower-right-second-premolar": {
+    "vertices": 388,
+    "faces": 695,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.7103970028702267e-07
+  },
+  "mouth_floor": {
+    "vertices": 2114,
+    "faces": 2112,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 4.806874853091669e-05
+  },
+  "nasal_wall": {
+    "vertices": 2592,
+    "faces": 2592,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 8.887888064053311e-06
+  },
+  "oral_wall": {
+    "vertices": 12456,
+    "faces": 12454,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 8.707509543069311e-06
+  },
+  "skin": {
+    "vertices": 29152,
+    "faces": 29160,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 0.0006772710446011159
+  },
+  "soft_palate": {
+    "vertices": 2664,
+    "faces": 2662,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 1.6618655896762352e-06
+  },
+  "tongue": {
+    "vertices": 8834,
+    "faces": 8832,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 9.770074241783526e-05
+  },
+  "upper-gum": {
+    "vertices": 1864,
+    "faces": 3697,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 3.278435450507744e-06
+  },
+  "upper-left-canine": {
+    "vertices": 379,
+    "faces": 663,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 3.540145867596241e-07
+  },
+  "upper-left-central-incisor": {
+    "vertices": 387,
+    "faces": 664,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.7751919586966604e-07
+  },
+  "upper-left-first-molar": {
+    "vertices": 472,
+    "faces": 846,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 4.938163142504892e-07
+  },
+  "upper-left-first-premolar": {
+    "vertices": 355,
+    "faces": 627,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.755712267521325e-07
+  },
+  "upper-left-lateral-incisor": {
+    "vertices": 341,
+    "faces": 580,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.3828613823678736e-07
+  },
+  "upper-left-second-molar": {
+    "vertices": 388,
+    "faces": 688,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 3.953407780432453e-07
+  },
+  "upper-left-second-premolar": {
+    "vertices": 307,
+    "faces": 532,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.7596734811384e-07
+  },
+  "upper-right-canine": {
+    "vertices": 374,
+    "faces": 657,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 3.53699908257664e-07
+  },
+  "upper-right-central-incisor": {
+    "vertices": 388,
+    "faces": 667,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.7862014448050404e-07
+  },
+  "upper-right-first-molar": {
+    "vertices": 514,
+    "faces": 934,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 4.942248807314714e-07
+  },
+  "upper-right-first-premolar": {
+    "vertices": 372,
+    "faces": 657,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.7652131674869184e-07
+  },
+  "upper-right-lateral-incisor": {
+    "vertices": 333,
+    "faces": 571,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.2936946375266176e-07
+  },
+  "upper-right-second-molar": {
+    "vertices": 374,
+    "faces": 662,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 3.951770155948608e-07
+  },
+  "upper-right-second-premolar": {
+    "vertices": 324,
+    "faces": 563,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.7616818049646764e-07
+  },
+  "lower-gum__section": {
+    "vertices": 1036,
+    "faces": 1936,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.2622575338772217e-05
+  },
+  "lower-left-canine__section": {
+    "vertices": 378,
+    "faces": 663,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 3.2457548439896177e-07
+  },
+  "lower-left-central-incisor__section": {
+    "vertices": 288,
+    "faces": 508,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 1.999193772470618e-07
+  },
+  "lower-left-first-molar__section": {
+    "vertices": 502,
+    "faces": 899,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 5.97121412862254e-07
+  },
+  "lower-left-first-premolar__section": {
+    "vertices": 382,
+    "faces": 679,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.806665103840302e-07
+  },
+  "lower-left-lateral-incisor__section": {
+    "vertices": 331,
+    "faces": 589,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.407983564585735e-07
+  },
+  "lower-left-second-molar__section": {
+    "vertices": 448,
+    "faces": 778,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 4.4566488540226947e-07
+  },
+  "lower-left-second-premolar__section": {
+    "vertices": 384,
+    "faces": 682,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.703091991365447e-07
+  },
+  "lower-right-canine__section": {
+    "vertices": 0,
+    "faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 0.0
+  },
+  "lower-right-central-incisor__section": {
+    "vertices": 0,
+    "faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 0.0
+  },
+  "lower-right-first-molar__section": {
+    "vertices": 0,
+    "faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 0.0
+  },
+  "lower-right-first-premolar__section": {
+    "vertices": 0,
+    "faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 0.0
+  },
+  "lower-right-lateral-incisor__section": {
+    "vertices": 0,
+    "faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 0.0
+  },
+  "lower-right-second-molar__section": {
+    "vertices": 0,
+    "faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 0.0
+  },
+  "lower-right-second-premolar__section": {
+    "vertices": 0,
+    "faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 0.0
+  },
+  "mouth_floor__section": {
+    "vertices": 1081,
+    "faces": 1061,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.4034084911175453e-05
+  },
+  "nasal_wall__section": {
+    "vertices": 1368,
+    "faces": 1298,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 4.443772945303508e-06
+  },
+  "oral_wall__section": {
+    "vertices": 6641,
+    "faces": 6475,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 4.43876541179757e-06
+  },
+  "skin__section": {
+    "vertices": 14986,
+    "faces": 14775,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 0.00033860234013184263
+  },
+  "soft_palate__section": {
+    "vertices": 1403,
+    "faces": 1320,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 8.307976427520283e-07
+  },
+  "tongue__section": {
+    "vertices": 4485,
+    "faces": 4417,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 4.8850370909558975e-05
+  },
+  "upper-gum__section": {
+    "vertices": 1029,
+    "faces": 1790,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.175591471616472e-05
+  },
+  "upper-left-canine__section": {
+    "vertices": 379,
+    "faces": 663,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 3.540145867596241e-07
+  },
+  "upper-left-central-incisor__section": {
+    "vertices": 387,
+    "faces": 664,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.7751919586966604e-07
+  },
+  "upper-left-first-molar__section": {
+    "vertices": 472,
+    "faces": 846,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 4.938163142504892e-07
+  },
+  "upper-left-first-premolar__section": {
+    "vertices": 355,
+    "faces": 627,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.755712267521325e-07
+  },
+  "upper-left-lateral-incisor__section": {
+    "vertices": 341,
+    "faces": 580,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.3828613823678736e-07
+  },
+  "upper-left-second-molar__section": {
+    "vertices": 388,
+    "faces": 688,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 3.953407780432453e-07
+  },
+  "upper-left-second-premolar__section": {
+    "vertices": 307,
+    "faces": 532,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 2.7596734811384e-07
+  },
+  "upper-right-canine__section": {
+    "vertices": 0,
+    "faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 0.0
+  },
+  "upper-right-central-incisor__section": {
+    "vertices": 0,
+    "faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 0.0
+  },
+  "upper-right-first-molar__section": {
+    "vertices": 0,
+    "faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 0.0
+  },
+  "upper-right-first-premolar__section": {
+    "vertices": 0,
+    "faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 0.0
+  },
+  "upper-right-lateral-incisor__section": {
+    "vertices": 0,
+    "faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 0.0
+  },
+  "upper-right-second-molar__section": {
+    "vertices": 0,
+    "faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 0.0
+  },
+  "upper-right-second-premolar__section": {
+    "vertices": 0,
+    "faces": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "volume_m3": 0.0
+  }
+}
