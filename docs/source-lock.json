@@ -9,6 +9,8 @@
     "model/source/artisynth/softpalate_superdown.obj": "22fecd3833c2acfa5c6a150aaf49c0368f5345b7d8c153bad64bdaf8a719f18b",
     "model/source/artisynth/badinpalate.obj": "4dd24ca794e839ba7c15ca6e145c6ce6b3d7d38e92198b82e2c63acf596aa7e5",
     "model/source/artisynth/badinface.obj": "999f7a9e8805229d449aecb7fca13ffdb94e2853f274f65c7fa90fe220e2a445",
+    "model/source/artisynth/badinface_lowerlip_filled.obj": "1d1d86aa679c71580f200c858f4129ae86bb400b763ad9259c324a3f727893e3",
+    "model/source/artisynth/badinface_upperlip_filled.obj": "be41e9a838de42aa3e4e3fdd3c99ce71fc0496f1e376166e741a00cad7d569e6",
     "model/source/artisynth/softpalate_up.obj": "c8827f758273ac0e28e8d3be4e46e705dbe880fb6d4a41112f1d0ae9e3fd8b81",
     "model/source/artisynth/badintongue.obj": "fdd98f011539e5d0346133f173fc4c650aa45e27f3649505ff65e763d890a212"
   }

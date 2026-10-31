@@ -105,11 +105,11 @@
     "volume_m3": 2.7103970028702267e-07
   },
   "mouth_floor": {
-    "vertices": 2114,
-    "faces": 2112,
+    "vertices": 26406,
+    "faces": 26402,
     "boundary_edges": 0,
     "nonmanifold_edges": 0,
-    "volume_m3": 4.806874853091669e-05
+    "volume_m3": 3.521894908136232e-05
   },
   "nasal_wall": {
     "vertices": 2592,
@@ -130,7 +130,7 @@
     "faces": 29160,
     "boundary_edges": 0,
     "nonmanifold_edges": 0,
-    "volume_m3": 0.0006772710446011159
+    "volume_m3": 0.0006769980187229091
   },
   "soft_palate": {
     "vertices": 2664,
@@ -357,11 +357,11 @@
     "volume_m3": 0.0
   },
   "mouth_floor__section": {
-    "vertices": 1081,
-    "faces": 1061,
+    "vertices": 13528,
+    "faces": 13366,
     "boundary_edges": 0,
     "nonmanifold_edges": 0,
-    "volume_m3": 2.4034084911175453e-05
+    "volume_m3": 1.7609013213173083e-05
   },
   "nasal_wall__section": {
     "vertices": 1368,
@@ -382,7 +382,7 @@
     "faces": 14775,
     "boundary_edges": 0,
     "nonmanifold_edges": 0,
-    "volume_m3": 0.00033860234013184263
+    "volume_m3": 0.0003381473178497833
   },
   "soft_palate__section": {
     "vertices": 1403,

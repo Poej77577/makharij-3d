@@ -42,17 +42,43 @@ def modifier(o,kind,**kw):
  bpy.ops.object.modifier_apply(modifier=mod.name)
 def is_velum(c):return c.x>106 and c.z>101 and c.x<137
 skin=obj_source('skin','model/source/artisynth/badinface.obj','skin')
-modifier(skin,'SUBSURF',levels=1)
 # Open the acquired lower face with a smooth jaw field; no detached lip primitive.
 def smooth(a,b,x):
  t=max(0,min(1,(x-a)/(b-a)));return t*t*(3-2*t)
-def jaw_open(p):
+def jaw_open(p,weight=None):
  x,y,z=p; a=math.radians(4);dx=x-140;dz=z-130
  q=Vector((140+math.cos(a)*dx-math.sin(a)*dz,y,130+math.sin(a)*dx+math.cos(a)*dz))
  central=(1-smooth(20,32,abs(y)))*(1-smooth(56,75,x))
  w=((1-smooth(100.4,100.9,z))*central+(1-smooth(97.5,103,z))*(1-central))*(1-smooth(105,145,x))
- return Vector(p)+(q-Vector(p))*w
-for v in skin.data.vertices:v.co=display(jaw_open(source(v.co)))
+ return Vector(p)+(q-Vector(p))*(w if weight is None else weight)
+# Use acquired lip-region membership, not a height threshold that moves both lips.
+from mathutils.kdtree import KDTree
+def lip_tree(filename):
+ pts=[Vector(tuple(float(x)*1000 for x in line.split()[1:4]))for line in (ROOT/'model/source/artisynth'/filename).read_text().splitlines()if line.startswith('v ')]
+ tree=KDTree(len(pts))
+ for i,p in enumerate(pts):tree.insert(p,i)
+ tree.balance();return tree
+lo=lip_tree('badinface_lowerlip_filled.obj');up=lip_tree('badinface_upperlip_filled.obj')
+groups={n:skin.vertex_groups.new(name=n)for n in ['lower_lip','upper_lip','jaw']}
+# Harmonic weights on the acquired topology spread the jaw movement through tissue.
+# Fixed lip-region seeds prevent the two lips receiving the same height-based displacement.
+adj=[set()for _ in skin.data.vertices]
+for e in skin.data.edges:
+ a,b=e.vertices;adj[a].add(b);adj[b].add(a)
+pts=[source(v.co)for v in skin.data.vertices];fixed={};weights=[]
+for i,p in enumerate(pts):
+ dl=lo.find(p)[2];du=up.find(p)[2]
+ wl=1 if dl<.015 else 0;wu=1 if du<.015 else 0
+ if wl:fixed[i]=1;groups['lower_lip'].add([i],1,'REPLACE')
+ elif wu:fixed[i]=0;groups['upper_lip'].add([i],1,'REPLACE')
+ elif p.z<85 and p.x<110:fixed[i]=1
+ elif p.z>120 or p.x>145:fixed[i]=0
+ weights.append(fixed.get(i,1-smooth(85,110,p.z)))
+for _ in range(250):
+ weights=[fixed[i]if i in fixed else sum(weights[j]for j in a)/len(a)if a else weights[i]for i,a in enumerate(adj)]
+for v,p,w in zip(skin.data.vertices,pts,weights):
+ groups['jaw'].add([v.index],w,'REPLACE');v.co=display(jaw_open(p,w))
+modifier(skin,'SUBSURF',levels=1)
 oral=obj_source('oral_wall','model/source/artisynth/badinpalate.obj','oral_wall',lambda c:not is_velum(c))
 velum=obj_source('soft_palate','model/source/artisynth/badinpalate.obj','soft_palate',is_velum)
 for o in [oral,velum]:
@@ -103,6 +129,10 @@ for i in range(len(cs)-1):
  for j in range(N):f.append((i*N+j,i*N+(j+1)%N,(i+1)*N+(j+1)%N,(i+1)*N+j))
 f.extend([tuple(range(N-1,-1,-1)),tuple((len(cs)-1)*N+j for j in range(N))])
 floor=make('mouth_floor',v,f,'gum');modifier(floor,'SUBSURF',levels=2)
+# Resolve the intended tissue interface as real geometry, avoiding coplanar cap overlap.
+modifier(floor,'BOOLEAN',operation='DIFFERENCE',solver='EXACT',object=tongue)
+# Remove the boolean's sub-micrometre sliver faces; this authored tissue is approximate.
+modifier(floor,'REMESH',mode='VOXEL',voxel_size=.0007,use_smooth_shade=True)
 # A hollow, continuous nasal passage formed by anatomical section contours.
 # It is a fitted teaching approximation, not a segmented nasal scan or CFD domain.
 controls=[(36,130,5,4),(43,137,9,9),(58,140,12,14),(80,140,14,17),(104,139,13,17),(123,133,12,14),(134,122,11,9),(134,115,10,6)]
@@ -126,7 +156,9 @@ for o in list(full.children):
  bm=bmesh.new();bm.from_mesh(cp.data)
  result=bmesh.ops.bisect_plane(bm,geom=list(bm.verts)+list(bm.edges)+list(bm.faces),dist=.0000001,plane_co=(0,0,0),plane_no=(0,0,1),clear_outer=True)
  cut=[e for e in bm.edges if e.is_boundary and all(abs(v.co.z)<1e-6 for v in e.verts)]
- if cut:bmesh.ops.holes_fill(bm,edges=cut,sides=0)
+ if cut:
+  cap=bmesh.ops.holes_fill(bm,edges=cut,sides=0)
+  for f in cap['faces']:f.smooth=False
  bmesh.ops.recalc_face_normals(bm,faces=bm.faces);bm.to_mesh(cp.data);bm.free();cp.data.update()
 # Save rest first; movement development must not change this neutral source.
 for o in full.children:o.hide_render=True
@@ -153,7 +185,14 @@ for parent in [full,section]:
  for o in parent.children:o.hide_render=parent==full
 camera((-.012,.005,.3),(-.012,.005,0),.155)
 # Disable the section group in the delivered default asset through extras, not deleted geometry.
-full['view']='full';section['view']='section';scene['model_status']='experimental anatomical rest study; expert review pending'
+full['view']='full';section['view']='section'
+for parent in [full,section]:
+ parent['credit']='ArtiSynth Models (2014 contributors); BodyParts3D / Anatomography © DBCLS, adapted by OrganUI and Makharij (2026)'
+ parent['license']='Composite model and adaptations: CC BY-SA 2.1 Japan; preserve ArtiSynth license and disclaimer'
+ parent['license_url']='https://creativecommons.org/licenses/by-sa/2.1/jp/'
+ parent['provenance']='See models/ATTRIBUTION.md and docs/PROVENANCE.md in the source package'
+ parent['anatomical_status']='experimental; anatomical acceptance gate NOT passed'
+scene['model_status']='experimental anatomical rest study; expert review pending'
 bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'model/makharij-rest.blend'))
 bpy.ops.export_scene.gltf(filepath=str(ROOT/'public/models/makharij-rest.glb'),export_format='GLB',export_yup=False,export_extras=True,export_animations=False,export_cameras=False,export_lights=False)
 stats={}

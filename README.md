@@ -9,3 +9,31 @@ blender -b -t 2 --python scripts/build_model.py
 ```
 
 Blender 4.3.2 أو أحدث. لا توجد خدمة مدفوعة أو مفتاح API مطلوب. يخرج البناء GLB وأدلة صور وفحص الحواف. المحاور النهائية: X خلفي، Y علوي، Z جانبي؛ الوحدات متر. شاهد `docs/PROVENANCE.md` قبل إعادة التوزيع.
+
+## تشغيل العارض
+
+```sh
+npm ci
+npm run dev
+```
+
+لبناء الإنتاج: `npm run build` ثم `npm run preview`. لا يحتاج المتصفح إلى اتصالات خارجية للخطوط أو الهندسة بعد تحميل ملفات البناء.
+
+الحزمة المسلّمة تتضمن أيضًا مجلد `browser/` جاهزًا، يمكن تشغيله بلا npm:
+
+```sh
+python3 -m http.server 8080 --directory browser
+```
+
+افتح `http://localhost:8080`. لا تفتح index.html مباشرة عبر file:// لأن تحميل GLB يحتاج خادم ملفات.
+
+## إعادة التحقق
+
+```sh
+python scripts/audit_glb.py
+npm run preview -- --port 4173
+# في نافذة ثانية (Python + numpy + playwright، وChromium مثبت):
+python scripts/test_browser.py
+```
+
+تتطلب أدلة الهندسة Blender 4.3.2، ولا تتطلب تصييرًا ضوئيًا ثقيلًا. مصدر النموذج هو meshes قابلة للتحرير؛ تجهيز Shape Keys للنطق لم ينفذ. ملفات الشفتين الإضافية تستعمل كأقنعة تحكم، ولا يعرضها المنتج كأعضاء منفصلة. softpalate_up/superdown محفوظان من فحص المصدر ولم يُستخدما كأصل نهائي لاختلاف الملاءمة.

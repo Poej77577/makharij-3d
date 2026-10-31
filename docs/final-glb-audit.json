@@ -1,0 +1,1179 @@
+{
+  "file": "public/models/makharij-rest.glb",
+  "sha256": "a0cde6193898eeace6107b73468af8dccdf0cbd7a6ef97f70c43f56c212ffaaf",
+  "bytes": 5298284,
+  "gltfVersion": "2.0",
+  "meshCount": 58,
+  "triangles": 292642,
+  "unit": "metres by glTF contract",
+  "exportYupConversion": false,
+  "axes": "source authored as X posterior, Y superior, Z lateral; both view groups share coordinates",
+  "weldToleranceMeters": 1e-07,
+  "meshes": [
+    {
+      "name": "lower-gum",
+      "renderVertices": 1922,
+      "triangles": 3836,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.04190773144364357,
+          -0.024577584117650986,
+          -0.037890415638685226
+        ],
+        [
+          0.012055411003530025,
+          0.011879977770149708,
+          0.037931159138679504
+        ]
+      ]
+    },
+    {
+      "name": "lower-left-canine",
+      "renderVertices": 378,
+      "triangles": 752,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.04091464728116989,
+          -0.014510001055896282,
+          -0.016950400546193123
+        ],
+        [
+          -0.03010125644505024,
+          -0.004510000813752413,
+          -0.008886837400496006
+        ]
+      ]
+    },
+    {
+      "name": "lower-left-central-incisor",
+      "renderVertices": 288,
+      "triangles": 572,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.04554864764213562,
+          -0.013939999975264072,
+          -0.0060370201244950294
+        ],
+        [
+          -0.03404948487877846,
+          -0.0049400003626942635,
+          -0.00015445500321220607
+        ]
+      ]
+    },
+    {
+      "name": "lower-left-first-molar",
+      "renderVertices": 502,
+      "triangles": 1000,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.021136650815606117,
+          -0.006680000107735395,
+          -0.028687043115496635
+        ],
+        [
+          -0.007783691398799419,
+          0.0003199997008778155,
+          -0.017066800966858864
+        ]
+      ]
+    },
+    {
+      "name": "lower-left-first-premolar",
+      "renderVertices": 382,
+      "triangles": 760,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.034558650106191635,
+          -0.01092000026255846,
+          -0.02114420011639595
+        ],
+        [
+          -0.025604911148548126,
+          -0.00392000051215291,
+          -0.013233200646936893
+        ]
+      ]
+    },
+    {
+      "name": "lower-left-lateral-incisor",
+      "renderVertices": 331,
+      "triangles": 658,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.044861648231744766,
+          -0.01397000066936016,
+          -0.012032599188387394
+        ],
+        [
+          -0.03305652737617493,
+          -0.0049700005911290646,
+          -0.0050317393615841866
+        ]
+      ]
+    },
+    {
+      "name": "lower-left-second-molar",
+      "renderVertices": 448,
+      "triangles": 892,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.009899649769067764,
+          -0.0023200002033263445,
+          -0.032701276242733
+        ],
+        [
+          0.002182332333177328,
+          0.004679999779909849,
+          -0.020705198869109154
+        ]
+      ]
+    },
+    {
+      "name": "lower-left-second-premolar",
+      "renderVertices": 384,
+      "triangles": 764,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.027714649215340614,
+          -0.009649999439716339,
+          -0.024343399330973625
+        ],
+        [
+          -0.018537649884819984,
+          -0.002649999689310789,
+          -0.01622520014643669
+        ]
+      ]
+    },
+    {
+      "name": "lower-right-canine",
+      "renderVertices": 374,
+      "triangles": 744,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.04091564938426018,
+          -0.014510001055896282,
+          0.008927445858716965
+        ],
+        [
+          -0.03012298047542572,
+          -0.004510000813752413,
+          0.016974501311779022
+        ]
+      ]
+    },
+    {
+      "name": "lower-right-central-incisor",
+      "renderVertices": 287,
+      "triangles": 570,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.04555564746260643,
+          -0.013929998502135277,
+          0.00018194199947174639
+        ],
+        [
+          -0.03403491526842117,
+          -0.004929998889565468,
+          0.006056100130081177
+        ]
+      ]
+    },
+    {
+      "name": "lower-right-first-molar",
+      "renderVertices": 482,
+      "triangles": 960,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.021134650334715843,
+          -0.006660000421106815,
+          0.017092399299144745
+        ],
+        [
+          -0.00781706441193819,
+          0.0003399994457140565,
+          0.02866929955780506
+        ]
+      ]
+    },
+    {
+      "name": "lower-right-first-premolar",
+      "renderVertices": 389,
+      "triangles": 774,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.03458165004849434,
+          -0.010900000110268593,
+          0.013188899494707584
+        ],
+        [
+          -0.025641588494181633,
+          -0.003899999661371112,
+          0.02113480120897293
+        ]
+      ]
+    },
+    {
+      "name": "lower-right-lateral-incisor",
+      "renderVertices": 337,
+      "triangles": 670,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.04489064961671829,
+          -0.01397000066936016,
+          0.005041553173214197
+        ],
+        [
+          -0.033053118735551834,
+          -0.0049700005911290646,
+          0.012047499418258667
+        ]
+      ]
+    },
+    {
+      "name": "lower-right-second-molar",
+      "renderVertices": 469,
+      "triangles": 934,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.009921649470925331,
+          -0.002320000436156988,
+          0.02072959952056408
+        ],
+        [
+          0.002175386529415846,
+          0.004679999779909849,
+          0.03270875662565231
+        ]
+      ]
+    },
+    {
+      "name": "lower-right-second-premolar",
+      "renderVertices": 388,
+      "triangles": 772,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.02770964987576008,
+          -0.009670001454651356,
+          0.016245299950242043
+        ],
+        [
+          -0.018517648801207542,
+          -0.0026700005400925875,
+          0.02435939945280552
+        ]
+      ]
+    },
+    {
+      "name": "mouth_floor",
+      "renderVertices": 26406,
+      "triangles": 52804,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.04567665606737137,
+          -0.05085242539644241,
+          -0.02612108178436756
+        ],
+        [
+          0.023149453103542328,
+          -0.015517616644501686,
+          0.026121167466044426
+        ]
+      ]
+    },
+    {
+      "name": "nasal_wall",
+      "renderVertices": 2592,
+      "triangles": 5184,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.06444964557886124,
+          0.008838092908263206,
+          -0.014499899931252003
+        ],
+        [
+          0.03529158607125282,
+          0.05777199938893318,
+          0.014499899931252003
+        ]
+      ]
+    },
+    {
+      "name": "oral_wall",
+      "renderVertices": 12456,
+      "triangles": 24908,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.04912559688091278,
+          -0.07201255857944489,
+          -0.030057525262236595
+        ],
+        [
+          0.03993994742631912,
+          0.023729881271719933,
+          0.02925966866314411
+        ]
+      ]
+    },
+    {
+      "name": "skin",
+      "renderVertices": 29152,
+      "triangles": 58320,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.07919463515281677,
+          -0.07177000492811203,
+          -0.08249172568321228
+        ],
+        [
+          0.07579988241195679,
+          0.10121545195579529,
+          0.08236673474311829
+        ]
+      ]
+    },
+    {
+      "name": "soft_palate",
+      "renderVertices": 2664,
+      "triangles": 5324,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          0.005013805814087391,
+          9.169657278107479e-05,
+          -0.022216513752937317
+        ],
+        [
+          0.037264540791511536,
+          0.021474894136190414,
+          0.022531084716320038
+        ]
+      ]
+    },
+    {
+      "name": "tongue",
+      "renderVertices": 8834,
+      "triangles": 17664,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.042540211230516434,
+          -0.04471050575375557,
+          -0.031963370740413666
+        ],
+        [
+          0.030070548877120018,
+          0.01300774049013853,
+          0.031963374465703964
+        ]
+      ]
+    },
+    {
+      "name": "upper-gum",
+      "renderVertices": 1864,
+      "triangles": 3700,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.04894987866282463,
+          0.008680714294314384,
+          -0.034979622811079025
+        ],
+        [
+          0.005405592732131481,
+          0.027559883892536163,
+          0.03502949699759483
+        ]
+      ]
+    },
+    {
+      "name": "upper-left-canine",
+      "renderVertices": 379,
+      "triangles": 754,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.042988650500774384,
+          0.000650000583846122,
+          -0.0220963004976511
+        ],
+        [
+          -0.03419264778494835,
+          0.010650000534951687,
+          -0.014270100742578506
+        ]
+      ]
+    },
+    {
+      "name": "upper-left-central-incisor",
+      "renderVertices": 387,
+      "triangles": 770,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.05040765181183815,
+          -0.0001300001167692244,
+          -0.009012809954583645
+        ],
+        [
+          -0.04198652133345604,
+          0.008870000019669533,
+          -0.00016160900122486055
+        ]
+      ]
+    },
+    {
+      "name": "upper-left-first-molar",
+      "renderVertices": 472,
+      "triangles": 940,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.021189650520682335,
+          0.005379999987781048,
+          -0.030532199889421463
+        ],
+        [
+          -0.00970465037971735,
+          0.012380000203847885,
+          -0.019162001088261604
+        ]
+      ]
+    },
+    {
+      "name": "upper-left-first-premolar",
+      "renderVertices": 355,
+      "triangles": 706,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.034572649747133255,
+          0.002230000449344516,
+          -0.02527879923582077
+        ],
+        [
+          -0.02654865011572838,
+          0.009230000898241997,
+          -0.01609789952635765
+        ]
+      ]
+    },
+    {
+      "name": "upper-left-lateral-incisor",
+      "renderVertices": 341,
+      "triangles": 678,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.04766964912414551,
+          -0.0008200001902878284,
+          -0.01624459959566593
+        ],
+        [
+          -0.04003864899277687,
+          0.008179999887943268,
+          -0.008360800333321095
+        ]
+      ]
+    },
+    {
+      "name": "upper-left-second-molar",
+      "renderVertices": 388,
+      "triangles": 772,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.011467650532722473,
+          0.008980000391602516,
+          -0.030170399695634842
+        ],
+        [
+          -0.0018696499755606055,
+          0.01597999967634678,
+          -0.019838599488139153
+        ]
+      ]
+    },
+    {
+      "name": "upper-left-second-premolar",
+      "renderVertices": 307,
+      "triangles": 610,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.027986399829387665,
+          0.003359999740496278,
+          -0.028272200375795364
+        ],
+        [
+          -0.020650651305913925,
+          0.010359999723732471,
+          -0.019032200798392296
+        ]
+      ]
+    },
+    {
+      "name": "upper-right-canine",
+      "renderVertices": 374,
+      "triangles": 744,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.04299065098166466,
+          0.0006399989360943437,
+          0.014291100203990936
+        ],
+        [
+          -0.034186650067567825,
+          0.010639999061822891,
+          0.022107601165771484
+        ]
+      ]
+    },
+    {
+      "name": "upper-right-central-incisor",
+      "renderVertices": 388,
+      "triangles": 772,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.05039064958691597,
+          -0.00012000084097962826,
+          0.00016297699767164886
+        ],
+        [
+          -0.041969262063503265,
+          0.008879998698830605,
+          0.009033579379320145
+        ]
+      ]
+    },
+    {
+      "name": "upper-right-first-molar",
+      "renderVertices": 514,
+      "triangles": 1024,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.021183649078011513,
+          0.005379999987781048,
+          0.019191300496459007
+        ],
+        [
+          -0.00972365029156208,
+          0.012380000203847885,
+          0.030543699860572815
+        ]
+      ]
+    },
+    {
+      "name": "upper-right-first-premolar",
+      "renderVertices": 372,
+      "triangles": 740,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.0345926508307457,
+          0.0022499989718198776,
+          0.01609629951417446
+        ],
+        [
+          -0.026555649936199188,
+          0.009249999187886715,
+          0.02530520036816597
+        ]
+      ]
+    },
+    {
+      "name": "upper-right-lateral-incisor",
+      "renderVertices": 333,
+      "triangles": 662,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.047308649867773056,
+          -0.0008200001902878284,
+          0.008369949646294117
+        ],
+        [
+          -0.04007465019822121,
+          0.008179999887943268,
+          0.016229599714279175
+        ]
+      ]
+    },
+    {
+      "name": "upper-right-second-molar",
+      "renderVertices": 374,
+      "triangles": 744,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.011465650051832199,
+          0.008980000391602516,
+          0.01985030062496662
+        ],
+        [
+          -0.0018956499407067895,
+          0.01597999967634678,
+          0.030215198174118996
+        ]
+      ]
+    },
+    {
+      "name": "upper-right-second-premolar",
+      "renderVertices": 324,
+      "triangles": 644,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.027982359752058983,
+          0.003350000362843275,
+          0.01904440112411976
+        ],
+        [
+          -0.020643649622797966,
+          0.010350000113248825,
+          0.028294799849390984
+        ]
+      ]
+    },
+    {
+      "name": "lower-gum.001",
+      "renderVertices": 1124,
+      "triangles": 2064,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.04190773144364357,
+          -0.024572256952524185,
+          -0.037890415638685226
+        ],
+        [
+          0.012055411003530025,
+          0.011879977770149708,
+          5.820766091346741e-11
+        ]
+      ]
+    },
+    {
+      "name": "lower-left-canine.001",
+      "renderVertices": 378,
+      "triangles": 752,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.04091464728116989,
+          -0.014510001055896282,
+          -0.016950400546193123
+        ],
+        [
+          -0.03010125644505024,
+          -0.004510000813752413,
+          -0.008886837400496006
+        ]
+      ]
+    },
+    {
+      "name": "lower-left-central-incisor.001",
+      "renderVertices": 288,
+      "triangles": 572,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.04554864764213562,
+          -0.013939999975264072,
+          -0.0060370201244950294
+        ],
+        [
+          -0.03404948487877846,
+          -0.0049400003626942635,
+          -0.00015445500321220607
+        ]
+      ]
+    },
+    {
+      "name": "lower-left-first-molar.001",
+      "renderVertices": 502,
+      "triangles": 1000,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.021136650815606117,
+          -0.006680000107735395,
+          -0.028687043115496635
+        ],
+        [
+          -0.007783691398799419,
+          0.0003199997008778155,
+          -0.017066800966858864
+        ]
+      ]
+    },
+    {
+      "name": "lower-left-first-premolar.001",
+      "renderVertices": 382,
+      "triangles": 760,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.034558650106191635,
+          -0.01092000026255846,
+          -0.02114420011639595
+        ],
+        [
+          -0.025604911148548126,
+          -0.00392000051215291,
+          -0.013233200646936893
+        ]
+      ]
+    },
+    {
+      "name": "lower-left-lateral-incisor.001",
+      "renderVertices": 331,
+      "triangles": 658,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.044861648231744766,
+          -0.01397000066936016,
+          -0.012032599188387394
+        ],
+        [
+          -0.03305652737617493,
+          -0.0049700005911290646,
+          -0.0050317393615841866
+        ]
+      ]
+    },
+    {
+      "name": "lower-left-second-molar.001",
+      "renderVertices": 448,
+      "triangles": 892,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.009899649769067764,
+          -0.0023200002033263445,
+          -0.032701276242733
+        ],
+        [
+          0.002182332333177328,
+          0.004679999779909849,
+          -0.020705198869109154
+        ]
+      ]
+    },
+    {
+      "name": "lower-left-second-premolar.001",
+      "renderVertices": 384,
+      "triangles": 764,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.027714649215340614,
+          -0.009649999439716339,
+          -0.024343399330973625
+        ],
+        [
+          -0.018537649884819984,
+          -0.002649999689310789,
+          -0.01622520014643669
+        ]
+      ]
+    },
+    {
+      "name": "mouth_floor.001",
+      "renderVertices": 13852,
+      "triangles": 27048,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.04567665606737137,
+          -0.05085242539644241,
+          -0.02612108178436756
+        ],
+        [
+          0.023149430751800537,
+          -0.015518918633460999,
+          2.9103830456733704e-11
+        ]
+      ]
+    },
+    {
+      "name": "nasal_wall.001",
+      "renderVertices": 1512,
+      "triangles": 2732,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.06444964557886124,
+          0.008838092908263206,
+          -0.014499899931252003
+        ],
+        [
+          0.03529158607125282,
+          0.05777199938893318,
+          2.571758291167179e-18
+        ]
+      ]
+    },
+    {
+      "name": "oral_wall.001",
+      "renderVertices": 6993,
+      "triangles": 13274,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.04912559688091278,
+          -0.07200919091701508,
+          -0.030057525262236595
+        ],
+        [
+          0.03993675857782364,
+          0.023729881271719933,
+          1.1641532182693481e-10
+        ]
+      ]
+    },
+    {
+      "name": "skin.001",
+      "renderVertices": 15413,
+      "triangles": 29976,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.07918473333120346,
+          -0.07176133245229721,
+          -0.08249172568321228
+        ],
+        [
+          0.07579988241195679,
+          0.10121128708124161,
+          6.028858479112387e-08
+        ]
+      ]
+    },
+    {
+      "name": "soft_palate.001",
+      "renderVertices": 1559,
+      "triangles": 2802,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          0.005062037613242865,
+          0.00012127906666137278,
+          -0.022216513752937317
+        ],
+        [
+          0.037264540791511536,
+          0.021474894136190414,
+          1.1641532182693481e-10
+        ]
+      ]
+    },
+    {
+      "name": "tongue.001",
+      "renderVertices": 4621,
+      "triangles": 8966,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.042540207505226135,
+          -0.04471050575375557,
+          -0.031963370740413666
+        ],
+        [
+          0.03007054701447487,
+          0.01300774049013853,
+          4.3655745685100555e-11
+        ]
+      ]
+    },
+    {
+      "name": "upper-gum.001",
+      "renderVertices": 1200,
+      "triangles": 2030,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.048865798860788345,
+          0.008702974766492844,
+          -0.034979622811079025
+        ],
+        [
+          0.0053846328519284725,
+          0.027559883892536163,
+          2.3283064365386963e-10
+        ]
+      ]
+    },
+    {
+      "name": "upper-left-canine.001",
+      "renderVertices": 379,
+      "triangles": 754,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.042988650500774384,
+          0.000650000583846122,
+          -0.0220963004976511
+        ],
+        [
+          -0.03419264778494835,
+          0.010650000534951687,
+          -0.014270100742578506
+        ]
+      ]
+    },
+    {
+      "name": "upper-left-central-incisor.001",
+      "renderVertices": 387,
+      "triangles": 770,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.05040765181183815,
+          -0.0001300001167692244,
+          -0.009012809954583645
+        ],
+        [
+          -0.04198652133345604,
+          0.008870000019669533,
+          -0.00016160900122486055
+        ]
+      ]
+    },
+    {
+      "name": "upper-left-first-molar.001",
+      "renderVertices": 472,
+      "triangles": 940,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.021189650520682335,
+          0.005379999987781048,
+          -0.030532199889421463
+        ],
+        [
+          -0.00970465037971735,
+          0.012380000203847885,
+          -0.019162001088261604
+        ]
+      ]
+    },
+    {
+      "name": "upper-left-first-premolar.001",
+      "renderVertices": 355,
+      "triangles": 706,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.034572649747133255,
+          0.002230000449344516,
+          -0.02527879923582077
+        ],
+        [
+          -0.02654865011572838,
+          0.009230000898241997,
+          -0.01609789952635765
+        ]
+      ]
+    },
+    {
+      "name": "upper-left-lateral-incisor.001",
+      "renderVertices": 341,
+      "triangles": 678,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.04766964912414551,
+          -0.0008200001902878284,
+          -0.01624459959566593
+        ],
+        [
+          -0.04003864899277687,
+          0.008179999887943268,
+          -0.008360800333321095
+        ]
+      ]
+    },
+    {
+      "name": "upper-left-second-molar.001",
+      "renderVertices": 388,
+      "triangles": 772,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.011467650532722473,
+          0.008980000391602516,
+          -0.030170399695634842
+        ],
+        [
+          -0.0018696499755606055,
+          0.01597999967634678,
+          -0.019838599488139153
+        ]
+      ]
+    },
+    {
+      "name": "upper-left-second-premolar.001",
+      "renderVertices": 307,
+      "triangles": 610,
+      "collapsedByWeld": 0,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "boundsMeters": [
+        [
+          -0.027986399829387665,
+          0.003359999740496278,
+          -0.028272200375795364
+        ],
+        [
+          -0.020650651305913925,
+          0.010359999723732471,
+          -0.019032200798392296
+        ]
+      ]
+    }
+  ],
+  "geometryChecksPassed": true,
+  "anatomicalApproval": false,
+  "tajwidApproval": false,
+  "interOrganCollisionVerified": false,
+  "articulationVerified": false
+}
