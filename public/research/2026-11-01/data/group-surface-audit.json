@@ -1,0 +1,111 @@
+{
+  "tongue_surfaces_together": {
+    "parts": [
+      "VH_M_posterior_part_of_tongue",
+      "VH_M_dorsal_tongue",
+      "VH_M_ventral_tongue"
+    ],
+    "positions": 139044,
+    "weldedPositions": 137298,
+    "triangles": 273458,
+    "boundaryEdges": 1258,
+    "nonmanifoldEdges": 0,
+    "boundaryBoundsNativeMeters": [
+      [
+        -0.02254718728363514,
+        0.7149025797843933,
+        0.03928804397583008
+      ],
+      [
+        0.01852848008275032,
+        0.7398025989532471,
+        0.10198517888784409
+      ]
+    ],
+    "signedVolumeMlOnlyIfClosed": null
+  },
+  "tongue_with_papillae": {
+    "parts": [
+      "VH_M_posterior_part_of_tongue",
+      "VH_M_dorsal_tongue",
+      "VH_M_ventral_tongue",
+      "VH_M_fungiform_papillae",
+      "VH_M_circumvallate_papillae"
+    ],
+    "positions": 141090,
+    "weldedPositions": 138150,
+    "triangles": 276246,
+    "boundaryEdges": 64,
+    "nonmanifoldEdges": 0,
+    "boundaryBoundsNativeMeters": [
+      [
+        -0.02254718728363514,
+        0.7149025797843933,
+        0.04261310398578644
+      ],
+      [
+        0.017513923346996307,
+        0.7278177738189697,
+        0.07343057543039322
+      ]
+    ],
+    "signedVolumeMlOnlyIfClosed": null
+  },
+  "palate_surfaces_together": {
+    "parts": [
+      "VH_M_hard_palate",
+      "VH_M_mucosa_of_soft_palate"
+    ],
+    "positions": 113713,
+    "weldedPositions": 113238,
+    "triangles": 225324,
+    "boundaryEdges": 1166,
+    "nonmanifoldEdges": 0,
+    "boundaryBoundsNativeMeters": [
+      [
+        -0.02615409716963768,
+        0.7321358323097229,
+        0.055057160556316376
+      ],
+      [
+        0.029245566576719284,
+        0.7558356523513794,
+        0.10100223124027252
+      ]
+    ],
+    "signedVolumeMlOnlyIfClosed": null
+  },
+  "all_oral_mucosal_parts": {
+    "parts": [
+      "VH_M_posterior_part_of_tongue",
+      "VH_M_dorsal_tongue",
+      "VH_M_ventral_tongue",
+      "VH_M_mouth_floor",
+      "VH_M_buccal_mucosa",
+      "VH_M_gingiva_of_lower_jaw",
+      "VH_M_ginviva_of_upper_jaw",
+      "VH_M_hard_palate",
+      "VH_M_mucosa_of_soft_palate",
+      "VH_M_frenulum_of_upper_lip",
+      "VH_M_frenulum_of_lower_lip"
+    ],
+    "positions": 820519,
+    "weldedPositions": 817131,
+    "triangles": 1634805,
+    "boundaryEdges": 1832,
+    "nonmanifoldEdges": 287,
+    "boundaryBoundsNativeMeters": [
+      [
+        -0.06214843690395355,
+        0.6991386413574219,
+        0.03928804397583008
+      ],
+      [
+        0.025475958362221718,
+        0.7502351403236389,
+        0.10679122060537338
+      ]
+    ],
+    "signedVolumeMlOnlyIfClosed": null
+  }
+}

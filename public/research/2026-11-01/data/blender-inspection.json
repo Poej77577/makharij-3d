@@ -1,0 +1,820 @@
+{
+  "blenderVersion": "4.3.2",
+  "fileOpened": "/workspace/makharij-3d/work/research/nih-hra/3d-vh-m-mouth.glb",
+  "sourceModified": false,
+  "gltfUnits": "metres by glTF2 specification",
+  "gltfNativeAxesInferredFromNamedParts": {
+    "X": "positive patient-left (left glands at +X, right at -X)",
+    "Y": "positive superior (upper dental/palatal structures higher)",
+    "Z": "positive anterior (dental front and tongue tip at larger Z than posterior tongue)"
+  },
+  "blenderImportAxes": "Blender world (X,Y,Z)=(glTF X,-glTF Z,glTF Y); root/world transforms retained",
+  "meshCount": 22,
+  "vertexCount": 1010401,
+  "triangleCount": 2010610,
+  "materials": 12,
+  "armatureCount": 0,
+  "shapeKeyMeshes": [],
+  "objects": [
+    {
+      "name": "VH_M_submandibular_gland_R",
+      "verticesInGlb": 225,
+      "verticesAfterSeamWeld": 214,
+      "facesAfterSeamWeld": 424,
+      "trianglesInGlb": 424,
+      "boundaryEdgesAfterWeld": 0,
+      "nonmanifoldEdgesAfterWeld": 0,
+      "signedVolumeMlIfClosed": 6.494654726411984,
+      "boundsNativeMeters": [
+        [
+          -0.04924343153834343,
+          0.6817741990089417,
+          0.036635275930166245
+        ],
+        [
+          -0.026437606662511826,
+          0.7178012132644653,
+          0.05690537393093109
+        ]
+      ],
+      "dimensionsMm": [
+        22.805824875831604,
+        36.02701425552368,
+        20.270098000764847
+      ]
+    },
+    {
+      "name": "VH_M_submandibular_gland_L",
+      "verticesInGlb": 208,
+      "verticesAfterSeamWeld": 199,
+      "facesAfterSeamWeld": 394,
+      "trianglesInGlb": 394,
+      "boundaryEdgesAfterWeld": 0,
+      "nonmanifoldEdgesAfterWeld": 0,
+      "signedVolumeMlIfClosed": 6.503109922215176,
+      "boundsNativeMeters": [
+        [
+          0.01962261088192463,
+          0.6812365651130676,
+          0.03523096814751625
+        ],
+        [
+          0.04528007283806801,
+          0.7142021059989929,
+          0.05515466630458832
+        ]
+      ],
+      "dimensionsMm": [
+        25.65746195614338,
+        32.96554088592529,
+        19.923698157072067
+      ]
+    },
+    {
+      "name": "VH_M_parotid_gland_R",
+      "verticesInGlb": 1575,
+      "verticesAfterSeamWeld": 1491,
+      "facesAfterSeamWeld": 2982,
+      "trianglesInGlb": 2982,
+      "boundaryEdgesAfterWeld": 0,
+      "nonmanifoldEdgesAfterWeld": 0,
+      "signedVolumeMlIfClosed": 31.056251315313627,
+      "boundsNativeMeters": [
+        [
+          -0.06454166024923325,
+          0.6914098858833313,
+          0.00455333711579442
+        ],
+        [
+          -0.034181058406829834,
+          0.77532559633255,
+          0.060260992497205734
+        ]
+      ],
+      "dimensionsMm": [
+        30.360601842403412,
+        83.91571044921875,
+        55.707655381411314
+      ]
+    },
+    {
+      "name": "VH_M_parotid_gland_L",
+      "verticesInGlb": 1832,
+      "verticesAfterSeamWeld": 1703,
+      "facesAfterSeamWeld": 3414,
+      "trianglesInGlb": 3414,
+      "boundaryEdgesAfterWeld": 0,
+      "nonmanifoldEdgesAfterWeld": 0,
+      "signedVolumeMlIfClosed": 30.919014088592387,
+      "boundsNativeMeters": [
+        [
+          0.03046920709311962,
+          0.6895245909690857,
+          0.007264346815645695
+        ],
+        [
+          0.06470565497875214,
+          0.7726351022720337,
+          0.059801213443279266
+        ]
+      ],
+      "dimensionsMm": [
+        34.236447885632515,
+        83.110511302948,
+        52.53686662763357
+      ]
+    },
+    {
+      "name": "VH_M_sublingual_gland_L",
+      "verticesInGlb": 8511,
+      "verticesAfterSeamWeld": 8066,
+      "facesAfterSeamWeld": 16128,
+      "trianglesInGlb": 16128,
+      "boundaryEdgesAfterWeld": 0,
+      "nonmanifoldEdgesAfterWeld": 0,
+      "signedVolumeMlIfClosed": 3.0053360086439467,
+      "boundsNativeMeters": [
+        [
+          0.0007775497506372631,
+          0.6993911862373352,
+          0.054951589554548264
+        ],
+        [
+          0.02465343475341797,
+          0.7166290283203125,
+          0.08995519578456879
+        ]
+      ],
+      "dimensionsMm": [
+        23.875885002780706,
+        17.237842082977295,
+        35.00360623002052
+      ]
+    },
+    {
+      "name": "VH_M_sublingual_gland_R",
+      "verticesInGlb": 8511,
+      "verticesAfterSeamWeld": 8066,
+      "facesAfterSeamWeld": 16128,
+      "trianglesInGlb": 16128,
+      "boundaryEdgesAfterWeld": 0,
+      "nonmanifoldEdgesAfterWeld": 0,
+      "signedVolumeMlIfClosed": 2.7615969042097355,
+      "boundsNativeMeters": [
+        [
+          -0.02889484353363514,
+          0.701611340045929,
+          0.05467866733670235
+        ],
+        [
+          -0.004291343502700329,
+          0.7207863330841064,
+          0.08856260031461716
+        ]
+      ],
+      "dimensionsMm": [
+        24.60350003093481,
+        19.17499303817749,
+        33.88393297791481
+      ]
+    },
+    {
+      "name": "VH_M_buccal_mucosa",
+      "verticesInGlb": 160099,
+      "verticesAfterSeamWeld": 160097,
+      "facesAfterSeamWeld": 319945,
+      "trianglesInGlb": 319949,
+      "boundaryEdgesAfterWeld": 264,
+      "nonmanifoldEdgesAfterWeld": 265,
+      "signedVolumeMlIfClosed": null,
+      "boundsNativeMeters": [
+        [
+          -0.06214843690395355,
+          0.7002428770065308,
+          0.043683603405952454
+        ],
+        [
+          0.06496822088956833,
+          0.7584702968597412,
+          0.12990710139274597
+        ]
+      ],
+      "dimensionsMm": [
+        127.11665779352188,
+        58.22741985321045,
+        86.22349798679352
+      ]
+    },
+    {
+      "name": "VH_M_frenulum_of_upper_lip",
+      "verticesInGlb": 253,
+      "verticesAfterSeamWeld": 253,
+      "facesAfterSeamWeld": 434,
+      "trianglesInGlb": 434,
+      "boundaryEdgesAfterWeld": 70,
+      "nonmanifoldEdgesAfterWeld": 70,
+      "signedVolumeMlIfClosed": null,
+      "boundsNativeMeters": [
+        [
+          -0.004625625442713499,
+          0.722664475440979,
+          0.10303502529859543
+        ],
+        [
+          0.002852859441190958,
+          0.7338528037071228,
+          0.10679122060537338
+        ]
+      ],
+      "dimensionsMm": [
+        7.478484883904457,
+        11.188328266143799,
+        3.756195306777954
+      ]
+    },
+    {
+      "name": "VH_M_frenulum_of_lower_lip",
+      "verticesInGlb": 299,
+      "verticesAfterSeamWeld": 299,
+      "facesAfterSeamWeld": 520,
+      "trianglesInGlb": 520,
+      "boundaryEdgesAfterWeld": 76,
+      "nonmanifoldEdgesAfterWeld": 76,
+      "signedVolumeMlIfClosed": null,
+      "boundsNativeMeters": [
+        [
+          -0.004495849367231131,
+          0.7094014286994934,
+          0.09799494594335556
+        ],
+        [
+          0.0024369810707867146,
+          0.7190037965774536,
+          0.10595883429050446
+        ]
+      ],
+      "dimensionsMm": [
+        6.932830438017845,
+        9.602367877960205,
+        7.963888347148895
+      ]
+    },
+    {
+      "name": "VH_M_mouth_floor",
+      "verticesInGlb": 5637,
+      "verticesAfterSeamWeld": 5637,
+      "facesAfterSeamWeld": 11269,
+      "trianglesInGlb": 11269,
+      "boundaryEdgesAfterWeld": 2,
+      "nonmanifoldEdgesAfterWeld": 3,
+      "signedVolumeMlIfClosed": null,
+      "boundsNativeMeters": [
+        [
+          -0.024031218141317368,
+          0.7095659375190735,
+          0.05112527683377266
+        ],
+        [
+          0.019518164917826653,
+          0.7236699461936951,
+          0.0920821949839592
+        ]
+      ],
+      "dimensionsMm": [
+        43.54938305914402,
+        14.104008674621582,
+        40.95691815018654
+      ]
+    },
+    {
+      "name": "VH_M_gingiva_of_lower_jaw",
+      "verticesInGlb": 368574,
+      "verticesAfterSeamWeld": 368574,
+      "facesAfterSeamWeld": 738922,
+      "trianglesInGlb": 738922,
+      "boundaryEdgesAfterWeld": 733,
+      "nonmanifoldEdgesAfterWeld": 1016,
+      "signedVolumeMlIfClosed": null,
+      "boundsNativeMeters": [
+        [
+          -0.038087502121925354,
+          0.6879926919937134,
+          0.04905204847455025
+        ],
+        [
+          0.03655735030770302,
+          0.7393200993537903,
+          0.10276868939399719
+        ]
+      ],
+      "dimensionsMm": [
+        74.64485242962837,
+        51.327407360076904,
+        53.716640919446945
+      ]
+    },
+    {
+      "name": "VH_M_ginviva_of_upper_jaw",
+      "verticesInGlb": 32900,
+      "verticesAfterSeamWeld": 32900,
+      "facesAfterSeamWeld": 64644,
+      "trianglesInGlb": 64644,
+      "boundaryEdgesAfterWeld": 1166,
+      "nonmanifoldEdgesAfterWeld": 1166,
+      "signedVolumeMlIfClosed": null,
+      "boundsNativeMeters": [
+        [
+          -0.027620429173111916,
+          0.730712890625,
+          0.055057160556316376
+        ],
+        [
+          0.02985893189907074,
+          0.7558356523513794,
+          0.10379188507795334
+        ]
+      ],
+      "dimensionsMm": [
+        57.479361072182655,
+        25.122761726379395,
+        48.73472452163696
+      ]
+    },
+    {
+      "name": "VH_M_posterior_part_of_tongue",
+      "verticesInGlb": 55890,
+      "verticesAfterSeamWeld": 55889,
+      "facesAfterSeamWeld": 110998,
+      "trianglesInGlb": 111000,
+      "boundaryEdgesAfterWeld": 778,
+      "nonmanifoldEdgesAfterWeld": 778,
+      "signedVolumeMlIfClosed": null,
+      "boundsNativeMeters": [
+        [
+          -0.023647690191864967,
+          0.6893524527549744,
+          0.031155357137322426
+        ],
+        [
+          0.01829933188855648,
+          0.7278177738189697,
+          0.07081171125173569
+        ]
+      ],
+      "dimensionsMm": [
+        41.94702208042145,
+        38.46532106399536,
+        39.65635411441326
+      ]
+    },
+    {
+      "name": "VH_M_dorsal_tongue",
+      "verticesInGlb": 56332,
+      "verticesAfterSeamWeld": 56332,
+      "facesAfterSeamWeld": 110286,
+      "trianglesInGlb": 110286,
+      "boundaryEdgesAfterWeld": 2484,
+      "nonmanifoldEdgesAfterWeld": 2484,
+      "signedVolumeMlIfClosed": null,
+      "boundsNativeMeters": [
+        [
+          -0.022777404636144638,
+          0.7215328216552734,
+          0.03711967542767525
+        ],
+        [
+          0.018916359171271324,
+          0.7451303601264954,
+          0.1036178395152092
+        ]
+      ],
+      "dimensionsMm": [
+        41.69376380741596,
+        23.597538471221924,
+        66.49816408753395
+      ]
+    },
+    {
+      "name": "VH_M_ventral_tongue",
+      "verticesInGlb": 26822,
+      "verticesAfterSeamWeld": 26822,
+      "facesAfterSeamWeld": 52172,
+      "trianglesInGlb": 52172,
+      "boundaryEdgesAfterWeld": 1476,
+      "nonmanifoldEdgesAfterWeld": 1476,
+      "signedVolumeMlIfClosed": null,
+      "boundsNativeMeters": [
+        [
+          -0.022537460550665855,
+          0.7106013894081116,
+          0.052984561771154404
+        ],
+        [
+          0.017493056133389473,
+          0.7241246700286865,
+          0.10368847846984863
+        ]
+      ],
+      "dimensionsMm": [
+        40.03051668405533,
+        13.523280620574951,
+        50.70391669869423
+      ]
+    },
+    {
+      "name": "VH_M_fungiform_papillae",
+      "verticesInGlb": 983,
+      "verticesAfterSeamWeld": 983,
+      "facesAfterSeamWeld": 1164,
+      "trianglesInGlb": 1164,
+      "boundaryEdgesAfterWeld": 718,
+      "nonmanifoldEdgesAfterWeld": 718,
+      "signedVolumeMlIfClosed": null,
+      "boundsNativeMeters": [
+        [
+          -0.019050216302275658,
+          0.724833071231842,
+          0.06175646558403969
+        ],
+        [
+          0.018115004524588585,
+          0.7398025989532471,
+          0.10198517888784409
+        ]
+      ],
+      "dimensionsMm": [
+        37.16522082686424,
+        14.96952772140503,
+        40.2287133038044
+      ]
+    },
+    {
+      "name": "VH_M_circumvallate_papillae",
+      "verticesInGlb": 1063,
+      "verticesAfterSeamWeld": 1063,
+      "facesAfterSeamWeld": 1624,
+      "trianglesInGlb": 1624,
+      "boundaryEdgesAfterWeld": 476,
+      "nonmanifoldEdgesAfterWeld": 476,
+      "signedVolumeMlIfClosed": null,
+      "boundsNativeMeters": [
+        [
+          -0.022150535136461258,
+          0.7260658740997314,
+          0.03928804397583008
+        ],
+        [
+          0.01852848008275032,
+          0.7330511808395386,
+          0.05508005991578102
+        ]
+      ],
+      "dimensionsMm": [
+        40.67901521921158,
+        6.985306739807129,
+        15.792015939950943
+      ]
+    },
+    {
+      "name": "VH_M_hard_palate",
+      "verticesInGlb": 34032,
+      "verticesAfterSeamWeld": 34032,
+      "facesAfterSeamWeld": 66462,
+      "trianglesInGlb": 66462,
+      "boundaryEdgesAfterWeld": 1588,
+      "nonmanifoldEdgesAfterWeld": 1588,
+      "signedVolumeMlIfClosed": null,
+      "boundsNativeMeters": [
+        [
+          -0.02615409716963768,
+          0.7321358323097229,
+          0.055935706943273544
+        ],
+        [
+          0.029245566576719284,
+          0.7559399008750916,
+          0.10100223124027252
+        ]
+      ],
+      "dimensionsMm": [
+        55.399663746356964,
+        23.804068565368652,
+        45.06652429699898
+      ]
+    },
+    {
+      "name": "VH_M_mucosa_of_soft_palate",
+      "verticesInGlb": 79681,
+      "verticesAfterSeamWeld": 79681,
+      "facesAfterSeamWeld": 158862,
+      "trianglesInGlb": 158862,
+      "boundaryEdgesAfterWeld": 524,
+      "nonmanifoldEdgesAfterWeld": 524,
+      "signedVolumeMlIfClosed": null,
+      "boundsNativeMeters": [
+        [
+          -0.02789279818534851,
+          0.7130762338638306,
+          0.027690628543496132
+        ],
+        [
+          0.02322719432413578,
+          0.755741536617279,
+          0.06459104269742966
+        ]
+      ],
+      "dimensionsMm": [
+        51.11999250948429,
+        42.665302753448486,
+        36.900414153933525
+      ]
+    },
+    {
+      "name": "VH_M_set_of_lower_jaw_teeth",
+      "verticesInGlb": 51100,
+      "verticesAfterSeamWeld": 51100,
+      "facesAfterSeamWeld": 102144,
+      "trianglesInGlb": 102144,
+      "boundaryEdgesAfterWeld": 0,
+      "nonmanifoldEdgesAfterWeld": 0,
+      "signedVolumeMlIfClosed": 5.649512950770408,
+      "boundsNativeMeters": [
+        [
+          -0.0303511805832386,
+          0.7046400308609009,
+          0.055577199906110764
+        ],
+        [
+          0.028275756165385246,
+          0.7345666289329529,
+          0.10444191843271255
+        ]
+      ],
+      "dimensionsMm": [
+        58.62693674862385,
+        29.926598072052002,
+        48.86471852660179
+      ]
+    },
+    {
+      "name": "VH_M_set_of_upper_jaw_teeth",
+      "verticesInGlb": 51820,
+      "verticesAfterSeamWeld": 51820,
+      "facesAfterSeamWeld": 103584,
+      "trianglesInGlb": 103584,
+      "boundaryEdgesAfterWeld": 0,
+      "nonmanifoldEdgesAfterWeld": 0,
+      "signedVolumeMlIfClosed": 5.430959900579496,
+      "boundsNativeMeters": [
+        [
+          -0.027619285508990288,
+          0.7247540354728699,
+          0.05599083751440048
+        ],
+        [
+          0.029197387397289276,
+          0.748814046382904,
+          0.10590991377830505
+        ]
+      ],
+      "dimensionsMm": [
+        56.816672906279564,
+        24.06001091003418,
+        49.91907626390457
+      ]
+    },
+    {
+      "name": "VH_M_mandible",
+      "verticesInGlb": 64054,
+      "verticesAfterSeamWeld": 64054,
+      "facesAfterSeamWeld": 128104,
+      "trianglesInGlb": 128104,
+      "boundaryEdgesAfterWeld": 4,
+      "nonmanifoldEdgesAfterWeld": 4,
+      "signedVolumeMlIfClosed": null,
+      "boundsNativeMeters": [
+        [
+          -0.05510694533586502,
+          0.6802066564559937,
+          0.025582274422049522
+        ],
+        [
+          0.05584827437996864,
+          0.7789085507392883,
+          0.10074783861637115
+        ]
+      ],
+      "dimensionsMm": [
+        110.95521971583366,
+        98.70189428329468,
+        75.16556419432163
+      ]
+    }
+  ],
+  "sampledDorsumPalateVerticalRays": [
+    {
+      "lateralMm": 0,
+      "apMm": 45.0,
+      "dorsalUpperYmm": 734.254002571106,
+      "firstPalateSurfaceYmm": 740.6786680221558,
+      "verticalGapMm": 6.424665451049805
+    },
+    {
+      "lateralMm": 0,
+      "apMm": 50.0,
+      "dorsalUpperYmm": 739.2354607582092,
+      "firstPalateSurfaceYmm": 743.3862686157227,
+      "verticalGapMm": 4.150807857513428
+    },
+    {
+      "lateralMm": 0,
+      "apMm": 55.0,
+      "dorsalUpperYmm": 742.05082654953,
+      "firstPalateSurfaceYmm": 745.3030943870544,
+      "verticalGapMm": 3.252267837524414
+    },
+    {
+      "lateralMm": 0,
+      "apMm": 60.0,
+      "dorsalUpperYmm": 743.2551383972168,
+      "firstPalateSurfaceYmm": 746.6102838516235,
+      "verticalGapMm": 3.3551454544067383
+    },
+    {
+      "lateralMm": 0,
+      "apMm": 65.0,
+      "dorsalUpperYmm": 743.7859773635864,
+      "firstPalateSurfaceYmm": 746.0342645645142,
+      "verticalGapMm": 2.2482872009277344
+    },
+    {
+      "lateralMm": 0,
+      "apMm": 70.0,
+      "dorsalUpperYmm": 743.8424229621887,
+      "firstPalateSurfaceYmm": 745.1415657997131,
+      "verticalGapMm": 1.299142837524414
+    },
+    {
+      "lateralMm": 0,
+      "apMm": 75.0,
+      "dorsalUpperYmm": 743.3858513832092,
+      "firstPalateSurfaceYmm": 744.6695566177368,
+      "verticalGapMm": 1.283705234527588
+    },
+    {
+      "lateralMm": 0,
+      "apMm": 80.0,
+      "dorsalUpperYmm": 742.0923709869385,
+      "firstPalateSurfaceYmm": 743.9102530479431,
+      "verticalGapMm": 1.8178820610046387
+    },
+    {
+      "lateralMm": 0,
+      "apMm": 85.0,
+      "dorsalUpperYmm": 739.4649386405945,
+      "firstPalateSurfaceYmm": 742.2565221786499,
+      "verticalGapMm": 2.79158353805542
+    },
+    {
+      "lateralMm": 0,
+      "apMm": 95.0,
+      "dorsalUpperYmm": 731.3439846038818,
+      "firstPalateSurfaceYmm": 746.1528778076172,
+      "verticalGapMm": 14.808893203735352
+    },
+    {
+      "lateralMm": 0,
+      "apMm": 100.0,
+      "dorsalUpperYmm": 728.4545302391052,
+      "firstPalateSurfaceYmm": 744.7800636291504,
+      "verticalGapMm": 16.325533390045166
+    },
+    {
+      "lateralMm": 10.0,
+      "apMm": 50.0,
+      "dorsalUpperYmm": 737.201988697052,
+      "firstPalateSurfaceYmm": 742.2528266906738,
+      "verticalGapMm": 5.050837993621826
+    },
+    {
+      "lateralMm": 10.0,
+      "apMm": 55.0,
+      "dorsalUpperYmm": 740.002453327179,
+      "firstPalateSurfaceYmm": 746.0727691650391,
+      "verticalGapMm": 6.070315837860107
+    },
+    {
+      "lateralMm": 10.0,
+      "apMm": 60.0,
+      "dorsalUpperYmm": 742.4866557121277,
+      "firstPalateSurfaceYmm": 746.9543814659119,
+      "verticalGapMm": 4.46772575378418
+    },
+    {
+      "lateralMm": 10.0,
+      "apMm": 65.0,
+      "dorsalUpperYmm": 742.7917122840881,
+      "firstPalateSurfaceYmm": 746.8109130859375,
+      "verticalGapMm": 4.019200801849365
+    },
+    {
+      "lateralMm": 10.0,
+      "apMm": 70.0,
+      "dorsalUpperYmm": 741.8479919433594,
+      "firstPalateSurfaceYmm": 746.5245127677917,
+      "verticalGapMm": 4.676520824432373
+    },
+    {
+      "lateralMm": 10.0,
+      "apMm": 75.0,
+      "dorsalUpperYmm": 740.4788136482239,
+      "firstPalateSurfaceYmm": 745.7753419876099,
+      "verticalGapMm": 5.296528339385986
+    },
+    {
+      "lateralMm": 10.0,
+      "apMm": 85.0,
+      "dorsalUpperYmm": 734.4824075698853,
+      "firstPalateSurfaceYmm": 742.4866557121277,
+      "verticalGapMm": 8.004248142242432
+    },
+    {
+      "lateralMm": 10.0,
+      "apMm": 90.0,
+      "dorsalUpperYmm": 731.1211824417114,
+      "firstPalateSurfaceYmm": 733.0586314201355,
+      "verticalGapMm": 1.9374489784240723
+    },
+    {
+      "lateralMm": -10.0,
+      "apMm": 45.0,
+      "dorsalUpperYmm": 735.327959060669,
+      "firstPalateSurfaceYmm": 737.8188371658325,
+      "verticalGapMm": 2.490878105163574
+    },
+    {
+      "lateralMm": -10.0,
+      "apMm": 50.0,
+      "dorsalUpperYmm": 739.2513155937195,
+      "firstPalateSurfaceYmm": 743.8628077507019,
+      "verticalGapMm": 4.611492156982422
+    },
+    {
+      "lateralMm": -10.0,
+      "apMm": 55.0,
+      "dorsalUpperYmm": 742.0490980148315,
+      "firstPalateSurfaceYmm": 746.4075684547424,
+      "verticalGapMm": 4.358470439910889
+    },
+    {
+      "lateralMm": -10.0,
+      "apMm": 60.0,
+      "dorsalUpperYmm": 743.766188621521,
+      "firstPalateSurfaceYmm": 746.944785118103,
+      "verticalGapMm": 3.1785964965820312
+    },
+    {
+      "lateralMm": -10.0,
+      "apMm": 65.0,
+      "dorsalUpperYmm": 743.9774870872498,
+      "firstPalateSurfaceYmm": 746.6075420379639,
+      "verticalGapMm": 2.6300549507141113
+    },
+    {
+      "lateralMm": -10.0,
+      "apMm": 70.0,
+      "dorsalUpperYmm": 743.375837802887,
+      "firstPalateSurfaceYmm": 746.7206716537476,
+      "verticalGapMm": 3.3448338508605957
+    },
+    {
+      "lateralMm": -10.0,
+      "apMm": 75.0,
+      "dorsalUpperYmm": 741.6604161262512,
+      "firstPalateSurfaceYmm": 746.528685092926,
+      "verticalGapMm": 4.868268966674805
+    },
+    {
+      "lateralMm": -10.0,
+      "apMm": 85.0,
+      "dorsalUpperYmm": 735.2946996688843,
+      "firstPalateSurfaceYmm": 740.2937412261963,
+      "verticalGapMm": 4.999041557312012
+    },
+    {
+      "lateralMm": -10.0,
+      "apMm": 90.0,
+      "dorsalUpperYmm": 732.3960065841675,
+      "firstPalateSurfaceYmm": 748.6745119094849,
+      "verticalGapMm": 16.278505325317383
+    },
+    {
+      "lateralMm": -10.0,
+      "apMm": 95.0,
+      "dorsalUpperYmm": 729.7101616859436,
+      "firstPalateSurfaceYmm": 746.6720342636108,
+      "verticalGapMm": 16.961872577667236
+    }
+  ],
+  "measurementCaveat": "First intersections of labelled mucosal/palatal surfaces; these are mesh-geometry samples in supplied fixed pose, not physiological airspace measurements or proof of connected airway."
+}

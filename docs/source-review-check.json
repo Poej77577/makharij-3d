@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-01",
+  "chromium": "154.0.8037.57",
+  "checks": [
+    "Final ZIP extracted and every manifest digest verified",
+    "review root index HTTP 200 from exact extracted ZIP",
+    "all four actual images decoded at original 1400px width",
+    "every relative page link resolves in extracted package and returns HTTP 200",
+    "details open and close",
+    "desktop and emulated mobile layout without horizontal overflow",
+    "production viewer loads unchanged old model with rejection status",
+    "review link works in production build",
+    "production review images load"
+  ],
+  "physicalPhone": false,
+  "directFileURLTest": "Blocked by managed Chromium policy: ERR_BLOCKED_BY_ADMINISTRATOR. Static package uses only relative local assets and inline CSS, but direct file opening was not verified here. Browser rendering and all local links tested over localhost instead.",
+  "noSpeechOrAnatomicalApproval": true,
+  "pageErrors": [],
+  "zipSha256": "3456e11c01ade558ee939c64e8b6d4c76adf974251c2605fae1909c40d25c91b",
+  "zipBytes": 5915878
+}

@@ -5,3 +5,5 @@
 @media(prefers-reduced-motion:reduce){.loader{animation:none}.toast{transition:none}}
 button svg{vertical-align:middle}.focus-button svg{width:15px;height:15px;margin-left:7px}.camera-actions button{display:grid;place-items:center}
 .rotation-proof{margin:20px 0;border:1px solid #dfe4d5;border-radius:5px;overflow:hidden}.rotation-proof video{display:block;width:100%;max-height:440px;background:#f3f1ea}.rotation-proof figcaption{font-size:10px;color:#79856d;padding:10px 14px}
+
+.source-checkpoint{padding:13px 18px;margin:0 0 22px;border:1px solid #dcc5a2;border-radius:7px;background:#fff5e7;font-size:12px;line-height:2;color:#6d5030}.source-checkpoint strong{font-weight:600}.source-checkpoint a{margin-inline-start:10px}

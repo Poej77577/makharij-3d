@@ -1,0 +1,11 @@
+{
+  "retrieved": "2026-11-01",
+  "url": "https://raw.githubusercontent.com/hubmapconsortium/hra-kg/29888dcc5f32dae28c7a07c41171c822275360c3/digital-objects/ref-organ/mouth-male/v1.0/raw/3d-vh-m-mouth.glb",
+  "githubCommit": "29888dcc5f32dae28c7a07c41171c822275360c3",
+  "fileBytes": 53487620,
+  "sha256": "aa5bf5f40c45c4679f05d31e7708df3e89b9897c2ff95aa89dbfaf3c501578be",
+  "license": "CC BY 4.0 (data, per HRA metadata.yaml and README; code MIT)",
+  "assetModified": false,
+  "nihDirectDownload": "not attempted after CONNECT403 policy denial on NIH host",
+  "fileObtainedFrom": "official HuBMAP HRA-KG GitHub repository on allowed raw.githubusercontent.com"
+}
