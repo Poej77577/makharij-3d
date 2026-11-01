@@ -1,0 +1,9 @@
+{
+  "method": "Blender background execution of the actual build script in a missing-input fixture",
+  "blender_version": "4.3.2",
+  "blocked": true,
+  "error": "Model build blocked before scene changes. Restore the pinned source inputs: model/source/missing.glb: missing",
+  "existing_objects_preserved": true,
+  "output_asset_written": false,
+  "passed": true
+}

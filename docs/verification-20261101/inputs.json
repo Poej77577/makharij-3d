@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "scope": "environment and pinned input integrity only; no anatomical or motion validation",
+  "model_inputs_complete": true,
+  "inputs": [
+    {
+      "path": "model/source/artisynth/badinface.obj",
+      "expected_sha256": "999f7a9e8805229d449aecb7fca13ffdb94e2853f274f65c7fa90fe220e2a445",
+      "actual_sha256": "999f7a9e8805229d449aecb7fca13ffdb94e2853f274f65c7fa90fe220e2a445",
+      "status": "ok"
+    },
+    {
+      "path": "model/source/artisynth/badinface_lowerlip_filled.obj",
+      "expected_sha256": "1d1d86aa679c71580f200c858f4129ae86bb400b763ad9259c324a3f727893e3",
+      "actual_sha256": "1d1d86aa679c71580f200c858f4129ae86bb400b763ad9259c324a3f727893e3",
+      "status": "ok"
+    },
+    {
+      "path": "model/source/artisynth/badinface_upperlip_filled.obj",
+      "expected_sha256": "be41e9a838de42aa3e4e3fdd3c99ce71fc0496f1e376166e741a00cad7d569e6",
+      "actual_sha256": "be41e9a838de42aa3e4e3fdd3c99ce71fc0496f1e376166e741a00cad7d569e6",
+      "status": "ok"
+    },
+    {
+      "path": "model/source/artisynth/badinpalate.obj",
+      "expected_sha256": "4dd24ca794e839ba7c15ca6e145c6ce6b3d7d38e92198b82e2c63acf596aa7e5",
+      "actual_sha256": "4dd24ca794e839ba7c15ca6e145c6ce6b3d7d38e92198b82e2c63acf596aa7e5",
+      "status": "ok"
+    },
+    {
+      "path": "model/source/artisynth/badintongue.obj",
+      "expected_sha256": "fdd98f011539e5d0346133f173fc4c650aa45e27f3649505ff65e763d890a212",
+      "actual_sha256": "fdd98f011539e5d0346133f173fc4c650aa45e27f3649505ff65e763d890a212",
+      "status": "ok"
+    },
+    {
+      "path": "model/source/artisynth/softpalate_superdown.obj",
+      "expected_sha256": "22fecd3833c2acfa5c6a150aaf49c0368f5345b7d8c153bad64bdaf8a719f18b",
+      "actual_sha256": "22fecd3833c2acfa5c6a150aaf49c0368f5345b7d8c153bad64bdaf8a719f18b",
+      "status": "ok"
+    },
+    {
+      "path": "model/source/artisynth/softpalate_up.obj",
+      "expected_sha256": "c8827f758273ac0e28e8d3be4e46e705dbe880fb6d4a41112f1d0ae9e3fd8b81",
+      "actual_sha256": "c8827f758273ac0e28e8d3be4e46e705dbe880fb6d4a41112f1d0ae9e3fd8b81",
+      "status": "ok"
+    },
+    {
+      "path": "model/source/bodyparts3d/ATTRIBUTION.md",
+      "expected_sha256": "3386e7a8872d0efea86d736e08dfea8f0d894cdda426592a6f7ec0b7ecac28eb",
+      "actual_sha256": "3386e7a8872d0efea86d736e08dfea8f0d894cdda426592a6f7ec0b7ecac28eb",
+      "status": "ok"
+    },
+    {
+      "path": "model/source/bodyparts3d/manifest.json",
+      "expected_sha256": "396b609ca1c2794c641a793070cf23b28d2dca83db0ef347ca6e86e866608097",
+      "actual_sha256": "396b609ca1c2794c641a793070cf23b28d2dca83db0ef347ca6e86e866608097",
+      "status": "ok"
+    },
+    {
+      "path": "model/source/bodyparts3d/teeth.glb",
+      "expected_sha256": "89a1074b0806eb41c318d38c78a269134c5070be7b90cb2f93ab2de7d35ec239",
+      "actual_sha256": "89a1074b0806eb41c318d38c78a269134c5070be7b90cb2f93ab2de7d35ec239",
+      "status": "ok"
+    }
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "tools": {
+      "blender": "/usr/bin/blender",
+      "node": "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+      "npm": "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/npm",
+      "git": "/usr/local/bin/git",
+      "ffmpeg": "/usr/bin/ffmpeg"
+    }
+  },
+  "git": {
+    "command": [
+      "git",
+      "status",
+      "--short",
+      "--branch"
+    ],
+    "exit_code": 0,
+    "output": "## dev/recovery-preflight-20261101\n M scripts/build_model.py\n?? scripts/preflight.py\n?? scripts/test_preflight.py\n"
+  },
+  "web_dependencies_present": true,
+  "network": "not_requested"
+}

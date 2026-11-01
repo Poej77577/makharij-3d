@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-01",
+  "web_build": "passed: npm ci and npm run build",
+  "small_render": "passed: 320x240 Blender Workbench",
+  "baseline_rebuild": "passed in work/baseline-rebuild; production asset left unchanged",
+  "glb_byte_identical_to_upstream": true,
+  "artisynth_core_commit": "c958f5bfa96b8989973550346d30ad7a0cb10f43",
+  "artisynth_runtime": "not run: official library host denied by CONNECT 403",
+  "new_anatomy": "not completed",
+  "articulation": "not implemented",
+  "browser_testing_this_session": "not performed",
+  "deployment": "not performed"
+}

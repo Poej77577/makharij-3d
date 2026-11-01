@@ -1,11 +1,18 @@
-"""Rebuild the editable rest study. Blender 4.3+. Source dimensions are mm.
+"""Rebuild the editable rest study. Blender 4.3+.
+Acquired OBJ coordinates are metres; construction math uses millimetres and
+exported geometry uses metres.
 Acquired surfaces are not scan supports. Nasal wall is an authored teaching loft.
 The model is experimental; no clinical or tajwid validation is implied.
 """
-import bpy, bmesh, math, json, hashlib
 from pathlib import Path
-from mathutils import Vector
+import sys
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'scripts'))
+from preflight import require_model_inputs
+# Validate before importing Blender or deleting anything in the current scene.
+require_model_inputs(ROOT)
+import bpy, bmesh, math, json, hashlib
+from mathutils import Vector
 bpy.ops.object.select_all(action='SELECT');bpy.ops.object.delete(use_global=False)
 for m in list(bpy.data.materials):bpy.data.materials.remove(m)
 scene=bpy.context.scene;scene.unit_settings.system='METRIC';scene.unit_settings.scale_length=1
