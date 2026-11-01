@@ -1,0 +1,13 @@
+{
+  "archive": "makharij-development-20261101.zip",
+  "source_commit": "8763cf33a6ccb969e3e815211c90941d79f2baba",
+  "sha256": "48011d03553a7d8e22c834455fa6db9914252044ddf897953a5dee48b49df2c8",
+  "bytes": 71253633,
+  "manifest_files_verified": 170,
+  "crc_check": "passed",
+  "extracted_source_input_hash_check": "passed",
+  "extracted_source_unit_tests": "4 passed",
+  "browser_build_included": true,
+  "anatomical_gate_passed": false,
+  "deployment_completed": false
+}
