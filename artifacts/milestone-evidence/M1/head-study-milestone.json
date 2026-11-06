@@ -1,0 +1,46 @@
+{
+  "milestone": "M1",
+  "status": "in_progress",
+  "implemented": [
+    "compared actual raw Badin full skin and MakeHuman continuous facial source",
+    "audited and preserved CC0 source meshes, bindings and artist targets",
+    "selected external-head authoring foundation",
+    "created editable external-head study and actual GLB",
+    "verified evaluated source/export bounds and recorded missing internal assembly"
+  ],
+  "evidenceFiles": [
+    "artifacts/milestone-evidence/M1/makehuman-adult-head-study/rest/three-quarter.png",
+    "artifacts/milestone-evidence/M1/makehuman-adult-head-study/rest/head-study.blend",
+    "artifacts/milestone-evidence/M1/makehuman-adult-head-study/rest/head-study.glb",
+    "artifacts/milestone-evidence/M1/makehuman-adult-head-study/rest/export-verification.json",
+    "artifacts/milestone-evidence/M1/matching-assets-acquisition.json"
+  ],
+  "checksPassed": [
+    "54 original source/license files verified offline",
+    "two audited license notice records",
+    "actual head GLB decoded with world transforms; evaluated surface bounds match source",
+    "no visible fitting helpers exported"
+  ],
+  "checksFailed": [
+    "official matching oral-assets archive HEAD: proxy CONNECT 403 Forbidden"
+  ],
+  "checksNotRun": [
+    "file-level inspection of inaccessible system asset archive",
+    "combined M2 resting anatomy acceptance",
+    "new M3 articulation rig",
+    "new M4 five-letter clips"
+  ],
+  "reviewPending": [
+    "complete external visual finishing",
+    "internal anatomical registration and completion",
+    "anatomy expert",
+    "tajwid expert"
+  ],
+  "externalBackupVerified": true,
+  "blockers": [
+    "runtime network policy does not allow files2.makehumancommunity.org; saved domain addition is a draft only"
+  ],
+  "nextTask": "Apply the reviewed environment draft, verify runtime access, acquire and inspect the matching official oral assets, then complete the combined M1 foundation/M2 anatomy.",
+  "commit": "59819204d4582cd510ec95202c56cca21c743bc6",
+  "recoveredHeadGlbSha256": "5c812fdf3d4a2226c5b8763c29cf291ac44224cb3c4a7dc9d480db32ea750d30"
+}

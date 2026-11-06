@@ -1,0 +1,67 @@
+{
+  "requestedProjectRoots": [
+    "/workspace/makharij-3d"
+  ],
+  "inspectedCheckouts": [
+    {
+      "root": "/workspace/makharij-3d",
+      "gitDirectory": "/workspace/makharij-3d/.git",
+      "head": "59819204d4582cd510ec95202c56cca21c743bc6",
+      "originHost": "github.com",
+      "repository": "Poej77577/makharij-3d",
+      "classification": "requested-project"
+    },
+    {
+      "root": "/workspace/makharij-3d/assets/candidates/VocalTractLabBackend",
+      "gitDirectory": "/workspace/makharij-3d/assets/candidates/VocalTractLabBackend/.git",
+      "head": "df30392f18dc5e175b577c3ba734caaa65a3927f",
+      "originHost": "github.com",
+      "repository": "TUD-STKS/VocalTractLabBackend",
+      "classification": "ignored-source-acquisition-cache"
+    },
+    {
+      "root": "/workspace/makharij-3d/assets/candidates/artisynth_models",
+      "gitDirectory": "/workspace/makharij-3d/assets/candidates/artisynth_models/.git",
+      "head": "e37be3f1b4831f347c055cbf7124b6bd57414f98",
+      "originHost": "github.com",
+      "repository": "artisynth/artisynth_models",
+      "classification": "ignored-source-acquisition-cache"
+    },
+    {
+      "root": "/workspace/makharij-3d/assets/candidates/makehuman",
+      "gitDirectory": "/workspace/makharij-3d/assets/candidates/makehuman/.git",
+      "head": "a8bc2d54ff0ac92e78ff71431b1023eda42bf482",
+      "originHost": "github.com",
+      "repository": "makehumancommunity/makehuman",
+      "classification": "ignored-source-acquisition-cache"
+    },
+    {
+      "root": "/workspace/makharij-3d/assets/candidates/mpfb2",
+      "gitDirectory": "/workspace/makharij-3d/assets/candidates/mpfb2/.git",
+      "head": "6ff1eb358f6c1959ced77e79e6dd2406d9a71f49",
+      "originHost": "github.com",
+      "repository": "makehumancommunity/mpfb2",
+      "classification": "ignored-source-acquisition-cache"
+    },
+    {
+      "root": "/workspace/makharij-3d/assets/candidates/makehuman-website",
+      "gitDirectory": "/workspace/makharij-3d/assets/candidates/makehuman-website/.git",
+      "head": "bc07eb3ac5719e89e0068bb8ee4ea8e38e273e8a",
+      "originHost": "github.com",
+      "repository": "makehumancommunity/makehuman-static-website",
+      "classification": "ignored-source-acquisition-cache"
+    }
+  ],
+  "additionalGitMetadata": [
+    {
+      "path": "/workspace/.git",
+      "classification": "empty platform placeholder, not a checkout"
+    },
+    {
+      "path": "/workspace/artifacts/recovery-2026-11-06/remote-verify.git",
+      "classification": "bare backup verification repository, not a project checkout"
+    }
+  ],
+  "discovery": "rg --files --hidden --no-ignore, no unreadable paths reported; source/dependency caches explicitly classified",
+  "projectMountPath": "makharij-3d"
+}
