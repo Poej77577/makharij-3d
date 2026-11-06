@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "headPose": {
+    "preset": "adult source macros",
+    "mouthOpenAuthoringWeight": 0.24,
+    "clinicalRange": false
+  },
+  "frame": {
+    "units": "m",
+    "anterior": "+X",
+    "superior": "+Y",
+    "right": "+Z"
+  },
+  "placementMethod": "Translation-only authoring fit at a source anterior dental edge and matching character fitting-reference edge. No patient registration or donor identity is established.",
+  "targetReferenceRole": "invisible source fitting cage, not displayed anatomy or a clinical measurement",
+  "legacyRestSha256": "a37b23ec7fc4f6df4526feb744a2c6ed877c1e7bc2e3fd2bde4cdbc0089c0648",
+  "researchMaxillaSha256": "d3dfadeddbb0d604951637d63207019f423fbc04c68a10cace111ad6c89af76f",
+  "transforms": {
+    "badin_oral": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.05307164255301158
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.03168015499770407
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0011133576044812799
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceAnchor_m": [
+        0.09046502411365509,
+        -8.015499770408496e-05,
+        -0.0011133576044812799
+      ],
+      "targetAnchor_m": [
+        0.14353666666666667,
+        0.03159999999999998,
+        -0.0
+      ],
+      "uniformScale": 1,
+      "rotationChanged": false
+    },
+    "vkh_context": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.07544146666666667
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.03505402499999998
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0004851679999999874
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sourceAnchor_m": [
+        0.06809520000000001,
+        -0.0034540250000000016,
+        0.0004851679999999874
+      ],
+      "targetAnchor_m": [
+        0.14353666666666667,
+        0.03159999999999998,
+        -0.0
+      ],
+      "uniformScale": 1,
+      "rotationChanged": false
+    }
+  },
+  "requires": [
+    "actual cross-section review",
+    "independent clearance/attachment checks",
+    "oral mucosa fitting",
+    "expert anatomical review"
+  ],
+  "status": "M2 working placement, not accepted anatomy"
+}

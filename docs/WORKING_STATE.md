@@ -57,7 +57,7 @@ bundled teeth/tongue assets were acquired.
 For historical diagnostics only, consult `docs/WORKING-STATE.md`. Its older
 status statements are superseded by this file and the explicit M0 evidence.
 
-## Current M1 result and external prerequisite
+## Current M1 result and selected reconstruction route
 
 - MakeHuman snapshot now includes 24 original asset/license files, including4
   source adult macro targets. `python tools/qa/verify_sources.py` checks all 54
@@ -78,9 +78,20 @@ status statements are superseded by this file and the explicit M0 evidence.
   This one hostname is now added to the network draft, preserving all prior
   custom rules; it is not present in the runtime allowlist. Evidence is
   artifacts/milestone-evidence/M1/matching-assets-acquisition.json.
-- After the user reviews/saves/publishes the environment configuration and
-  runtime readiness shows the host allowed, retry that specific archive URL,
-  verify/extract only relevant assets, inspect their license headers and
-  source-defined fitting bindings, then continue M1/M2. Do not substitute
-  visible fitting helpers or silently mix unregistered donors. No further
-  identical blocked-network retries before a meaningful access change.
+- The optional matching archive no longer blocks implementation. Independently
+  available VKH upper-airway source files were acquired from the permitted
+  ArtiSynth repository at its pinned commit. The 20-file unchanged snapshot
+  includes its complete license and source load lists. The original blocked
+  ZIP was not accessed through a mirror or bypass.
+- Source inspection extracts real tetrahedral boundaries for tongue, pharynx,
+  aponeurosis and paired suprahyoid tissues; hyoid/thyroid/cricoid are actual
+  research surfaces. Inspect their source sagittal and three-quarter views in
+  `artifacts/milestone-evidence/M1/vkh-upper-airway`.
+- Continue M2 using the continuous head, prepared research oral block and
+  separately documented VKH context. Initial translation-only authoring fits
+  are in `assets/calibration/character-fit.json`. They are not clinical or
+  single-donor registration. The old lip-context mesh is excluded.
+- `tools/blender/character_assembly.py` produces an editable combined source,
+  actual GLB, evaluated geometry and diagnostic views. Oral lining,
+  pharyngeal/floor attachment, nasal fit and gingival continuity still require
+  real geometric and visual work before M2 acceptance. No new rig is claimed.

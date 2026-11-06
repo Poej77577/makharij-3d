@@ -1,0 +1,108 @@
+{
+  "repository": "https://github.com/artisynth/artisynth_models",
+  "commit": "e37be3f1b4831f347c055cbf7124b6bd57414f98",
+  "licenseId": "artisynth-models-2014",
+  "sourceAssembly": "VKHUpperAirwayDemo default rigid-body and FEM lists",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1564,
+      "sha256": "cf8c3cf168bb2661cf51ca26159e2203e2e7d0158ec20d17409abb565a3f8294"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/VKHUpperAirwayDemo.java",
+      "bytes": 4180,
+      "sha256": "d46f28675c734dba69fe70a27794b61bf3e18ceefd874fdd55013f8046ee5bdb"
+    },
+    {
+      "path": "src/artisynth/models/template/about_ModelTemplate.txt",
+      "bytes": 4041,
+      "sha256": "3de8ee05dcde0ab910586242d535e16c7aa05003e8472f76d16dd4739e1a1b74"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/rigidBodies/bodyList.txt",
+      "bytes": 278,
+      "sha256": "94cad65cd5ab3ba5ca782c8c0e4974761f8ef301714552300d00c7a6f7078d29"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/fem/femList.txt",
+      "bytes": 392,
+      "sha256": "6bba70c0486db020e2a2f2bcb3b7145dd7db03de4520f5ae5e89527c8fd70646"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/fem/Tongue.node",
+      "bytes": 137931,
+      "sha256": "14fe754ad4a406815f2589dd0f325454c79d598981087825da5be435709341e0"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/fem/Tongue.elem",
+      "bytes": 518973,
+      "sha256": "e4134487c7a173f4e54b4fb661973bd390626d801e9910e9b48469061cdefad9"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/fem/Pharynx.node",
+      "bytes": 176364,
+      "sha256": "3b45590f0cfd43ce126f2e7ecde66787805af50663b0b52886318cbd66e68c46"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/fem/Pharynx.elem",
+      "bytes": 621933,
+      "sha256": "d6fce28874c042bebaef2cec441c884f29f61a92e8112f2bf4cc4fb7f93f4bdc"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/fem/Palatine_aponeurosis.node",
+      "bytes": 60444,
+      "sha256": "63b1b01c2b8e052c0b6c98a98a9743b73fb765b838812ba48623c97f81ca878d"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/fem/Palatine_aponeurosis.elem",
+      "bytes": 218805,
+      "sha256": "525ddfa653577205441db0846ae258b340cc0370bc95adce7774b30fd2c511e7"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/fem/Suprahyoid_muscles_L.node",
+      "bytes": 27255,
+      "sha256": "9a8278c3922a04754e9a47957814b8b7658de2d36ebfd5b83fd707e107780d3d"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/fem/Suprahyoid_muscles_L.elem",
+      "bytes": 90061,
+      "sha256": "c72c9d70114ed65f5b55579831a5e83e7bca42fa2ded942543a4eca3e7b74ae0"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/fem/Suprahyoid_muscles_R.node",
+      "bytes": 31809,
+      "sha256": "035a9aa8ebd67a333ad911105991f012d1436b564f532c49b4380a4aee0356cc"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/fem/Suprahyoid_muscles_R.elem",
+      "bytes": 108189,
+      "sha256": "1a0c55b09dca9010ebcdd34a2e8d1a8c2bd748ed2f4ee8dc8fd535f80b327f38"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/rigidBodies/Maxilla.obj",
+      "bytes": 765653,
+      "sha256": "d3dfadeddbb0d604951637d63207019f423fbc04c68a10cace111ad6c89af76f"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/rigidBodies/Mandible.obj",
+      "bytes": 836961,
+      "sha256": "e24c533db6e09e4356c279aee0af5b0069ffc7761072f23a9e175573250ef2ed"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/rigidBodies/Hyoid.obj",
+      "bytes": 82234,
+      "sha256": "bf0edfa88a632db25b57118a229581bf7f91e70659aae64ee5d5db936553ec91"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/rigidBodies/Thyroid.obj",
+      "bytes": 142510,
+      "sha256": "3135bb1a8d8fe2a877977395c464237434133dc1f9ed07d0dd7fcdc18d13a43d"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/rigidBodies/Cricoid.obj",
+      "bytes": 78954,
+      "sha256": "ebaa5fe19e1daf35b753fec1342cb960d9cfb603debf58c3f538e8e8a9459556"
+    }
+  ]
+}

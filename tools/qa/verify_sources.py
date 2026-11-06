@@ -5,7 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 summaries = []
-for directory in ['artiSynth', 'makehuman']:
+for directory in ['artiSynth', 'makehuman', 'vkh-upper-airway']:
     source = ROOT / 'assets/source' / directory
     manifest = json.loads((source / 'manifest.json').read_text())
     total = 0

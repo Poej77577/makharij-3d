@@ -18,6 +18,7 @@ substituted for it.
 |---|---|---|---|---|
 | Badin/ArtiSynth legacy assembly | Original 30-file licensed snapshot, editable v10 study, complete raw `badinskin.obj` | Actual tongue/teeth/palate research surfaces; published assembly/frame evidence; preserved technical Ra result | Raw skin scan has cropped scalp and neck and no finished external-face topology; old cast-derived gum/lip intersections; no complete larynx | Preserve for research reference and separately verified components; not the finished external head |
 | MakeHuman hm08 | Actual `base.obj`, original eye OBJ/MHCLO/texture, facial targets and adult macro targets at pinned commit | Complete continuous head; quad topology/UVs; original facial controls; eyes fit from declared bindings | Matching dental/tongue pack not yet acquired; teaching nasal/pharyngeal/laryngeal assembly absent; materials are study shading | Selected external foundation, subject to completing and reviewing internal anatomy |
+| VKH upper airway / ArtiSynth | 20 unchanged licensed files, source load lists, five tetrahedral soft-tissue boundaries and five rigid surfaces | Actual volumetric tongue, pharynx, palatine aponeurosis and suprahyoid tissues; hyoid, thyroid and cricoid surfaces | Independent donor/frame; maxilla and mandible include bone; aponeurosis is not a complete uvula; no matching external-face rig | Selected supplementary research foundation for documented reconstruction |
 | VocalTractLab legacy candidate | Prior actual exported surface audit in `docs/assets/ASSET-DECISION.ar.md` | Original parametric speech controls | Simplified dental arches and ribbon-like lips; no acquired full realistic head in that evaluated export | Historical reference; rejected as delivered visual foundation |
 
 Evidence is in `artifacts/milestone-evidence/M1`. Each rendering records the
@@ -38,23 +39,24 @@ raw skin alone; no imagined completion of the cropped scalp was performed.
 
 ## Concrete completion approach
 
-1. Acquire and inspect the original matching system teeth/tongue assets,
-   including their individual license headers and MHCLO reference bindings.
-   Never display the base mesh's fitting helpers as teeth or tongue.
+1. Use the already inspected research dental crowns, tongue and palates with
+   the selected continuous head. Supplement pharynx, suprahyoid and laryngeal
+   context from the licensed VKH source assembly. Matching MakeHuman assets
+   are optional; their denied download no longer blocks this approach.
 2. Preserve the outer head's continuous lip/perioral topology. Fit matching
    assets against the complete source vertex array before cropping/reindexing.
 3. Inspect and complete mouth-floor/root attachment and palatal coverage.
    Do not assume a character tongue is sufficient for Arabic articulation.
 4. Reconstruct missing hollow nasal/pharyngeal context with documented
    anatomical references. Any reuse of Badin surfaces requires explicit
-   landmark registration, residuals and source/donor limitations. No prior
+   authoring placement, fit measurements and source/donor limitations. No prior
    Ra/Qaf/Mim calibration transfers automatically to a different head.
 5. Complete adequate laryngeal context for the intended sounds; retain pending
    expert-review status. Show genuine empty spaces and actual tissue volumes.
 6. Prepare M2 external/internal views and full-volume rotation before accepting
    the model or beginning the production articulation rig.
 
-## Current acquisition blocker
+## Optional matching pack: access history
 
 The original 2020 downloader references a now-unavailable separate Git
 repository. The publisher's current official website source instead lists:
@@ -71,5 +73,20 @@ download hostname was added to the editable environment network draft,
 preserving the six existing custom hostnames. Draft saving does not apply
 runtime access or publish the environment. No mirror/proxy bypass was used.
 
-Continue only the independent external-head study until the matching source
-can be inspected or another adequately evidenced completion route is selected.
+The reconstruction route above was subsequently selected using independently
+available assets in the permitted ArtiSynth repository. No change to runtime
+access or further attempt at the denied archive is required for this work.
+
+## Initial reconstruction fit
+
+`assets/calibration/character-fit.json` records translation-only placement at
+an actual anterior dental edge and the character's invisible fitting-reference
+edge. Scale and rotation are preserved. This is an artist placement method;
+it does not establish clinical alignment or common donor identity. The old
+oral block and new VKH context receive separate recorded transforms.
+
+The reproducible M2 working assembly is built by
+`tools/blender/character_assembly.py`. Its actual source/export files and views
+are in `artifacts/milestone-evidence/M2/character-assembly`. Oral mucosa,
+gingival continuity, nasal reconstruction and attachment/clearance checks
+remain explicit M2 tasks. Earlier Ra and Mim results do not transfer to it.
