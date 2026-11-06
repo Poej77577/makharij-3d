@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "artisynth-models-2014",
+      "source": "https://github.com/artisynth/artisynth_models",
+      "sourceCommit": "e37be3f1b4831f347c055cbf7124b6bd57414f98",
+      "kind": "research software and data license",
+      "noticePath": "assets/source/artiSynth/LICENSE",
+      "redistribution": "permitted-with-retained-notices",
+      "academicCitationRequired": true,
+      "scope": "selected unchanged source snapshot and documented derived anatomy; donor identity is not established by co-loading"
+    },
+    {
+      "id": "makehuman-cc0-assets",
+      "source": "https://github.com/makehumancommunity/makehuman",
+      "sourceCommit": "a8bc2d54ff0ac92e78ff71431b1023eda42bf482",
+      "kind": "CC0-1.0",
+      "noticePath": "assets/source/makehuman/LICENSE.ASSETS.md",
+      "scopePath": "assets/source/makehuman/LICENSE.md",
+      "redistribution": "permitted",
+      "scope": "base mesh, original facial targets, eye meshes/bindings and eye texture; excludes AGPL application logic"
+    }
+  ]
+}

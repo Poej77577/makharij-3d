@@ -1,0 +1,26 @@
+{
+  "candidate": "badin",
+  "pose": "rest",
+  "views": [
+    "front",
+    "side",
+    "three-quarter"
+  ],
+  "sourceSha256": {
+    "assets/source/artiSynth/face/geometry/badinskin.obj": "f8cd321382f4caf8a6aeedc1b5685fdb992a6aaf3cd55d404a8ef447ab5e18ce"
+  },
+  "notes": [
+    "published raw meter frame converted by documented research transform",
+    "unmodified skin geometry; smooth normals only",
+    "neutral artistic material",
+    "no independent external-face rig or anatomical approval"
+  ],
+  "sourceFilesModified": false,
+  "anatomyReview": "pending",
+  "renderer": {
+    "engine": "Cycles CPU",
+    "threads": 2,
+    "samples": 12,
+    "resolution": 512
+  }
+}

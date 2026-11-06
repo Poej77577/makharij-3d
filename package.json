@@ -6,8 +6,25 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "tsc --noEmit && vite build",
-    "preview": "vite preview --host 0.0.0.0"
+    "preview": "vite preview --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test:unit": "vitest run --maxWorkers=2 --minWorkers=1",
+    "test:e2e": ".venv-qa/bin/python tools/qa/m0_browser.py",
+    "assets:inspect": "blender --background --threads 2 --python tools/blender/inspect_asset.py --",
+    "package:source": "python scripts/package_source.py"
   },
-  "dependencies": {"react": "19.2.0", "react-dom": "19.2.0", "three": "0.180.0"},
-  "devDependencies": {"@types/react": "19.2.2", "@types/react-dom": "19.2.2", "@types/three": "0.180.0", "typescript": "5.9.3", "vite": "7.3.7"}
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "three": "0.180.0",
+    "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "@types/three": "0.180.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.7",
+    "vitest": "3.2.4"
+  }
 }

@@ -1,0 +1,108 @@
+{
+  "repository": "https://github.com/makehumancommunity/makehuman",
+  "commit": "a8bc2d54ff0ac92e78ff71431b1023eda42bf482",
+  "licenseId": "makehuman-cc0-assets",
+  "programLogicIncluded": false,
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "bytes": 3598,
+      "sha256": "edd99571ca62698f78c943fd4fffb159a413c315fa0d4819d3cec5cadaf8b4f1"
+    },
+    {
+      "path": "LICENSE.ASSETS.md",
+      "bytes": 6962,
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c"
+    },
+    {
+      "path": "LICENSE.CODE.md",
+      "bytes": 34354,
+      "sha256": "32a0a7381bbcb97b043b34595a1f440557d5cfe904f4d91770b0abb465e8db25"
+    },
+    {
+      "path": "makehuman/data/3dobjs/base.obj",
+      "bytes": 1749303,
+      "sha256": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c"
+    },
+    {
+      "path": "makehuman/data/eyes/high-poly/high-poly.obj",
+      "bytes": 100882,
+      "sha256": "da2493215b708a344c33dc72f2a9a5b8fa985dcc5a70ad3b208995cf871da8e1"
+    },
+    {
+      "path": "makehuman/data/eyes/high-poly/high-poly.mhclo",
+      "bytes": 72490,
+      "sha256": "b183cfe37120ab726f9b3f2ea6cd3a64c44ce7b4bd91a77c841cf70c04f83a0d"
+    },
+    {
+      "path": "makehuman/data/eyes/materials/brown.mhmat",
+      "bytes": 1247,
+      "sha256": "4abad93ce50541c08127721e77bce035640c9f16bed16cd0f5524b1cd5908465"
+    },
+    {
+      "path": "makehuman/data/eyes/materials/brown_eye.png",
+      "bytes": 610817,
+      "sha256": "4659691c7295ad6206c78b003e5fd0e5f91dcd53032fa914a229bb48cabe424b"
+    },
+    {
+      "path": "makehuman/data/targets/expression/units/african/mouth-open.target",
+      "bytes": 26993,
+      "sha256": "c3e586735bdc8dc17c3690c7a3e18b3c90466071214c4c514624d1f75d3ba344"
+    },
+    {
+      "path": "makehuman/data/targets/expression/units/african/mouth-compression.target",
+      "bytes": 12995,
+      "sha256": "12b8dc506faa0cde0c30a07b89c725dc728d4770900a7dd6956dceb91566c7ef"
+    },
+    {
+      "path": "makehuman/data/targets/expression/units/african/mouth-pursing.target",
+      "bytes": 15125,
+      "sha256": "72c3cb4eef3b2674e2265f77aca813ee7ed0219674b2ca4ce3661f5ad180fba2"
+    },
+    {
+      "path": "makehuman/data/targets/expression/units/african/mouth-protusion.target",
+      "bytes": 13755,
+      "sha256": "48ed31bbdcfd754f6e00732c2c3eaa305fbfed56ec7c64b0468ba0fb5514f829"
+    },
+    {
+      "path": "makehuman/data/targets/expression/units/asian/mouth-open.target",
+      "bytes": 26859,
+      "sha256": "2222072e34027f7bc05e53548878832b041cb9b749062e369468d6946e68a32b"
+    },
+    {
+      "path": "makehuman/data/targets/expression/units/asian/mouth-compression.target",
+      "bytes": 13039,
+      "sha256": "b7abd0826708d7e4344559583edd0fc80e098b08b91f3e6d67d83b1eed20ccbe"
+    },
+    {
+      "path": "makehuman/data/targets/expression/units/asian/mouth-pursing.target",
+      "bytes": 17135,
+      "sha256": "d984a24e4c692d66d11d971d8cdc6483369688e498abd44a13d129f7bd248046"
+    },
+    {
+      "path": "makehuman/data/targets/expression/units/asian/mouth-protusion.target",
+      "bytes": 13672,
+      "sha256": "536bd142a0985bf5cea6709561495756fd368a5582adcefc90c99348b1e47378"
+    },
+    {
+      "path": "makehuman/data/targets/expression/units/caucasian/mouth-open.target",
+      "bytes": 26815,
+      "sha256": "07377ba3a3eb1b92b00029908f896ea1f8cc50356789f54268d897f2e89c2843"
+    },
+    {
+      "path": "makehuman/data/targets/expression/units/caucasian/mouth-compression.target",
+      "bytes": 13039,
+      "sha256": "b7abd0826708d7e4344559583edd0fc80e098b08b91f3e6d67d83b1eed20ccbe"
+    },
+    {
+      "path": "makehuman/data/targets/expression/units/caucasian/mouth-pursing.target",
+      "bytes": 16023,
+      "sha256": "02b08ad99c2345e83cbd4c77819fadef2af8c7fc3111211fc169459eb7f37d10"
+    },
+    {
+      "path": "makehuman/data/targets/expression/units/caucasian/mouth-protusion.target",
+      "bytes": 14207,
+      "sha256": "012c571c381c3dee06591132110d7d64fb2abd49d883afc619f6bc6c0000d2f4"
+    }
+  ]
+}

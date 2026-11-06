@@ -1,0 +1,9 @@
+{
+  "httpStatus": 200,
+  "assetSha256": "be34ad893194cc3e192618c89d332916eb5f7976f08617917c94da41e252d6cb",
+  "actualPoseChange": true,
+  "returnMatchesRest": true,
+  "pageErrors": [],
+  "renderer": "Chromium software SwiftShader; no physical-device performance claim",
+  "scope": "M0 functional readiness of preserved technical inspector. New external anatomy gate NOT passed."
+}

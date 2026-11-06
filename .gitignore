@@ -7,3 +7,7 @@ __pycache__/
 
 # Blender automatic backups; editable current sources are retained
 *.blend[0-9]
+
+# Isolated geometry QA environment and reproducible build outputs
+.venv-qa/
+artifacts/milestone-evidence/**/frames/

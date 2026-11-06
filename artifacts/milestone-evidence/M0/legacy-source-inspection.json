@@ -1,0 +1,336 @@
+{
+  "source": "assets/anatomy/makharij-rest.blend",
+  "sha256": "e4713f30391fa47efc0eaf7c7a1c849285cbba6900b4f5492466ee08611bafe3",
+  "blenderVersion": "4.3.2",
+  "sceneMetersPerUnit": 1.0,
+  "meshCount": 13,
+  "meshes": [
+    {
+      "name": "TONGUE",
+      "vertices": 8834,
+      "triangles": 17664,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateTriangles": 0,
+      "worldBounds": [
+        [
+          0.009929457679390907,
+          -0.04471050575375557,
+          -0.031962983310222626
+        ],
+        [
+          0.08254020661115646,
+          0.01300774049013853,
+          0.031963370740413666
+        ]
+      ],
+      "materials": [
+        "TONGUE"
+      ],
+      "shapeKeys": [],
+      "armatureModifiers": []
+    },
+    {
+      "name": "UPPER_TEETH",
+      "vertices": 4900,
+      "triangles": 9154,
+      "boundaryEdges": 656,
+      "nonManifoldEdges": 656,
+      "degenerateTriangles": 0,
+      "worldBounds": [
+        [
+          0.03511834144592285,
+          -0.0012477580457925797,
+          -0.03218385949730873
+        ],
+        [
+          0.09149117022752762,
+          0.01062204223126173,
+          0.03097829595208168
+        ]
+      ],
+      "materials": [
+        "UPPER_TEETH"
+      ],
+      "shapeKeys": [],
+      "armatureModifiers": []
+    },
+    {
+      "name": "LOWER_TEETH",
+      "vertices": 2795,
+      "triangles": 4641,
+      "boundaryEdges": 949,
+      "nonManifoldEdges": 949,
+      "degenerateTriangles": 0,
+      "worldBounds": [
+        [
+          0.030585484579205513,
+          -0.01645752601325512,
+          -0.031697314232587814
+        ],
+        [
+          0.08103586733341217,
+          0.0006161012570373714,
+          0.033307988196611404
+        ]
+      ],
+      "materials": [
+        "LOWER_TEETH"
+      ],
+      "shapeKeys": [],
+      "armatureModifiers": []
+    },
+    {
+      "name": "GINGIVA_UPPER",
+      "vertices": 2467,
+      "triangles": 3554,
+      "boundaryEdges": 1372,
+      "nonManifoldEdges": 1372,
+      "degenerateTriangles": 0,
+      "worldBounds": [
+        [
+          0.033740438520908356,
+          0.009214548394083977,
+          -0.03261745348572731
+        ],
+        [
+          0.09594438225030899,
+          0.013649149797856808,
+          0.03150056302547455
+        ]
+      ],
+      "materials": [
+        "GINGIVA_UPPER"
+      ],
+      "shapeKeys": [],
+      "armatureModifiers": []
+    },
+    {
+      "name": "GINGIVA_LOWER",
+      "vertices": 2537,
+      "triangles": 3401,
+      "boundaryEdges": 1677,
+      "nonManifoldEdges": 1677,
+      "degenerateTriangles": 0,
+      "worldBounds": [
+        [
+          0.030059456825256348,
+          -0.018263353034853935,
+          -0.03306136652827263
+        ],
+        [
+          0.08033917844295502,
+          -0.003042006166651845,
+          0.033649928867816925
+        ]
+      ],
+      "materials": [
+        "GINGIVA_LOWER"
+      ],
+      "shapeKeys": [],
+      "armatureModifiers": []
+    },
+    {
+      "name": "HARD_PALATE",
+      "vertices": 412,
+      "triangles": 707,
+      "boundaryEdges": 121,
+      "nonManifoldEdges": 121,
+      "degenerateTriangles": 0,
+      "worldBounds": [
+        [
+          0.026121683418750763,
+          0.0050632343627512455,
+          -0.029024025425314903
+        ],
+        [
+          0.08482582867145538,
+          0.02324187010526657,
+          0.029877793043851852
+        ]
+      ],
+      "materials": [
+        "HARD_PALATE"
+      ],
+      "shapeKeys": [],
+      "armatureModifiers": []
+    },
+    {
+      "name": "PHARYNX",
+      "vertices": 945,
+      "triangles": 1659,
+      "boundaryEdges": 225,
+      "nonManifoldEdges": 225,
+      "degenerateTriangles": 0,
+      "worldBounds": [
+        [
+          0.0005648975493386388,
+          -0.07216081023216248,
+          -0.028768742457032204
+        ],
+        [
+          0.0888495072722435,
+          0.0183388814330101,
+          0.02883078344166279
+        ]
+      ],
+      "materials": [
+        "PHARYNX"
+      ],
+      "shapeKeys": [],
+      "armatureModifiers": []
+    },
+    {
+      "name": "SOFT_PALATE",
+      "vertices": 3787,
+      "triangles": 7570,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateTriangles": 0,
+      "worldBounds": [
+        [
+          0.001623000018298626,
+          -0.02031385339796543,
+          -0.02759069949388504
+        ],
+        [
+          0.03299979865550995,
+          0.028018729761242867,
+          0.02759069949388504
+        ]
+      ],
+      "materials": [
+        "SOFT_PALATE"
+      ],
+      "shapeKeys": [],
+      "armatureModifiers": []
+    },
+    {
+      "name": "LIP_CONTEXT",
+      "vertices": 4957,
+      "triangles": 9143,
+      "boundaryEdges": 703,
+      "nonManifoldEdges": 711,
+      "degenerateTriangles": 0,
+      "worldBounds": [
+        [
+          0.058901358395814896,
+          -0.049155086278915405,
+          -0.04715690016746521
+        ],
+        [
+          0.12524709105491638,
+          0.042990442365407944,
+          0.04715690016746521
+        ]
+      ],
+      "materials": [
+        "Continuous source lip tissue"
+      ],
+      "shapeKeys": [],
+      "armatureModifiers": []
+    },
+    {
+      "name": "NASAL_LINING",
+      "vertices": 3938,
+      "triangles": 7868,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateTriangles": 0,
+      "worldBounds": [
+        [
+          0.018953949213027954,
+          0.007926232181489468,
+          -0.015502790920436382
+        ],
+        [
+          0.12270592153072357,
+          0.05537712574005127,
+          0.015502790920436382
+        ]
+      ],
+      "materials": [
+        "NASAL_LINING"
+      ],
+      "shapeKeys": [],
+      "armatureModifiers": []
+    },
+    {
+      "name": "NASAL_CONCHA_INFERIOR",
+      "vertices": 2300,
+      "triangles": 4592,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateTriangles": 0,
+      "worldBounds": [
+        [
+          0.04492119699716568,
+          0.02866002358496189,
+          -0.014143685810267925
+        ],
+        [
+          0.09589973092079163,
+          0.04041098430752754,
+          0.014143685810267925
+        ]
+      ],
+      "materials": [
+        "NASAL_CONCHA_INFERIOR"
+      ],
+      "shapeKeys": [],
+      "armatureModifiers": []
+    },
+    {
+      "name": "NASAL_CONCHA_MIDDLE",
+      "vertices": 2100,
+      "triangles": 4192,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateTriangles": 0,
+      "worldBounds": [
+        [
+          0.04905923455953598,
+          0.03995687514543533,
+          -0.009337360970675945
+        ],
+        [
+          0.09104369580745697,
+          0.05121037736535072,
+          0.009337360970675945
+        ]
+      ],
+      "materials": [
+        "NASAL_CONCHA_MIDDLE"
+      ],
+      "shapeKeys": [],
+      "armatureModifiers": []
+    },
+    {
+      "name": "NASAL_CONCHA_SUPERIOR",
+      "vertices": 1700,
+      "triangles": 3392,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateTriangles": 0,
+      "worldBounds": [
+        [
+          0.04675137251615524,
+          0.04868672788143158,
+          -0.00462238397449255
+        ],
+        [
+          0.07411675155162811,
+          0.053823355585336685,
+          0.00462238397449255
+        ]
+      ],
+      "materials": [
+        "NASAL_CONCHA_SUPERIOR"
+      ],
+      "shapeKeys": [],
+      "armatureModifiers": []
+    }
+  ],
+  "scope": "Measured file geometry only. No visual, anatomical, license or articulation approval.",
+  "inputUnchanged": true
+}

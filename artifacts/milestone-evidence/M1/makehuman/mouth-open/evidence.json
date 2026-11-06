@@ -1,0 +1,33 @@
+{
+  "candidate": "makehuman",
+  "pose": "mouth-open",
+  "views": [
+    "front",
+    "side",
+    "three-quarter"
+  ],
+  "sourceSha256": {
+    "assets/source/makehuman/makehuman/data/3dobjs/base.obj": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c",
+    "assets/source/makehuman/makehuman/data/targets/expression/units/african/mouth-open.target": "c3e586735bdc8dc17c3690c7a3e18b3c90466071214c4c514624d1f75d3ba344",
+    "assets/source/makehuman/makehuman/data/targets/expression/units/asian/mouth-open.target": "2222072e34027f7bc05e53548878832b041cb9b749062e369468d6946e68a32b",
+    "assets/source/makehuman/makehuman/data/targets/expression/units/caucasian/mouth-open.target": "07377ba3a3eb1b92b00029908f896ea1f8cc50356789f54268d897f2e89c2843",
+    "assets/source/makehuman/makehuman/data/eyes/high-poly/high-poly.obj": "da2493215b708a344c33dc72f2a9a5b8fa985dcc5a70ad3b208995cf871da8e1",
+    "assets/source/makehuman/makehuman/data/eyes/high-poly/high-poly.mhclo": "b183cfe37120ab726f9b3f2ea6cd3a64c44ce7b4bd91a77c841cf70c04f83a0d",
+    "assets/source/makehuman/makehuman/data/eyes/materials/brown_eye.png": "4659691c7295ad6206c78b003e5fd0e5f91dcd53032fa914a229bb48cabe424b"
+  },
+  "notes": [
+    "body group only; helper cages excluded",
+    "source eye MHCLO fitted against full base vertex array",
+    "0.1 m/native unit; right-handed axis rotation; neck context crop",
+    "one subdivision preview; neutral artistic material",
+    "not registered to Badin; incomplete internal anatomy"
+  ],
+  "sourceFilesModified": false,
+  "anatomyReview": "pending",
+  "renderer": {
+    "engine": "Cycles CPU",
+    "threads": 2,
+    "samples": 48,
+    "resolution": 640
+  }
+}
