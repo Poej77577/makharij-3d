@@ -103,6 +103,26 @@
       "path": "makehuman/data/targets/expression/units/caucasian/mouth-protusion.target",
       "bytes": 14207,
       "sha256": "012c571c381c3dee06591132110d7d64fb2abd49d883afc619f6bc6c0000d2f4"
+    },
+    {
+      "path": "makehuman/data/targets/macrodetails/african-male-young.target",
+      "bytes": 406170,
+      "sha256": "894abc1fbb3d28543a51fef16f89d5d4bdf9aa2e1534413339811a3d47818b7d"
+    },
+    {
+      "path": "makehuman/data/targets/macrodetails/asian-male-young.target",
+      "bytes": 421040,
+      "sha256": "ed2e8c191cb6b87b4a2d97c80486acb2604fa549316c7aa2a738a5d5a14334dc"
+    },
+    {
+      "path": "makehuman/data/targets/macrodetails/caucasian-male-young.target",
+      "bytes": 396479,
+      "sha256": "70e228ba7164737dae664454394536fc5935fa48d333c1a97d77e2dc6eacc5f5"
+    },
+    {
+      "path": "makehuman/data/targets/macrodetails/universal-male-young-averagemuscle-averageweight.target",
+      "bytes": 604,
+      "sha256": "4ba5396ddabda448ece15650a566fbebfbb10239256ccb201e8f883429e12249"
     }
   ]
 }

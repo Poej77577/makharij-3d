@@ -1,0 +1,36 @@
+{
+  "candidate": "makehuman",
+  "adultAuthoringPreset": true,
+  "mouthOpenAuthoringWeight": 0,
+  "pose": "rest",
+  "views": [
+    "front",
+    "side",
+    "three-quarter"
+  ],
+  "sourceSha256": {
+    "assets/source/makehuman/makehuman/data/3dobjs/base.obj": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c",
+    "assets/source/makehuman/makehuman/data/targets/macrodetails/african-male-young.target": "894abc1fbb3d28543a51fef16f89d5d4bdf9aa2e1534413339811a3d47818b7d",
+    "assets/source/makehuman/makehuman/data/targets/macrodetails/asian-male-young.target": "ed2e8c191cb6b87b4a2d97c80486acb2604fa549316c7aa2a738a5d5a14334dc",
+    "assets/source/makehuman/makehuman/data/targets/macrodetails/caucasian-male-young.target": "70e228ba7164737dae664454394536fc5935fa48d333c1a97d77e2dc6eacc5f5",
+    "assets/source/makehuman/makehuman/data/targets/macrodetails/universal-male-young-averagemuscle-averageweight.target": "4ba5396ddabda448ece15650a566fbebfbb10239256ccb201e8f883429e12249",
+    "assets/source/makehuman/makehuman/data/eyes/high-poly/high-poly.obj": "da2493215b708a344c33dc72f2a9a5b8fa985dcc5a70ad3b208995cf871da8e1",
+    "assets/source/makehuman/makehuman/data/eyes/high-poly/high-poly.mhclo": "b183cfe37120ab726f9b3f2ea6cd3a64c44ce7b4bd91a77c841cf70c04f83a0d",
+    "assets/source/makehuman/makehuman/data/eyes/materials/brown_eye.png": "4659691c7295ad6206c78b003e5fd0e5f91dcd53032fa914a229bb48cabe424b"
+  },
+  "notes": [
+    "body group only; helper cages excluded",
+    "source eye MHCLO fitted against full base vertex array",
+    "0.1 m/native unit; right-handed axis rotation; neck context crop",
+    "one subdivision preview; neutral artistic material",
+    "not registered to Badin; incomplete internal anatomy"
+  ],
+  "sourceFilesModified": false,
+  "anatomyReview": "pending",
+  "renderer": {
+    "engine": "Cycles CPU",
+    "threads": 2,
+    "samples": 48,
+    "resolution": 640
+  }
+}

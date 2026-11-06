@@ -56,3 +56,31 @@ bundled teeth/tongue assets were acquired.
 
 For historical diagnostics only, consult `docs/WORKING-STATE.md`. Its older
 status statements are superseded by this file and the explicit M0 evidence.
+
+## Current M1 result and external prerequisite
+
+- MakeHuman snapshot now includes 24 original asset/license files, including4
+  source adult macro targets. `python tools/qa/verify_sources.py` checks all 54
+  original files across both snapshots plus their audited license notices.
+- Selected the external head foundation; complete teaching anatomy is NOT
+  accepted. The editable source study and actual exported GLB are in
+  artifacts/milestone-evidence/M1/makehuman-adult-head-study/rest. Source/export
+  evaluated surface bounds match exactly; no source files were changed.
+- A first bounds comparison caught loose source helper vertices retained by
+  the head crop. They were removed from the visible mesh; original full source
+  coordinates remain in the upstream asset. The corrected export check passes
+  without changing its 1 micrometer comparison threshold.
+- docs/ASSET_DECISION.md records the actual candidate comparison and missing
+  internal assembly; docs/ANATOMY_SPEC.md defines the M2 requirements.
+- The matching official system-asset archive is advertised as CC0 by its
+  publisher, but has not been downloaded or file-level inspected. Its primary
+  host files2.makehumancommunity.org was denied by the enforced proxy 403.
+  This one hostname is now added to the network draft, preserving all prior
+  custom rules; it is not present in the runtime allowlist. Evidence is
+  artifacts/milestone-evidence/M1/matching-assets-acquisition.json.
+- After the user reviews/saves/publishes the environment configuration and
+  runtime readiness shows the host allowed, retry that specific archive URL,
+  verify/extract only relevant assets, inspect their license headers and
+  source-defined fitting bindings, then continue M1/M2. Do not substitute
+  visible fitting helpers or silently mix unregistered donors. No further
+  identical blocked-network retries before a meaningful access change.

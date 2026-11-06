@@ -1,0 +1,34 @@
+{
+  "assetSha256": "5c812fdf3d4a2226c5b8763c29cf291ac44224cb3c4a7dc9d480db32ea750d30",
+  "sourceBlendSha256": "7a21ccca5193b3ab586ed07e345261948d60c758319428dd708fdc8b946a0130",
+  "worldBoundsMaxError_m": 0.0,
+  "dimensions_m": [
+    0.21728409826755524,
+    0.2714272625744343,
+    0.2509593963623047
+  ],
+  "meshes": [
+    {
+      "node": "Source eyes fitted by original MHCLO",
+      "vertices": 1076,
+      "triangles": 2040
+    },
+    {
+      "node": "Source continuous body skin \u2014 head crop",
+      "vertices": 24268,
+      "triangles": 34944
+    }
+  ],
+  "sourceFilesUnchanged": true,
+  "visibleFittingHelpers": false,
+  "completeAnatomyAccepted": false,
+  "missing": [
+    "fitted dental anatomy",
+    "complete tongue and mouth-floor assembly",
+    "registered hard/soft palates",
+    "nasal and pharyngeal cavity assembly",
+    "laryngeal context",
+    "verified articulation rig"
+  ],
+  "scope": "Exported static geometry, units/frame and source identity only. No internal registration, collision, visual-quality, articulation or expert approval."
+}

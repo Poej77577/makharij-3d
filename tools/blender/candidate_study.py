@@ -21,8 +21,12 @@ parser.add_argument('--pose', choices=['rest', 'mouth-open'], default='rest')
 parser.add_argument('--views', default='front,side,three-quarter')
 parser.add_argument('--resolution', type=int, default=512)
 parser.add_argument('--samples', type=int, default=8)
+parser.add_argument('--adult', action='store_true')
+parser.add_argument('--mouth-weight', type=float, default=.35)
+parser.add_argument('--export-study', action='store_true')
 opts = parser.parse_args(sys.argv[sys.argv.index('--') + 1:])
-OUT = ROOT / 'artifacts/milestone-evidence/M1' / opts.candidate / opts.pose
+study_id = opts.candidate + ('-adult' if opts.adult else '') + ('-head-study' if opts.export_study else '')
+OUT = ROOT / 'artifacts/milestone-evidence/M1' / study_id / opts.pose
 OUT.mkdir(parents=True, exist_ok=True)
 bpy.ops.wm.read_factory_settings(use_empty=True)
 provenance = {}
@@ -86,6 +90,14 @@ source_notes = []
 if opts.candidate == 'makehuman':
     base = ROOT / 'assets/source/makehuman/makehuman/data'
     points, faces, uvs, face_uvs = obj_data(base / '3dobjs/base.obj', 'body')
+    if opts.adult:
+        macro_targets = [(f'{family}-male-young', 1 / 3) for family in ['african', 'asian', 'caucasian']]
+        macro_targets.append(('universal-male-young-averagemuscle-averageweight', 1))
+        for name, weight in macro_targets:
+            for line in read_bytes(base / f'targets/macrodetails/{name}.target').decode().splitlines():
+                t = line.split()
+                if t and not t[0].startswith('#'):
+                    points[int(t[0])] += np.array(list(map(float, t[1:4]))) * weight
     if opts.pose == 'mouth-open':
         # Neutral equal mix is an authored diagnostic control, not an Arabic sound.
         for family in ['african', 'asian', 'caucasian']:
@@ -93,12 +105,20 @@ if opts.candidate == 'makehuman':
             for line in read_bytes(path).decode().splitlines():
                 t = line.split()
                 if t and not t[0].startswith('#'):
-                    points[int(t[0])] += np.array(list(map(float, t[1:4]))) / 3
+                    points[int(t[0])] += np.array(list(map(float, t[1:4]))) * opts.mouth_weight / 3
     head = create('Source continuous body skin — head crop', canonical_makehuman(points), faces, uvs, face_uvs)
     bm = bmesh.new()
     bm.from_mesh(head.data)
     # A documented context crop below the neck. Never capped as invented tissue.
-    bmesh.ops.bisect_plane(bm, geom=list(bm.verts) + list(bm.edges) + list(bm.faces), dist=1e-8, plane_co=(0, -.11, 0), plane_no=(0, -1, 0), clear_outer=True, clear_inner=False)
+    cut_y = -.11
+    if opts.export_study:
+        _, jaw_marker_faces, _, _ = obj_data(base / '3dobjs/base.obj', 'joint-jaw')
+        jaw_marker_ids = sorted({i for face in jaw_marker_faces for i in face})
+        cut_y = float((points[jaw_marker_ids, 1].mean() - .65 - 7) * .1)
+    bmesh.ops.bisect_plane(bm, geom=list(bm.verts) + list(bm.edges) + list(bm.faces), dist=1e-8, plane_co=(0, cut_y, 0), plane_no=(0, -1, 0), clear_outer=True, clear_inner=False)
+    unused = [v for v in bm.verts if not v.link_faces]
+    if unused:
+        bmesh.ops.delete(bm, geom=unused, context='VERTS')
     bm.to_mesh(head.data)
     bm.free()
     mod = head.modifiers.new('Source topology smooth preview', 'SUBSURF')
@@ -154,6 +174,44 @@ else:
 scene = bpy.context.scene
 scene.unit_settings.system = 'METRIC'
 scene.unit_settings.scale_length = 1
+if opts.export_study:
+    # Diagnostic scene intentionally uses the documented canonical Y-up data.
+    # A later production artist scene may use Blender Z-up with a tested bridge.
+    # No cameras, lighting or fabricated internal anatomy enter this study file.
+    for ob in scene.objects:
+        if ob.type == 'MESH':
+            ob['studyStatus'] = 'M1 external-head candidate; not complete teaching anatomy'
+            ob['sourceLicenseId'] = 'makehuman-cc0-assets' if opts.candidate == 'makehuman' else 'artisynth-models-2014'
+    bpy.ops.wm.save_as_mainfile(filepath=str(OUT / 'head-study.blend'))
+    bpy.ops.object.select_all(action='DESELECT')
+    for ob in scene.objects:
+        if ob.type == 'MESH':
+            ob.select_set(True)
+    bpy.ops.export_scene.gltf(filepath=str(OUT / 'head-study.glb'), export_format='GLB', use_selection=True, export_yup=False, export_apply=True, export_extras=True, export_animations=False)
+    # Record evaluated source bounds to verify the exported coordinate bridge.
+    dep = bpy.context.evaluated_depsgraph_get()
+    evaluated_points = []
+    for ob in scene.objects:
+        if ob.type == 'MESH':
+            evaluated = ob.evaluated_get(dep)
+            mesh = evaluated.to_mesh()
+            used = {i for polygon in mesh.polygons for i in polygon.vertices}
+            evaluated_points.extend([list(evaluated.matrix_world @ mesh.vertices[i].co) for i in used])
+            evaluated.to_mesh_clear()
+    q = np.array(evaluated_points)
+    study = {
+        'purpose': 'M1 external-head study only',
+        'isAcceptedAnatomy': False,
+        'glbSha256': hashlib.sha256((OUT / 'head-study.glb').read_bytes()).hexdigest(),
+        'blendSha256': hashlib.sha256((OUT / 'head-study.blend').read_bytes()).hexdigest(),
+        'coordinateFrame': {'units': 'm', 'anterior': '+X', 'superior': '+Y', 'right': '+Z'},
+        'evaluatedSourceBounds_m': [q.min(0).tolist(), q.max(0).tolist()],
+        'contextCropCanonicalY_m': cut_y if opts.candidate == 'makehuman' else None,
+        'sourceSha256': provenance,
+        'review': {'externalVisual': 'pending', 'completeAnatomy': 'not_implemented', 'anatomyExpert': 'pending', 'tajwidExpert': 'pending'},
+        'missing': ['fitted dental anatomy', 'complete tongue and mouth-floor assembly', 'registered hard/soft palates', 'nasal and pharyngeal cavity assembly', 'laryngeal context', 'verified articulation rig'],
+    }
+    (OUT / 'head-study.manifest.json').write_text(json.dumps(study, indent=2) + '\n')
 scene.render.engine = 'CYCLES'
 scene.cycles.device = 'CPU'
 scene.cycles.samples = opts.samples
@@ -196,6 +254,6 @@ for view in opts.views.split(','):
     scene.render.filepath = str(OUT / (view + '.png'))
     bpy.ops.render.render(write_still=True)
     print('STUDY_RENDER', opts.candidate, view, flush=True)
-report = {'candidate': opts.candidate, 'pose': opts.pose, 'views': opts.views.split(','), 'sourceSha256': provenance, 'notes': source_notes, 'sourceFilesModified': False, 'anatomyReview': 'pending', 'renderer': {'engine': 'Cycles CPU', 'threads': 2, 'samples': opts.samples, 'resolution': opts.resolution}}
+report = {'candidate': opts.candidate, 'adultAuthoringPreset': opts.adult, 'mouthOpenAuthoringWeight': opts.mouth_weight if opts.pose == 'mouth-open' else 0, 'pose': opts.pose, 'views': opts.views.split(','), 'sourceSha256': provenance, 'notes': source_notes, 'sourceFilesModified': False, 'anatomyReview': 'pending', 'renderer': {'engine': 'Cycles CPU', 'threads': 2, 'samples': opts.samples, 'resolution': opts.resolution}}
 (OUT / 'evidence.json').write_text(json.dumps(report, indent=2) + '\n')
 print('CANDIDATE_EVIDENCE', OUT)

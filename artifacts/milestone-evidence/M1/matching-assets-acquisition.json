@@ -1,0 +1,17 @@
+{
+  "publisherRepository": "https://github.com/makehumancommunity/makehuman-static-website",
+  "publisherCommit": "bc07eb3ac5719e89e0068bb8ee4ea8e38e273e8a",
+  "assetListingPath": "content/Assets/AssetPacks/makehuman_system_assets.md",
+  "assetListingSha256": "f33900d0cd0c101b7a18b9c14569c3df93c62e8b0d23c9ed9a1bfba388538b8c",
+  "hostConfigSha256": "e194a07e3693800b8fbd8f9b0fb0b6adf6c140f1d3bc1d813fe1c3fa4468de4a",
+  "requestedUrl": "https://files2.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip",
+  "method": "HEAD",
+  "observedResult": "Tunnel connection failed: 403 Forbidden",
+  "networkPolicy": "restricted/enforced",
+  "runtimeCustomAllowlist": [],
+  "draftAdditionalHostname": "files2.makehumancommunity.org",
+  "draftSaveConfirmed": true,
+  "draftRequiresPublish": true,
+  "downloaded": false,
+  "fileLevelLicenseInspection": "not run; archive inaccessible"
+}

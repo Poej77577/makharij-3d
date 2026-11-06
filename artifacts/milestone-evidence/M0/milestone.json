@@ -1,0 +1,56 @@
+{
+  "milestone": "M0",
+  "implemented": [
+    "preserved original work and complete Git bundle",
+    "development branch and remote recovery verification",
+    "working production inspector in recovered environment",
+    "typed anatomy/articulation contracts with fail-closed validation",
+    "read-only Blender inspection tool",
+    "separate native Python QA environment"
+  ],
+  "evidenceFiles": [
+    "artifacts/milestone-evidence/M0/browser-smoke.json",
+    "artifacts/milestone-evidence/M0/legacy-source-inspection.json",
+    "artifacts/milestone-evidence/M0/preserved-inspector.png"
+  ],
+  "checksPassed": [
+    "TypeScript typecheck",
+    "16 contract regression tests",
+    "production browser: asset identity, actual pose change, return, zero page errors",
+    "30 source files checksum audit",
+    "remote-fetch recovery: model hash matches preserved source",
+    "frozen npm ci installation and rebuilt production output"
+  ],
+  "checksFailed": [],
+  "checksNotRun": [
+    "new M2 anatomy acceptance",
+    "new M3 rig",
+    "new M4 five-letter clips"
+  ],
+  "reviewPending": [
+    "external-head source selection",
+    "anatomy expert",
+    "tajwid expert"
+  ],
+  "commit": "c94c394a84d0bff215c2afc3156af01fba7d4a1f",
+  "externalBackupVerified": true,
+  "backup": {
+    "branch": "codex/anatomy-foundation-v2",
+    "retrievedCommit": "103b3a056316664f62c4dffbb09f88b6a6d89a5f",
+    "retrievedGlbSha256": "be34ad893194cc3e192618c89d332916eb5f7976f08617917c94da41e252d6cb",
+    "implementationRemoteCommit": "c94c394a84d0bff215c2afc3156af01fba7d4a1f",
+    "retrievedImplementationCommit": "c94c394a84d0bff215c2afc3156af01fba7d4a1f",
+    "retrievedSchemaSha256": "c4ffadca0647a6fdbd8387a9fdf94aa51e90505d6d42d2fa3f89651f63730e4e"
+  },
+  "blockers": [],
+  "nextTask": "M1: compare full-head candidates and choose a compatible anatomical foundation",
+  "environment": {
+    "node": "v24.19.0",
+    "npm": "11.9.0",
+    "blender": "4.3.2",
+    "pythonQA": "3.12.14",
+    "memoryLimitBytes": 34359738368,
+    "historicalOutageCause": "unconfirmed"
+  },
+  "preservedBaselineCommit": "103b3a056316664f62c4dffbb09f88b6a6d89a5f"
+}

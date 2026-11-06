@@ -1,0 +1,61 @@
+{
+  "source": "artifacts/milestone-evidence/M1/makehuman-adult-head-study/rest/head-study.blend",
+  "sha256": "7a21ccca5193b3ab586ed07e345261948d60c758319428dd708fdc8b946a0130",
+  "blenderVersion": "4.3.2",
+  "sceneMetersPerUnit": 1.0,
+  "meshCount": 2,
+  "meshes": [
+    {
+      "name": "Source continuous body skin \u2014 head crop",
+      "vertices": 4397,
+      "triangles": 8736,
+      "boundaryEdges": 56,
+      "nonManifoldEdges": 56,
+      "degenerateTriangles": 0,
+      "worldBounds": [
+        [
+          -0.04990537464618683,
+          -0.060816679149866104,
+          -0.12547969818115234
+        ],
+        [
+          0.1673787236213684,
+          0.21061058342456818,
+          0.12547969818115234
+        ]
+      ],
+      "materials": [
+        "Neutral study skin; artistic color, not acquired texture"
+      ],
+      "shapeKeys": [],
+      "armatureModifiers": []
+    },
+    {
+      "name": "Source eyes fitted by original MHCLO",
+      "vertices": 1064,
+      "triangles": 2040,
+      "boundaryEdges": 80,
+      "nonManifoldEdges": 80,
+      "degenerateTriangles": 0,
+      "worldBounds": [
+        [
+          0.11851246654987335,
+          0.08839905261993408,
+          -0.045030154287815094
+        ],
+        [
+          0.1433284878730774,
+          0.11834044754505157,
+          0.045030154287815094
+        ]
+      ],
+      "materials": [
+        "Original CC0 eye texture"
+      ],
+      "shapeKeys": [],
+      "armatureModifiers": []
+    }
+  ],
+  "scope": "Measured file geometry only. No visual, anatomical, license or articulation approval.",
+  "inputUnchanged": true
+}
