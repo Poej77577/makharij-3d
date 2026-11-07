@@ -1,0 +1,882 @@
+{
+  "assetSha256": "1efc25de71de2f5489034274f185505cfb1539109c1f9f6a8f196e5bfb8cb2fc",
+  "parts": {
+    "EYES": {
+      "triangles": 2040,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": false,
+      "components": 4,
+      "volume_m3": 0.00033986624973294496
+    },
+    "HEAD_SKIN": {
+      "triangles": 48858,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 0.006715552497968097
+    },
+    "ATLAS_INFERIOR_CONCHA_MUCOSA_R": {
+      "triangles": 8000,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 1.5875172952109131e-06
+    },
+    "ATLAS_INFERIOR_CONCHA_MUCOSA_L": {
+      "triangles": 8000,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 1.5874869093692675e-06
+    },
+    "ATLAS_VOMER": {
+      "triangles": 1022,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 1,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 2.2072087624346715e-06
+    },
+    "ATLAS_UVULA_OF_PALATE": {
+      "triangles": 1502,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 1.2472363909224775e-07
+    },
+    "ATLAS_UPPER_SECOND_PREMOLAR_R": {
+      "triangles": 1554,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 7.269997247767961e-07
+    },
+    "ATLAS_UPPER_SECOND_PREMOLAR_L": {
+      "triangles": 1554,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 7.270047254295801e-07
+    },
+    "ATLAS_UPPER_SECOND_MOLAR_TOOTH_R": {
+      "triangles": 1844,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 9.9698661273114e-07
+    },
+    "ATLAS_UPPER_SECOND_MOLAR_TOOTH_L": {
+      "triangles": 1844,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 9.96990916916689e-07
+    },
+    "ATLAS_UPPER_MEDIAL_INCISOR_R": {
+      "triangles": 1368,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 6.113946157795004e-07
+    },
+    "ATLAS_UPPER_MEDIAL_INCISOR_L": {
+      "triangles": 1368,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 6.113946157795004e-07
+    },
+    "ATLAS_UPPER_LATERAL_INCISOR_R": {
+      "triangles": 1454,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 6.200181137004978e-07
+    },
+    "ATLAS_UPPER_LATERAL_INCISOR_L": {
+      "triangles": 1454,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 6.200109186126381e-07
+    },
+    "ATLAS_UPPER_FIRST_PREMOLAR_R": {
+      "triangles": 1684,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 7.609314486605136e-07
+    },
+    "ATLAS_UPPER_FIRST_PREMOLAR_L": {
+      "triangles": 1684,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 7.609314497677292e-07
+    },
+    "ATLAS_UPPER_FIRST_MOLAR_TOOTH_R": {
+      "triangles": 2176,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 1.3153721379357499e-06
+    },
+    "ATLAS_UPPER_FIRST_MOLAR_TOOTH_L": {
+      "triangles": 2176,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 1.3153706985150601e-06
+    },
+    "ATLAS_UPPER_CANINE_R": {
+      "triangles": 1470,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 6.709691405435518e-07
+    },
+    "ATLAS_UPPER_CANINE_L": {
+      "triangles": 1470,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 6.709706154101015e-07
+    },
+    "ATLAS_TRACHEA": {
+      "triangles": 8356,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 6.460216789348847e-06
+    },
+    "ATLAS_TONGUE": {
+      "triangles": 30000,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 3.898432001165438e-05
+    },
+    "ATLAS_THYROID_CARTILAGE": {
+      "triangles": 4488,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 1,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 3.4731311844225363e-06
+    },
+    "ATLAS_SUPERIOR_PHARYNGEAL_CONSTRICTOR_R": {
+      "triangles": 5334,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 4.2837925567713786e-06
+    },
+    "ATLAS_SUPERIOR_PHARYNGEAL_CONSTRICTOR_L": {
+      "triangles": 5334,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 4.2837925567713786e-06
+    },
+    "ATLAS_STYLOPHARYNGEUS_MUSCLE_R": {
+      "triangles": 9478,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 1.1496672294344015e-06
+    },
+    "ATLAS_STYLOPHARYNGEUS_MUSCLE_L": {
+      "triangles": 9478,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 1.1496671771202128e-06
+    },
+    "ATLAS_SOFT_PALATE": {
+      "triangles": 9000,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 8.013165582784811e-06
+    },
+    "ATLAS_PALATOPHARYNGEUS_MUSCLE_R": {
+      "triangles": 15282,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 2.780442410675928e-06
+    },
+    "ATLAS_PALATOPHARYNGEUS_MUSCLE_L": {
+      "triangles": 15282,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 2.780442410675928e-06
+    },
+    "ATLAS_PALATINE_TONSIL_R": {
+      "triangles": 168,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 2.8998870000429436e-07
+    },
+    "ATLAS_PALATINE_TONSIL_L": {
+      "triangles": 168,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 2.899886240062471e-07
+    },
+    "ATLAS_PALATINE_BONE_R": {
+      "triangles": 1460,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 3.204537759894096e-06
+    },
+    "ATLAS_PALATINE_BONE_L": {
+      "triangles": 1460,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 3.204537759894096e-06
+    },
+    "ATLAS_OROPHARYNX": {
+      "triangles": 2544,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 2.2679101689540996e-06
+    },
+    "ATLAS_ORBICULARIS_ORIS_MUSCLE_R": {
+      "triangles": 1880,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 3.166913138317116e-06
+    },
+    "ATLAS_ORBICULARIS_ORIS_MUSCLE_L": {
+      "triangles": 1880,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 3.166913138317116e-06
+    },
+    "ATLAS_NASOPHARYNX": {
+      "triangles": 1952,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 1.4263396364737851e-06
+    },
+    "ATLAS_NASAL_SEPTAL_CARTILAGE": {
+      "triangles": 360,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 1.3135147268035874e-06
+    },
+    "ATLAS_MYLOHYOID_MUSCLE_R": {
+      "triangles": 1122,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 2.097594919479557e-06
+    },
+    "ATLAS_MYLOHYOID_MUSCLE_L": {
+      "triangles": 1122,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 2.097594919479557e-06
+    },
+    "ATLAS_MUCOSA_OF_NASAL_CAVITY": {
+      "triangles": 60000,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 5.378376292559528e-06
+    },
+    "ATLAS_MIDDLE_PHARYNGEAL_CONSTRICTOR_R": {
+      "triangles": 2948,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 2.6379952877004432e-06
+    },
+    "ATLAS_MIDDLE_PHARYNGEAL_CONSTRICTOR_L": {
+      "triangles": 2948,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 2.6379952877004432e-06
+    },
+    "ATLAS_MAXILLA_R": {
+      "triangles": 4798,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 2.1845631957431218e-05
+    },
+    "ATLAS_MAXILLA_L": {
+      "triangles": 4798,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 2.1845631957431218e-05
+    },
+    "ATLAS_MANDIBLE": {
+      "triangles": 18000,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 4.207058206725998e-05
+    },
+    "ATLAS_LOWER_SECOND_PREMOLAR_R": {
+      "triangles": 1180,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 5.677776054410984e-07
+    },
+    "ATLAS_LOWER_SECOND_PREMOLAR_L": {
+      "triangles": 1180,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 5.677776054410984e-07
+    },
+    "ATLAS_LOWER_SECOND_MOLAR_TOOTH_R": {
+      "triangles": 1676,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 1.0724596517217216e-06
+    },
+    "ATLAS_LOWER_SECOND_MOLAR_TOOTH_L": {
+      "triangles": 1676,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 1.072467771618311e-06
+    },
+    "ATLAS_LOWER_MEDIAL_INCISOR_R": {
+      "triangles": 984,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 3.6346830960316445e-07
+    },
+    "ATLAS_LOWER_MEDIAL_INCISOR_L": {
+      "triangles": 984,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 3.6346830960316445e-07
+    },
+    "ATLAS_LOWER_LATERAL_INCISOR_R": {
+      "triangles": 1040,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 3.625690241371876e-07
+    },
+    "ATLAS_LOWER_LATERAL_INCISOR_L": {
+      "triangles": 1040,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 3.62492488875553e-07
+    },
+    "ATLAS_LOWER_FIRST_PREMOLAR_R": {
+      "triangles": 1222,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 6.540780777217742e-07
+    },
+    "ATLAS_LOWER_FIRST_PREMOLAR_L": {
+      "triangles": 1222,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 6.540733052643189e-07
+    },
+    "ATLAS_LOWER_FIRST_MOLAR_TOOTH_R": {
+      "triangles": 4508,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 3,
+      "volume_m3": 1.577344680362052e-06
+    },
+    "ATLAS_LOWER_FIRST_MOLAR_TOOTH_L": {
+      "triangles": 4508,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 3,
+      "volume_m3": 1.5773454595660575e-06
+    },
+    "ATLAS_LOWER_CANINE_R": {
+      "triangles": 1276,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 5.439051441128416e-07
+    },
+    "ATLAS_LOWER_CANINE_L": {
+      "triangles": 1276,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 5.439051441128416e-07
+    },
+    "ATLAS_LARYNGOPHARYNX": {
+      "triangles": 2476,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 1.6478703098183553e-06
+    },
+    "ATLAS_INFERIOR_PHARYNGEAL_CONSTRICTOR_R": {
+      "triangles": 3696,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 2.952807934853695e-06
+    },
+    "ATLAS_INFERIOR_PHARYNGEAL_CONSTRICTOR_L": {
+      "triangles": 3696,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 2.952807934853695e-06
+    },
+    "ATLAS_INFERIOR_NASAL_CONCHA_BONE_R": {
+      "triangles": 476,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 9.139732032634632e-07
+    },
+    "ATLAS_INFERIOR_NASAL_CONCHA_BONE_L": {
+      "triangles": 476,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 9.139732032634632e-07
+    },
+    "ATLAS_HYOID_BONE": {
+      "triangles": 1324,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 1.8213840664220584e-06
+    },
+    "ATLAS_HYOGLOSSUS_MUSCLE_R": {
+      "triangles": 1424,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 5.643342972420228e-07
+    },
+    "ATLAS_HYOGLOSSUS_MUSCLE_L": {
+      "triangles": 1424,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 5.643342972420228e-07
+    },
+    "ATLAS_GINGIVA": {
+      "triangles": 24596,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 3,
+      "volume_m3": 4.151328915821958e-05
+    },
+    "ATLAS_GENIOHYOID_MUSCLE_R": {
+      "triangles": 530,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 9.152125846226672e-07
+    },
+    "ATLAS_GENIOHYOID_MUSCLE_L": {
+      "triangles": 530,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 9.152125846226672e-07
+    },
+    "ATLAS_GENIOGLOSSUS_MUSCLE_R": {
+      "triangles": 3746,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 6.538601614533122e-06
+    },
+    "ATLAS_GENIOGLOSSUS_MUSCLE_L": {
+      "triangles": 3746,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 6.538601614533122e-06
+    },
+    "ATLAS_ETHMOID_BONE": {
+      "triangles": 10130,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": false,
+      "components": 13,
+      "volume_m3": 1.0800944968104115e-05
+    },
+    "ATLAS_EPIGLOTTIS": {
+      "triangles": 3376,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 2.739387588356832e-07
+    },
+    "ATLAS_CRICOID_CARTILAGE": {
+      "triangles": 1876,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 2,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 1.576707106396372e-06
+    },
+    "ATLAS_ARYTENOID_CARTILAGE_R": {
+      "triangles": 3780,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 7.019547402713336e-08
+    },
+    "ATLAS_ARYTENOID_CARTILAGE_L": {
+      "triangles": 3780,
+      "positionMaxError_m": 0.0,
+      "unusedSourceVerticesNotExported": 0,
+      "closedOutwardVolume": true,
+      "components": 1,
+      "volume_m3": 7.018876615009017e-08
+    }
+  },
+  "requiredClosedTissues": [
+    "HEAD_SKIN",
+    "ATLAS_TONGUE",
+    "ATLAS_GINGIVA",
+    "ATLAS_SOFT_PALATE",
+    "ATLAS_UVULA_OF_PALATE",
+    "ATLAS_MUCOSA_OF_NASAL_CAVITY",
+    "ATLAS_NASAL_SEPTAL_CARTILAGE",
+    "ATLAS_NASOPHARYNX",
+    "ATLAS_OROPHARYNX",
+    "ATLAS_LARYNGOPHARYNX",
+    "ATLAS_EPIGLOTTIS",
+    "ATLAS_TRACHEA",
+    "ATLAS_MANDIBLE",
+    "ATLAS_INFERIOR_CONCHA_MUCOSA_L",
+    "ATLAS_INFERIOR_CONCHA_MUCOSA_R"
+  ],
+  "authoredTissueSurfaces": [
+    {
+      "name": "ATLAS_TONGUE",
+      "fclTriangleContacts": 477689,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": []
+    },
+    {
+      "name": "ATLAS_SOFT_PALATE",
+      "fclTriangleContacts": 143111,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": []
+    },
+    {
+      "name": "ATLAS_MUCOSA_OF_NASAL_CAVITY",
+      "fclTriangleContacts": 975641,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": []
+    },
+    {
+      "name": "ATLAS_TRACHEA",
+      "fclTriangleContacts": 134985,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": []
+    },
+    {
+      "name": "ATLAS_INFERIOR_CONCHA_MUCOSA_L",
+      "fclTriangleContacts": 128514,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": []
+    },
+    {
+      "name": "ATLAS_INFERIOR_CONCHA_MUCOSA_R",
+      "fclTriangleContacts": 128458,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": []
+    }
+  ],
+  "tongueRigidClearances": [
+    {
+      "part": "ATLAS_LOWER_CANINE_L",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.00502702489125065,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_LOWER_CANINE_R",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.005012983856799553,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_L",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.0004799475212444358,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_R",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.00047773300024834056,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_LOWER_FIRST_PREMOLAR_L",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.0033605893409612004,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_LOWER_FIRST_PREMOLAR_R",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.0033621667903079855,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_LOWER_LATERAL_INCISOR_L",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.0032337738837922847,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_LOWER_LATERAL_INCISOR_R",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.0032243340178476462,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_LOWER_MEDIAL_INCISOR_L",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.0022362520255795903,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_LOWER_MEDIAL_INCISOR_R",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.0022396628985378903,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_LOWER_SECOND_MOLAR_TOOTH_L",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.004539311388447805,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_LOWER_SECOND_MOLAR_TOOTH_R",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.004548411920827562,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_LOWER_SECOND_PREMOLAR_L",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.001571536034159796,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_LOWER_SECOND_PREMOLAR_R",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.0015724154078972643,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_MANDIBLE",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.00033306910267808535,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_UPPER_CANINE_L",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.008702586293564692,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_UPPER_CANINE_R",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.008625699516797767,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_UPPER_FIRST_MOLAR_TOOTH_L",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.004881990466731759,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_UPPER_FIRST_MOLAR_TOOTH_R",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.004822695361313913,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_UPPER_FIRST_PREMOLAR_L",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.005534385991585682,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_UPPER_FIRST_PREMOLAR_R",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.005437122029171051,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_UPPER_LATERAL_INCISOR_L",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.008750513374331094,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_UPPER_LATERAL_INCISOR_R",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.008713168260793446,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_UPPER_MEDIAL_INCISOR_L",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.008848111821268805,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_UPPER_MEDIAL_INCISOR_R",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.008844268938929355,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_L",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.006667506242471947,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_R",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.006668585230808702,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_UPPER_SECOND_PREMOLAR_L",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.005431245526092476,
+      "triangleContacts": 0
+    },
+    {
+      "part": "ATLAS_UPPER_SECOND_PREMOLAR_R",
+      "intersectingSurfaces": false,
+      "minimumDistance_m": 0.005311348513287829,
+      "triangleContacts": 0
+    }
+  ],
+  "airspacePreflightPassed": true,
+  "geometryFailures": [],
+  "staticGeometryPassed": true,
+  "visualReview": "pending",
+  "expertReview": "pending",
+  "isAcceptedAnatomy": false,
+  "rigReady": false,
+  "scope": "Actual exported GLB identity, selected closed tissue volumes, root continuity, computed sections, tongue/rigid-tissue separation and actual airspace preflight; no clinical registration, motion or expert approval"
+}

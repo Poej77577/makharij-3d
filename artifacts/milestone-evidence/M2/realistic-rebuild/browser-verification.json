@@ -1,0 +1,31 @@
+{
+  "assetSha256": "1efc25de71de2f5489034274f185505cfb1539109c1f9f6a8f196e5bfb8cb2fc",
+  "meshCount": 81,
+  "triangles": 407016,
+  "sectionCaps": 31,
+  "rendererInstances": 1,
+  "pageErrors": [],
+  "cameraRotationViews": 8,
+  "rotationFrameSha256": [
+    "71fbd1e5ab3e84d4855b238ea6d539e1a6e7278db6b453bac2fc6ce1edee8113",
+    "93c9443ea747d5cee588dfc05f21460e1e9a0525f55521b176076d9a210304ea",
+    "b6600fad4dd05b7720b93146657fa5313a24a0450af2f729ef9008134c96f502",
+    "a4b6ef68306ed34a4a220702f31e4853674f35c0586c8f958ddd96eb688de686",
+    "fc5b8f1f9a80ea1a82f8cbb71e722a8c92fb5aa2b0463f4a3386762dd9172573",
+    "1267d4452eaf0417692483342495e9b4ba69ada68f3072c8cddc4ddcf1db861d",
+    "9f9ad854c08c05dfb6f85496462fd80aaffb5d5f7eb282c9fd5f453b18562506",
+    "5dc82fe9c81b6197280386ff906587a5ea34cc3f2a52b84000bf3ccf0fba2a77"
+  ],
+  "actualProductionPage": true,
+  "actualPointerRotation": true,
+  "focusControlsExercised": [
+    "mouth",
+    "nose"
+  ],
+  "mobileLayout": {
+    "width": 390,
+    "horizontalOverflow": false
+  },
+  "renderer": "Chromium software SwiftShader; no physical-device performance claim",
+  "scope": "Actual resting-model review page, GLB identity, matching tissue sections, controls and camera rotation; no articulation or scientific acceptance"
+}

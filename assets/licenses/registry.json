@@ -2,6 +2,16 @@
   "schemaVersion": 1,
   "entries": [
     {
+      "id": "z-anatomy-core-cc-by-sa-4",
+      "source": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+      "sourceCommit": "8dd357ed52a675db0c5f8d7fa9a8621cbfeee713",
+      "kind": "CC-BY-SA-4.0",
+      "noticePath": "assets/source/z-anatomy/NOTICE.md",
+      "scopePath": "assets/source/z-anatomy/LICENSE.publisher.txt",
+      "redistribution": "permitted-with-attribution-and-share-alike-for-derived-model-data",
+      "scope": "selected core head/neck geometry derived from BodyParts3D/Z-Anatomy; excludes third-party inner-ear, kidney, brain/white-matter content, definitions and template code"
+    },
+    {
       "id": "artisynth-models-2014",
       "source": "https://github.com/artisynth/artisynth_models",
       "sourceCommit": "e37be3f1b4831f347c055cbf7124b6bd57414f98",

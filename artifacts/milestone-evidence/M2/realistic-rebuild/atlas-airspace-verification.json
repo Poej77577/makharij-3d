@@ -1,0 +1,94 @@
+{
+  "checks": [
+    {
+      "name": "Oral context envelope",
+      "fclTriangleContacts": 43961,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "watertight": true,
+      "windingConsistent": true,
+      "volume_m3": 0.0001709165645430116,
+      "minimumArea_m2": 6.335728135825554e-10
+    },
+    {
+      "name": "Connected source pharyngeal context",
+      "fclTriangleContacts": 4347,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "watertight": true,
+      "windingConsistent": true,
+      "volume_m3": 9.851107312197102e-05,
+      "minimumArea_m2": 3.950085234599721e-09
+    },
+    {
+      "name": "Source nasal outer envelope right",
+      "fclTriangleContacts": 5870,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "watertight": true,
+      "windingConsistent": true,
+      "volume_m3": 2.4766363584227978e-05,
+      "minimumArea_m2": 2.4571708616476803e-09
+    },
+    {
+      "name": "Source nasal outer envelope left",
+      "fclTriangleContacts": 5886,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "watertight": true,
+      "windingConsistent": true,
+      "volume_m3": 2.4766363584227988e-05,
+      "minimumArea_m2": 2.4571708616476803e-09
+    },
+    {
+      "name": "Nasopharynx",
+      "fclTriangleContacts": 14931,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "watertight": true,
+      "windingConsistent": true,
+      "volume_m3": 1.538269155965477e-05,
+      "minimumArea_m2": 1.2176129308523333e-07
+    },
+    {
+      "name": "Oropharynx",
+      "fclTriangleContacts": 128113,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "watertight": true,
+      "windingConsistent": true,
+      "volume_m3": 1.806848558416361e-05,
+      "minimumArea_m2": 2.763153029314938e-12
+    },
+    {
+      "name": "Laryngopharynx",
+      "fclTriangleContacts": 18825,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "watertight": true,
+      "windingConsistent": true,
+      "volume_m3": 1.8351329863932336e-05,
+      "minimumArea_m2": 6.761378665687921e-07
+    },
+    {
+      "name": "Trachea",
+      "fclTriangleContacts": 123987,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "watertight": true,
+      "windingConsistent": true,
+      "volume_m3": 1.5971344507636004e-05,
+      "minimumArea_m2": 2.9809995938159957e-08
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

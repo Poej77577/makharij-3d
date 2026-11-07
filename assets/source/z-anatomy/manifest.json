@@ -1,0 +1,52 @@
+{
+  "snapshotKind": "derived selected geometry, original evaluated surface shapes preserved; not a byte-for-byte copy of the whole upstream atlas",
+  "repository": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+  "commit": "8dd357ed52a675db0c5f8d7fa9a8621cbfeee713",
+  "archiveGitBlob": "f43cabc6f366b2a6058dd2ed4a2b3c7b9b2492cb",
+  "archiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+  "startupBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "licenseId": "z-anatomy-core-cc-by-sa-4",
+  "originalArchiveRedistributed": false,
+  "files": [
+    {
+      "path": "LICENSE.publisher.txt",
+      "bytes": 2754,
+      "sha256": "196b66b56551a862e59872f7cdb70e6d9a6ad84e9105962fca8ec28c14e97520"
+    },
+    {
+      "path": "README.publisher.md",
+      "bytes": 4243,
+      "sha256": "2439e8ccea759c644bbaf2f6fd48551fe054bfda30fd3d97d8384f75273466b3"
+    },
+    {
+      "path": "construction-surfaces.json",
+      "bytes": 414579,
+      "sha256": "97ea71001c7c1a1bf96c2d703f7114f37ae36d8774a46da94be2bafc92b5f7ec"
+    },
+    {
+      "path": "extraction.json",
+      "bytes": 29928,
+      "sha256": "bbe07868fb0a2be41c01461e5eebd90042438588b47bb878172e7e2e5ff77c54"
+    },
+    {
+      "path": "head-neck-reference.blend",
+      "bytes": 15849724,
+      "sha256": "38c6eed85add71a9d35f1ad593f8119c901adfc81571492bd972600439b11641"
+    },
+    {
+      "path": "reference-meshes.json",
+      "bytes": 11479394,
+      "sha256": "2fb2a4520fc27138f2c434398a64b1786d5737b730902c2c8d15e03c31e8ce69"
+    },
+    {
+      "path": "selected-objects.json",
+      "bytes": 2019,
+      "sha256": "ca9784373f8a91b9ea37121814fd3848e742425cba22c45b94062cb988cf002d"
+    },
+    {
+      "path": "source-units.json",
+      "bytes": 161,
+      "sha256": "e16552226aca5a50b4f3154572edbe27a9617a0da8b0b21272cfee213a5e0634"
+    }
+  ]
+}

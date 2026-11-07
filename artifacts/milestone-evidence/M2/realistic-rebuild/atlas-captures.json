@@ -1,0 +1,17 @@
+{
+  "assetSha256": "1efc25de71de2f5489034274f185505cfb1539109c1f9f6a8f196e5bfb8cb2fc",
+  "views": {
+    "atlas-three-quarter": "223ed9051750224b3b7e7dc6e397c9e5f614e8d7c414424ed34f6e7de421dd43",
+    "atlas-sagittal": "68e6c026e397081adf8387b8efed83d35f84cba0c35300e6e8c5d5cb9ced4c65",
+    "atlas-mouth": "191e7adc0d5e8a8dec271857de8d2866c9be2b3a9e6731742873f9a839cc9f39",
+    "atlas-nose": "b21304cac91d96e669af86c7ef198ca33171a6876fcce58e559c5584cbdb0d06",
+    "atlas-tongue": "95cbd0244da4e6d227b943cc52143f68416bb0fd4f5864c2e73d814d65cc899e"
+  },
+  "renderer": {
+    "type": "Cycles CPU",
+    "threads": 2,
+    "samples": 48,
+    "resolution": 1000
+  },
+  "visualReview": "pending; source candidate is not accepted by image generation alone"
+}

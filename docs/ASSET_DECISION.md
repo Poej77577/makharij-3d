@@ -1,5 +1,21 @@
 # M1 anatomical foundation decision — 2026-11-06
 
+## Superseding decision — 2026-11-07
+
+The user rejected the mixed-source M2 interior. The active reconstruction uses
+75 actual selected Z-Anatomy / BodyParts3D mesh structures in their common
+source frame, with documented tongue/root and tissue refinements. See
+`M2/realistic-rebuild`, `assets/source/z-anatomy/NOTICE.md` and `WORKING_STATE.md`.
+The real archive, native units and extracted geometry were inspected; source
+publisher renders alone were not used as acceptance evidence. Adaptations
+require CC BY-SA 4.0 and original attribution. Separately licensed inner-ear,
+kidney and brain content is excluded.
+
+The CC0 MakeHuman continuous outer head is retained, with an authored oral
+vestibule fit and one dental atlas translation. This is not patient registration.
+Visual/expert acceptance remains pending. The decision below records the
+**rejected historical study**, not the current internal asset choice.
+
 ## Decision and gate state
 
 Select the MakeHuman hm08-derived adult head as the **external authoring

@@ -1,0 +1,12 @@
+{
+  "assetSha256": "1efc25de71de2f5489034274f185505cfb1539109c1f9f6a8f196e5bfb8cb2fc",
+  "sourceBlendSha256": "8413d701057894e70cce4c5654381f4bdd6a119a8183eeb7d229bb5cc27a1155",
+  "nativeViews": 5,
+  "actualBrowserCameraViews": 8,
+  "actualPointerRotation": true,
+  "matchingPublishedSections": true,
+  "staticGeometryPassed": true,
+  "passed": true,
+  "isAcceptedAnatomy": false,
+  "scope": "Independent final byte-identity audit across source, actual delivery, native captures, browser evidence and published review files; expert/visual acceptance remains pending"
+}

@@ -1,0 +1,924 @@
+{
+  "sourceSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "sourceRepository": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+  "sourceCommit": "8dd357ed52a675db0c5f8d7fa9a8621cbfeee713",
+  "sourceAtlasUnits": {
+    "system": "METRIC",
+    "scaleLength": 1,
+    "display": "CENTIMETERS"
+  },
+  "canonicalDentalAnchorBeforeTranslation_m": [
+    0.09279510378837585,
+    1.5275427103042603,
+    0.0
+  ],
+  "rotation": [
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      -1,
+      0,
+      0
+    ]
+  ],
+  "sourceSurfaceShapeModified": true,
+  "coordinatesConvertedByDocumentedRigidFrame": true,
+  "sourceModifiersEvaluated": true,
+  "applicationTemplateInstalled": false,
+  "scriptExecutionEnabled": false,
+  "sourceMetadataDefinitionsCopied": false,
+  "parts": {
+    "ATLAS_ARYTENOID_CARTILAGE_L": {
+      "sourceObjectName": "Arytenoid cartilage.l",
+      "sourceBaseVertices": 322,
+      "originalModifiersEvaluated": [
+        {
+          "type": "SUBSURF",
+          "enabled": true,
+          "levels": 1
+        }
+      ],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "cartilage",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_ARYTENOID_CARTILAGE_R": {
+      "sourceObjectName": "Arytenoid cartilage.r",
+      "sourceBaseVertices": 322,
+      "originalModifiersEvaluated": [
+        {
+          "type": "SUBSURF",
+          "enabled": true,
+          "levels": 1
+        }
+      ],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "cartilage",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_CRICOID_CARTILAGE": {
+      "sourceObjectName": "Cricoid cartilage",
+      "sourceBaseVertices": 941,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "cartilage",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_EPIGLOTTIS": {
+      "sourceObjectName": "Epiglottis",
+      "sourceBaseVertices": 1650,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "cartilage",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_ETHMOID_BONE": {
+      "sourceObjectName": "Ethmoid bone",
+      "sourceBaseVertices": 2108,
+      "originalModifiersEvaluated": [
+        {
+          "type": "BOOLEAN",
+          "enabled": true
+        },
+        {
+          "type": "BOOLEAN",
+          "enabled": true
+        },
+        {
+          "type": "BOOLEAN",
+          "enabled": true
+        },
+        {
+          "type": "BOOLEAN",
+          "enabled": true
+        },
+        {
+          "type": "BOOLEAN",
+          "enabled": true
+        },
+        {
+          "type": "BOOLEAN",
+          "enabled": true
+        }
+      ],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "bone",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_GENIOGLOSSUS_MUSCLE_L": {
+      "sourceObjectName": "Genioglossus muscle.l",
+      "sourceBaseVertices": 1875,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim",
+      "anatomicalRegionOf": "ATLAS_TONGUE"
+    },
+    "ATLAS_GENIOGLOSSUS_MUSCLE_R": {
+      "sourceObjectName": "Genioglossus muscle.r",
+      "sourceBaseVertices": 1875,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim",
+      "anatomicalRegionOf": "ATLAS_TONGUE"
+    },
+    "ATLAS_GENIOHYOID_MUSCLE_L": {
+      "sourceObjectName": "Geniohyoid muscle.l",
+      "sourceBaseVertices": 267,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_GENIOHYOID_MUSCLE_R": {
+      "sourceObjectName": "Geniohyoid muscle.r",
+      "sourceBaseVertices": 267,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_GINGIVA": {
+      "sourceObjectName": "Gingiva",
+      "sourceBaseVertices": 2090,
+      "originalModifiersEvaluated": [
+        {
+          "type": "SUBSURF",
+          "enabled": true,
+          "levels": 1
+        }
+      ],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "mucosa",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_HYOGLOSSUS_MUSCLE_L": {
+      "sourceObjectName": "Hyoglossus muscle.l",
+      "sourceBaseVertices": 714,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim",
+      "anatomicalRegionOf": "ATLAS_TONGUE"
+    },
+    "ATLAS_HYOGLOSSUS_MUSCLE_R": {
+      "sourceObjectName": "Hyoglossus muscle.r",
+      "sourceBaseVertices": 714,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim",
+      "anatomicalRegionOf": "ATLAS_TONGUE"
+    },
+    "ATLAS_HYOID_BONE": {
+      "sourceObjectName": "Hyoid bone",
+      "sourceBaseVertices": 664,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "bone",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_INFERIOR_NASAL_CONCHA_BONE_L": {
+      "sourceObjectName": "Inferior nasal concha bone.l",
+      "sourceBaseVertices": 238,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "bone",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_INFERIOR_NASAL_CONCHA_BONE_R": {
+      "sourceObjectName": "Inferior nasal concha bone.r",
+      "sourceBaseVertices": 238,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "bone",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_INFERIOR_PHARYNGEAL_CONSTRICTOR_L": {
+      "sourceObjectName": "Inferior pharyngeal constrictor.l",
+      "sourceBaseVertices": 1850,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_INFERIOR_PHARYNGEAL_CONSTRICTOR_R": {
+      "sourceObjectName": "Inferior pharyngeal constrictor.r",
+      "sourceBaseVertices": 1850,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_LARYNGOPHARYNX": {
+      "sourceObjectName": "Laryngopharynx",
+      "sourceBaseVertices": 91,
+      "originalModifiersEvaluated": [
+        {
+          "type": "SUBSURF",
+          "enabled": true,
+          "levels": 1
+        },
+        {
+          "type": "MIRROR",
+          "enabled": true
+        },
+        {
+          "type": "SOLIDIFY",
+          "enabled": true,
+          "thickness_m": 0.0004999999655410647,
+          "offset": 0.0
+        }
+      ],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "mucosa",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_LOWER_CANINE_L": {
+      "sourceObjectName": "Lower canine.l",
+      "sourceBaseVertices": 640,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_LOWER_CANINE_R": {
+      "sourceObjectName": "Lower canine.r",
+      "sourceBaseVertices": 640,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_LOWER_FIRST_MOLAR_TOOTH_L": {
+      "sourceObjectName": "Lower first molar tooth.l",
+      "sourceBaseVertices": 2260,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_LOWER_FIRST_MOLAR_TOOTH_R": {
+      "sourceObjectName": "Lower first molar tooth.r",
+      "sourceBaseVertices": 2260,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_LOWER_FIRST_PREMOLAR_L": {
+      "sourceObjectName": "Lower first premolar.l",
+      "sourceBaseVertices": 613,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_LOWER_FIRST_PREMOLAR_R": {
+      "sourceObjectName": "Lower first premolar.r",
+      "sourceBaseVertices": 613,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_LOWER_LATERAL_INCISOR_L": {
+      "sourceObjectName": "Lower lateral incisor.l",
+      "sourceBaseVertices": 522,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_LOWER_LATERAL_INCISOR_R": {
+      "sourceObjectName": "Lower lateral incisor.r",
+      "sourceBaseVertices": 522,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_LOWER_MEDIAL_INCISOR_L": {
+      "sourceObjectName": "Lower medial incisor.l",
+      "sourceBaseVertices": 494,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_LOWER_MEDIAL_INCISOR_R": {
+      "sourceObjectName": "Lower medial incisor.r",
+      "sourceBaseVertices": 494,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_LOWER_SECOND_MOLAR_TOOTH_L": {
+      "sourceObjectName": "Lower second molar tooth.l",
+      "sourceBaseVertices": 840,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_LOWER_SECOND_MOLAR_TOOTH_R": {
+      "sourceObjectName": "Lower second molar tooth.r",
+      "sourceBaseVertices": 840,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_LOWER_SECOND_PREMOLAR_L": {
+      "sourceObjectName": "Lower second premolar.l",
+      "sourceBaseVertices": 592,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_LOWER_SECOND_PREMOLAR_R": {
+      "sourceObjectName": "Lower second premolar.r",
+      "sourceBaseVertices": 592,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_MANDIBLE": {
+      "sourceObjectName": "Mandible",
+      "sourceBaseVertices": 9388,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "bone",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_MAXILLA_L": {
+      "sourceObjectName": "Maxilla.l",
+      "sourceBaseVertices": 2399,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "bone",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_MAXILLA_R": {
+      "sourceObjectName": "Maxilla.r",
+      "sourceBaseVertices": 2399,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "bone",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_MIDDLE_PHARYNGEAL_CONSTRICTOR_L": {
+      "sourceObjectName": "Middle pharyngeal constrictor.l",
+      "sourceBaseVertices": 1476,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_MIDDLE_PHARYNGEAL_CONSTRICTOR_R": {
+      "sourceObjectName": "Middle pharyngeal constrictor.r",
+      "sourceBaseVertices": 1476,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_MUCOSA_OF_NASAL_CAVITY": {
+      "sourceObjectName": "Mucosa of nasal cavity",
+      "sourceBaseVertices": 318,
+      "originalModifiersEvaluated": [
+        {
+          "type": "SUBSURF",
+          "enabled": true,
+          "levels": 1
+        },
+        {
+          "type": "MIRROR",
+          "enabled": true
+        },
+        {
+          "type": "SOLIDIFY",
+          "enabled": true,
+          "thickness_m": 0.0004999999655410647,
+          "offset": 0.0
+        }
+      ],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "mucosa",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_MYLOHYOID_MUSCLE_L": {
+      "sourceObjectName": "Mylohyoid muscle.l",
+      "sourceBaseVertices": 561,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_MYLOHYOID_MUSCLE_R": {
+      "sourceObjectName": "Mylohyoid muscle.r",
+      "sourceBaseVertices": 561,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_NASAL_SEPTAL_CARTILAGE": {
+      "sourceObjectName": "Nasal septal cartilage",
+      "sourceBaseVertices": 182,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "cartilage",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_NASOPHARYNX": {
+      "sourceObjectName": "Nasopharynx",
+      "sourceBaseVertices": 73,
+      "originalModifiersEvaluated": [
+        {
+          "type": "SUBSURF",
+          "enabled": true,
+          "levels": 1
+        },
+        {
+          "type": "MIRROR",
+          "enabled": true
+        },
+        {
+          "type": "SOLIDIFY",
+          "enabled": true,
+          "thickness_m": 0.0004999999655410647,
+          "offset": 0.0
+        }
+      ],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "mucosa",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_ORBICULARIS_ORIS_MUSCLE_L": {
+      "sourceObjectName": "Orbicularis oris muscle.l",
+      "sourceBaseVertices": 940,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_ORBICULARIS_ORIS_MUSCLE_R": {
+      "sourceObjectName": "Orbicularis oris muscle.r",
+      "sourceBaseVertices": 940,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_OROPHARYNX": {
+      "sourceObjectName": "Oropharynx",
+      "sourceBaseVertices": 92,
+      "originalModifiersEvaluated": [
+        {
+          "type": "SUBSURF",
+          "enabled": true,
+          "levels": 1
+        },
+        {
+          "type": "MIRROR",
+          "enabled": true
+        },
+        {
+          "type": "SOLIDIFY",
+          "enabled": true,
+          "thickness_m": 0.0004999999655410647,
+          "offset": 0.0
+        }
+      ],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "mucosa",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_PALATINE_BONE_L": {
+      "sourceObjectName": "Palatine bone.l",
+      "sourceBaseVertices": 732,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "bone",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_PALATINE_BONE_R": {
+      "sourceObjectName": "Palatine bone.r",
+      "sourceBaseVertices": 732,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "bone",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_PALATINE_TONSIL_L": {
+      "sourceObjectName": "Palatine tonsil.l",
+      "sourceBaseVertices": 86,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "mucosa",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_PALATINE_TONSIL_R": {
+      "sourceObjectName": "Palatine tonsil.r",
+      "sourceBaseVertices": 86,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "mucosa",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_PALATOPHARYNGEUS_MUSCLE_L": {
+      "sourceObjectName": "Palatopharyngeus muscle.l",
+      "sourceBaseVertices": 7642,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_PALATOPHARYNGEUS_MUSCLE_R": {
+      "sourceObjectName": "Palatopharyngeus muscle.r",
+      "sourceBaseVertices": 7642,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_SOFT_PALATE": {
+      "sourceObjectName": "Soft palate",
+      "sourceBaseVertices": 133,
+      "originalModifiersEvaluated": [
+        {
+          "type": "SUBSURF",
+          "enabled": true,
+          "levels": 1
+        },
+        {
+          "type": "MIRROR",
+          "enabled": true
+        },
+        {
+          "type": "SOLIDIFY",
+          "enabled": true,
+          "thickness_m": 0.0004999999655410647,
+          "offset": 0.0
+        }
+      ],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "mucosa",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_STYLOPHARYNGEUS_MUSCLE_L": {
+      "sourceObjectName": "Stylopharyngeus muscle.l",
+      "sourceBaseVertices": 4740,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_STYLOPHARYNGEUS_MUSCLE_R": {
+      "sourceObjectName": "Stylopharyngeus muscle.r",
+      "sourceBaseVertices": 4740,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_SUPERIOR_PHARYNGEAL_CONSTRICTOR_L": {
+      "sourceObjectName": "Superior pharyngeal constrictor.l",
+      "sourceBaseVertices": 2669,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_SUPERIOR_PHARYNGEAL_CONSTRICTOR_R": {
+      "sourceObjectName": "Superior pharyngeal constrictor.r",
+      "sourceBaseVertices": 2669,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "muscle",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_THYROID_CARTILAGE": {
+      "sourceObjectName": "Thyroid cartilage",
+      "sourceBaseVertices": 2247,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "cartilage",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_TONGUE": {
+      "sourceObjectName": "Tongue",
+      "sourceBaseVertices": 343,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "mucosa",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_TRACHEA": {
+      "sourceObjectName": "Trachea",
+      "sourceBaseVertices": 2400,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "mucosa",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_UPPER_CANINE_L": {
+      "sourceObjectName": "Upper canine.l",
+      "sourceBaseVertices": 737,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_UPPER_CANINE_R": {
+      "sourceObjectName": "Upper canine.r",
+      "sourceBaseVertices": 737,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_UPPER_FIRST_MOLAR_TOOTH_L": {
+      "sourceObjectName": "Upper first molar tooth.l",
+      "sourceBaseVertices": 1090,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_UPPER_FIRST_MOLAR_TOOTH_R": {
+      "sourceObjectName": "Upper first molar tooth.r",
+      "sourceBaseVertices": 1090,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_UPPER_FIRST_PREMOLAR_L": {
+      "sourceObjectName": "Upper first premolar.l",
+      "sourceBaseVertices": 844,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_UPPER_FIRST_PREMOLAR_R": {
+      "sourceObjectName": "Upper first premolar.r",
+      "sourceBaseVertices": 844,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_UPPER_LATERAL_INCISOR_L": {
+      "sourceObjectName": "Upper lateral incisor.l",
+      "sourceBaseVertices": 729,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_UPPER_LATERAL_INCISOR_R": {
+      "sourceObjectName": "Upper lateral incisor.r",
+      "sourceBaseVertices": 729,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_UPPER_MEDIAL_INCISOR_L": {
+      "sourceObjectName": "Upper medial incisor.l",
+      "sourceBaseVertices": 686,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_UPPER_MEDIAL_INCISOR_R": {
+      "sourceObjectName": "Upper medial incisor.r",
+      "sourceBaseVertices": 686,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_UPPER_SECOND_MOLAR_TOOTH_L": {
+      "sourceObjectName": "Upper second molar tooth.l",
+      "sourceBaseVertices": 924,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_UPPER_SECOND_MOLAR_TOOTH_R": {
+      "sourceObjectName": "Upper second molar tooth.r",
+      "sourceBaseVertices": 924,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_UPPER_SECOND_PREMOLAR_L": {
+      "sourceObjectName": "Upper second premolar.l",
+      "sourceBaseVertices": 779,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_UPPER_SECOND_PREMOLAR_R": {
+      "sourceObjectName": "Upper second premolar.r",
+      "sourceBaseVertices": 779,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "tooth",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_UVULA_OF_PALATE": {
+      "sourceObjectName": "Uvula of palate",
+      "sourceBaseVertices": 753,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": false,
+      "materialClass": "mucosa",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_VOMER": {
+      "sourceObjectName": "Vomer",
+      "sourceBaseVertices": 514,
+      "originalModifiersEvaluated": [],
+      "negativeWorldScaleWindingCorrected": true,
+      "materialClass": "bone",
+      "sourceKind": "Atlas authored anatomy derived from BodyParts3D; no clinical registration claim"
+    },
+    "ATLAS_INFERIOR_CONCHA_MUCOSA_L": {
+      "sourceObjectName": "Authored mucosal envelope of Inferior nasal concha bone.l",
+      "sourceKind": "Adaptation of actual source turbinate geometry",
+      "materialClass": "mucosa",
+      "derivedFrom": "ATLAS_INFERIOR_NASAL_CONCHA_BONE_L"
+    },
+    "ATLAS_INFERIOR_CONCHA_MUCOSA_R": {
+      "sourceObjectName": "Authored mucosal envelope of Inferior nasal concha bone.r",
+      "sourceKind": "Adaptation of actual source turbinate geometry",
+      "materialClass": "mucosa",
+      "derivedFrom": "ATLAS_INFERIOR_NASAL_CONCHA_BONE_R"
+    }
+  },
+  "glbSha256": "d6b052e606c1d94c55ac082f88001842765546ca2b5e1ddfccfb36531aa534d6",
+  "blendSha256": "abea41814e4047974911e4641f964990386b8e2b973f65fbbe354e27b5b80992",
+  "isAcceptedAnatomy": false,
+  "status": "Rebuilt internal geometry, not the rejected mixed-source model; acceptance pending",
+  "originalExtractedSourceUnchanged": true,
+  "sourceSnapshot": "assets/source/z-anatomy/manifest.json",
+  "reconstructionEdits": {
+    "ATLAS_CRICOID_CARTILAGE": {
+      "removedExactOppositeTrianglePairs": 3,
+      "coordinateWeldPrecision_m": 1e-09
+    },
+    "ATLAS_SOFT_PALATE": {
+      "method": "Original curved atlas velar surface, full source mirror, new tissue thickness",
+      "sourceThickness_m": 0.0005,
+      "authoredThickness_m": 0.0035,
+      "clinicalMeasurement": false,
+      "foldRepair": {
+        "voxelSize_m": 0.0002,
+        "maximumTriangles": 9000,
+        "beforeVolume_m3": 8.053899927994132e-06,
+        "afterVolume_m3": 8.013165440717205e-06,
+        "subvoxelSmoothing": {
+          "factor": 0.3,
+          "iterations": 3
+        }
+      }
+    },
+    "ATLAS_TONGUE": {
+      "method": "Source anatomical surface subdivision, gentle dorsal median sulcus, volume preservation",
+      "sourceVertices": 343,
+      "refinedVertices": 7546,
+      "sourceVolume_m3": 3.697809714375173e-05,
+      "finalVolume_m3": 3.6978097120826976e-05,
+      "maximumSulcusDepth_m": 0.00065,
+      "sulcusVertices": 204,
+      "clinicalMeasurement": false,
+      "unintendedDentalContacts": "independent check required",
+      "rootReconstruction": {
+        "sourceParts": [
+          "ATLAS_GENIOGLOSSUS_MUSCLE_L",
+          "ATLAS_GENIOGLOSSUS_MUSCLE_R",
+          "ATLAS_HYOGLOSSUS_MUSCLE_L",
+          "ATLAS_HYOGLOSSUS_MUSCLE_R"
+        ],
+        "method": "Fine volumetric union of the actual anatomical tongue/root muscle surfaces",
+        "voxelSize_m": 0.0002,
+        "authoredFascialCover_m": 0.00018,
+        "unionVolume_m3": 3.797427432153161e-05,
+        "sourceComponentVolumeSum_m3": 5.1183968977773806e-05,
+        "finalVolumeWithRoot_m3": 3.89843200213646e-05,
+        "fascialFoldRepair": {
+          "voxelSize_m": 0.0002,
+          "maximumTriangles": 30000,
+          "beforeVolume_m3": 3.9140085241531425e-05,
+          "afterVolume_m3": 3.89843200213646e-05,
+          "subvoxelSmoothing": {
+            "factor": 0.3,
+            "iterations": 3
+          }
+        }
+      },
+      "surfaceAppearance": {
+        "method": "Authored dorsal microstructure and wet mucosal shading, not scanned histology",
+        "nominalFeatureScale_m": 0.0003125
+      },
+      "surfaceReduction": {
+        "beforeTriangles": 30000,
+        "targetTriangles": 30000,
+        "beforeVolume_m3": 3.89843200213646e-05,
+        "afterVolume_m3": 3.89843200213646e-05,
+        "subvoxelSmoothingAfterReduction": false
+      }
+    },
+    "ATLAS_MUCOSA_OF_NASAL_CAVITY": {
+      "method": "Fine voxel reconstruction of original source tissue; cavity preservation requires independent check",
+      "voxelSize_m": 0.00015,
+      "beforeVolume_m3": 5.3005002288746495e-06,
+      "afterVolume_m3": 5.387028201305822e-06,
+      "vertices": 203140,
+      "clinicalMeasurement": false,
+      "surfaceReduction": {
+        "beforeTriangles": 406312,
+        "targetTriangles": 60000,
+        "beforeVolume_m3": 5.387028201305822e-06,
+        "afterVolume_m3": 5.378376194282093e-06,
+        "subvoxelSmoothingAfterReduction": true
+      }
+    },
+    "ATLAS_MANDIBLE": {
+      "method": "Fine voxel reconstruction of original source tissue; cavity preservation requires independent check",
+      "voxelSize_m": 0.0003,
+      "beforeVolume_m3": 4.205732389481367e-05,
+      "afterVolume_m3": 4.20821211297171e-05,
+      "vertices": 74876,
+      "clinicalMeasurement": false,
+      "surfaceReduction": {
+        "beforeTriangles": 149780,
+        "targetTriangles": 18000,
+        "beforeVolume_m3": 4.20821211297171e-05,
+        "afterVolume_m3": 4.207058236381375e-05,
+        "subvoxelSmoothingAfterReduction": false
+      }
+    },
+    "ATLAS_ETHMOID_BONE": {
+      "voxelReconstructionAccepted": false,
+      "originalOpenContextRetained": true,
+      "reason": "Fine nasal-cell volume would be changed materially",
+      "beforeSignedVolume_m3": 1.074706650177929e-05,
+      "rejectedSignedVolume_m3": 2.476847653557404e-06,
+      "closedTissueVolumeClaimed": false
+    },
+    "ATLAS_TRACHEA": {
+      "authoredInnerRadialScale": 0.84,
+      "inferiorContextCropY_m": -0.152,
+      "airPortFilled": false,
+      "centerlineFit": {
+        "x": [
+          -0.8188699653007311,
+          0.0565543319725165,
+          -0.07407617212364365
+        ],
+        "z": [
+          -5.6871675762917474e-08,
+          -1.2257169149518485e-08,
+          0.00024861034795453445
+        ]
+      },
+      "method": "Source-shaped inner/outer walls, preserved longitudinal coordinates and true annular rims; no normal-offset rim fold",
+      "clinicalMeasurement": false
+    },
+    "ATLAS_INFERIOR_CONCHA_MUCOSA_L": {
+      "method": "Normal-offset tissue envelope of the actual source turbinate, with nested original bone",
+      "authoredCover_m": 0.00065,
+      "maximumDistanceToOriginalBone_m": 0.0006825485033914447,
+      "voxelSize_m": 0.00015,
+      "clinicalMeasurement": false
+    },
+    "ATLAS_INFERIOR_CONCHA_MUCOSA_R": {
+      "method": "Normal-offset tissue envelope of the actual source turbinate, with nested original bone",
+      "authoredCover_m": 0.00065,
+      "maximumDistanceToOriginalBone_m": 0.0006684771506115794,
+      "voxelSize_m": 0.00015,
+      "clinicalMeasurement": false
+    }
+  }
+}
