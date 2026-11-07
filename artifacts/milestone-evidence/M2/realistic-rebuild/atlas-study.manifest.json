@@ -1029,5 +1029,8 @@
     "authoredNotScanned": true,
     "method": "Cycles tangent-space normal bake of region-limited dorsal microstructure",
     "sha256": "28d5e78cdcae7a85ecece2ddb57be2d595163fcdfd62cb9ff0ee2869cc5f4b68"
-  }
+  },
+  "visualReview": "fail",
+  "reviewState": "user-rejected",
+  "reconstructionFamily": "atlas-reconstruction-v2"
 }

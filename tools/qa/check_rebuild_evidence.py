@@ -31,7 +31,7 @@ for i, expected_sha in enumerate(browser['rotationFrameSha256']):
 assert len(set(browser['rotationFrameSha256'])) == 8
 report = {'assetSha256': asset_sha, 'sourceBlendSha256': blend_sha, 'nativeViews': len(expected),
     'actualBrowserCameraViews': 8, 'actualPointerRotation': True, 'matchingPublishedSections': True,
-    'staticGeometryPassed': True, 'passed': True, 'isAcceptedAnatomy': False,
-    'scope': 'Independent final byte-identity audit across source, actual delivery, native captures, browser evidence and published review files; expert/visual acceptance remains pending'}
+    'staticGeometryPassed': True, 'passed': True, 'isAcceptedAnatomy': False, 'visualReview': geometry.get('visualReview', 'pending'),
+    'scope': 'Independent byte-identity audit of the retained study across source, actual delivery, native captures, browser evidence and published review files; this does not override the recorded visual rejection or establish expert acceptance'}
 (folder / 'evidence-verification.json').write_text(json.dumps(report, indent=2) + '\n')
 print(json.dumps(report, indent=2))

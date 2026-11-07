@@ -4,13 +4,13 @@ import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls.js';
 import './anatomy-review.css';
 
 type SectionData={assetSha256:string;planeZ_m:number;caps:Record<string,{points:number[][];faces:number[][]}>};
-type AssetManifest={glbSha256:string;atlasPlacement:{translation_m:number[]};parts:Record<string,unknown>};
+type AssetManifest={glbSha256:string;atlasPlacement:{translation_m:number[]};parts:Record<string,unknown>;visualReview?:'fail'|'pending'};
 const root=document.querySelector<HTMLDivElement>('#app')!;
-root.innerHTML=`<header><div><h1>مخارج</h1><p>استكشف اللسان والفم والأنف والحلق في نموذج واحد</p></div><span class="badge">التشريح الجديد · قيد المراجعة</span></header>
+root.innerHTML=`<header><div><h1>مخارج</h1><p>استكشف اللسان والفم والأنف والحلق في نموذج واحد</p></div><span class="badge">دراسة تشريحية محفوظة</span></header>
 <main><div class="toolbar"><div class="buttons" aria-label="طريقة العرض"><button id="both" aria-pressed="true" disabled>عرضان معًا</button><button id="section" aria-pressed="false" disabled>المقطع الجانبي</button><button id="external" aria-pressed="false" disabled>الرأس الخارجي</button></div><div class="buttons"><button id="reset" disabled>استعادة المنظور</button><button id="fullscreen">ملء الشاشة</button></div></div>
 <section id="review-stage" aria-label="استكشاف النموذج التشريحي"><canvas aria-label="نموذج تشريحي ثلاثي الأبعاد قابل للدوران"></canvas><div class="pane external-pane"></div><div class="pane section-pane"></div><span class="view-label external-label">الرأس الخارجي</span><span class="view-label section-label">مقطع عبر الفم والأنف والحلق</span><span class="hint">اسحب للدوران · عجلة للتقريب · بإصبعين على اللمس</span></section>
 <div class="toolbar"><div class="focus"><label for="focus">استكشف</label><select id="focus" disabled><option value="whole">الفم والأنف والحلق</option><option value="mouth">اللسان والحنك</option><option value="nose">التجويف الأنفي</option><option value="throat">الحلق والحنجرة</option></select></div><p class="meta" id="load-status" role="status">جارٍ تحميل التشريح الجديد…</p></div>
-<details><summary>عن النموذج ومصادره</summary><p>هذه إعادة بناء جديدة لوضع الراحة، مع لسان وجذر متصلين، ولثة وأسنان وحنك وتجويف أنفي وبنى الحلق. التحريك والمراجعة العلمية لم يكتملَا. تخطيط الألياف وتفاصيل سطح اللسان توضيحية، وليست صورًا مجهرية مقاسة. المقاطع محسوبة من أحجام الأنسجة الفعلية؛ يتغير مستوى القطع عند استكشاف الأنف لإظهار المحارات الأنفية.</p><p>المصدر التشريحي: <a href="https://github.com/Z-Anatomy/Models-of-human-anatomy">Z-Anatomy / BodyParts3D</a>؛ الرأس والعينان من MakeHuman. النموذج المعدّل مرخص CC BY-SA 4.0، ومكوّنات الرأس الأصلية CC0.</p><p><a href="/models/makharij-realistic.glb" download>تنزيل النموذج GLB</a> · <a href="/models/makharij-realistic.NOTICE.md">المصادر والتعديلات والترخيص</a> · <a href="/">الدراسة التقنية السابقة</a></p></details>
+<details><summary>عن النموذج ومصادره</summary><p>هذه دراسة محفوظة لوضع الراحة، مع لسان وجذر متصلين، ولثة وأسنان وحنك وتجويف أنفي وبنى الحلق. التحريك والمراجعة العلمية لم يكتملَا. تخطيط الألياف وتفاصيل سطح اللسان توضيحية، وليست صورًا مجهرية مقاسة. المقاطع محسوبة من أحجام الأنسجة الفعلية؛ يتغير مستوى القطع عند استكشاف الأنف لإظهار المحارات الأنفية.</p><p>المصدر التشريحي: <a href="https://github.com/Z-Anatomy/Models-of-human-anatomy">Z-Anatomy / BodyParts3D</a>؛ الرأس والعينان من MakeHuman. النموذج المعدّل مرخص CC BY-SA 4.0، ومكوّنات الرأس الأصلية CC0.</p><p><a href="/models/makharij-realistic.glb" download>تنزيل الدراسة المحفوظة GLB</a> · <a href="/models/makharij-realistic.NOTICE.md">المصادر والتعديلات والترخيص</a> · <a href="/">الدراسة التقنية السابقة</a></p></details>
 <p class="credits">BodyParts3D — The Database Center for Life Science — CC BY-SA 2.1 Japan · Z-Anatomy — CC BY-SA 4.0</p></main>`;
 const stage=document.querySelector<HTMLElement>('#review-stage')!;
 const status=document.querySelector<HTMLElement>('#load-status')!;
@@ -139,7 +139,10 @@ async function load(){
   const cap=new THREE.Mesh(geometry,sectionMaterial(name,source));cap.name=name;group.add(cap);
  }
  ready=true;reset();document.querySelectorAll<HTMLButtonElement|HTMLSelectElement>('button:disabled,select:disabled').forEach(el=>el.disabled=false);
- status.textContent='أُعيد بناء التشريح · وضع الراحة · المراجعة العلمية قيد العمل';
+ if(manifest.visualReview==='fail'){
+  document.querySelector('.badge')!.textContent='دراسة مرفوضة · محفوظة للمقارنة';
+  status.textContent='رُفضت واقعية هذه الدراسة؛ يجري تغيير طريقة بناء الأصل التشريحي.';
+ }else status.textContent='أُعيد بناء التشريح · وضع الراحة · المراجعة العلمية قيد العمل';
  Object.assign(window,{anatomyReview:{assetSha256:assetSha,meshCount,triangles,sectionCaps:caps.children.length,sectionPartIds:caps.children.map(p=>p.name),nasalPartIds:nasalCaps.children.map(p=>p.name),rendererInstances:1,get planeZ_m(){return -clipping.constant;},
    setMode,focus:(value:string)=>{select.value=value;reset();},rotate:(yaw:number)=>{cameras.external.position.copy(controls.external.target).add(new THREE.Vector3(Math.cos(yaw)*.8,.035,-Math.sin(yaw)*.8));controls.external.update();render();}}});
 }

@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-07",
+  "selectedMethod": "Coherently authored anatomical asset, stable deformation topology, early independent control tests, corrective rig, baked GLB delivery",
+  "selectedProductionAsset": null,
+  "sources": [
+    {
+      "title": "Ematoblender",
+      "source": "https://github.com/m2ci-msp/ematoblender",
+      "commit": "e2ffc692a1a2bf8cb4c5935c8b151602afb3ac90",
+      "licenseObservation": "GPL-3.0 for framework; dependent assets have separate licenses",
+      "inspectionVerdict": "Native Blender rig and EMA/statistical-tongue architecture reference; not selected as complete production anatomy",
+      "productionSelected": false
+    },
+    {
+      "title": "Ematoblender model",
+      "source": "https://github.com/m2ci-msp/ematoblender-model",
+      "commit": "23c1247c626f98f5f362673cefc1e6417b9ccd0b",
+      "licenseObservation": "Asset license not established from repository or embedded notices",
+      "inspectionVerdict": "Release file actually inspected: face rig exists; tongue/palate lack bound controls in this file",
+      "productionSelected": false
+    },
+    {
+      "title": "Multilinear Tongue Model",
+      "source": "https://github.com/m2ci-msp/multilinear-tongue-model",
+      "commit": "327395d4aa568464bef5d17a25f42ffab37f2824",
+      "licenseObservation": "CC BY-NC-ND 4.0",
+      "inspectionVerdict": "Separate permission required for distributing adapted project anatomy; model data not downloaded",
+      "productionSelected": false
+    },
+    {
+      "title": "Ultrax Tongue Meshes",
+      "source": "https://github.com/m2ci-msp/ultrax-tongue-meshes",
+      "commit": "be553ec6bc42180271ea9dae0fc9288e6936f28f",
+      "licenseObservation": "CC BY-NC-ND 4.0",
+      "inspectionVerdict": "Registered MRI tongue method reference; mesh packs not downloaded",
+      "productionSelected": false
+    },
+    {
+      "title": "Speech Driven Tongue Animation",
+      "source": "https://github.com/salmedina/SpeechDrivenTongueAnimation",
+      "commit": "c578efe92d1ef2e2c5f89dcf2817d0592fea2741",
+      "licenseObservation": "MIT code; separate dataset agreement",
+      "inspectionVerdict": "Landmark-prediction research; inspected tree contains no ready anatomical Blender asset; no model training performed",
+      "productionSelected": false
+    },
+    {
+      "title": "Vocal Tract Models / Maeda",
+      "source": "https://github.com/sensein/VocalTractModels",
+      "commit": "59b4b99c53ab2da9ad3e6df5bfe5ca2ba0c91cea",
+      "licenseObservation": "Apache-2.0 repository",
+      "inspectionVerdict": "Acoustic/articulatory modeling reference, not complete rigged 3-D head asset",
+      "productionSelected": false
+    },
+    {
+      "title": "Muscle-Grounded QA",
+      "source": "https://github.com/esh0504/muscle-grounded-qa",
+      "commit": "65a5cdea30fdf2380f6dc01b18be5afa8b382965",
+      "licenseObservation": "No production asset rights established in this inspection",
+      "inspectionVerdict": "Uses the already known Badin FEM family; not a new visual source; no dataset/training/simulation executed",
+      "productionSelected": false
+    },
+    {
+      "title": "Phonetic Head",
+      "source": "https://github.com/keman5/phonetic-head",
+      "commit": "f9d878aec491be8232f57c0315c4fc75534ff733",
+      "licenseObservation": "Attributed anatomical derivatives CC BY-SA 4.0; application rights not established here",
+      "inspectionVerdict": "Same Z-Anatomy source family and derived 343-vertex tongue; not a new visual foundation; source and attribution reviewed only",
+      "productionSelected": false
+    },
+    {
+      "title": "Phonetics Tool Machine",
+      "source": "https://github.com/cronospi99/PhoneticsToolMachine",
+      "commit": "ce3835482bd4817f10b2f38a4cac2a584d6d7f78",
+      "licenseObservation": "Project asset reuse rights not established here",
+      "inspectionVerdict": "README explicitly describes procedural ellipsoid/spline teaching geometry; not selected for realistic anatomy",
+      "productionSelected": false
+    },
+    {
+      "title": "Human Speech System",
+      "source": "https://github.com/Eglos1/human-speech-system",
+      "commit": "b9a68ee6dde9c2788fc4eb42f462ebd5dc74bcda",
+      "licenseObservation": "MIT repository",
+      "inspectionVerdict": "Control/acoustics application; inspected file tree has no complete anatomical Blender asset",
+      "productionSelected": false
+    },
+    {
+      "title": "Articulatory Geometry",
+      "source": "https://github.com/mkomorny/articulatory-vocal-tract-geometry-public",
+      "commit": "37801e09e21c1c0eda5646994060da4633fcc2b3",
+      "licenseObservation": "No asset license established; no model present in inspected tree",
+      "inspectionVerdict": "Documentation/prompt framework, not an acquired 3-D anatomical model",
+      "productionSelected": false
+    },
+    {
+      "title": "VocalTractLabBackend",
+      "source": "https://github.com/TUD-STKS/VocalTractLabBackend",
+      "commit": "df30392f18dc5e175b577c3ba734caaa65a3927f",
+      "licenseObservation": "GPL-3.0-or-later code; no separately permissive JD3 speaker license established in prior inspection",
+      "inspectionVerdict": "Previously rejected as delivered visual source; control reference only",
+      "productionSelected": false
+    },
+    {
+      "repository": "https://github.com/Slicer/Slicer.git",
+      "commit": "fb80933ff8135aa6a5920102265632915d2d359f",
+      "files": [
+        {
+          "name": "README.md",
+          "url": "https://raw.githubusercontent.com/Slicer/Slicer/fb80933ff8135aa6a5920102265632915d2d359f/README.md",
+          "bytes": 1889
+        },
+        {
+          "name": "License.txt",
+          "url": "https://raw.githubusercontent.com/Slicer/Slicer/fb80933ff8135aa6a5920102265632915d2d359f/License.txt",
+          "bytes": 10514
+        }
+      ],
+      "title": "3D Slicer",
+      "licenseObservation": "Slicer BSD-style software license inspected; does not grant rights to arbitrary MRI datasets",
+      "inspectionVerdict": "MRI segmentation route/tool reference; no patient segmentation or model authoring performed",
+      "productionSelected": false
+    }
+  ],
+  "nativeFixture": {
+    "url": "https://github.com/m2ci-msp/ematoblender-model/releases/download/v0.1/ematoblender-model.blend",
+    "bytes": 2491956,
+    "sha256": "b567ded59157db012927d68d44d16fc6f90b214bfb238b975bcdcb8ad3dedef7",
+    "geometryRedistributed": false
+  },
+  "scope": "Primary GitHub repository, source-tree, README/license and one native file/control inspection. Marketplace assets/prices not verified because current destination policy denies access."
+}

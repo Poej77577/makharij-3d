@@ -17,7 +17,11 @@ p.add_argument('--folder', default='artifacts/milestone-evidence/M2/realistic-re
 p.add_argument('--gate', action='store_true')
 args = p.parse_args()
 folder = Path(args.folder)
+review_path = Path(__file__).resolve().parents[2] / 'assets/calibration/visual-review.json'
+review = json.loads(review_path.read_text()) if review_path.exists() else {}
 manifest = json.loads((folder / 'atlas-study.manifest.json').read_text())
+family = manifest.get('reconstructionFamily', 'atlas-reconstruction-v2')
+visual_review = 'fail' if review.get('routeId') == family and review.get('status') == 'rejected' else 'pending'
 reference = json.loads((folder / 'atlas-meshes.json').read_text())['parts']
 sections = json.loads((folder / 'atlas-sections.json').read_text())
 nasal_sections = json.loads((folder / 'atlas-nasal-sections.json').read_text())
@@ -100,7 +104,7 @@ if normal.get('sha256') != hashlib.sha256((folder / 'tongue-normal.png').read_by
 report = {'assetSha256': asset_sha, 'parts': records, 'requiredClosedTissues': required,
     'authoredTissueSurfaces': tissue_surfaces,
     'tongueRigidClearances': clearances, 'airspacePreflightPassed': air['passed'], 'geometryFailures': failures,
-    'staticGeometryPassed': not failures, 'visualReview': 'pending', 'expertReview': 'pending',
+    'staticGeometryPassed': not failures, 'visualReview': visual_review, 'visualReviewSource': 'assets/calibration/visual-review.json', 'expertReview': 'pending',
     'isAcceptedAnatomy': False, 'rigReady': False,
     'scope': 'Actual exported GLB identity, selected closed tissue volumes, root continuity, computed sections, tongue/rigid-tissue separation and actual airspace preflight; no clinical registration, motion or expert approval'}
 (folder / 'anatomy-verification.json').write_text(json.dumps(report, indent=2) + '\n')
@@ -108,4 +112,4 @@ print(json.dumps({'parts': len(records), 'triangles': sum(r['triangles'] for r i
     'tongueComponents': records['ATLAS_TONGUE']['components'], 'rigidPairs': len(clearances),
     'geometryFailures': failures, 'staticGeometryPassed': not failures, 'isAcceptedAnatomy': False}, indent=2))
 if failures or args.gate:
-    raise SystemExit('FAIL: ' + ('; '.join(failures) if failures else 'Visual and expert acceptance remain pending'))
+    raise SystemExit('FAIL: ' + ('; '.join(failures) if failures else 'Visual review: ' + visual_review + '; expert acceptance pending'))

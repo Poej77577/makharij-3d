@@ -22,6 +22,7 @@ notice += 'Rebuilt tongue surface/root envelope, shallow dorsal sulcus, soft-pal
 notice += 'MakeHuman head, source facial targets, eyes and eye texture: CC0 1.0, https://github.com/makehumancommunity/makehuman ; original asset notices retained in assets/source/makehuman. No MakeHuman application program code is redistributed in this model.\n'
 (target / 'makharij-realistic.NOTICE.md').write_text(notice)
 manifest.update({'reviewPage': '/anatomy.html', 'isAcceptedAnatomy': False, 'rigReady': False,
+    'visualReview': report.get('visualReview', 'pending'),
     'staticGeometryPassed': True, 'modelDataLicense': 'CC-BY-SA-4.0',
     'attributionNotice': '/models/makharij-realistic.NOTICE.md'})
 (target / 'makharij-realistic.manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')

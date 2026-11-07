@@ -1,12 +1,18 @@
 # Current implementation state — 2026-11-07
 
-Latest binding direction: rebuild the unrealistic tongue and interior.
+Latest binding direction: the user rejected this rebuild too and requested a different method.
+Read `ANIMATABLE_ASSET_ROUTE.md`. Stop using the atlas assembly as the production
+visual foundation. Preserve both rejected studies. Work on source acquisition
+and a deformation-first asset workflow; do not regenerate these meshes and
+present another static study as the solution.
+
+Historical direction before this rejection: rebuild the tongue and interior.
 Follow `IMPLEMENTATION_PLAN.md` and `M2_VISUAL_REBUILD.md`. Work alone, solve
 routine implementation issues autonomously, and do not rig rejected anatomy.
 
-## Active reconstruction
+## Rejected historical reconstruction
 
-Use `artifacts/milestone-evidence/M2/realistic-rebuild`, not the rejected
+The rejected study is `artifacts/milestone-evidence/M2/realistic-rebuild`, alongside the earlier rejected
 mixed-source `character-assembly`. The new internal foundation is actual
 selected Z-Anatomy / BodyParts3D geometry in its original common frame.
 The external CC0 MakeHuman head receives one dental atlas translation.
@@ -69,6 +75,24 @@ production review page in Chromium. Read current measurements and scope in
 Pending: critical visual/expert anatomy and tajweed review, calibrated
 landmarks, then M3 rig and the first five letters ر ق م ف ع. No new-letter
 readiness claim. The new resting model does not inherit the old Ra morphs.
+
+## New route evidence
+
+The new route is documented in `ANIMATABLE_ASSET_ROUTE.md` and the concrete
+asset specification in `ANATOMICAL_ASSET_BRIEF.en.md`. A native Ematoblender
+release file was audited without running its scripts. Jaw and side-lip probes
+changed face vertices and returned to rest; its tongue had no bound rig and
+remained unchanged. One constrained upper-lip rotation produced no movement.
+These are mechanical observations, not visual/anatomical approval. Its asset
+rights remain unresolved; source geometry is outside the repository and is not
+redistributed. MRI-derived companion datasets have NC-ND restrictions.
+
+The review found no complete source ready for adoption among the inspected
+assets. Professional marketplace inspection is still blocked by CONNECT 403.
+A five-domain draft was saved but not applied; current custom domains remain
+empty. Do not treat the user's generic “continue” as network or spending approval.
+Refresh runtime status after a real settings change and retry with a fresh
+connection. Continue one-agent work; do not return to atlas remeshing.
 
 ## Recovery
 

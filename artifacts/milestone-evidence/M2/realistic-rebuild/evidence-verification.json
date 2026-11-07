@@ -8,5 +8,6 @@
   "staticGeometryPassed": true,
   "passed": true,
   "isAcceptedAnatomy": false,
-  "scope": "Independent final byte-identity audit across source, actual delivery, native captures, browser evidence and published review files; expert/visual acceptance remains pending"
+  "visualReview": "fail",
+  "scope": "Independent byte-identity audit of the retained study across source, actual delivery, native captures, browser evidence and published review files; this does not override the recorded visual rejection or establish expert acceptance"
 }

@@ -1,0 +1,147 @@
+{
+  "sourceSha256": "b567ded59157db012927d68d44d16fc6f90b214bfb238b975bcdcb8ad3dedef7",
+  "rig": "Armature",
+  "bone": "Jaw",
+  "axis": "X",
+  "angle_deg": 8.0,
+  "meshes": [
+    {
+      "mesh": "front_aligned_tongue_model",
+      "evaluatedVertices": 3100,
+      "changedVertices": 0,
+      "maxDisplacement_nativeUnits": 0.0,
+      "returnError_nativeUnits": 0.0
+    },
+    {
+      "mesh": "default_female_caucasian:Body.001",
+      "evaluatedVertices": 4284,
+      "changedVertices": 971,
+      "maxDisplacement_nativeUnits": 0.19373642688150855,
+      "returnError_nativeUnits": 0.0
+    },
+    {
+      "mesh": "CoilCube15",
+      "evaluatedVertices": 42,
+      "changedVertices": 0,
+      "maxDisplacement_nativeUnits": 0.0,
+      "returnError_nativeUnits": 0.0
+    },
+    {
+      "mesh": "CoilCube14",
+      "evaluatedVertices": 42,
+      "changedVertices": 0,
+      "maxDisplacement_nativeUnits": 0.0,
+      "returnError_nativeUnits": 0.0
+    },
+    {
+      "mesh": "CoilCube13",
+      "evaluatedVertices": 42,
+      "changedVertices": 0,
+      "maxDisplacement_nativeUnits": 0.0,
+      "returnError_nativeUnits": 0.0
+    },
+    {
+      "mesh": "CoilCube12",
+      "evaluatedVertices": 42,
+      "changedVertices": 0,
+      "maxDisplacement_nativeUnits": 0.0,
+      "returnError_nativeUnits": 0.0
+    },
+    {
+      "mesh": "CoilCube11",
+      "evaluatedVertices": 42,
+      "changedVertices": 0,
+      "maxDisplacement_nativeUnits": 0.0,
+      "returnError_nativeUnits": 0.0
+    },
+    {
+      "mesh": "CoilCube10",
+      "evaluatedVertices": 42,
+      "changedVertices": 0,
+      "maxDisplacement_nativeUnits": 0.0,
+      "returnError_nativeUnits": 0.0
+    },
+    {
+      "mesh": "CoilCube09",
+      "evaluatedVertices": 42,
+      "changedVertices": 0,
+      "maxDisplacement_nativeUnits": 0.0,
+      "returnError_nativeUnits": 0.0
+    },
+    {
+      "mesh": "CoilCube08",
+      "evaluatedVertices": 42,
+      "changedVertices": 0,
+      "maxDisplacement_nativeUnits": 0.0,
+      "returnError_nativeUnits": 0.0
+    },
+    {
+      "mesh": "CoilCube07",
+      "evaluatedVertices": 42,
+      "changedVertices": 0,
+      "maxDisplacement_nativeUnits": 0.0,
+      "returnError_nativeUnits": 0.0
+    },
+    {
+      "mesh": "CoilCube06",
+      "evaluatedVertices": 42,
+      "changedVertices": 0,
+      "maxDisplacement_nativeUnits": 0.0,
+      "returnError_nativeUnits": 0.0
+    },
+    {
+      "mesh": "CoilCube05",
+      "evaluatedVertices": 42,
+      "changedVertices": 0,
+      "maxDisplacement_nativeUnits": 0.0,
+      "returnError_nativeUnits": 0.0
+    },
+    {
+      "mesh": "CoilCube04",
+      "evaluatedVertices": 42,
+      "changedVertices": 0,
+      "maxDisplacement_nativeUnits": 0.0,
+      "returnError_nativeUnits": 0.0
+    },
+    {
+      "mesh": "CoilCube03",
+      "evaluatedVertices": 42,
+      "changedVertices": 0,
+      "maxDisplacement_nativeUnits": 0.0,
+      "returnError_nativeUnits": 0.0
+    },
+    {
+      "mesh": "CoilCube02",
+      "evaluatedVertices": 42,
+      "changedVertices": 0,
+      "maxDisplacement_nativeUnits": 0.0,
+      "returnError_nativeUnits": 0.0
+    },
+    {
+      "mesh": "CoilCube01",
+      "evaluatedVertices": 42,
+      "changedVertices": 0,
+      "maxDisplacement_nativeUnits": 0.0,
+      "returnError_nativeUnits": 0.0
+    },
+    {
+      "mesh": "CoilCube00",
+      "evaluatedVertices": 42,
+      "changedVertices": 0,
+      "maxDisplacement_nativeUnits": 0.0,
+      "returnError_nativeUnits": 0.0
+    },
+    {
+      "mesh": "palate_model",
+      "evaluatedVertices": 994,
+      "changedVertices": 0,
+      "maxDisplacement_nativeUnits": 0.0,
+      "returnError_nativeUnits": 0.0
+    }
+  ],
+  "anyActualVertexMovement": true,
+  "sourceWritten": false,
+  "embeddedCodeExecuted": false,
+  "isAcceptedAnatomy": false,
+  "scope": "Actual evaluated native vertex movement and return only; original scale not assumed clinical; no full speech rig or visual acceptance claim"
+}

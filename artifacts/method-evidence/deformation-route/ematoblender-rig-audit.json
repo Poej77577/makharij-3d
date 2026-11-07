@@ -1,0 +1,322 @@
+{
+  "sourceFile": "ematoblender-model.blend",
+  "sourceSha256": "b567ded59157db012927d68d44d16fc6f90b214bfb238b975bcdcb8ad3dedef7",
+  "sourceBlenderVersion": [
+    2,
+    76,
+    0
+  ],
+  "inspectorBlenderVersion": "4.3.2",
+  "sceneUnits": {
+    "system": "NONE",
+    "scaleLength": 1.0
+  },
+  "armatures": [
+    {
+      "name": "Armature",
+      "bones": [
+        {
+          "name": "Neck",
+          "parent": null,
+          "deform": true,
+          "constraints": []
+        },
+        {
+          "name": "Head",
+          "parent": "Neck",
+          "deform": true,
+          "constraints": [
+            "IK"
+          ]
+        },
+        {
+          "name": "Jaw",
+          "parent": "Head",
+          "deform": true,
+          "constraints": [
+            "IK"
+          ]
+        },
+        {
+          "name": "wide-lips-stretch",
+          "parent": "Jaw",
+          "deform": true,
+          "constraints": [
+            "LIMIT_ROTATION",
+            "STRETCH_TO"
+          ]
+        },
+        {
+          "name": "wide-lips-lower",
+          "parent": "wide-lips-stretch",
+          "deform": true,
+          "constraints": [
+            "STRETCH_TO",
+            "LIMIT_ROTATION"
+          ]
+        },
+        {
+          "name": "wide-lips-lower.001",
+          "parent": "wide-lips-lower",
+          "deform": true,
+          "constraints": [
+            "IK"
+          ]
+        },
+        {
+          "name": "wide-lips-upper",
+          "parent": "Head",
+          "deform": true,
+          "constraints": [
+            "IK",
+            "LIMIT_ROTATION"
+          ]
+        },
+        {
+          "name": "large-side-lip-left",
+          "parent": "Head",
+          "deform": true,
+          "constraints": []
+        },
+        {
+          "name": "large-side-lip-right",
+          "parent": "Head",
+          "deform": true,
+          "constraints": []
+        }
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "front_aligned_tongue_model",
+      "vertices": 3100,
+      "polygons": 6102,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    },
+    {
+      "name": "default_female_caucasian:Body.001",
+      "vertices": 4284,
+      "polygons": 4262,
+      "weightedVertices": 4175,
+      "weightGroupVertexCounts": {
+        "Head": 3886,
+        "Jaw": 971,
+        "loose_lips": 418,
+        "wide_lips": 608,
+        "wide-lips-upper": 541,
+        "large-side-lip-left": 320,
+        "wide-lips-lower": 208,
+        "large-side-lip-right": 472,
+        "lips": 228,
+        "strict_lips": 228,
+        "wide-lips-stretch": 84,
+        "cheeck-through": 219
+      },
+      "shapeKeys": [],
+      "modifiers": [
+        {
+          "type": "ARMATURE",
+          "name": "Armature",
+          "armature": "Armature"
+        },
+        {
+          "type": "SUBSURF",
+          "name": "SubSurf",
+          "armature": null
+        }
+      ],
+      "parent": "Armature"
+    },
+    {
+      "name": "CoilCube15",
+      "vertices": 42,
+      "polygons": 80,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    },
+    {
+      "name": "CoilCube14",
+      "vertices": 42,
+      "polygons": 80,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    },
+    {
+      "name": "CoilCube13",
+      "vertices": 42,
+      "polygons": 80,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    },
+    {
+      "name": "CoilCube12",
+      "vertices": 42,
+      "polygons": 80,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    },
+    {
+      "name": "CoilCube11",
+      "vertices": 42,
+      "polygons": 80,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    },
+    {
+      "name": "CoilCube10",
+      "vertices": 42,
+      "polygons": 80,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    },
+    {
+      "name": "CoilCube09",
+      "vertices": 42,
+      "polygons": 80,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    },
+    {
+      "name": "CoilCube08",
+      "vertices": 42,
+      "polygons": 80,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    },
+    {
+      "name": "CoilCube07",
+      "vertices": 42,
+      "polygons": 80,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    },
+    {
+      "name": "CoilCube06",
+      "vertices": 42,
+      "polygons": 80,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    },
+    {
+      "name": "CoilCube05",
+      "vertices": 42,
+      "polygons": 80,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    },
+    {
+      "name": "CoilCube04",
+      "vertices": 42,
+      "polygons": 80,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    },
+    {
+      "name": "CoilCube03",
+      "vertices": 42,
+      "polygons": 80,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    },
+    {
+      "name": "CoilCube02",
+      "vertices": 42,
+      "polygons": 80,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    },
+    {
+      "name": "CoilCube01",
+      "vertices": 42,
+      "polygons": 80,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    },
+    {
+      "name": "CoilCube00",
+      "vertices": 42,
+      "polygons": 80,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    },
+    {
+      "name": "GameMaster",
+      "vertices": 0,
+      "polygons": 0,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    },
+    {
+      "name": "palate_model",
+      "vertices": 994,
+      "polygons": 1828,
+      "weightedVertices": 0,
+      "weightGroupVertexCounts": {},
+      "shapeKeys": [],
+      "modifiers": [],
+      "parent": null
+    }
+  ],
+  "actions": [],
+  "embeddedNoticeSnippets": [],
+  "embeddedTextNames": [],
+  "embeddedCodeExecuted": false,
+  "isAcceptedAnatomy": false,
+  "scope": "Actual native rig, weight and shape-key inventory only; license, topology, visual quality and usable motion require separate verification"
+}

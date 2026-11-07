@@ -1,0 +1,15 @@
+{
+  "sourceSha256": "b567ded59157db012927d68d44d16fc6f90b214bfb238b975bcdcb8ad3dedef7",
+  "sourceNativeFileInspected": true,
+  "jawActualMovementAndReturn": true,
+  "sideLipActualMovementAndReturn": true,
+  "constrainedUpperLipRotationProducedMovement": false,
+  "tongueBoundRigPresentInInspectedFile": false,
+  "tongueChangedInFaceProbes": false,
+  "completeSpeechRigVerified": false,
+  "visualQualityAccepted": false,
+  "assetRightsEstablished": false,
+  "productionSelected": false,
+  "verdict": "Research/control reference only; not a complete acquired and licensed speech-anatomy asset",
+  "scope": "Measured observations, not a new visual-model delivery; original fixture geometry is excluded from the repository and source package"
+}

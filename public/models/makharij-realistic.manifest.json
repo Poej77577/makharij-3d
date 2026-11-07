@@ -1034,5 +1034,8 @@
   "rigReady": false,
   "staticGeometryPassed": true,
   "modelDataLicense": "CC-BY-SA-4.0",
-  "attributionNotice": "/models/makharij-realistic.NOTICE.md"
+  "attributionNotice": "/models/makharij-realistic.NOTICE.md",
+  "visualReview": "fail",
+  "reviewState": "user-rejected",
+  "reconstructionFamily": "atlas-reconstruction-v2"
 }

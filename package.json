@@ -18,7 +18,9 @@
     "package:source": "python scripts/package_source.py",
     "assets:export:rejected-study": "python tools/qa/verify_sources.py && .venv-qa/bin/python tools/anatomy/prepare_character_fit.py && .venv-qa/bin/python tools/anatomy/prepare_airway.py && .venv-qa/bin/python tools/anatomy/prepare_throat_space.py && blender --background --threads 2 --python-exit-code 1 --python tools/blender/character_assembly.py -- --build-only && .venv-qa/bin/python tools/qa/delivered_character.py",
     "assets:acceptance": ".venv-qa/bin/python tools/qa/check_rebuilt_anatomy.py --gate",
-    "evidence:validate": "python tools/qa/check_rebuild_evidence.py"
+    "evidence:validate": "python tools/qa/check_rebuild_evidence.py",
+    "assets:inspect-rig": "blender --background --factory-startup --disable-autoexec --threads 2 --python-exit-code 1 --python tools/blender/audit_deformation_asset.py --",
+    "assets:probe-control": "blender --background --factory-startup --disable-autoexec --threads 2 --python-exit-code 1 --python tools/blender/probe_candidate_control.py --"
   },
   "dependencies": {
     "react": "19.2.0",

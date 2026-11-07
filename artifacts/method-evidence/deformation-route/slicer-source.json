@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/Slicer/Slicer.git",
+  "commit": "fb80933ff8135aa6a5920102265632915d2d359f",
+  "files": [
+    {
+      "name": "README.md",
+      "url": "https://raw.githubusercontent.com/Slicer/Slicer/fb80933ff8135aa6a5920102265632915d2d359f/README.md",
+      "bytes": 1889
+    },
+    {
+      "name": "License.txt",
+      "url": "https://raw.githubusercontent.com/Slicer/Slicer/fb80933ff8135aa6a5920102265632915d2d359f/License.txt",
+      "bytes": 10514
+    }
+  ]
+}

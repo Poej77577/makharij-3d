@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "routeId": "atlas-reconstruction-v2",
+  "assetSha256": "1efc25de71de2f5489034274f185505cfb1539109c1f9f6a8f196e5bfb8cb2fc",
+  "status": "rejected",
+  "reviewer": "user",
+  "date": "2026-11-07",
+  "reason": "The user explicitly rejected the realism of the interior and asked for a different method to obtain independently animatable anatomy.",
+  "appliesTo": "The atlas assembly route, not just its most recent byte-identical export. Geometry checks do not override this visual rejection."
+}

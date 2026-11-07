@@ -1,5 +1,12 @@
 # M1 anatomical foundation decision — 2026-11-06
 
+## Latest rejection and method change — 2026-11-07
+
+The user has now rejected the atlas rebuild as well. The following selection is
+withdrawn as a production visual foundation. Follow `ANIMATABLE_ASSET_ROUTE.md`
+and the deformation-ready asset brief. Keep the old meshes for comparison;
+passing numerical checks does not reset the user's rejection.
+
 ## Superseding decision — 2026-11-07
 
 The user rejected the mixed-source M2 interior. The active reconstruction uses
