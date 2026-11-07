@@ -1,0 +1,57 @@
+{
+  "blend": "/workspace/makharij-3d/artifacts/method-evidence/tongue-pilot/revision-1/tongue-pilot.blend",
+  "mode": "clay",
+  "engine": "cycles",
+  "bbox_min": [
+    -0.019960075616836548,
+    0.007002296857535839,
+    -0.03995034098625183
+  ],
+  "bbox_max": [
+    0.019960075616836548,
+    0.07899749279022217,
+    0.012589567340910435
+  ],
+  "size_xyz": [
+    0.039920151233673096,
+    0.07199519872665405,
+    0.05253990739583969
+  ],
+  "objects": [
+    "PILOT_TONGUE"
+  ],
+  "renders": {
+    "side": {
+      "file": "/workspace/makharij-3d/artifacts/method-evidence/tongue-pilot/revision-1/review/revision-1/isolated/clay_side.png",
+      "az_el_lens": [
+        90,
+        0,
+        0
+      ],
+      "distance": 4.0199600756168365
+    },
+    "top": {
+      "file": "/workspace/makharij-3d/artifacts/method-evidence/tongue-pilot/revision-1/review/revision-1/isolated/clay_top.png",
+      "az_el_lens": "top",
+      "distance": 4.02626995369792
+    },
+    "threequarter": {
+      "file": "/workspace/makharij-3d/artifacts/method-evidence/tongue-pilot/revision-1/review/revision-1/isolated/clay_threequarter.png",
+      "az_el_lens": [
+        35,
+        15,
+        50
+      ],
+      "distance": 0.14764587165296283
+    },
+    "ref": {
+      "file": "/workspace/makharij-3d/artifacts/method-evidence/tongue-pilot/revision-1/review/revision-1/isolated/clay_ref.png",
+      "az_el_lens": [
+        0.0,
+        -65.0,
+        0.0
+      ],
+      "distance": 4.039021905511618
+    }
+  }
+}

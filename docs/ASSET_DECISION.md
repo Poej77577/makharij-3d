@@ -7,7 +7,13 @@ withdrawn as a production visual foundation. Follow `ANIMATABLE_ASSET_ROUTE.md`
 and the deformation-ready asset brief. Keep the old meshes for comparison;
 passing numerical checks does not reset the user's rejection.
 
-## Superseding decision — 2026-11-07
+The subsequent original section-authored tongue pilot also failed its bounded
+clay gate after one revision. See `TONGUE_PILOT_REVIEW.md` and the independent
+agent critique. A qualified static anatomical sculpt is an acceptable next
+source; a complete pre-existing rig is not required. No new visual source is
+selected. Preserve the failed pilot only for mechanical export tests.
+
+## Historical superseding decision — withdrawn, 2026-11-07
 
 The user rejected the mixed-source M2 interior. The active reconstruction uses
 75 actual selected Z-Anatomy / BodyParts3D mesh structures in their common

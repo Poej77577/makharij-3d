@@ -8,6 +8,32 @@ and laryngeal context. The same model supports external and cutaway views and
 independent articulation. This is a source-asset specification, not a claim
 that a qualifying asset has already been acquired.
 
+A strong **static anatomical sculpt is acceptable**. It need not arrive rigged.
+Retopology, a deformation cage, weights and corrective morphs can be implemented
+after the clay shape is qualified. A working avatar rig with weak internal
+anatomy is not a substitute for that source shape.
+
+## First delivery: mouth sample before the full head
+
+Supply the actual editable tongue, including dorsal, lateral, ventral and root
+surfaces, in context with the oral floor, hard palate and dentition. The free
+anterior ventrum must remain distinguishable from posterior/inferior attachment.
+Do not replace the root with a hanging bulb, tube or intersection of unrelated
+objects. Use one anatomical authoring frame; document any source fitting.
+
+Before a full-head commission or final texture pass, inspect neutral clay views:
+isolated side, dorsal, ventral and oblique; then whole-mouth and sagittal context.
+Include a topology view and the native file, not only marketplace preview renders.
+Any unshown or inferred dimensions must be identified. A silhouette score alone
+does not establish anatomy. If the source is static, build the three diagnostic
+morphs (tip elevation, dorsum elevation, root retraction) on a copy next. Preserve
+the sculpt while testing the deformation cage. These are not Arabic letter poses.
+
+The public-repository modification/redistribution rights below apply to this
+sample too. No quote, supplier or qualifying professional sample has yet been
+verified. The original procedural tongue pilot was stopped after one correction;
+see `TONGUE_PILOT_REVIEW.md`. Do not commission another generic game-head avatar.
+
 ## Required anatomical coverage
 
 - A continuous external face with integrated upper/lower lips, cheeks and neck.

@@ -1,0 +1,134 @@
+{
+  "scope": "Actual GLB morph geometry/animation roundtrip only",
+  "anatomicalAcceptance": "not assessed",
+  "productionSelected": false,
+  "blendSha256": "8b4c60b262e0593b4f15e22132a0914c509583749301b5c57b6b2fd1fc493724",
+  "glbSha256": "bdbd95ec88aa9abf3f745e740c418622467ce01330278415ab214d1a712a4bd9",
+  "sourceShapeKeys": [
+    "TIP_ELEVATE",
+    "DORSUM_ELEVATE",
+    "ROOT_RETRACT"
+  ],
+  "deliveredShapeKeys": [
+    "TIP_ELEVATE",
+    "DORSUM_ELEVATE",
+    "ROOT_RETRACT"
+  ],
+  "sourceVertices": 18306,
+  "deliveredVertices": 18306,
+  "frames": [
+    {
+      "frame": 1,
+      "symmetricNearestSurfaceVertexDistance_m": 0.0,
+      "sourceVertices": 18306,
+      "deliveredVertices": 18306,
+      "morphWeights": {
+        "TIP_ELEVATE": 0.0,
+        "DORSUM_ELEVATE": 0.0,
+        "ROOT_RETRACT": 0.0
+      }
+    },
+    {
+      "frame": 13,
+      "symmetricNearestSurfaceVertexDistance_m": 0.0,
+      "sourceVertices": 18306,
+      "deliveredVertices": 18306,
+      "morphWeights": {
+        "TIP_ELEVATE": 0.5,
+        "DORSUM_ELEVATE": 0.0,
+        "ROOT_RETRACT": 0.0
+      }
+    },
+    {
+      "frame": 25,
+      "symmetricNearestSurfaceVertexDistance_m": 0.0,
+      "sourceVertices": 18306,
+      "deliveredVertices": 18306,
+      "morphWeights": {
+        "TIP_ELEVATE": 1.0,
+        "DORSUM_ELEVATE": 0.0,
+        "ROOT_RETRACT": 0.0
+      }
+    },
+    {
+      "frame": 49,
+      "symmetricNearestSurfaceVertexDistance_m": 0.0,
+      "sourceVertices": 18306,
+      "deliveredVertices": 18306,
+      "morphWeights": {
+        "TIP_ELEVATE": 0.0,
+        "DORSUM_ELEVATE": 0.0,
+        "ROOT_RETRACT": 0.0
+      }
+    },
+    {
+      "frame": 61,
+      "symmetricNearestSurfaceVertexDistance_m": 0.0,
+      "sourceVertices": 18306,
+      "deliveredVertices": 18306,
+      "morphWeights": {
+        "TIP_ELEVATE": 0.0,
+        "DORSUM_ELEVATE": 0.5,
+        "ROOT_RETRACT": 0.0
+      }
+    },
+    {
+      "frame": 73,
+      "symmetricNearestSurfaceVertexDistance_m": 0.0,
+      "sourceVertices": 18306,
+      "deliveredVertices": 18306,
+      "morphWeights": {
+        "TIP_ELEVATE": 0.0,
+        "DORSUM_ELEVATE": 1.0,
+        "ROOT_RETRACT": 0.0
+      }
+    },
+    {
+      "frame": 97,
+      "symmetricNearestSurfaceVertexDistance_m": 0.0,
+      "sourceVertices": 18306,
+      "deliveredVertices": 18306,
+      "morphWeights": {
+        "TIP_ELEVATE": 0.0,
+        "DORSUM_ELEVATE": 0.0,
+        "ROOT_RETRACT": 0.0
+      }
+    },
+    {
+      "frame": 109,
+      "symmetricNearestSurfaceVertexDistance_m": 0.0,
+      "sourceVertices": 18306,
+      "deliveredVertices": 18306,
+      "morphWeights": {
+        "TIP_ELEVATE": 0.0,
+        "DORSUM_ELEVATE": 0.0,
+        "ROOT_RETRACT": 0.5
+      }
+    },
+    {
+      "frame": 121,
+      "symmetricNearestSurfaceVertexDistance_m": 0.0,
+      "sourceVertices": 18306,
+      "deliveredVertices": 18306,
+      "morphWeights": {
+        "TIP_ELEVATE": 0.0,
+        "DORSUM_ELEVATE": 0.0,
+        "ROOT_RETRACT": 1.0
+      }
+    },
+    {
+      "frame": 145,
+      "symmetricNearestSurfaceVertexDistance_m": 0.0,
+      "sourceVertices": 18306,
+      "deliveredVertices": 18306,
+      "morphWeights": {
+        "TIP_ELEVATE": 0.0,
+        "DORSUM_ELEVATE": 0.0,
+        "ROOT_RETRACT": 0.0
+      }
+    }
+  ],
+  "returnToRestError_m": 0.0,
+  "failures": [],
+  "mechanicalRoundtripPass": true
+}

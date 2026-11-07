@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-07",
+  "reviewer": "independent method_review agent",
+  "decision": "reject-anatomical-base-stop-after-one-revision",
+  "scope": "Visual examination of the actual isolated source renders, three morph pose renders and sagittal context render. No medical specialist acceptance; no new source search; no product files modified.",
+  "evidence": [
+    {
+      "path": "artifacts/method-evidence/tongue-pilot/revision-1/review/revision-1/isolated/clay_side.png",
+      "sha256": "1970a71ee14a9c2f8dc77dca9c5a0103c1c857cfe89c97199c0a0b5fbabcc82f"
+    },
+    {
+      "path": "artifacts/method-evidence/tongue-pilot/revision-1/review/revision-1/isolated/clay_top.png",
+      "sha256": "71da94a0473a326c1c7a0d862ec8961aae3406e6cf0702cc620a9715efe6d276"
+    },
+    {
+      "path": "artifacts/method-evidence/tongue-pilot/revision-1/review/revision-1/isolated/clay_threequarter.png",
+      "sha256": "f4665ee9fa79e649f66a7b5a31a06df26e58dad808791d7fdc83f108b41ddbb1"
+    },
+    {
+      "path": "artifacts/method-evidence/tongue-pilot/revision-1/review/revision-1/isolated/clay_ref.png",
+      "sha256": "ef00a10e5fc6e300282125ee4a9e55521501fa05d543c6e1c7389fca85195e4e"
+    },
+    {
+      "path": "artifacts/method-evidence/tongue-pilot/revision-1/review/revision-1/tip/clay_side.png",
+      "sha256": "33d5b7042da3a9e29a6fbdb7aba780f733c6525626ce4b903370a455abe44744"
+    },
+    {
+      "path": "artifacts/method-evidence/tongue-pilot/revision-1/review/revision-1/dorsum/clay_side.png",
+      "sha256": "51d86bd4c5915fa822827d6610fcaf47e1cb930be3788e1ddf3a49a4e93a4953"
+    },
+    {
+      "path": "artifacts/method-evidence/tongue-pilot/revision-1/review/revision-1/root/clay_side.png",
+      "sha256": "9a283cdd0de81f96869148e0d37dfceff5d7021aec2c0cf7edd563cf99567db2"
+    },
+    {
+      "path": "artifacts/method-evidence/tongue-pilot/revision-1/review/revision-1/context-section/clay_side.png",
+      "sha256": "16a418dd2c9da6fd5745b7931e5904fead156e60072ccbe93106279fdf78ab35"
+    }
+  ],
+  "findings": [
+    {
+      "severity": "gate-failure",
+      "region": "apex/blade",
+      "observation": "The rounded apex now reads as a distinct lobe or cap with a circumferential indentation. Elevation exposes a notch and hinge-like local bend, instead of a continuous soft tissue transition."
+    },
+    {
+      "severity": "gate-failure",
+      "region": "transverse and terminal form",
+      "observation": "Top and ventral views retain terminal collars/constrictions. The body remains a generic lofted volume; removing a pointed endpoint did not produce an organic tongue."
+    },
+    {
+      "severity": "gate-failure",
+      "region": "root and floor",
+      "observation": "The posterior/inferior mass remains generic. In the section context it extends below/behind a separate guide surface without an established mucosal attachment or readable root/floor relationship."
+    },
+    {
+      "severity": "limitation",
+      "region": "palatal context",
+      "observation": "The displayed inferred palate is an open guide surface; it does not establish a finished palatal vault, soft palate, velopharyngeal continuity or tissue thickness."
+    },
+    {
+      "severity": "mechanical-observation-only",
+      "region": "animation",
+      "observation": "Tip, dorsum and root images show distinct nonrigid changes. This supports the morph interface demonstration, not realistic biomechanics, contacts or Arabic articulations. Numerical return/export equivalence was not assessed by this review."
+    }
+  ],
+  "recommendation": {
+    "nextSource": "A specialized, coherent anatomical art source; a good static sculpt is acceptable. Retopology and cage/shape-key rigging happen after the form passes review. Do not require a complete pre-rigged head to consider a source.",
+    "sampleBeforeFullCommitment": [
+      "Actual editable small oral unit, not only a beauty render: full tongue including ventral/lateral surfaces and root, readable posterior/inferior floor continuity, upper/lower teeth and gingiva, hard palate and soft-palate/uvular context in one documented frame.",
+      "Neutral clay top, lateral, ventral and oblique rotation views; a genuine sagittal section of that same source; no hand-drawn section or shader pretending to expose hidden tissue.",
+      "Accept high-detail static sculpture at this stage even with unsuitable animation topology. The geometric anatomy and intended soft tissue boundaries must be clear; quad count and manifold status are separate later checks.",
+      "Provenance and explicit modification/web-use rights, including conditions for derived runtime assets and public repository/raw GLB distribution if intended. Record the exact asset and price before any spending commitment.",
+      "After form approval, retopologize the small sample and demonstrate independent tip elevation, dorsum elevation, root retraction and return, with intermediate states and contact inspection; then expand the asset."
+    ],
+    "implementNow": [
+      "Reuse the existing review renderer and motion interface. Build an asset intake adapter with source/license/units/parts metadata and fixed clay/source-view evidence.",
+      "Prepare a non-destructive retopology/cage binding and bake path; convert any unsupported Blender dependence into bones or GLB morph targets. Do not manufacture another candidate anatomical mesh procedurally.",
+      "Implement an asset-independent comparison of source versus exported morph poses at endpoints and intermediate weights, including rest return, coupled dentition and meaningful contact/collapse diagnostics.",
+      "Keep the rejected pilot solely as an explicitly labelled technical fixture for the import/export and morph controls; do not promote it to the teaching model."
+    ]
+  },
+  "stopRuleApplied": "Baseline plus one directed form correction has been used. No third cosmetic/modeling pass is recommended for this pilot. Preserve it as rejected evidence."
+}

@@ -1,6 +1,15 @@
 # Current implementation state — 2026-11-07
 
 Latest binding direction: the user rejected this rebuild too and requested a different method.
+The user explicitly authorized one specialist agent and internet skills. That
+consultation is complete; do not restart a broad multi-agent search. Read
+`TONGUE_PILOT_REVIEW.md`: an original bounded tongue pilot failed clay review
+after one correction and must not become a third production anatomy model.
+Its three actual GLB morph controls and rest return passed a ten-frame native
+roundtrip comparison, which is mechanical evidence only. No anatomy milestone
+has passed. The next source must be a qualified anatomical sculpt; it can be
+static, with retopology/cage/rig authored afterwards. The MIT Blender skill is
+installed in `.agents/skills/blender-image-to-3d` with local anatomy adaptations.
 Read `ANIMATABLE_ASSET_ROUTE.md`. Stop using the atlas assembly as the production
 visual foundation. Preserve both rejected studies. Work on source acquisition
 and a deformation-first asset workflow; do not regenerate these meshes and
@@ -92,7 +101,9 @@ assets. Professional marketplace inspection is still blocked by CONNECT 403.
 A five-domain draft was saved but not applied; current custom domains remain
 empty. Do not treat the user's generic “continue” as network or spending approval.
 Refresh runtime status after a real settings change and retry with a fresh
-connection. Continue one-agent work; do not return to atlas remeshing.
+connection. Generic autonomy does not itself apply a network-policy draft.
+One specialist was subsequently explicitly authorized and used; preserve that
+budget and do not return to atlas remeshing or the failed section-loft pilot.
 
 ## Recovery
 

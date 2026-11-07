@@ -1,0 +1,74 @@
+{
+  "blend": "/workspace/makharij-3d/artifacts/method-evidence/tongue-pilot/review/baseline-context/review-only-sagittal.blend",
+  "mode": "clay",
+  "engine": "cycles",
+  "bbox_min": [
+    -0.019955594092607498,
+    0.007002296857535839,
+    -0.03995169326663017
+  ],
+  "bbox_max": [
+    3.129052572603541e-12,
+    0.07899749279022217,
+    0.012585357762873173
+  ],
+  "size_xyz": [
+    0.019955594092607498,
+    0.07199519872665405,
+    0.05253705009818077
+  ],
+  "objects": [
+    "PILOT_TONGUE",
+    "REFERENCE_ATLAS_GINGIVA",
+    "REFERENCE_ATLAS_LOWER_CANINE_L",
+    "REFERENCE_ATLAS_LOWER_CANINE_R",
+    "REFERENCE_ATLAS_LOWER_FIRST_MOLAR_TOOTH_L",
+    "REFERENCE_ATLAS_LOWER_FIRST_MOLAR_TOOTH_R",
+    "REFERENCE_ATLAS_LOWER_FIRST_PREMOLAR_L",
+    "REFERENCE_ATLAS_LOWER_FIRST_PREMOLAR_R",
+    "REFERENCE_ATLAS_LOWER_LATERAL_INCISOR_L",
+    "REFERENCE_ATLAS_LOWER_LATERAL_INCISOR_R",
+    "REFERENCE_ATLAS_LOWER_MEDIAL_INCISOR_L",
+    "REFERENCE_ATLAS_LOWER_MEDIAL_INCISOR_R",
+    "REFERENCE_ATLAS_LOWER_SECOND_MOLAR_TOOTH_L",
+    "REFERENCE_ATLAS_LOWER_SECOND_MOLAR_TOOTH_R",
+    "REFERENCE_ATLAS_LOWER_SECOND_PREMOLAR_L",
+    "REFERENCE_ATLAS_LOWER_SECOND_PREMOLAR_R",
+    "REFERENCE_ATLAS_UPPER_CANINE_L",
+    "REFERENCE_ATLAS_UPPER_CANINE_R",
+    "REFERENCE_ATLAS_UPPER_FIRST_MOLAR_TOOTH_L",
+    "REFERENCE_ATLAS_UPPER_FIRST_MOLAR_TOOTH_R",
+    "REFERENCE_ATLAS_UPPER_FIRST_PREMOLAR_L",
+    "REFERENCE_ATLAS_UPPER_FIRST_PREMOLAR_R",
+    "REFERENCE_ATLAS_UPPER_LATERAL_INCISOR_L",
+    "REFERENCE_ATLAS_UPPER_LATERAL_INCISOR_R",
+    "REFERENCE_ATLAS_UPPER_MEDIAL_INCISOR_L",
+    "REFERENCE_ATLAS_UPPER_MEDIAL_INCISOR_R",
+    "REFERENCE_ATLAS_UPPER_SECOND_MOLAR_TOOTH_L",
+    "REFERENCE_ATLAS_UPPER_SECOND_MOLAR_TOOTH_R",
+    "REFERENCE_ATLAS_UPPER_SECOND_PREMOLAR_L",
+    "REFERENCE_ATLAS_UPPER_SECOND_PREMOLAR_R",
+    "INFERRED_FLOOR_GUIDE",
+    "INFERRED_PALATE_GUIDE"
+  ],
+  "renders": {
+    "side": {
+      "file": "/workspace/makharij-3d/artifacts/method-evidence/tongue-pilot/review/baseline-context/context-section/clay_side.png",
+      "az_el_lens": [
+        90,
+        0,
+        0
+      ],
+      "distance": 4.009977797046304
+    },
+    "threequarter": {
+      "file": "/workspace/makharij-3d/artifacts/method-evidence/tongue-pilot/review/baseline-context/context-section/clay_threequarter.png",
+      "az_el_lens": [
+        35,
+        15,
+        50
+      ],
+      "distance": 0.13737750370314136
+    }
+  }
+}

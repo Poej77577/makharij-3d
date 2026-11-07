@@ -1,0 +1,350 @@
+{
+  "date": "2026-11-07",
+  "scope": "Native official asset inspection only; no add-on installed; no bundled scripts run; no source mesh adopted or copied into product repository.",
+  "repository": "https://github.com/animate1978/MB-Lab",
+  "commit": "063bff04e60f3e7c651fda628c30f5d83f3f3078",
+  "files": [
+    {
+      "path": "/workspace/research/agent-method-review/humanoid_library.blend",
+      "source": "https://raw.githubusercontent.com/animate1978/MB-Lab/063bff04e60f3e7c651fda628c30f5d83f3f3078/data/humanoid_library.blend",
+      "bytes": 17680712,
+      "sha256": "ae2a03430be1ef0f74a9bfa01136579e88beb521c9db7d496b5921bec6d1cd4e"
+    },
+    {
+      "path": "/workspace/research/agent-method-review/m_ca01_exprs.json",
+      "source": "https://raw.githubusercontent.com/animate1978/MB-Lab/063bff04e60f3e7c651fda628c30f5d83f3f3078/data/expressions_morphs/m_ca01_exprs.json",
+      "bytes": 3600126,
+      "sha256": "01e70804cdc8c95171c2d652e0c5c7e2622b6c5cd44fa9df1386dfeea3f3095f"
+    },
+    {
+      "path": "/workspace/research/agent-method-review/m_ca01_verts.json",
+      "source": "https://raw.githubusercontent.com/animate1978/MB-Lab/063bff04e60f3e7c651fda628c30f5d83f3f3078/data/vertices/m_ca01_verts.json",
+      "bytes": 575826,
+      "sha256": "7f38bbaba31a435385c5b099205bf372e5d7b278163f16aff98b384b5b880992"
+    },
+    {
+      "path": "/workspace/research/agent-method-review/mb-lab-license-original.txt",
+      "source": "https://raw.githubusercontent.com/animate1978/MB-Lab/063bff04e60f3e7c651fda628c30f5d83f3f3078/license.txt",
+      "bytes": 3519,
+      "sha256": "021a9f55e1d9938486e39c566445c4363c40366ac2aa47d81738f22126e16cf9"
+    }
+  ],
+  "license": {
+    "software": "GPL-3.0-or-later",
+    "databaseBlendMeshesJsonImages": "AGPL-3.0-or-later",
+    "generatedModelsDefault": "AGPL-3.0, according to license.txt; database copyright retained",
+    "quote": "All data files released in the ManuelbastioniLAB package, including all the meshes and data contained in .blend files or in any other 3d file format (for example .obj and .mtl), all the images and all the json files are released under GNU Affero General Public License 3.",
+    "cc0ExceptionFoundForInspectedMesh": false,
+    "applicationLicenseConclusion": "Not assessed or changed. Do not call this source CC0. AGPL is not automatically a rejection; derivative-source distribution obligations need a deliberate integration decision."
+  },
+  "objects": [
+    {
+      "name": "MBLab_skeleton_muscle_ik",
+      "type": "ARMATURE",
+      "vertices": null,
+      "polygons": null,
+      "boneCount": 266
+    },
+    {
+      "name": "MBLab_skeleton_muscle_fk",
+      "type": "ARMATURE",
+      "vertices": null,
+      "polygons": null,
+      "boneCount": 220
+    },
+    {
+      "name": "MBLab_skeleton_base_ik",
+      "type": "ARMATURE",
+      "vertices": null,
+      "polygons": null,
+      "boneCount": 109
+    },
+    {
+      "name": "MBLab_skeleton_base_fk",
+      "type": "ARMATURE",
+      "vertices": null,
+      "polygons": null,
+      "boneCount": 71
+    },
+    {
+      "name": "MBLab_human_male",
+      "type": "MESH",
+      "vertices": 17996,
+      "polygons": 17074,
+      "boneCount": null,
+      "materials": [
+        "MBlab_eyelash",
+        "MBlab_generic",
+        "MBlab_pupil",
+        "MBlab_human_eyes",
+        "MBlab_cornea",
+        "MBLab_Iris_V4",
+        "MBLab_skin3",
+        "MBLab_tongue",
+        "MBlab_human_teeth",
+        "MBLab_nails"
+      ],
+      "rawVertexGroups": [],
+      "rawShapeKeys": []
+    },
+    {
+      "name": "MBLab_human_female",
+      "type": "MESH",
+      "vertices": 18210,
+      "polygons": 17288,
+      "boneCount": null,
+      "materials": [
+        "MBlab_eyelash",
+        "MBlab_generic",
+        "MBlab_pupil",
+        "MBlab_human_eyes",
+        "MBlab_cornea",
+        "MBLab_Iris_V4",
+        "MBLab_skin3",
+        "MBLab_tongue",
+        "MBlab_human_teeth",
+        "MBLab_nails"
+      ],
+      "rawVertexGroups": [],
+      "rawShapeKeys": []
+    },
+    {
+      "name": "MBLab_anime_male",
+      "type": "MESH",
+      "vertices": 13687,
+      "polygons": 13498,
+      "boneCount": null,
+      "materials": [
+        "MBlab_toon_black",
+        "MBlab_generic",
+        "MBLab_anime_skin",
+        "MBLab_anime_eyes"
+      ],
+      "rawVertexGroups": [],
+      "rawShapeKeys": []
+    },
+    {
+      "name": "MBLab_anime_female",
+      "type": "MESH",
+      "vertices": 13995,
+      "polygons": 13806,
+      "boneCount": null,
+      "materials": [
+        "MBlab_toon_black",
+        "MBlab_generic",
+        "MBLab_anime_skin",
+        "MBLab_anime_eyes"
+      ],
+      "rawVertexGroups": [],
+      "rawShapeKeys": []
+    }
+  ],
+  "selectedSourceObject": "MBLab_human_male",
+  "selectedMaterial": "MBLab_tongue",
+  "partIsSeparateObjectInLibrary": false,
+  "partIsClosedMaterialRegion": true,
+  "tongueRegionStatistics": {
+    "vertices": 114,
+    "polygons": 112,
+    "quadFraction": 1.0,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "bounds_native": [
+      [
+        -0.022439999505877495,
+        -0.14332999289035797,
+        1.6251300573349
+      ],
+      [
+        0.022439999505877495,
+        -0.08172000199556351,
+        1.6536600589752197
+      ]
+    ]
+  },
+  "teethRegionStatistics": {
+    "vertices": 3475,
+    "polygons": 3422,
+    "quadFraction": 1.0,
+    "boundaryEdges": 106,
+    "nonmanifoldEdges": 0,
+    "bounds_native": [
+      [
+        -0.030339999124407768,
+        -0.1519400030374527,
+        1.6225700378417969
+      ],
+      [
+        0.030339999124407768,
+        -0.08543000370264053,
+        1.6656999588012695
+      ]
+    ]
+  },
+  "oralContext": {
+    "sameFrameDentalGeometry": true,
+    "namedIndependentTongueRootFloorPalateVelumObjectsFound": false,
+    "genericMaterialIsOralContext": false,
+    "genericMaterialNote": "Its source bounds are around torso, not mouth. Do not infer oral coverage from material names.",
+    "sourceBoundsUnits": "Native Blender coordinate extents only; no clinical scale calibration asserted."
+  },
+  "baseCoordinatesVerification": {
+    "source": "data/vertices/m_ca01_verts.json",
+    "coordinateCount": 17996,
+    "tongueVertexCount": 114,
+    "maxTongueDifferenceFromLibrary_native": 5.981100318073496e-08,
+    "conclusion": "Character base replaces library coordinates, but inspected tongue and teeth match the raw library within floating precision. The clay silhouette is not a template initialization artifact."
+  },
+  "motion": {
+    "rawLibraryGroupsOrShapeKeys": "Absent; stored externally and instantiated by add-on",
+    "actualTongueMorphDeltasVerified": true,
+    "tongueMorphs": [
+      {
+        "name": "Expressions_tongueVert_min",
+        "affectedVertices": 73,
+        "affectedTongueVertices": 73,
+        "affectedVerticesOutsideTongue": 0,
+        "maxDelta_native": 0.008746427842267951,
+        "driverKey": "driver71",
+        "driverExpression": "(var*2.0)",
+        "controlTargets": [
+          "Expressions_tongueVert_max_min"
+        ]
+      },
+      {
+        "name": "Expressions_tongueHoriz_max",
+        "affectedVertices": 84,
+        "affectedTongueVertices": 84,
+        "affectedVerticesOutsideTongue": 0,
+        "maxDelta_native": 0.021015232570685483,
+        "driverKey": "driver64",
+        "driverExpression": "-(var*2.0)",
+        "controlTargets": [
+          "Expressions_tongueHoriz_max_min"
+        ]
+      },
+      {
+        "name": "Expressions_tongueOut_min",
+        "affectedVertices": 78,
+        "affectedTongueVertices": 78,
+        "affectedVerticesOutsideTongue": 0,
+        "maxDelta_native": 0.013152946437965905,
+        "driverKey": "driver68",
+        "driverExpression": "(var*2.0)",
+        "controlTargets": [
+          "Expressions_tongueOut_max_min"
+        ]
+      },
+      {
+        "name": "Expressions_tongueTipUp_max",
+        "affectedVertices": 99,
+        "affectedTongueVertices": 99,
+        "affectedVerticesOutsideTongue": 0,
+        "maxDelta_native": 0.029642705679475346,
+        "driverKey": "driver69",
+        "driverExpression": "(-var*2) + (ph_TH/11.467) + (ph_L/7.5167)",
+        "controlTargets": [
+          "Expressions_tongueTipUp_max",
+          "ph_TH",
+          "ph_L"
+        ]
+      },
+      {
+        "name": "Expressions_tongueOut_max",
+        "affectedVertices": 84,
+        "affectedTongueVertices": 84,
+        "affectedVerticesOutsideTongue": 0,
+        "maxDelta_native": 0.0184,
+        "driverKey": "driver67",
+        "driverExpression": "(-var * 2) + (ph_TH/12.77235)",
+        "controlTargets": [
+          "Expressions_tongueOut_max_min",
+          "ph_TH"
+        ]
+      },
+      {
+        "name": "Expressions_tongueHoriz_min",
+        "affectedVertices": 84,
+        "affectedTongueVertices": 84,
+        "affectedVerticesOutsideTongue": 0,
+        "maxDelta_native": 0.021015232570685483,
+        "driverKey": "driver65",
+        "driverExpression": "(var*2.0)",
+        "controlTargets": [
+          "Expressions_tongueHoriz_max_min"
+        ]
+      },
+      {
+        "name": "Expressions_tongueVert_max",
+        "affectedVertices": 80,
+        "affectedTongueVertices": 80,
+        "affectedVerticesOutsideTongue": 0,
+        "maxDelta_native": 0.020950656314301944,
+        "driverKey": "driver70",
+        "driverExpression": "(-var*2) + (ph_TH/5.436) + (ph_L/6.4385)",
+        "controlTargets": [
+          "Expressions_tongueVert_max_min",
+          "ph_TH",
+          "ph_L"
+        ]
+      },
+      {
+        "name": "Expressions_tongueOutPressure_max",
+        "affectedVertices": 114,
+        "affectedTongueVertices": 114,
+        "affectedVerticesOutsideTongue": 0,
+        "maxDelta_native": 0.01072100741535048,
+        "driverKey": "driver66",
+        "driverExpression": "-(var*2.0)",
+        "controlTargets": [
+          "Expressions_tongueOutPressure_max"
+        ]
+      }
+    ],
+    "motionExecuted": false,
+    "note": "Read actual JSON deltas and driver mappings only. Do not claim a functioning Blender or GLB rig was exercised."
+  },
+  "images": [
+    {
+      "path": "/workspace/research/agent-method-review/mb-lab-tongue-profile-upright.png",
+      "description": "Whole actual material region, profile, subdivision level 2, neutral clay",
+      "bytes": 528210,
+      "sha256": "ac41c59142199756a86f989a7d59532e6b767a6e1d7c9552e41f1e7bb0f2e10d"
+    },
+    {
+      "path": "/workspace/research/agent-method-review/mb-lab-tongue-ventral-upright.png",
+      "description": "Whole actual material region, ventral oblique, subdivision level 2, neutral clay",
+      "bytes": 582959,
+      "sha256": "5632357d061ef5aa87dbe01f4847b0301598f6096b232d31a902f326e282353b"
+    },
+    {
+      "path": "/workspace/research/agent-method-review/mb-lab-tongue-teeth-original.png",
+      "description": "Tongue material and teeth in unchanged common source frame, subdivision level 2",
+      "bytes": 581538,
+      "sha256": "0f087196dce7bb08573e7e48cee1f3ec98890f0a8b0339635f2f2c1718fdae3e"
+    },
+    {
+      "path": "/workspace/research/agent-method-review/mb-lab-native-mouth-section.png",
+      "description": "Skin head region, tongue material and teeth; x>=0 display section without caps, original unsmoothed control mesh",
+      "bytes": 818549,
+      "sha256": "a4d72f42d4ed1a93d7e5c05a10a19556b80d11e7c3e6a49cc785da557df00547"
+    }
+  ],
+  "visualAssessment": {
+    "status": "Rejected as final MAKHARIJ internal anatomical base; potentially useful as generic deformation fixture only.",
+    "observations": [
+      "Material region is smooth and low-resolution, with an oval ventral plate and C/fork-shaped sagittal contour.",
+      "After source dental alignment, the split in the contour is toward the anterior mouth; an earlier isolated-view description incorrectly called it posterior and was corrected.",
+      "Independent organic root, ventral mucosal attachment, oral-floor continuity, palatal/velar context were not established by this asset inspection.",
+      "Having 100% quads, closed edge topology and 8 tongue controls does not establish anatomical realism."
+    ],
+    "limits": [
+      "No specialist anatomy acceptance.",
+      "No evaluation of all generated MB-Lab archetypes.",
+      "The label tongue is a source material name, not proof that the region includes a complete anatomical tongue.",
+      "The diagnostic section is uncapped and intentionally does not invent internal tissue."
+    ]
+  },
+  "decision": "Stop further source search for this subtask. Do not promote MB-Lab geometry as the new final model. Main agent may build one bounded original clay pilot, with explicit anatomical design and a stop gate after one directed edit.",
+  "localEvidenceRoot": "/workspace/research/agent-method-review (not redistributed)"
+}

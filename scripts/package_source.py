@@ -4,7 +4,7 @@ import json, hashlib, zipfile
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT.parent/'artifacts'; OUT.mkdir(exist_ok=True)
 entries=[]
-for folder in ['src','data','docs','scripts','tools','tests','public','assets/source','assets/anatomy','assets/licenses','assets/calibration','artifacts/milestone-evidence','artifacts/method-evidence']:
+for folder in ['src','data','docs','scripts','tools','tests','public','.agents/skills','assets/source','assets/anatomy','assets/licenses','assets/calibration','artifacts/milestone-evidence','artifacts/method-evidence']:
  p=ROOT/folder
  if p.exists():
   for f in p.rglob('*'):

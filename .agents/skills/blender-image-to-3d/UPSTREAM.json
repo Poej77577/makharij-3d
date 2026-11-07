@@ -1,0 +1,72 @@
+{
+  "source": "https://github.com/majidmanzarpour/blender-game-skills",
+  "commit": "f0ef29385a03de139957e6f700b801cdc00b7e29",
+  "license": "MIT",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "upstreamSha256": "d96993e47584b51cf1887856de043b58316502d8e59003e6e49563dc8c73250c"
+    },
+    {
+      "path": "assets/build_template.py",
+      "upstreamSha256": "32720898ce7e5054a55eb2f6b96f69208abc0aae853f2bbd4979359dbffb69cf"
+    },
+    {
+      "path": "evals/evals.json",
+      "upstreamSha256": "dbb8a693858cd7af82250b512a200c52c6fd30a1746062494e1b295640db9aac"
+    },
+    {
+      "path": "references/blender-5-notes.md",
+      "upstreamSha256": "59605d3bf6d7fe786b84b28f4f85663eb2ee3bd628d8110d74e40e868bc2b065"
+    },
+    {
+      "path": "references/categories.md",
+      "upstreamSha256": "54365b47b9ae2f58bd7181c1c0f45dc82d0d602f27e964d599b5ca4715b9ea18"
+    },
+    {
+      "path": "references/delivery-and-acceptance.md",
+      "upstreamSha256": "4cd269a2959fa85c7fe6eb9692cf404f40b9f75a1382c7820bf1de13a048b633"
+    },
+    {
+      "path": "references/rigging-animation.md",
+      "upstreamSha256": "6c05a72bbba4eb140a8692a45831047c9c7c20e01d26849d8b0782bdac162b08"
+    },
+    {
+      "path": "scripts/bake_maps.py",
+      "upstreamSha256": "df1e7e656fb237887eb88e55a84e88be96346fef58dd8b629b206479f7ca7110"
+    },
+    {
+      "path": "scripts/compose_review.py",
+      "upstreamSha256": "baecad27a2b3c4df115effae121254b24951113347ec2e8159154f418a90b379"
+    },
+    {
+      "path": "scripts/export_delivery.py",
+      "upstreamSha256": "1f317eaa2ebddda6a8d632fa6e7f5f3f12942c7bbd9f1041aaf353186d79083b"
+    },
+    {
+      "path": "scripts/init_master.py",
+      "upstreamSha256": "cd4ef8f086567babd6403d9a0e61004685ec8d3572fd6c86cd62121c2539e43e"
+    },
+    {
+      "path": "scripts/review_render.py",
+      "upstreamSha256": "afb1d9633fef198e2bf3059c759893bc6ac5c84db58f7930a4948e6579473301"
+    },
+    {
+      "path": "scripts/roundtrip.py",
+      "upstreamSha256": "64b3e969e70e3eda6975390ce3a20f40c048641acc0a502b145b0f802f6d34f6"
+    },
+    {
+      "path": "scripts/validate.py",
+      "upstreamSha256": "f68ce7332eddaca02ae4813a715f3db6e1bf2b3ac5a5721b3cb9ceef70a691c3"
+    },
+    {
+      "path": "scripts/world_gate.py",
+      "upstreamSha256": "d7c4d50df6f49d59f496d8c84a5aec38586105cb1ee5dc41cfb2d54c3b932693"
+    }
+  ],
+  "localModifications": [
+    "SKILL.md: require the repository-specific anatomical adaptation first",
+    "All open_mainfile calls in bundled helpers/templates explicitly disable embedded scripts and UI loading",
+    "Added LOCAL_ADAPTATION.md, upstream MIT LICENSE and provenance record; no third-party installer/MCP executed"
+  ]
+}

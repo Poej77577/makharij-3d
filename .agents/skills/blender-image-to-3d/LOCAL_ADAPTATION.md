@@ -1,0 +1,37 @@
+# Makharij adaptation
+
+Upstream: https://github.com/majidmanzarpour/blender-game-skills, commit
+`f0ef29385a03de139957e6f700b801cdc00b7e29`, MIT. See `UPSTREAM.json` and `LICENSE`.
+The user explicitly authorized internet skills, one specialist agent and autonomous
+implementation. The skill's optional user-approval gates must not create routine
+confirmation loops. Failed visual gates still stop promotion of the asset.
+
+This is an anatomical authoring experiment, not a game character commission. Use
+the clay review, fixed topology and export/reimport workflow. Game budgets,
+primitive blockouts, a passing silhouette score and generated detail do not prove
+anatomical accuracy. Do not present generic geometric organ assemblies as final
+anatomy. Do not install an MCP server when local Blender Python suffices.
+
+The user supplied one sagittal illustration. It is not a calibrated scan or a
+complete orthographic sheet. Its publisher/redistribution rights are unverified.
+Do not redistribute that image, claim clinical dimensions, or invent silhouette
+IoU measurements without an actual registered reference matte. Explicitly record
+all inferred transverse shapes and dimensions.
+
+Start with one tongue pilot: isolated dorsal/side/ventral clay views, then oral
+context and three independent shape changes. Compare a baseline and at most one
+targeted anatomical revision. If it remains an oval mass, thin plate, or unclear
+root/floor attachment, do not continue adding materials or rebuilding the full
+head. A qualified sculpt/source and anatomy review are then the dependency.
+
+Project coordinates are metres, +X anterior, +Y superior, +Z subject right.
+Skill review coordinates are +Z up, -Y anterior. The orientation-preserving map
+is `(x_blender, y_blender, z_blender) = (-z_project, -x_project, y_project)`.
+Record and test any source/runtime conversion; never silently mirror anatomy.
+
+Open third-party `.blend` files with `use_scripts=False, load_ui=False`, start
+Blender with `--disable-autoexec --python-exit-code 1`, and do not run embedded
+scripts/add-ons. Only use reviewed helper scripts. The local review helper was
+patched to disable source-file scripts explicitly. Licenses of assets, data and
+software are separate: neither MIT skill code nor GPL Blender makes an inspected
+model CC0. Preserve attribution and share-alike obligations of any context mesh.

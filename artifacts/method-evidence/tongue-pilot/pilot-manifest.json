@@ -1,0 +1,191 @@
+{
+  "status": "rejected-shape-technical-fixture-only",
+  "productionSelected": false,
+  "anatomicalAcceptance": "pending",
+  "clinicalAccuracyClaim": false,
+  "shapeMethod": "Explicit inferred sagittal/transverse sections; continuous quad cage, fixed subdivision before morphs",
+  "sourceImage": "User sagittal illustration; not redistributed; not scale calibrated",
+  "sections_mm": [
+    [
+      -79,
+      -28,
+      -28,
+      0
+    ],
+    [
+      -77,
+      -16,
+      -35,
+      8
+    ],
+    [
+      -72,
+      -4,
+      -40,
+      15
+    ],
+    [
+      -65,
+      5,
+      -39,
+      19
+    ],
+    [
+      -56,
+      11,
+      -34,
+      20
+    ],
+    [
+      -46,
+      13,
+      -26,
+      19
+    ],
+    [
+      -36,
+      11,
+      -19,
+      18
+    ],
+    [
+      -25,
+      6,
+      -13,
+      16
+    ],
+    [
+      -16,
+      1,
+      -9,
+      13
+    ],
+    [
+      -10,
+      -3,
+      -7,
+      8
+    ],
+    [
+      -7,
+      -5,
+      -5,
+      0
+    ]
+  ],
+  "inferred": [
+    "all dimensions",
+    "transverse surfaces",
+    "floor/palate guides",
+    "control amplitudes"
+  ],
+  "projectToBlender": [
+    [
+      0,
+      0,
+      -1
+    ],
+    [
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "gltfToProject": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      -1,
+      0,
+      0
+    ]
+  ],
+  "geometry": {
+    "vertices": 18306,
+    "polygons": 18304,
+    "shapeKeys": [
+      "TIP_ELEVATE",
+      "DORSUM_ELEVATE",
+      "ROOT_RETRACT"
+    ],
+    "topologyChangesAfterMorphs": false
+  },
+  "motion": {
+    "TIP_ELEVATE": {
+      "movedVertices": 8449,
+      "maxDisplacement_m": 0.019738770135774526,
+      "inferiorAnchorMaxDisplacement_m": 0.0
+    },
+    "DORSUM_ELEVATE": {
+      "movedVertices": 12231,
+      "maxDisplacement_m": 0.008020901954929395,
+      "inferiorAnchorMaxDisplacement_m": 0.0
+    },
+    "ROOT_RETRACT": {
+      "movedVertices": 9389,
+      "maxDisplacement_m": 0.005264342122410993,
+      "inferiorAnchorMaxDisplacement_m": 0.0
+    }
+  },
+  "referenceContext": [
+    "REFERENCE_ATLAS_GINGIVA",
+    "REFERENCE_ATLAS_LOWER_CANINE_L",
+    "REFERENCE_ATLAS_LOWER_CANINE_R",
+    "REFERENCE_ATLAS_LOWER_FIRST_MOLAR_TOOTH_L",
+    "REFERENCE_ATLAS_LOWER_FIRST_MOLAR_TOOTH_R",
+    "REFERENCE_ATLAS_LOWER_FIRST_PREMOLAR_L",
+    "REFERENCE_ATLAS_LOWER_FIRST_PREMOLAR_R",
+    "REFERENCE_ATLAS_LOWER_LATERAL_INCISOR_L",
+    "REFERENCE_ATLAS_LOWER_LATERAL_INCISOR_R",
+    "REFERENCE_ATLAS_LOWER_MEDIAL_INCISOR_L",
+    "REFERENCE_ATLAS_LOWER_MEDIAL_INCISOR_R",
+    "REFERENCE_ATLAS_LOWER_SECOND_MOLAR_TOOTH_L",
+    "REFERENCE_ATLAS_LOWER_SECOND_MOLAR_TOOTH_R",
+    "REFERENCE_ATLAS_LOWER_SECOND_PREMOLAR_L",
+    "REFERENCE_ATLAS_LOWER_SECOND_PREMOLAR_R",
+    "REFERENCE_ATLAS_UPPER_CANINE_L",
+    "REFERENCE_ATLAS_UPPER_CANINE_R",
+    "REFERENCE_ATLAS_UPPER_FIRST_MOLAR_TOOTH_L",
+    "REFERENCE_ATLAS_UPPER_FIRST_MOLAR_TOOTH_R",
+    "REFERENCE_ATLAS_UPPER_FIRST_PREMOLAR_L",
+    "REFERENCE_ATLAS_UPPER_FIRST_PREMOLAR_R",
+    "REFERENCE_ATLAS_UPPER_LATERAL_INCISOR_L",
+    "REFERENCE_ATLAS_UPPER_LATERAL_INCISOR_R",
+    "REFERENCE_ATLAS_UPPER_MEDIAL_INCISOR_L",
+    "REFERENCE_ATLAS_UPPER_MEDIAL_INCISOR_R",
+    "REFERENCE_ATLAS_UPPER_SECOND_MOLAR_TOOTH_L",
+    "REFERENCE_ATLAS_UPPER_SECOND_MOLAR_TOOTH_R",
+    "REFERENCE_ATLAS_UPPER_SECOND_PREMOLAR_L",
+    "REFERENCE_ATLAS_UPPER_SECOND_PREMOLAR_R",
+    "INFERRED_FLOOR_GUIDE",
+    "INFERRED_PALATE_GUIDE"
+  ],
+  "contextExported": false,
+  "contextSourceSha256": "2fb2a4520fc27138f2c434398a64b1786d5737b730902c2c8d15e03c31e8ce69",
+  "contextAttribution": "BodyParts3D, Kousaku Okubo, DBCLS; Z-Anatomy, Gauthier Kervyn; CC BY-SA 4.0; see assets/source/z-anatomy/NOTICE.md",
+  "limitations": [
+    "No papillae or final materials",
+    "No complete oral-floor attachment or muscle anatomy",
+    "No volume conservation or contact constraint",
+    "Not calibrated Arabic articulations",
+    "Clay review and independent critique required before any promotion"
+  ],
+  "blendSha256": "394cbc3312820a593d0b0c46ab0ec35cd093897a1d792caccdca014c7731c2df",
+  "glbSha256": "663a914664c9edaf0f3ad90925c6484234097fd5bbc6d3df8e8a71e614198419",
+  "visualReview": "fail",
+  "reviewRecord": "visual-review.json",
+  "revision": "baseline"
+}
