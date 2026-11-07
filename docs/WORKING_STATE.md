@@ -1,5 +1,39 @@
 # Current implementation state — 2026-11-07
 
+## Latest user-directed improvement
+
+The user subsequently requested improvement using advanced skills, then said
+continue. A distinct oral surface/cage experiment now exists; read
+`ORAL_SCULPT_REVIEW.md`. This supersedes stopping all authoring work, while the
+old loft and both head reconstructions remain rejected. Do not repeat the old
+source search or relabel the old models as accepted.
+
+New local review page: `/mouth.html`, source `tools/blender/build_oral_sculpt.py`,
+shape specification `data/anatomy/oral-sculpt.json`, editable native master and
+GLB under `artifacts/method-evidence/oral-sculpt`. Runtime assets have separate
+`oral-study` filenames; historical `makharij-realistic` assets are unchanged.
+The page is an experimental review tool, not a completed teaching UI.
+
+Implemented: continuous six-patch tongue; nonplanar BVH-sampled closed mucosal
+floor and frenulum; continuous hard/soft palatal volume; B-spline cage baked to
+morphs; actual rigid jaw pivot and coupled lower dentition/gingiva; combined
+jaw/tongue corrective shapes; constrained peak volume correction; portable PBR
+maps using the pinned MIT skill; actual dynamic mesh-section caps in the browser.
+
+Technical review covers 13 native/GLB cases, authored topology, root/floor seam,
+rigid dental dimensions and volume diagnostics. Visual/expert acceptance and
+general dental-contact review remain pending. This is partial oral progress,
+not full M2/M3 acceptance, a scan, an incompressible simulation or Arabic letter
+calibration. Human anatomy/tajweed review and full-head integration are still
+needed. Source is original inferred art plus separately attributed dental data.
+
+Use `assets:oral:*` and `test:oral` commands. Old `assets:export` reconstructs a
+rejected historical head; do not use it to publish this oral study. Material
+rebaking starts from the retained untextured source. Any base-shape edit requires
+rebuilding attachment, cage-derived shapes, export and evidence.
+
+## Previous checkpoint
+
 Latest binding direction: the user rejected this rebuild too and requested a different method.
 The user explicitly authorized one specialist agent and internet skills. That
 consultation is complete; do not restart a broad multi-agent search. Read

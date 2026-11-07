@@ -1,0 +1,41 @@
+{
+  "blend": "/tmp/makharij-oral-review-8ik7dpir/review-copy.blend",
+  "mode": "clay",
+  "engine": "cycles",
+  "bbox_min": [
+    -0.03674229979515076,
+    -0.00040803849697113037,
+    -0.03267764672636986
+  ],
+  "bbox_max": [
+    5.8207657444020455e-11,
+    0.08000603318214417,
+    0.03017258644104004
+  ],
+  "size_xyz": [
+    0.03674229979515076,
+    0.0804140716791153,
+    0.0628502368927002
+  ],
+  "objects": [
+    "TONGUE",
+    "ORAL_FLOOR",
+    "LINGUAL_FRENULUM",
+    "PALATE",
+    "UPPER_DENTITION",
+    "LOWER_DENTITION",
+    "UPPER_GINGIVA",
+    "LOWER_GINGIVA"
+  ],
+  "renders": {
+    "side": {
+      "file": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/review/clay/dorsum/clay_side.png",
+      "az_el_lens": [
+        90,
+        0,
+        0
+      ],
+      "distance": 4.018371149897575
+    }
+  }
+}

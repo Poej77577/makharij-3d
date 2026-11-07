@@ -1,0 +1,55 @@
+{
+  "assetSha256": "e22cafd412a2928a1d002d8a1d1c437bf34bdc793eb27d43cfb8dcc13e42ba00",
+  "meshCount": 8,
+  "actualSurfaceMovement_m": {
+    "TIP_ELEVATE": 0.014783354322702039,
+    "DORSUM_ELEVATE": 0.009270944181378736,
+    "ROOT_RETRACT": 0.004533518291975519,
+    "JAW_OPEN": 0.01494805825839458,
+    "VELUM_RAISE": 0.00912414483168604
+  },
+  "dynamicCaps": true,
+  "capDiagnostics": {
+    "TONGUE": {
+      "loops": 1,
+      "openChains": 0
+    },
+    "ORAL_FLOOR": {
+      "loops": 2,
+      "openChains": 0
+    },
+    "LINGUAL_FRENULUM": {
+      "loops": 1,
+      "openChains": 0
+    },
+    "PALATE": {
+      "loops": 1,
+      "openChains": 0
+    },
+    "UPPER_DENTITION": {
+      "loops": 1,
+      "openChains": 0
+    },
+    "UPPER_GINGIVA": {
+      "loops": 2,
+      "openChains": 0
+    },
+    "LOWER_DENTITION": {
+      "loops": 0,
+      "openChains": 0
+    },
+    "LOWER_GINGIVA": {
+      "loops": 1,
+      "openChains": 0
+    }
+  },
+  "returnToRest": true,
+  "pointerOrbit": true,
+  "clayToggle": true,
+  "animationPlayback": true,
+  "idleRenderFramesIn350ms": 0,
+  "mobileWidth": 390,
+  "horizontalOverflow": false,
+  "pageErrors": [],
+  "scope": "Actual experimental GLB in Chromium SwiftShader; no clinical acceptance or physical-phone benchmark"
+}

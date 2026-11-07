@@ -1,0 +1,23 @@
+{
+  "name": "Original oral surface study",
+  "units": "mm",
+  "frame": {"anterior": "+X", "superior": "+Y", "subjectRight": "+Z"},
+  "status": "experimental; all dimensions inferred; no clinical calibration",
+  "method": "Six welded quad patches, periodic sagittal spline sculpt, closed attached mucosal floor, B-spline lattice deformation baked to morph targets",
+  "sagittalCenter_mm": [-43, -8],
+  "sagittalOutline_mm": [
+    [-8, -8], [-10, -3.5], [-16, 1.5], [-26, 7.5],
+    [-39, 11], [-50, 10], [-60, 5.5], [-68, -3],
+    [-72, -13], [-70, -22], [-65, -26], [-54, -28],
+    [-40, -26.5], [-30, -22], [-24.5, -17.5], [-18, -13.3],
+    [-13, -12], [-9.5, -10.5]
+  ],
+  "transverseHalfWidth_mm": 20.3,
+  "floorAttachmentHeight_mm": -20,
+  "mucosalThickness_mm": 1.5,
+  "jawPivot_mm": [-73, 16, 0],
+  "jawOpen_degrees": 14,
+  "sourceReference": "User sagittal illustration and general anatomy; illustration not redistributed",
+  "inferred": ["all dimensional values", "hidden transverse surfaces", "floor boundary", "palatal vault", "control ranges"],
+  "clinicalAccuracyClaim": false
+}

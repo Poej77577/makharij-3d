@@ -1,0 +1,35 @@
+{
+  "status": "experimental-improvement; visual and expert acceptance pending",
+  "accepted": false,
+  "productionSelected": false,
+  "fullHeadComplete": false,
+  "clinicalAccuracyClaim": false,
+  "date": "2026-11-07",
+  "userDirection": "Improve it using advanced skills, then continue",
+  "method": "continuous patch surface, nonplanar closed root/floor attachment, B-spline cage and explicit corrective morphs",
+  "peerReviewBeforeFinalChanges": {
+    "reviewer": "method_review AI agent",
+    "confirmed": [
+      "tip/dorsum connection improved",
+      "cap/collar removed",
+      "lateral transitions improved",
+      "more recognizable tongue in dental context"
+    ],
+    "requested": [
+      "lengthen ventral/root transition",
+      "vary root/floor attachment height",
+      "smooth hard/soft palate transition"
+    ],
+    "subsequentChangesImplemented": true,
+    "medicalExpertApproval": false
+  },
+  "technicalReview": "technical-review.json",
+  "browserReview": "browser/browser-review.json",
+  "glbSha256": "e22cafd412a2928a1d002d8a1d1c437bf34bdc793eb27d43cfb8dcc13e42ba00",
+  "remaining": [
+    "human anatomical/tajweed review",
+    "full head/nasal/pharyngeal context",
+    "complete dental contact and combined-range review",
+    "calibrated Arabic articulations"
+  ]
+}

@@ -25,6 +25,14 @@ root/floor attachment, do not continue adding materials or rebuilding the full
 head. A qualified sculpt/source and anatomy review are then the dependency.
 
 Project coordinates are metres, +X anterior, +Y superior, +Z subject right.
+
+Later on 2026-11-07, the user explicitly requested improvement with advanced
+skills. That authorizes a distinct continuous patch-surface / B-spline-cage
+experiment in `artifacts/method-evidence/oral-sculpt`, documented in
+`docs/ORAL_SCULPT_REVIEW.md`. The old loft's failed status remains binding for
+that asset. Do not mistake the new request for acceptance of either old model.
+New preview controls and material baking are experimental review tools, not a
+completed teaching product or medical acceptance.
 Skill review coordinates are +Z up, -Y anterior. The orientation-preserving map
 is `(x_blender, y_blender, z_blender) = (-z_project, -x_project, y_project)`.
 Record and test any source/runtime conversion; never silently mirror anatomy.

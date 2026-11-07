@@ -1,0 +1,169 @@
+{
+  "masterSha256": "8a6e491310f8d5ad0b85869483cb2356ca88438756d84df3c2c81efb5371af82",
+  "masterFile": "oral-unit.untextured.blend",
+  "skillSha256": "b2fff3e7a7d4a32dbe9a2e889804ce3612add28a514397de4213757fcd53fc1e",
+  "mode": "clay",
+  "records": [
+    {
+      "label": "isolated",
+      "controls": {},
+      "meshes": [
+        "TONGUE"
+      ],
+      "actualMeshSection": false,
+      "views": "side,top,threequarter",
+      "referenceCamera": [
+        0,
+        -65,
+        0
+      ],
+      "images": {
+        "review/clay/isolated/clay_top.png": "ec1cedc203ae8ce456c08498da4932455070242ba7103c487f860f8d6aa14feb",
+        "review/clay/isolated/clay_threequarter.png": "38abc13390108f905577fc2fdd5e63f90ccc211079faa52a7164ae4111606129",
+        "review/clay/isolated/clay_ref.png": "dfad53b70f8c34b6f8c1f0ea90c01d8a9d69d5c5c1d3b6a9be79b3e274fa2c48",
+        "review/clay/isolated/clay_side.png": "808181c60c0acf9bea474eb29bc1c5f6c65ec5130ee198174ed0fe6b312e39cc"
+      }
+    },
+    {
+      "label": "mouth",
+      "controls": {
+        "JAW_OPEN": 0.75
+      },
+      "meshes": [
+        "TONGUE",
+        "ORAL_FLOOR",
+        "LINGUAL_FRENULUM",
+        "PALATE",
+        "UPPER_DENTITION",
+        "LOWER_DENTITION",
+        "UPPER_GINGIVA",
+        "LOWER_GINGIVA"
+      ],
+      "actualMeshSection": false,
+      "views": "threequarter",
+      "referenceCamera": [
+        25,
+        28,
+        55
+      ],
+      "images": {
+        "review/clay/mouth/clay_threequarter.png": "ca2ec517ee19b692893d3e47ee5c280f5c7904bbbc9be835c09925f856c50e1c",
+        "review/clay/mouth/clay_ref.png": "2166582975fe0cabb03c9b54a45cbd523cddeeb45b298a6011c9b739d4b85193"
+      }
+    },
+    {
+      "label": "floor",
+      "controls": {},
+      "meshes": [
+        "TONGUE",
+        "ORAL_FLOOR",
+        "LINGUAL_FRENULUM",
+        "LOWER_DENTITION",
+        "LOWER_GINGIVA"
+      ],
+      "actualMeshSection": false,
+      "views": "",
+      "referenceCamera": [
+        25,
+        38,
+        55
+      ],
+      "images": {
+        "review/clay/floor/clay_ref.png": "2d1595f8d0c98e905802eb5f834ed3030a1f0f23cb8c85a816ac9e38c22218af"
+      }
+    },
+    {
+      "label": "sagittal",
+      "controls": {
+        "JAW_OPEN": 0.55
+      },
+      "meshes": [
+        "TONGUE",
+        "ORAL_FLOOR",
+        "LINGUAL_FRENULUM",
+        "PALATE",
+        "UPPER_DENTITION",
+        "LOWER_DENTITION",
+        "UPPER_GINGIVA",
+        "LOWER_GINGIVA"
+      ],
+      "actualMeshSection": true,
+      "views": "side,threequarter",
+      "referenceCamera": null,
+      "images": {
+        "review/clay/sagittal/clay_threequarter.png": "0fed5cc85b8ecf2942b6e12006e1915daa8e1656523b48f3f5424cde44eb0461",
+        "review/clay/sagittal/clay_side.png": "92d6833e8c63008583e1e843c5055f0689dfeaf80cb0d47ad6dc9d203e1226dd"
+      }
+    },
+    {
+      "label": "tip",
+      "controls": {
+        "TIP_ELEVATE": 1,
+        "JAW_OPEN": 0.6
+      },
+      "meshes": [
+        "TONGUE",
+        "ORAL_FLOOR",
+        "LINGUAL_FRENULUM",
+        "PALATE",
+        "UPPER_DENTITION",
+        "LOWER_DENTITION",
+        "UPPER_GINGIVA",
+        "LOWER_GINGIVA"
+      ],
+      "actualMeshSection": true,
+      "views": "side",
+      "referenceCamera": null,
+      "images": {
+        "review/clay/tip/clay_side.png": "06118e87b063530f3cd4630c3a94b104c77b2af19a0d01b52f929c078d4b3331"
+      }
+    },
+    {
+      "label": "dorsum",
+      "controls": {
+        "DORSUM_ELEVATE": 1,
+        "JAW_OPEN": 0.6
+      },
+      "meshes": [
+        "TONGUE",
+        "ORAL_FLOOR",
+        "LINGUAL_FRENULUM",
+        "PALATE",
+        "UPPER_DENTITION",
+        "LOWER_DENTITION",
+        "UPPER_GINGIVA",
+        "LOWER_GINGIVA"
+      ],
+      "actualMeshSection": true,
+      "views": "side",
+      "referenceCamera": null,
+      "images": {
+        "review/clay/dorsum/clay_side.png": "13067c09b06286b5d5e0f0dd917f770fa5fb9e0565006503d6fa6283f2768421"
+      }
+    },
+    {
+      "label": "root",
+      "controls": {
+        "ROOT_RETRACT": 1,
+        "JAW_OPEN": 0.6
+      },
+      "meshes": [
+        "TONGUE",
+        "ORAL_FLOOR",
+        "LINGUAL_FRENULUM",
+        "PALATE",
+        "UPPER_DENTITION",
+        "LOWER_DENTITION",
+        "UPPER_GINGIVA",
+        "LOWER_GINGIVA"
+      ],
+      "actualMeshSection": true,
+      "views": "side",
+      "referenceCamera": null,
+      "images": {
+        "review/clay/root/clay_side.png": "589ef8fab88de95c42c12c2dbca9190e830a2369c96d7188fbbba37b81859f6b"
+      }
+    }
+  ],
+  "clinicalAcceptance": "not assessed"
+}

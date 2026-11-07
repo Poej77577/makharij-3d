@@ -1,0 +1,38 @@
+{
+  "blend": "/tmp/makharij-oral-review-vii3q8s6/review-copy.blend",
+  "mode": "clay",
+  "engine": "cycles",
+  "bbox_min": [
+    -0.03674229979515076,
+    0.004227660596370697,
+    -0.0279733557254076
+  ],
+  "bbox_max": [
+    0.036742303520441055,
+    0.07400000095367432,
+    0.01606929302215576
+  ],
+  "size_xyz": [
+    0.07348459959030151,
+    0.06977234035730362,
+    0.04404264688491821
+  ],
+  "objects": [
+    "TONGUE",
+    "ORAL_FLOOR",
+    "LINGUAL_FRENULUM",
+    "LOWER_DENTITION",
+    "LOWER_GINGIVA"
+  ],
+  "renders": {
+    "ref": {
+      "file": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/review/clay/floor/clay_ref.png",
+      "az_el_lens": [
+        25.0,
+        38.0,
+        55.0
+      ],
+      "distance": 0.19505554051909213
+    }
+  }
+}

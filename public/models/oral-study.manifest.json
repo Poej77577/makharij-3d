@@ -1,0 +1,65 @@
+{
+  "status": "experimental-review-pending",
+  "visualReview": "pending",
+  "expertAcceptance": "pending",
+  "clinicalAccuracyClaim": false,
+  "productionSelected": false,
+  "glbSha256": "e22cafd412a2928a1d002d8a1d1c437bf34bdc793eb27d43cfb8dcc13e42ba00",
+  "gltfToProject": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      -1,
+      0,
+      0
+    ]
+  ],
+  "parts": [
+    "TONGUE",
+    "ORAL_FLOOR",
+    "LINGUAL_FRENULUM",
+    "PALATE",
+    "UPPER_DENTITION",
+    "LOWER_DENTITION",
+    "UPPER_GINGIVA",
+    "LOWER_GINGIVA"
+  ],
+  "jawBinding": {
+    "node": "JAW_PIVOT",
+    "gltfAxis": "X",
+    "angle_radians": 0.24434609527920614,
+    "rigidParts": [
+      "LOWER_DENTITION",
+      "LOWER_GINGIVA"
+    ]
+  },
+  "correctives": {
+    "JAW_X_TIP_ELEVATE": [
+      "JAW_OPEN",
+      "TIP_ELEVATE"
+    ],
+    "JAW_X_DORSUM_ELEVATE": [
+      "JAW_OPEN",
+      "DORSUM_ELEVATE"
+    ],
+    "JAW_X_ROOT_RETRACT": [
+      "JAW_OPEN",
+      "ROOT_RETRACT"
+    ]
+  },
+  "attribution": "BodyParts3D / DBCLS / Kousaku Okubo; Z-Anatomy / Gauthier Kervyn, CC BY-SA 4.0 dental/reference geometry; see assets/source/z-anatomy/NOTICE.md",
+  "limitations": [
+    "Inferred art anatomy, not a scan",
+    "No contact-constrained biomechanics",
+    "No phoneme calibration or classroom approval",
+    "Floor/palatal relationships require visual review"
+  ]
+}

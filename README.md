@@ -1,4 +1,23 @@
-# مخارج — تغيير مسار بناء التشريح
+# مخارج — تجربة الفم المتحرك
+
+المعاينة الجديدة على **`/mouth.html`**: سطح لسان متصل، وقاع ولجام وحنك،
+مع خمس حركات، ومحور فك صلب، ومقطع يتغير مع التشوه. استُخدمت مهارة Blender
+للنحت والتجهيز وخبز خامات محمولة. **هذه عينة تجريبية قيد المراجعة، وليست
+الرأس النهائي أو وضعيات حروف معتمدة.**
+
+[الواجهة](artifacts/method-evidence/oral-sculpt/browser/desktop.png)
+· [الحركة الفعلية](artifacts/method-evidence/oral-sculpt/browser/tongue-motion.gif)
+· [تفاصيل التحسين والفحص](docs/ORAL_SCULPT_REVIEW.md).
+
+```sh
+npm run assets:oral:validate
+npm run test:unit
+npm run build
+npm run preview -- --port 4174 --strictPort
+# ثم افتح /mouth.html. إعادة بناء المصدر موثقة في ORAL_SCULPT_REVIEW.md.
+```
+
+## الدراسات السابقة المحفوظة
 
 **رفض المستخدم أيضًا واقعية إعادة بناء الأطلس. هذه الملفات محفوظة للمقارنة، وليست الأصل المختار للمنصة.**
 

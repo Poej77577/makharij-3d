@@ -1,0 +1,80 @@
+{
+  "masterSha256": "ec96288ed20a6d9a3f676896d1a24cbb9f82426a1493f2120318ce02ef567925",
+  "masterFile": "oral-unit.blend",
+  "skillSha256": "b2fff3e7a7d4a32dbe9a2e889804ce3612add28a514397de4213757fcd53fc1e",
+  "mode": "material",
+  "records": [
+    {
+      "label": "mouth",
+      "controls": {
+        "JAW_OPEN": 0.75
+      },
+      "meshes": [
+        "TONGUE",
+        "ORAL_FLOOR",
+        "LINGUAL_FRENULUM",
+        "PALATE",
+        "UPPER_DENTITION",
+        "LOWER_DENTITION",
+        "UPPER_GINGIVA",
+        "LOWER_GINGIVA"
+      ],
+      "actualMeshSection": false,
+      "views": "threequarter",
+      "referenceCamera": [
+        25,
+        28,
+        55
+      ],
+      "images": {
+        "review/material/mouth/material_ref.png": "45ae63038839404790777cb72fe3ba321d541485fe3cdca9fde3778be9d272b2",
+        "review/material/mouth/material_threequarter.png": "8ca6f3881aa699cea0be635c0eb51160d251aeb86b249a332b8eb31892a8f5ab"
+      }
+    },
+    {
+      "label": "floor",
+      "controls": {},
+      "meshes": [
+        "TONGUE",
+        "ORAL_FLOOR",
+        "LINGUAL_FRENULUM",
+        "LOWER_DENTITION",
+        "LOWER_GINGIVA"
+      ],
+      "actualMeshSection": false,
+      "views": "",
+      "referenceCamera": [
+        25,
+        38,
+        55
+      ],
+      "images": {
+        "review/material/floor/material_ref.png": "b86c785ed9a22ba85d9b8b3a7a1bc5f0dfd4b6ae20bc9cf7e406dd2806b2563c"
+      }
+    },
+    {
+      "label": "sagittal",
+      "controls": {
+        "JAW_OPEN": 0.55
+      },
+      "meshes": [
+        "TONGUE",
+        "ORAL_FLOOR",
+        "LINGUAL_FRENULUM",
+        "PALATE",
+        "UPPER_DENTITION",
+        "LOWER_DENTITION",
+        "UPPER_GINGIVA",
+        "LOWER_GINGIVA"
+      ],
+      "actualMeshSection": true,
+      "views": "side,threequarter",
+      "referenceCamera": null,
+      "images": {
+        "review/material/sagittal/material_threequarter.png": "38d9bb2801c09a8d9f244fc5090499316e047e2734932688b32fdc370563de28",
+        "review/material/sagittal/material_side.png": "eaa3fe3542fd67a39d45a260aa64a5d9787d8be544fc7594843a7453e8df8b51"
+      }
+    }
+  ],
+  "clinicalAcceptance": "not assessed"
+}

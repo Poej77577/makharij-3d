@@ -1,5 +1,13 @@
 # M1 anatomical foundation decision — 2026-11-06
 
+## New user-authorized oral study — 2026-11-07
+
+After the bounded loft failed, the user explicitly requested improvement with
+advanced skills. A separate continuous surface / nonplanar floor / cage study is
+implemented on `/mouth.html`; see `ORAL_SCULPT_REVIEW.md`. It is an experimental
+oral unit with technical evidence, not a selected complete head or an anatomy
+acceptance. The rejected states below remain unchanged.
+
 ## Latest rejection and method change — 2026-11-07
 
 The user has now rejected the atlas rebuild as well. The following selection is

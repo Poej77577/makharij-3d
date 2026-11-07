@@ -20,7 +20,13 @@
     "assets:acceptance": ".venv-qa/bin/python tools/qa/check_rebuilt_anatomy.py --gate",
     "evidence:validate": "python tools/qa/check_rebuild_evidence.py",
     "assets:inspect-rig": "blender --background --factory-startup --disable-autoexec --threads 2 --python-exit-code 1 --python tools/blender/audit_deformation_asset.py --",
-    "assets:probe-control": "blender --background --factory-startup --disable-autoexec --threads 2 --python-exit-code 1 --python tools/blender/probe_candidate_control.py --"
+    "assets:probe-control": "blender --background --factory-startup --disable-autoexec --threads 2 --python-exit-code 1 --python tools/blender/probe_candidate_control.py --",
+    "assets:oral:build": "blender --background --factory-startup --disable-autoexec --threads 2 --python-exit-code 1 --python tools/blender/build_oral_sculpt.py --",
+    "assets:oral:materials": "blender --background --factory-startup --disable-autoexec --threads 2 --python-exit-code 1 --python tools/blender/bake_oral_materials.py --",
+    "assets:oral:validate": "blender --background --factory-startup --disable-autoexec --threads 2 --python-exit-code 1 --python tools/blender/check_oral_sculpt.py --",
+    "assets:oral:stage": "python tools/anatomy/stage_oral_sculpt.py",
+    "assets:oral:review": "blender --background --factory-startup --disable-autoexec --threads 2 --python-exit-code 1 --python tools/blender/render_oral_sculpt.py --",
+    "test:oral": ".venv-qa/bin/python tools/qa/oral_browser.py"
   },
   "dependencies": {
     "react": "19.2.0",

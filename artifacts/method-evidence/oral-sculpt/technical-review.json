@@ -1,0 +1,333 @@
+{
+  "scope": "Closed authored tissues, measured root/floor seam and actual multi-organ GLB morph geometry",
+  "clinicalAcceptance": "not assessed",
+  "generalDentalContactReview": "pending",
+  "volumeConservingSimulation": false,
+  "productionSelected": false,
+  "blendSha256": "ec96288ed20a6d9a3f676896d1a24cbb9f82426a1493f2120318ce02ef567925",
+  "glbSha256": "e22cafd412a2928a1d002d8a1d1c437bf34bdc793eb27d43cfb8dcc13e42ba00",
+  "topology": {
+    "TONGUE": {
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0
+    },
+    "ORAL_FLOOR": {
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0
+    },
+    "LINGUAL_FRENULUM": {
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0
+    },
+    "PALATE": {
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0
+    }
+  },
+  "rootFloorSeam": [
+    {
+      "case": "rest",
+      "maximumRootFloorGap_m": 8.172322374377927e-09
+    },
+    {
+      "case": "TIP_ELEVATE_0.5",
+      "maximumRootFloorGap_m": 8.172322374377927e-09
+    },
+    {
+      "case": "TIP_ELEVATE_1",
+      "maximumRootFloorGap_m": 8.172322374377927e-09
+    },
+    {
+      "case": "DORSUM_ELEVATE_0.5",
+      "maximumRootFloorGap_m": 8.172322374377927e-09
+    },
+    {
+      "case": "DORSUM_ELEVATE_1",
+      "maximumRootFloorGap_m": 8.172322374377927e-09
+    },
+    {
+      "case": "ROOT_RETRACT_0.5",
+      "maximumRootFloorGap_m": 8.172322374377927e-09
+    },
+    {
+      "case": "ROOT_RETRACT_1",
+      "maximumRootFloorGap_m": 8.172322374377927e-09
+    },
+    {
+      "case": "JAW_OPEN_0.5",
+      "maximumRootFloorGap_m": 4.7424350668734405e-08
+    },
+    {
+      "case": "JAW_OPEN_1",
+      "maximumRootFloorGap_m": 7.58213261065066e-08
+    },
+    {
+      "case": "VELUM_RAISE_0.5",
+      "maximumRootFloorGap_m": 8.172322374377927e-09
+    },
+    {
+      "case": "VELUM_RAISE_1",
+      "maximumRootFloorGap_m": 8.172322374377927e-09
+    },
+    {
+      "case": "combined",
+      "maximumRootFloorGap_m": 5.75011576131601e-08
+    },
+    {
+      "case": "return",
+      "maximumRootFloorGap_m": 8.172322374377927e-09
+    }
+  ],
+  "cases": [
+    {
+      "case": "rest",
+      "controls": {},
+      "partErrors_m": {
+        "TONGUE": 0.0,
+        "ORAL_FLOOR": 0.0,
+        "LINGUAL_FRENULUM": 0.0,
+        "PALATE": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0,
+        "UPPER_GINGIVA": 0.0,
+        "LOWER_GINGIVA": 0.0
+      },
+      "lowerDentalArchDistanceDrift_m": 0.0,
+      "tongueVolumeChangeFraction": 0.0
+    },
+    {
+      "case": "TIP_ELEVATE_0.5",
+      "controls": {
+        "TIP_ELEVATE": 0.5
+      },
+      "partErrors_m": {
+        "TONGUE": 0.0,
+        "ORAL_FLOOR": 0.0,
+        "LINGUAL_FRENULUM": 0.0,
+        "PALATE": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0,
+        "UPPER_GINGIVA": 0.0,
+        "LOWER_GINGIVA": 0.0
+      },
+      "lowerDentalArchDistanceDrift_m": 0.0,
+      "tongueVolumeChangeFraction": -0.006892490581635435
+    },
+    {
+      "case": "TIP_ELEVATE_1",
+      "controls": {
+        "TIP_ELEVATE": 1
+      },
+      "partErrors_m": {
+        "TONGUE": 0.0,
+        "ORAL_FLOOR": 0.0,
+        "LINGUAL_FRENULUM": 0.0,
+        "PALATE": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0,
+        "UPPER_GINGIVA": 0.0,
+        "LOWER_GINGIVA": 0.0
+      },
+      "lowerDentalArchDistanceDrift_m": 0.0,
+      "tongueVolumeChangeFraction": -1.6966006377572285e-10
+    },
+    {
+      "case": "DORSUM_ELEVATE_0.5",
+      "controls": {
+        "DORSUM_ELEVATE": 0.5
+      },
+      "partErrors_m": {
+        "TONGUE": 0.0,
+        "ORAL_FLOOR": 0.0,
+        "LINGUAL_FRENULUM": 0.0,
+        "PALATE": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0,
+        "UPPER_GINGIVA": 0.0,
+        "LOWER_GINGIVA": 0.0
+      },
+      "lowerDentalArchDistanceDrift_m": 0.0,
+      "tongueVolumeChangeFraction": 0.007067544588955199
+    },
+    {
+      "case": "DORSUM_ELEVATE_1",
+      "controls": {
+        "DORSUM_ELEVATE": 1
+      },
+      "partErrors_m": {
+        "TONGUE": 0.0,
+        "ORAL_FLOOR": 0.0,
+        "LINGUAL_FRENULUM": 0.0,
+        "PALATE": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0,
+        "UPPER_GINGIVA": 0.0,
+        "LOWER_GINGIVA": 0.0
+      },
+      "lowerDentalArchDistanceDrift_m": 0.0,
+      "tongueVolumeChangeFraction": -3.611041465845233e-10
+    },
+    {
+      "case": "ROOT_RETRACT_0.5",
+      "controls": {
+        "ROOT_RETRACT": 0.5
+      },
+      "partErrors_m": {
+        "TONGUE": 0.0,
+        "ORAL_FLOOR": 0.0,
+        "LINGUAL_FRENULUM": 0.0,
+        "PALATE": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0,
+        "UPPER_GINGIVA": 0.0,
+        "LOWER_GINGIVA": 0.0
+      },
+      "lowerDentalArchDistanceDrift_m": 0.0,
+      "tongueVolumeChangeFraction": 0.0002626318752432244
+    },
+    {
+      "case": "ROOT_RETRACT_1",
+      "controls": {
+        "ROOT_RETRACT": 1
+      },
+      "partErrors_m": {
+        "TONGUE": 0.0,
+        "ORAL_FLOOR": 0.0,
+        "LINGUAL_FRENULUM": 0.0,
+        "PALATE": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0,
+        "UPPER_GINGIVA": 0.0,
+        "LOWER_GINGIVA": 0.0
+      },
+      "lowerDentalArchDistanceDrift_m": 0.0,
+      "tongueVolumeChangeFraction": 2.9056979045094522e-11
+    },
+    {
+      "case": "JAW_OPEN_0.5",
+      "controls": {
+        "JAW_OPEN": 0.5
+      },
+      "partErrors_m": {
+        "TONGUE": 0.0,
+        "ORAL_FLOOR": 0.0,
+        "LINGUAL_FRENULUM": 0.0,
+        "PALATE": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0,
+        "UPPER_GINGIVA": 0.0,
+        "LOWER_GINGIVA": 0.0
+      },
+      "lowerDentalArchDistanceDrift_m": 4.5361633199680895e-10,
+      "tongueVolumeChangeFraction": 0.0020196729799062396
+    },
+    {
+      "case": "JAW_OPEN_1",
+      "controls": {
+        "JAW_OPEN": 1
+      },
+      "partErrors_m": {
+        "TONGUE": 0.0,
+        "ORAL_FLOOR": 0.0,
+        "LINGUAL_FRENULUM": 0.0,
+        "PALATE": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0,
+        "UPPER_GINGIVA": 0.0,
+        "LOWER_GINGIVA": 0.0
+      },
+      "lowerDentalArchDistanceDrift_m": 3.1172114195454625e-10,
+      "tongueVolumeChangeFraction": 0.03336791200021327
+    },
+    {
+      "case": "VELUM_RAISE_0.5",
+      "controls": {
+        "VELUM_RAISE": 0.5
+      },
+      "partErrors_m": {
+        "TONGUE": 0.0,
+        "ORAL_FLOOR": 0.0,
+        "LINGUAL_FRENULUM": 0.0,
+        "PALATE": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0,
+        "UPPER_GINGIVA": 0.0,
+        "LOWER_GINGIVA": 0.0
+      },
+      "lowerDentalArchDistanceDrift_m": 0.0,
+      "tongueVolumeChangeFraction": 0.0
+    },
+    {
+      "case": "VELUM_RAISE_1",
+      "controls": {
+        "VELUM_RAISE": 1
+      },
+      "partErrors_m": {
+        "TONGUE": 0.0,
+        "ORAL_FLOOR": 0.0,
+        "LINGUAL_FRENULUM": 0.0,
+        "PALATE": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0,
+        "UPPER_GINGIVA": 0.0,
+        "LOWER_GINGIVA": 0.0
+      },
+      "lowerDentalArchDistanceDrift_m": 0.0,
+      "tongueVolumeChangeFraction": 0.0
+    },
+    {
+      "case": "combined",
+      "controls": {
+        "JAW_OPEN": 0.75,
+        "TIP_ELEVATE": 0.7,
+        "DORSUM_ELEVATE": 0.2,
+        "VELUM_RAISE": 0.5
+      },
+      "partErrors_m": {
+        "TONGUE": 0.0,
+        "ORAL_FLOOR": 0.0,
+        "LINGUAL_FRENULUM": 0.0,
+        "PALATE": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0,
+        "UPPER_GINGIVA": 0.0,
+        "LOWER_GINGIVA": 0.0
+      },
+      "lowerDentalArchDistanceDrift_m": 2.317219124914338e-10,
+      "tongueVolumeChangeFraction": 0.008277772009910533
+    },
+    {
+      "case": "return",
+      "controls": {},
+      "partErrors_m": {
+        "TONGUE": 0.0,
+        "ORAL_FLOOR": 0.0,
+        "LINGUAL_FRENULUM": 0.0,
+        "PALATE": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0,
+        "UPPER_GINGIVA": 0.0,
+        "LOWER_GINGIVA": 0.0
+      },
+      "lowerDentalArchDistanceDrift_m": 0.0,
+      "tongueVolumeChangeFraction": 0.0
+    }
+  ],
+  "correctiveMapping": {
+    "JAW_X_TIP_ELEVATE": [
+      "JAW_OPEN",
+      "TIP_ELEVATE"
+    ],
+    "JAW_X_DORSUM_ELEVATE": [
+      "JAW_OPEN",
+      "DORSUM_ELEVATE"
+    ],
+    "JAW_X_ROOT_RETRACT": [
+      "JAW_OPEN",
+      "ROOT_RETRACT"
+    ]
+  },
+  "maximumExportError_m": 0.0,
+  "failures": [],
+  "technicalPass": true
+}
