@@ -61,16 +61,42 @@ def makehuman_head_data(mouth_weight=.24):
 def load_tetra_boundary(node_path, element_path):
     data = np.loadtxt(node_path)
     ids = data[:, 0].astype(int)
-    index = {key: i for i, key in enumerate(ids)}
     points = data[:, 1:4]
-    counts, oriented, tets = Counter(), {}, set()
-    degenerates = 0
+    elements = []
     for line in Path(element_path).read_text().splitlines():
         row = list(map(int, line.split()))
-        if not row:
-            continue
-        nodes = list(dict.fromkeys(x for x in row[:8] if x > 0))
-        if len(nodes) != 4:
+        if row:
+            elements.append(list(dict.fromkeys(x for x in row[:8] if x > 0)))
+    return tetra_boundary(points, ids, elements)
+
+def load_tetgen_boundary(node_path, element_path):
+    def rows(path):
+        result = []
+        for line in Path(path).read_text().splitlines():
+            row = line.split('#', 1)[0].split()
+            if row:
+                result.append(row)
+        return result
+    nodes, elems = rows(node_path), rows(element_path)
+    count, dimensions, attributes, markers = map(int, nodes[0])
+    cell_count, nodes_per_cell, cell_attributes = map(int, elems[0])
+    assert dimensions == 3 and nodes_per_cell == 4, 'Unsupported TetGen topology'
+    assert len(nodes) - 1 == count and len(elems) - 1 == cell_count, 'Truncated TetGen file'
+    assert all(len(row) == 4 + attributes + markers for row in nodes[1:])
+    assert all(len(row) == 5 + cell_attributes for row in elems[1:])
+    ids = np.array([int(row[0]) for row in nodes[1:]])
+    points = np.array([list(map(float, row[1:4])) for row in nodes[1:]])
+    elements = [list(map(int, row[1:5])) for row in elems[1:]]
+    return tetra_boundary(points, ids, elements)
+
+def tetra_boundary(points, ids, elements):
+    if len(set(ids)) != len(ids):
+        raise ValueError('Duplicate source node identity')
+    index = {key: i for i, key in enumerate(ids)}
+    counts, oriented, tets = Counter(), {}, set()
+    degenerates = 0
+    for nodes in elements:
+        if len(nodes) != 4 or len(set(nodes)) != 4:
             raise ValueError('This adapter accepts source four-node tetrahedra only')
         tet = tuple(index[n] for n in nodes)
         key = tuple(sorted(tet))

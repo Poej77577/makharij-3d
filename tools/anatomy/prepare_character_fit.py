@@ -42,4 +42,5 @@ report = {
     'status': 'M2 working placement, not accepted anatomy',
 }
 (out / 'character-fit.json').write_text(json.dumps(report, indent=2) + '\n')
-print(json.dumps(report, indent=2))
+print(json.dumps({'calibration': str((out / 'character-fit.json').relative_to(ROOT)), 'status': report['status'],
+                  'translations_m': {name: value['matrix'][:3] for name, value in transforms.items()}}, indent=2))

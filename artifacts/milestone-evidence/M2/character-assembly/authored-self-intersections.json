@@ -1,0 +1,35 @@
+{
+  "assetSha256": "df06cf0068d2b9c5f9abc8ef1ec179ddd7b8077b1ba762038c1c361f1ca7ff2c",
+  "parts": [
+    {
+      "name": "NASAL_CONCHA_SUPERIOR",
+      "fclTriangleContacts": 53982,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": []
+    },
+    {
+      "name": "NASAL_CONCHA_MIDDLE",
+      "fclTriangleContacts": 64405,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": []
+    },
+    {
+      "name": "NASAL_CONCHA_INFERIOR",
+      "fclTriangleContacts": 70275,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": []
+    },
+    {
+      "name": "NASAL_LINING",
+      "fclTriangleContacts": 120403,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": []
+    }
+  ],
+  "passed": true,
+  "scope": "FCL triangle self-contacts excluding all pairs with shared geometric vertices; actual delivered authored nasal tissues only. No expert approval."
+}

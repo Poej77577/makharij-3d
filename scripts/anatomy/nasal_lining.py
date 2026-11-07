@@ -309,7 +309,36 @@ def _concha(kind,profile):
     faces=leftf+[tuple(i+halfv for i in f)for f in rightf]
     return vertices,faces,{'left':leftcheck,'right':rightcheck,'minimumFullThickness_m':minimum_thickness,'nominalCentralFullThickness_m':settings['thickness'],'planarSectionsChecked':sections_checked,'allSectionsSimple':True,'attachmentOverlap_m':.00010,'source':'authored tapered scroll, not acquired turbinates','intervalOfNasalBody':list(settings['interval'])}
 
-def build_nasal_lining(*,hard_palate,pharynx,face_bounds,create,include_superior=True):
+def _airspace(stations):
+    """Closed negative-space helper from the same inner-wall station contours.
+
+    This is never displayed as an organ. Convex end-section fans close the
+    boolean helper only; they do not cap the open air ports of the tissue.
+    """
+    count=len(OUTLINE);vertices=[];faces=[]
+    for c,n,h,w in stations:
+        vertices.extend([_add(c,_add(_mul(n,(yy-.5)*2*h),(0,0,zz*w)))for zz,yy in OUTLINE])
+    for i in range(len(stations)-1):
+        for j in range(count):
+            a=i*count+j;b=i*count+(j+1)%count;c=(i+1)*count+(j+1)%count;d=(i+1)*count+j
+            faces.extend([(a,c,b),(a,d,c)])
+    incidence=Counter();directions={}
+    for face in faces:
+        for a,b in zip(face,face[1:]+face[:1]):
+            key=tuple(sorted((a,b)));incidence[key]+=1;directions[key]=(a,b)
+    centers={}
+    for edge,n in incidence.items():
+        if n!=1:continue
+        a,b=directions[edge];end=a//count
+        if end not in centers:
+            centers[end]=len(vertices);vertices.append(stations[end][0])
+        faces.append((centers[end],b,a))
+    volume=sum(_dot(vertices[a],_cross(vertices[b],vertices[c]))for a,b,c in faces)/6
+    if volume<0:faces=[(a,c,b)for a,b,c in faces]
+    vertices,faces,check=_orient_check('NASAL_AIRSPACE_HELPER',vertices,faces)
+    return {'positions':[q for p in vertices for q in p],'indices':[q for f in faces for q in f],'checks':check,'role':'authored negative space only, never a visible organ'}
+
+def build_nasal_lining(*,hard_palate,pharynx,face_bounds,create,include_superior=True,include_airspace=False,conform_floor=False):
     palate=_source(hard_palate);ph=_source(pharynx);face=_source(face_bounds)
     plo,phi=palate['bounds'];flo,fhi=face['bounds'];p_span=phi[0]-plo[0];p_width=phi[2]-plo[2]
     if not .020<p_span<.150 or not .020<p_width<.120:raise ValueError('Expected human palate coordinates in METERS in the frozen X-anterior/Y-up/Z-lateral frame')
@@ -326,6 +355,21 @@ def build_nasal_lining(*,hard_palate,pharynx,face_bounds,create,include_superior
     floor_rear=max(oral_roof(rear_x)+.0035,max_roof+.0025)
     floor_middle=max(oral_roof((rear_x+front_x)*.5)+.0035,max_roof+.0035)
     floor_front=max(oral_roof(phi[0])+.0040,floor_rear-.0065)
+    if conform_floor:
+        # New reconstruction mode. Preserve the frozen legacy mode by default.
+        # A global roof maximum produced an unnecessarily thick separator over
+        # the anterior mouth; anchor all three controls to local source roof.
+        def local_floor(x):
+            hit=_palatal_y(palate,min(phi[0]-.001,max(plo[0]+.001,x)),0)
+            return (oral_roof(x)if hit is None else hit)+.0045
+        floor_rear=max(local_floor(rear_x),max_roof+.006)
+        floor_middle=max(local_floor((rear_x+front_x)*.5),max_roof+.008)
+        floor_front=local_floor(phi[0]-.001)
+        # Preserve the character's native nostril exterior. The new vestibular
+        # port stays behind that surface; its bilateral connection is reviewed
+        # separately instead of punching an artificial central nose opening.
+        front_x=min(front_x,phi[0]+.007)
+        exit_x=min(exit_x,fhi[0]-.012)
     width=max(.011,min(.017,p_width*.27));body_length=front_x-rear_x
     def profile(u):
         floor=(1-u)**2*floor_rear+2*u*(1-u)*floor_middle+u*u*floor_front
@@ -348,7 +392,7 @@ def build_nasal_lining(*,hard_palate,pharynx,face_bounds,create,include_superior
         t=i/10;theta=pi-pi*.5*t;c=(rear_x+radius*cos(theta),arc_start_y+radius*sin(theta),0);n=(cos(theta),sin(theta),0)
         stations.append((c,n,.006+(h0-.006)*_smooth(t),.010+(w0-.010)*_smooth(t)))
     for i in range(1,29):stations.append(profile(i/28))
-    start,nstart,hstart,wstart=profile(1);end=(exit_x,floor_front+.006,0);distance=exit_x-front_x
+    start,nstart,hstart,wstart=profile(1);end=(exit_x,max(floor_front+.006,.056)if conform_floor else floor_front+.006,0);distance=exit_x-front_x
     tangent_start=(nstart[1],-nstart[0],0);tangent_end=_unit((1,-.08,0));c1=_add(start,_mul(tangent_start,distance/3));c2=_sub(end,_mul(tangent_end,distance/3))
     for i in range(1,9):
         t=i/8;s=1-t;c=_add(_add(_mul(start,s**3),_mul(c1,3*s*s*t)),_add(_mul(c2,3*s*t*t),_mul(end,t**3)))
@@ -374,4 +418,7 @@ def build_nasal_lining(*,hard_palate,pharynx,face_bounds,create,include_superior
     ca,na,ha,wa=profile(1);ai,ao,ay=_floor_outer(ca,na,ha,palate)
     anterior_floor={'inner_m':ai,'outer_m':ao,'sourceCoverage':ay is not None,'sourceDistance':_source_distance(ao,palate),'meaning':'anterior extension/vestibule beyond acquired palatal coverage remains authored; not a measured palate connection'}
     metadata={'version':VERSION,'units':'m','axes':{'X':'anterior','Y':'superior','Z':'lateral'},'sourceStatus':'AUTHORED UNMEASURED reconstruction from oral/face frame; no acquired nasal donor surface','clinicalOrTajwidApproval':False,'nominalWallThickness_m':WALL,'palatalFloorLayer':'outer floor is source-conforming 0.8mm above actual oral roof wherever its vertical triangle intersection exists; variable authored separator thickness, no acquired bone claim','palatalSeparator_m':{'rear':floor_rear,'middle':floor_middle,'front':floor_front},'sourceBounds_m':{'hardPalate':palate['bounds'],'pharynx':ph['bounds'],'face':face['bounds']},'anchors':{'palateFloor':floor_anchors,'anteriorFloorExtension':anterior_floor,'posteriorSourceWall':{'point_m':wall_anchor,**wall_method},'posteriorOuterLining_m':posterior_outer,'posteriorConnectionDistance':_source_distance(posterior_outer,ph),'posteriorOpenPortCenter_m':stations[0][0],'anteriorVestibuleOpenPortCenter_m':end,'nasalBodyRear_m':rear,'nasalBodyFront_m':start},'formulas':{'floor':'quadratic Bezier from actual midline palatal roof quantiles + authored 2.5–4mm separator; anterior floor at least rear-6.5mm','airHeight_m':'reference H=.028*(1-.20*smoothstep(u))+.002*sin(pi*u)^2; posterior choana flares from .60*H to H during first25% of body; center follows reference H','halfWidth_m':'min(.017,.27*sourcePalateWidth)*(.86+.12*sin(pi*u)-.30*smoothstep(u))','posterior':'superior pharyngeal open port, AP half-height4.8mm; posterior and side tissue only through the bend, anterior/floor C-window leaves existing SOFT_PALATE as the moving wall; fixed full floor starts anterior to the bend over hard palate; source apposition measured below','vestibule':'cubic Bezier tangent transition, open air port behind anterior source face bound','conchae':'closed curved scroll ribbons, bilateral, tapered to12% at longitudinal ends; local thickness caps, no centroid fan across C-shaped meatus'},'checks':checks,'limits':['Roof, vestibule, conchae and wall thickness are authored assumptions, not measurements. Tapered concha tips are very thin; retain float32 positions or validate any quantized export against minimumFullThickness_m.','Septum omitted for the teaching cutaway; no claim of complete bilateral nasal anatomy.','Posterior source apposition is reported quantitatively, not assumed a measured registration. The open-anterior transition deliberately leaves the acquired velum as its moving anterior wall.','Concha root intentionally embeds .1mm in lining for tissue attachment; this is not an independent donor fit.','Finite topology/section checks do not replace global intersections, final GLB checks or qualified anatomical review.']}
-    return {'objects':made,'metadata':metadata}
+    result={'objects':made,'metadata':metadata}
+    metadata['floorControlMode']='Smooth quadratic source-roof controls, posterior/middle source vault clearance6/8mm, local anterior source roof+4.5mm; authored vestibule height'if conform_floor else'legacy global-dome clearance mode'
+    if include_airspace:result['airspace']=_airspace(stations)
+    return result

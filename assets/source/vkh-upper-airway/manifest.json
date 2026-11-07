@@ -103,6 +103,26 @@
       "path": "src/artisynth/models/vkhUpperAirway/geometry/rigidBodies/Cricoid.obj",
       "bytes": 78954,
       "sha256": "ebaa5fe19e1daf35b753fec1342cb960d9cfb603debf58c3f538e8e8a9459556"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/VKHUpperAirwayWA.java",
+      "bytes": 15554,
+      "sha256": "d40b899c3969bff7b5f0974299cdd49ab2e020be6366394d27fa963cc2e944dc"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/fem/femList_Airway.txt",
+      "bytes": 473,
+      "sha256": "d5b515f66fd2bb25e5c71b506d811095449b24822d7d4330a1751e1a229bd736"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/fem/Airway-final2.1.node",
+      "bytes": 87829,
+      "sha256": "cedd7f3c298cd738d95972d8c9463f9863e165e3ff12203f96fc81b4a209c4ac"
+    },
+    {
+      "path": "src/artisynth/models/vkhUpperAirway/geometry/fem/Airway-final2.1.ele",
+      "bytes": 153368,
+      "sha256": "44963843f254d6fea7807a295c0562b3bc89f7e093808ed26dce7bec6bda5e64"
     }
   ]
 }

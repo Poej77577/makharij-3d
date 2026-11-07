@@ -1,0 +1,27 @@
+[
+  {
+    "stage": "neck crop closed before negative spaces",
+    "nonmanifoldEdges": 0,
+    "sample": []
+  },
+  {
+    "stage": "nasal negative space applied",
+    "nonmanifoldEdges": 0,
+    "sample": []
+  },
+  {
+    "stage": "research upper pharyngeal negative space applied",
+    "nonmanifoldEdges": 0,
+    "sample": []
+  },
+  {
+    "stage": "authored lower airway negative space applied",
+    "nonmanifoldEdges": 0,
+    "sample": []
+  },
+  {
+    "stage": "explicit triangle mesh after opposite zero-volume fin removal",
+    "nonmanifoldEdges": 0,
+    "sample": []
+  }
+]

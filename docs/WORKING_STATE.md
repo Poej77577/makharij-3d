@@ -1,97 +1,115 @@
-# Current implementation state — 2026-11-06
+# Current implementation state — 2026-11-07
 
-The binding request is `docs/IMPLEMENTATION_PLAN.md`. This supersedes prior
-scope assumptions. Work is sequential, with one primary agent.
+## Latest user direction: rebuild the rejected internal anatomy
 
-## M0 completed
+The user explicitly rejected the tongue and other internal structures as
+unrealistic. Follow `M2_VISUAL_REBUILD.md`. Preserve this mixed-source study as
+history, investigate a better coherent anatomical foundation, and rebuild the
+inside before adding motion. Passing triangle tests does not override this
+visual rejection. Continue alone, without a new permission loop.
 
-- The executor is connected again. Its previous outage cause is unconfirmed.
-- Preserved local HEAD `103b3a056316664f62c4dffbb09f88b6a6d89a5f` and the
-  previously untracked diagnostic render script. No prior files were deleted.
-- Created branch `codex/anatomy-foundation-v2`. Pushed preserved HEAD and fetched
-  it into an independent bare recovery repository. The recovered GLB hash is
-  `be34ad893194cc3e192618c89d332916eb5f7976f08617917c94da41e252d6cb`.
-- A complete local Git bundle is in `/workspace/artifacts/recovery-2026-11-06`.
-- Production build, 30-file source audit, actual browser loading/pose/return,
-  TypeScript check, 16 domain-contract regression tests and read-only Blender
-  inspection passed. Evidence: `artifacts/milestone-evidence/M0`.
+Binding request: `IMPLEMENTATION_PLAN.md`. One primary agent; work sequentially.
+User directs autonomous problem solving. Do not repeat an optional network
+permission loop, add agents, or replace realistic anatomy with primitive organs
+or interface scaffolding.
 
-## M1 in progress
+## M0 completed; M1 reconstruction route selected
 
-The old model is a partial-mouth technical study, not an accepted realistic
-external head. Its previous Ra result is preserved and must not be described
-as completion of the new M2 or five-letter M4 milestone.
+- Environment works. The earlier outage cause is unconfirmed.
+- Preserved legacy commit `103b3a056316664f62c4dffbb09f88b6a6d89a5f`, its Ra
+  technical study and the formerly untracked render script. Full Git bundle
+  is in `/workspace/artifacts/recovery-2026-11-06`.
+- Development branch: `codex/anatomy-foundation-v2`; remote origin is
+  `Poej77577/makharij-3d`. Checkpoint `31a0e42d6da9d7ef3937c6c33bb7a7b087bac26e`
+  was pushed and its remote hash verified. Later M2 checkpoint/backup details
+  are in milestone reports. Do not merge main or overwrite other branches.
+- M0 build, source audit, read-only Blender inspection, actual production
+  browser pose/return and 16 domain regression tests passed. Those tests refer
+  to the preserved legacy inspector, not the new anatomical milestone.
+- Selected CC0 MakeHuman adult continuous head, eyes and original controls,
+  the inspected Badin oral block and supplementary VKH research context.
+- The optional official matching ZIP was denied by the enforced proxy. The
+  independently available ArtiSynth reconstruction route removes that
+  dependency. No mirror/proxy bypass or new permission request is needed.
 
-Inspect the actual full Badin skin source and the acquired MakeHuman base mesh.
-MakeHuman commit `a8bc2d54ff0ac92e78ff71431b1023eda42bf482` explicitly licenses
-its base mesh, eye meshes and deformation targets as CC0 in file headers and
-`LICENSE.md`/`LICENSE.ASSETS.md`. Its program code remains AGPL and is not being
-copied into the product.
+## Actual M2 working assembly
 
-MakeHuman eye OBJ files are not already in the current base-mesh frame: fit
-them using their actual MHCLO barycentric bindings and scale declarations.
-Do not place them by guessed bounding boxes. Exclude helper geometry from
-visible anatomy. Its source `getHeightCm` uses 10 times native mesh height;
-one native unit is 0.1 meter.
+`artifacts/milestone-evidence/M2/character-assembly` contains editable source,
+actual GLB, evaluated geometry, computed sections and browser/Blender evidence.
+It is an **unaccepted M2 working reconstruction**, not the five-letter production
+asset. The ordinary app still loads the preserved legacy model.
 
-The old assets downloader references `makehumancommunity/makehuman-assets`,
-but that Git operation returned Repository not found; do not claim those
-bundled teeth/tongue assets were acquired.
+Implemented:
 
-## Commands and boundaries
+- Continuous source head/perioral skin and inner oral bag; source body only,
+  no visible helper cages. Eyes use original MHCLO barycentric fitting.
+- Actual research tongue/crowns/palatal surfaces/velum; old lip patch excluded.
+- Actual VKH pharynx, paired suprahyoid muscle context, hyoid and thyroid/
+  cricoid cartilage surfaces. These muscles are not a complete mucosal floor;
+  cartilage is not vocal-fold or epiglottic coverage.
+- Explicit translation calibration plus authored interior mucosa controls and
+  shared posterior throat shear. Source bytes are unchanged; mixed donors and
+  nominal source scale are acknowledged. See `assets/calibration` and
+  `tools/anatomy/surface_fits.py`.
+- A rebuilt hollow nasal wall and conchae anchored to the placed palate,
+  pharynx and head. The vestibular port stays behind the native nose exterior.
+  Septum and bilateral vestibule/choana continuity remain to be completed.
+- Actual source TetGen upper-airway reference. A separately authored lower
+  continuation uses the observed cricoid opening and an explicit convex upper
+  envelope. These are negative spaces, never visible substitute organs.
+- Head context has genuine cavity subtraction. Only the explicit neck crop
+  receives an artificial closure. Generic context is not segmented brain,
+  bone, or a measured tissue reconstruction.
+- Closed-volume sections come from delivered GLB triangles. Intentionally open
+  crowns/palatal references are not capped. Context sections exclude separately
+  represented organ sections so overlapping context cannot conceal an organ.
+- Actual browser review uses one renderer, external/section viewports and
+  eight camera rotation views. No new articulation or product UI is claimed.
 
+## Reproduction and checks
+
+Use Node 24.19.0/npm 11.9.0, Blender 4.3.2 (CPU, 2 threads), Python 3.12 QA venv.
+Requirements are pinned in `scripts/qa/requirements.txt`. Never import those
+native wheels into Blender's Python. This Blender build lacks denoising; use
+small CPU render batches. No physical-device/GPU performance was measured.
+
+- `npm run assets:export`: full draft fit/negative-space/build/export pipeline.
+  Uses committed snapshots and verified source-assembly data, without candidate
+  Git checkouts or the optional blocked ZIP. Blender propagates Python errors.
+- `npm run assets:validate`: 78 source hashes/notices, 6 tetrahedral boundaries,
+  cached-source identity, actual GLB self/clearance checks and the M2 gate.
+- `npm run test:geometry`: 6 mesh/section tests, negative-space checks and M2
+  gate. The gate returns nonzero while structural tasks remain.
+- Diagnostic inspection without anatomical acceptance:
+  `.venv-qa/bin/python tools/qa/check_character_assembly.py`.
+- `npm run evidence:capture`: actual CPU Blender views and Chromium software
+  WebGL review/rotation. Captures are bound to the current asset hash.
 - `npm run build`, `npm run typecheck`, `npm run test:unit`.
-- `npm run assets:inspect -- --input PATH --out PATH` measures real files
-  without modifying the input. Default input is explicitly the legacy study.
-- Start production with `npm run preview -- --port 4173 --strictPort`, then
-  `npm run test:e2e` for the M0 preserved-inspector smoke test.
-- Native geometry QA is `.venv-qa/bin/python`; never import its native wheels
-  into Blender's Python. The environment is ignored by Git.
-- `npm run package:source` packages and verifies approved project directories.
-- M2 visual gate, full rig, five new clips, final source validation/export
-  commands and release geometry tests remain unfinished. Do not add success
-  placeholders for them.
-- No main-branch merge or deployment has occurred. No anatomy or tajwid expert
-  approval has occurred. Use the source reference image as the visual target.
+- `npm run preview -- --port 4173 --strictPort`, then `npm run test:e2e` for the
+  preserved inspector; `npm run package:source` for a verified source ZIP.
 
-For historical diagnostics only, consult `docs/WORKING-STATE.md`. Its older
-status statements are superseded by this file and the explicit M0 evidence.
+Thresholds remain fixed. Boolean tessellation produced opposite duplicate
+zero-volume fins and submicron slivers during development. The builder removes
+exact opposite pairs, uses an explicit 0.1 micrometer numerical cleanup bound
+and verifies volume preservation. Preserve inward cavity winding: global normal
+recalculation incorrectly inverts enclosed voids. Every subtraction must obey
+volume bounds. An earlier sampled-normal nasal floor folded and was rejected;
+do not revive it or remove checks to force acceptance.
 
-## Current M1 result and selected reconstruction route
+## Next structural work; do not advance to M3 yet
 
-- MakeHuman snapshot now includes 24 original asset/license files, including4
-  source adult macro targets. `python tools/qa/verify_sources.py` checks all 54
-  original files across both snapshots plus their audited license notices.
-- Selected the external head foundation; complete teaching anatomy is NOT
-  accepted. The editable source study and actual exported GLB are in
-  artifacts/milestone-evidence/M1/makehuman-adult-head-study/rest. Source/export
-  evaluated surface bounds match exactly; no source files were changed.
-- A first bounds comparison caught loose source helper vertices retained by
-  the head crop. They were removed from the visible mesh; original full source
-  coordinates remain in the upstream asset. The corrected export check passes
-  without changing its 1 micrometer comparison threshold.
-- docs/ASSET_DECISION.md records the actual candidate comparison and missing
-  internal assembly; docs/ANATOMY_SPEC.md defines the M2 requirements.
-- The matching official system-asset archive is advertised as CC0 by its
-  publisher, but has not been downloaded or file-level inspected. Its primary
-  host files2.makehumancommunity.org was denied by the enforced proxy 403.
-  This one hostname is now added to the network draft, preserving all prior
-  custom rules; it is not present in the runtime allowlist. Evidence is
-  artifacts/milestone-evidence/M1/matching-assets-acquisition.json.
-- The optional matching archive no longer blocks implementation. Independently
-  available VKH upper-airway source files were acquired from the permitted
-  ArtiSynth repository at its pinned commit. The 20-file unchanged snapshot
-  includes its complete license and source load lists. The original blocked
-  ZIP was not accessed through a mirror or bypass.
-- Source inspection extracts real tetrahedral boundaries for tongue, pharynx,
-  aponeurosis and paired suprahyoid tissues; hyoid/thyroid/cricoid are actual
-  research surfaces. Inspect their source sagittal and three-quarter views in
-  `artifacts/milestone-evidence/M1/vkh-upper-airway`.
-- Continue M2 using the continuous head, prepared research oral block and
-  separately documented VKH context. Initial translation-only authoring fits
-  are in `assets/calibration/character-fit.json`. They are not clinical or
-  single-donor registration. The old lip-context mesh is excluded.
-- `tools/blender/character_assembly.py` produces an editable combined source,
-  actual GLB, evaluated geometry and diagnostic views. Oral lining,
-  pharyngeal/floor attachment, nasal fit and gingival continuity still require
-  real geometric and visual work before M2 acceptance. No new rig is claimed.
+1. Complete and independently inspect tongue-root/mucosal-floor continuity and
+   gingival attachment. Cast-derived gum display bands and the open source
+   palatal reference are not final connected production anatomy.
+2. Complete nasal septum and bilateral vestibule/choana continuity. Verify
+   air-space connectivity and the velum interface instead of assuming them.
+3. Review laryngeal inlet coverage and throat placement; add compatible anatomy
+   if the intended lesson requires it. Never label cartilage as vocal folds.
+4. Finish deformation retopology, material/UV realism and visual M2 acceptance.
+   Expert anatomy/tajwid reviews are pending independently of mesh checks.
+5. After the structural gate passes, implement a new independent rig and
+   recalibrate the five sounds. Old Ra/Mim/Qaf results do not transfer.
+
+No production deployment, main merge, complete Arabic platform, approved sound
+library or scientific certification has occurred. Historical diagnostics in
+`WORKING-STATE.md` are superseded by this file and milestone evidence.

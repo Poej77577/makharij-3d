@@ -1,0 +1,32 @@
+{
+  "meshCount": 21,
+  "triangleCount": 134981,
+  "bounds": [
+    [
+      -0.08166731148958206,
+      -0.13500002026557922,
+      -0.24542072415351868
+    ],
+    [
+      0.1673787236213684,
+      0.21061058342456818,
+      0.24542072415351868
+    ]
+  ],
+  "assetSha256": "df06cf0068d2b9c5f9abc8ef1ec179ddd7b8077b1ba762038c1c361f1ca7ff2c",
+  "pageErrors": [],
+  "cameraRotationViews": 8,
+  "singleRendererTwoViewports": true,
+  "renderer": "Chromium software SwiftShader; physical-device performance not measured",
+  "scope": "Static M2 review harness using actual GLB and independently computed sections; production UI and articulation not changed",
+  "rotationFrameSha256": [
+    "cbf05332d9db4d4c7af39b3126b839a4abefc5470054c8de405bfd510c734c90",
+    "e5bbf16b21315d727e027b9b701f7db73570adad4678327742567676fc740549",
+    "2cb3fe8713c1aa8dd918e482128f65de5a4ccd35f2632d2da499c91713f2568a",
+    "54ccd3b583ae61591814aac96f5ee03e6f28ac287e8407882293abbeec4cf282",
+    "1ebd077580f1818f9264b1f411e8472fa67184ffb82e9411f0c94924154aa262",
+    "253fa0f29fee77406e499e8893f0a7ef0097c562c3179056ca70257fa40fdab8",
+    "d4c7b80d05f88e65fa6a100ee469349addc515c8df33c44b3ebbfebbb92704b1",
+    "a09ae275610a7a613d48efbc706cab490200335f97a8830cb8734fee621f6094"
+  ]
+}

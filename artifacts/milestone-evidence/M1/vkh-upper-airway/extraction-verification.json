@@ -1,0 +1,90 @@
+{
+  "checks": [
+    {
+      "name": "Tongue",
+      "cells": 5910,
+      "boundaryTriangles": 4002,
+      "watertight": true,
+      "consistentOutwardWinding": true,
+      "cellVolume_m3": 7.613649950587413e-05,
+      "boundaryVolume_m3": 7.613649950587437e-05,
+      "relativeVolumeError": 3.2040544337137205e-15,
+      "sourceSha256": {
+        "assets/source/vkh-upper-airway/src/artisynth/models/vkhUpperAirway/geometry/fem/Tongue.node": "14fe754ad4a406815f2589dd0f325454c79d598981087825da5be435709341e0",
+        "assets/source/vkh-upper-airway/src/artisynth/models/vkhUpperAirway/geometry/fem/Tongue.elem": "e4134487c7a173f4e54b4fb661973bd390626d801e9910e9b48469061cdefad9"
+      }
+    },
+    {
+      "name": "Pharynx",
+      "cells": 7080,
+      "boundaryTriangles": 5114,
+      "watertight": true,
+      "consistentOutwardWinding": true,
+      "cellVolume_m3": 2.8564490785599074e-05,
+      "boundaryVolume_m3": 2.8564490785599128e-05,
+      "relativeVolumeError": 1.897814633951238e-15,
+      "sourceSha256": {
+        "assets/source/vkh-upper-airway/src/artisynth/models/vkhUpperAirway/geometry/fem/Pharynx.node": "3b45590f0cfd43ce126f2e7ecde66787805af50663b0b52886318cbd66e68c46",
+        "assets/source/vkh-upper-airway/src/artisynth/models/vkhUpperAirway/geometry/fem/Pharynx.elem": "d6fce28874c042bebaef2cec441c884f29f61a92e8112f2bf4cc4fb7f93f4bdc"
+      }
+    },
+    {
+      "name": "Palatine_aponeurosis",
+      "cells": 2499,
+      "boundaryTriangles": 1748,
+      "watertight": true,
+      "consistentOutwardWinding": true,
+      "cellVolume_m3": 1.0670863263227015e-05,
+      "boundaryVolume_m3": 1.0670863263227e-05,
+      "relativeVolumeError": 1.4288059620367235e-15,
+      "sourceSha256": {
+        "assets/source/vkh-upper-airway/src/artisynth/models/vkhUpperAirway/geometry/fem/Palatine_aponeurosis.node": "63b1b01c2b8e052c0b6c98a98a9743b73fb765b838812ba48623c97f81ca878d",
+        "assets/source/vkh-upper-airway/src/artisynth/models/vkhUpperAirway/geometry/fem/Palatine_aponeurosis.elem": "525ddfa653577205441db0846ae258b340cc0370bc95adce7774b30fd2c511e7"
+      }
+    },
+    {
+      "name": "Suprahyoid_muscles_L",
+      "cells": 1036,
+      "boundaryTriangles": 786,
+      "watertight": true,
+      "consistentOutwardWinding": true,
+      "cellVolume_m3": 6.03778165416049e-06,
+      "boundaryVolume_m3": 6.0377816541604956e-06,
+      "relativeVolumeError": 9.820213731469425e-16,
+      "sourceSha256": {
+        "assets/source/vkh-upper-airway/src/artisynth/models/vkhUpperAirway/geometry/fem/Suprahyoid_muscles_L.node": "9a8278c3922a04754e9a47957814b8b7658de2d36ebfd5b83fd707e107780d3d",
+        "assets/source/vkh-upper-airway/src/artisynth/models/vkhUpperAirway/geometry/fem/Suprahyoid_muscles_L.elem": "c72c9d70114ed65f5b55579831a5e83e7bca42fa2ded942543a4eca3e7b74ae0"
+      }
+    },
+    {
+      "name": "Suprahyoid_muscles_R",
+      "cells": 1242,
+      "boundaryTriangles": 918,
+      "watertight": true,
+      "consistentOutwardWinding": true,
+      "cellVolume_m3": 6.020254162965298e-06,
+      "boundaryVolume_m3": 6.020254162965302e-06,
+      "relativeVolumeError": 5.627888287275175e-16,
+      "sourceSha256": {
+        "assets/source/vkh-upper-airway/src/artisynth/models/vkhUpperAirway/geometry/fem/Suprahyoid_muscles_R.node": "035a9aa8ebd67a333ad911105991f012d1436b564f532c49b4380a4aee0356cc",
+        "assets/source/vkh-upper-airway/src/artisynth/models/vkhUpperAirway/geometry/fem/Suprahyoid_muscles_R.elem": "1a0c55b09dca9010ebcdd34a2e8d1a8c2bd748ed2f4ee8dc8fd535f80b327f38"
+      }
+    },
+    {
+      "name": "Airway-final2.1",
+      "cells": 4791,
+      "boundaryTriangles": 3152,
+      "watertight": true,
+      "consistentOutwardWinding": true,
+      "cellVolume_m3": 1.4354743044988276e-05,
+      "boundaryVolume_m3": 1.4354743044988269e-05,
+      "relativeVolumeError": 4.720574625959763e-16,
+      "sourceSha256": {
+        "assets/source/vkh-upper-airway/src/artisynth/models/vkhUpperAirway/geometry/fem/Airway-final2.1.node": "cedd7f3c298cd738d95972d8c9463f9863e165e3ff12203f96fc81b4a209c4ac",
+        "assets/source/vkh-upper-airway/src/artisynth/models/vkhUpperAirway/geometry/fem/Airway-final2.1.ele": "44963843f254d6fea7807a295c0562b3bc89f7e093808ed26dce7bec6bda5e64"
+      }
+    }
+  ],
+  "cachedAssemblyMatchesOriginalSources": true,
+  "scope": "Source tetrahedral extraction, independently summed volume, canonical frame and cached FEM/bone identity only; no donor registration, fit, articulation or expert approval"
+}

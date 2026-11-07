@@ -18,7 +18,7 @@ substituted for it.
 |---|---|---|---|---|
 | Badin/ArtiSynth legacy assembly | Original 30-file licensed snapshot, editable v10 study, complete raw `badinskin.obj` | Actual tongue/teeth/palate research surfaces; published assembly/frame evidence; preserved technical Ra result | Raw skin scan has cropped scalp and neck and no finished external-face topology; old cast-derived gum/lip intersections; no complete larynx | Preserve for research reference and separately verified components; not the finished external head |
 | MakeHuman hm08 | Actual `base.obj`, original eye OBJ/MHCLO/texture, facial targets and adult macro targets at pinned commit | Complete continuous head; quad topology/UVs; original facial controls; eyes fit from declared bindings | Matching dental/tongue pack not yet acquired; teaching nasal/pharyngeal/laryngeal assembly absent; materials are study shading | Selected external foundation, subject to completing and reviewing internal anatomy |
-| VKH upper airway / ArtiSynth | 20 unchanged licensed files, source load lists, five tetrahedral soft-tissue boundaries and five rigid surfaces | Actual volumetric tongue, pharynx, palatine aponeurosis and suprahyoid tissues; hyoid, thyroid and cricoid surfaces | Independent donor/frame; maxilla and mandible include bone; aponeurosis is not a complete uvula; no matching external-face rig | Selected supplementary research foundation for documented reconstruction |
+| VKH upper airway / ArtiSynth | 24 unchanged licensed files, source load lists, five tetrahedral soft-tissue boundaries, five rigid surfaces and WA TetGen airspace | Actual volumetric tongue, pharynx, palatine aponeurosis and suprahyoid tissues; hyoid, thyroid and cricoid surfaces | Independent donor/frame; maxilla and mandible include bone; aponeurosis is not a complete uvula; no matching external-face rig | Selected supplementary research foundation for documented reconstruction |
 | VocalTractLab legacy candidate | Prior actual exported surface audit in `docs/assets/ASSET-DECISION.ar.md` | Original parametric speech controls | Simplified dental arches and ribbon-like lips; no acquired full realistic head in that evaluated export | Historical reference; rejected as delivered visual foundation |
 
 Evidence is in `artifacts/milestone-evidence/M1`. Each rendering records the
@@ -90,3 +90,11 @@ The reproducible M2 working assembly is built by
 are in `artifacts/milestone-evidence/M2/character-assembly`. Oral mucosa,
 gingival continuity, nasal reconstruction and attachment/clearance checks
 remain explicit M2 tasks. Earlier Ra and Mim results do not transfer to it.
+
+The later M2 throat-context posterior shear and oral-mucosa controls are
+recorded in the assembly manifest and `tools/anatomy/surface_fits.py`. They
+are authored fits after the initial translation, not measured registration.
+The nasal wall is rebuilt against the newly placed palate/pharynx/head. Its
+negative-space helper, the actual upper-airway reference and a separately
+authored cricoid-guided lower continuation form genuine 3-D voids in the head
+context. Bone/cartilage and acquired soft tissues retain their own provenance.

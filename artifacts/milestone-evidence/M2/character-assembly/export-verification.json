@@ -1,0 +1,108 @@
+{
+  "assetSha256": "df06cf0068d2b9c5f9abc8ef1ec179ddd7b8077b1ba762038c1c361f1ca7ff2c",
+  "parts": {
+    "NASAL_CONCHA_SUPERIOR": {
+      "triangles": 3392,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    },
+    "NASAL_CONCHA_MIDDLE": {
+      "triangles": 4192,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    },
+    "NASAL_CONCHA_INFERIOR": {
+      "triangles": 4592,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    },
+    "NASAL_LINING": {
+      "triangles": 7792,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    },
+    "CRICOID": {
+      "triangles": 2406,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    },
+    "THYROID": {
+      "triangles": 4194,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    },
+    "HYOID": {
+      "triangles": 2498,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    },
+    "MOUTH_FLOOR_RIGHT": {
+      "triangles": 918,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    },
+    "MOUTH_FLOOR_LEFT": {
+      "triangles": 786,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    },
+    "PHARYNX": {
+      "triangles": 5114,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    },
+    "SOFT_PALATE": {
+      "triangles": 7570,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    },
+    "HARD_PALATE": {
+      "triangles": 707,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    },
+    "GINGIVA_LOWER": {
+      "triangles": 3401,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    },
+    "GINGIVA_UPPER": {
+      "triangles": 3554,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    },
+    "LOWER_TEETH": {
+      "triangles": 4641,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    },
+    "UPPER_TEETH": {
+      "triangles": 9154,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    },
+    "TONGUE": {
+      "triangles": 17664,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    },
+    "EYES": {
+      "triangles": 2040,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    },
+    "HEAD_SKIN": {
+      "triangles": 50366,
+      "geometryPositionMaxError_m": 0.0,
+      "sourceBoundsMaxError_m": 0.0
+    }
+  },
+  "frame": {
+    "units": "m",
+    "anterior": "+X",
+    "superior": "+Y",
+    "right": "+Z"
+  },
+  "isAcceptedAnatomy": false,
+  "scope": "Actual GLB decode, world transform, per-part source/export positions and triangle inventory; no anatomical approval"
+}

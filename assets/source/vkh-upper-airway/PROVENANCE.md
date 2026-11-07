@@ -3,7 +3,7 @@
 Repository: https://github.com/artisynth/artisynth_models
 Commit: `e37be3f1b4831f347c055cbf7124b6bd57414f98`.
 
-All 20 selected upstream files are unchanged and individually hashed in
+All 24 selected upstream files are unchanged and individually hashed in
 `manifest.json`. The retained repository license expressly covers software
 and data. Retain its notice, disclaimer, and required academic attribution.
 This adds an independent research source; it does not obtain or substitute a
@@ -26,3 +26,9 @@ The diagnostic source assembly and source-space renderings are in
 `artifacts/milestone-evidence/M1/vkh-upper-airway`. Character placement is
 recorded separately in `assets/calibration/character-fit.json` and must not
 be described as clinical registration, a single donor, or expert approval.
+
+The additional WA variant class, load list and two `Airway-final2.1` TetGen
+files supply an actual upper-airway negative-space reference. They share the
+documented source frame. The unrelated `Airway-final.obj` is not used. This
+reference does not extend through the whole larynx/trachea; the new lower
+continuation is separately labeled as authored reconstruction.

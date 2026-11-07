@@ -1,0 +1,43 @@
+{
+  "checks": [
+    {
+      "name": "nasal-airspace-helper",
+      "fclTriangleContacts": 72546,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "sha256": "35caeb6ffdc5a91a8f7573bb07f205636546dc8b2bd98b33eb8b0b963a8fa1e8",
+      "watertight": true,
+      "consistentWinding": true,
+      "volume_m3": 5.3421010914022936e-05,
+      "minimumTriangleArea_m2": 1.0993197341958133e-07
+    },
+    {
+      "name": "research-airspace-helper",
+      "fclTriangleContacts": 51129,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "sha256": "cae3bda029dfc15d37d00156deb602d4d92fb884964f48f88e04edcbe859a98f",
+      "watertight": true,
+      "consistentWinding": true,
+      "volume_m3": 1.4361015891612504e-05,
+      "minimumTriangleArea_m2": 6.763538574726618e-11
+    },
+    {
+      "name": "lower-airway-helper",
+      "fclTriangleContacts": 160042,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "sha256": "c26a12990f2790c8c19b3ffa917e5bed8d52e2f157145e890861803895508f95",
+      "watertight": true,
+      "consistentWinding": true,
+      "volume_m3": 2.7259594655854805e-05,
+      "minimumTriangleArea_m2": 5.69226721457933e-07
+    }
+  ],
+  "failures": [],
+  "passed": true,
+  "scope": "Negative-space helper topology, volume and nonadjacent FCL self-intersections. No acquired lower-airway or patency claim."
+}

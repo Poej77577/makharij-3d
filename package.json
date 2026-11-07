@@ -10,7 +10,11 @@
     "typecheck": "tsc --noEmit",
     "test:unit": "vitest run --maxWorkers=2 --minWorkers=1",
     "test:e2e": ".venv-qa/bin/python tools/qa/m0_browser.py",
-    "assets:inspect": "blender --background --threads 2 --python tools/blender/inspect_asset.py --",
+    "assets:inspect": "blender --background --threads 2 --python-exit-code 1 --python tools/blender/inspect_asset.py --",
+    "assets:export": "python tools/qa/verify_sources.py && .venv-qa/bin/python tools/anatomy/prepare_character_fit.py && .venv-qa/bin/python tools/anatomy/prepare_airway.py && .venv-qa/bin/python tools/anatomy/prepare_throat_space.py && blender --background --threads 2 --python-exit-code 1 --python tools/blender/character_assembly.py -- --build-only && .venv-qa/bin/python tools/qa/delivered_character.py",
+    "assets:validate": "python tools/qa/verify_sources.py && .venv-qa/bin/python tools/qa/verify_vkh_boundaries.py && .venv-qa/bin/python tools/qa/check_authored_self_intersections.py && .venv-qa/bin/python tools/qa/check_character_assembly.py --gate",
+    "test:geometry": ".venv-qa/bin/python tools/qa/test_mesh_adapters.py && .venv-qa/bin/python tools/qa/check_negative_spaces.py && .venv-qa/bin/python tools/qa/check_character_assembly.py --gate",
+    "evidence:capture": ".venv-qa/bin/python tools/qa/prepare_sections.py && blender --background --threads 2 --python-exit-code 1 --python tools/blender/render_character_assembly.py -- && .venv-qa/bin/python tools/qa/character_browser.py",
     "package:source": "python scripts/package_source.py"
   },
   "dependencies": {

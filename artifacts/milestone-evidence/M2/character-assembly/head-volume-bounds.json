@@ -1,0 +1,26 @@
+[
+  {
+    "stage": "nasal",
+    "before_m3": 0.007609089731486392,
+    "after_m3": 0.007565145348848915,
+    "negativeSpace_m3": 5.3421011241451064e-05,
+    "removed_m3": 4.394438263747701e-05,
+    "tolerance_m3": 1e-08
+  },
+  {
+    "stage": "research upper pharyngeal",
+    "before_m3": 0.007565145348848915,
+    "after_m3": 0.007562266909694334,
+    "negativeSpace_m3": 1.4361015985138123e-05,
+    "removed_m3": 2.8784391545803173e-06,
+    "tolerance_m3": 1e-08
+  },
+  {
+    "stage": "authored lower airway",
+    "before_m3": 0.007562266909694334,
+    "after_m3": 0.007535964081100345,
+    "negativeSpace_m3": 2.72595944382965e-05,
+    "removed_m3": 2.6302828593989178e-05,
+    "tolerance_m3": 1e-08
+  }
+]

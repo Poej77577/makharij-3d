@@ -1,0 +1,256 @@
+{
+  "status": "M2 working reconstruction, not accepted teaching anatomy",
+  "isAcceptedAnatomy": false,
+  "frame": {
+    "units": "m",
+    "anterior": "+X",
+    "superior": "+Y",
+    "right": "+Z"
+  },
+  "glbSha256": "df06cf0068d2b9c5f9abc8ef1ec179ddd7b8077b1ba762038c1c361f1ca7ff2c",
+  "blendSha256": "8e185065c03025314beb5f14a5e580102f86f7af75423c25b528c81a05d7ac68",
+  "inputs": {
+    "assets/calibration/character-fit.json": "b503c0ac0faee667377ce9f4103d9e21b16a7a34a1b6105bf0d7cf84c8816fb4",
+    "assets/anatomy/rest-meshes.json": "a37b23ec7fc4f6df4526feb744a2c6ed877c1e7bc2e3fd2bde4cdbc0089c0648",
+    "artifacts/milestone-evidence/M1/vkh-upper-airway/source-meshes.json": "58191c0488c363129f5f37d04af930fb5165aa618b69a718cadcee13190d61e7",
+    "artifacts/milestone-evidence/M2/character-assembly/research-airspace-helper.json": "cae3bda029dfc15d37d00156deb602d4d92fb884964f48f88e04edcbe859a98f",
+    "artifacts/milestone-evidence/M2/character-assembly/lower-airway-helper.json": "c26a12990f2790c8c19b3ffa917e5bed8d52e2f157145e890861803895508f95",
+    "tools/blender/character_assembly.py": "c2481ccbf4e2919c9238d466eb9eb4c283670dea0a49567e1e965b6eb28f018a",
+    "tools/anatomy/mesh_sources.py": "05a5f6513c6b90d0e594e6c6433a82a16672941f60561661b24e55c5166e8a65",
+    "tools/anatomy/surface_fits.py": "364b4b510581f31281f55091434bc14f8680f94c5d2e0cdacbbe1918931896d1",
+    "scripts/anatomy/nasal_lining.py": "1edd75b14ffdcf9e61553419c90f59e8e900b211b581cb5a552c5c1907b53961",
+    "assets/source/makehuman/manifest.json": "7ed6bdd625c075929264786f5416a523a660ffda2fd66a055f8ae62a1e7b9bca",
+    "assets/source/vkh-upper-airway/manifest.json": "4047ae02926c06697240f995765c818ca4eb609ee5d67e78870cd5becaf29251"
+  },
+  "parts": {
+    "HEAD_SKIN": {
+      "sourceKind": "CC0 artist-authored continuous head, lips and oral mucosa",
+      "neckContextCropY_m": -0.135,
+      "closedVolume": true,
+      "oralMucosaFit": {
+        "method": "Source oral-bag geodesic rim falloff, roof/floor control curves and lateral mucosal expansion",
+        "controlX_m": [
+          0.05,
+          0.064,
+          0.082,
+          0.095,
+          0.113,
+          0.124,
+          0.136,
+          0.144,
+          0.15,
+          0.152
+        ],
+        "roofDeltaY_m": [
+          0,
+          -0.002,
+          -0.009,
+          -0.017,
+          -0.017,
+          -0.014,
+          -0.007,
+          -0.001,
+          0,
+          0
+        ],
+        "floorDeltaY_m": [
+          -0.004,
+          -0.016,
+          -0.016,
+          -0.014,
+          -0.01,
+          -0.007,
+          -0.005,
+          -0.003,
+          0,
+          0
+        ],
+        "rimVerticesFixed": 38,
+        "externalVerticesUnchanged": true,
+        "maximumVertexDisplacement_m": 0.019013995964521784,
+        "clinicalMeasurement": false,
+        "posteriorAirwayConnection": "pending"
+      },
+      "sourceRimVertexIds": [
+        524,
+        525,
+        526,
+        527,
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537,
+        538,
+        539,
+        540,
+        3709,
+        3730,
+        5359,
+        7269,
+        7270,
+        7271,
+        7272,
+        7273,
+        7274,
+        7275,
+        7276,
+        7277,
+        7278,
+        7279,
+        7280,
+        7281,
+        7282,
+        7283,
+        10377,
+        10398,
+        11961
+      ],
+      "palatalRoofGuard": {
+        "source": "Actual vertically intersected placed palatal triangles",
+        "minimumAuthoredClearance_m": 0.0012,
+        "verticesChecked": 137,
+        "maximumCorrection_m": 0.0,
+        "clinicalMeasurement": false
+      },
+      "booleanTessellationRepair": {
+        "removedOppositeCoincidentTrianglePairs": 6,
+        "method": "Exact shared vertex triples with opposite normals only; all other triangles and UV/material correspondence retained",
+        "volumeChangeFromRemovedPairs_m3": 0,
+        "numericalMergeTolerance_m": 1e-07,
+        "numericalVerticesMerged": 1,
+        "numericalVolumeChange_m3": -2.1942257039109236e-13
+      },
+      "contextCap": "Only the documented neck crop is closed; not a new anatomical structure",
+      "cavities": [
+        "nasal",
+        "research upper pharyngeal",
+        "authored lower airway"
+      ],
+      "retopology": "Boolean interior cavity edits require deformation review; original source topology retained upstream"
+    },
+    "EYES": {
+      "sourceKind": "CC0 original eyes fitted by original MHCLO bindings"
+    },
+    "TONGUE": {
+      "sourceKind": "Prepared research oral source, translation-only character placement"
+    },
+    "UPPER_TEETH": {
+      "sourceKind": "Prepared research oral source, translation-only character placement"
+    },
+    "LOWER_TEETH": {
+      "sourceKind": "Prepared research oral source, translation-only character placement"
+    },
+    "GINGIVA_UPPER": {
+      "sourceKind": "Cast-derived authored display margin; anatomical segmentation not claimed"
+    },
+    "GINGIVA_LOWER": {
+      "sourceKind": "Cast-derived authored display margin; anatomical segmentation not claimed"
+    },
+    "HARD_PALATE": {
+      "sourceKind": "Prepared research oral source, translation-only character placement"
+    },
+    "SOFT_PALATE": {
+      "sourceKind": "Prepared research oral source, translation-only character placement"
+    },
+    "PHARYNX": {
+      "sourceKind": "published research FEM boundary; documented translation-only character placement",
+      "surfaceFit": {
+        "method": "Shared posterior shear of VKH context as a function of canonical superior coordinate",
+        "deltaX_m": "-0.008 - 0.025 * (1 - smoothstep((Y + 0.010) / 0.065))",
+        "continuousJacobianDeterminant": 1,
+        "clinicalMeasurement": false,
+        "reason": "Fit source pharyngeal/laryngeal context within the continuous character neck; preserve relative context placement"
+      }
+    },
+    "MOUTH_FLOOR_LEFT": {
+      "sourceKind": "published research FEM boundary; documented translation-only character placement",
+      "surfaceFit": {
+        "method": "Shared posterior shear of VKH context as a function of canonical superior coordinate",
+        "deltaX_m": "-0.008 - 0.025 * (1 - smoothstep((Y + 0.010) / 0.065))",
+        "continuousJacobianDeterminant": 1,
+        "clinicalMeasurement": false,
+        "reason": "Fit source pharyngeal/laryngeal context within the continuous character neck; preserve relative context placement"
+      }
+    },
+    "MOUTH_FLOOR_RIGHT": {
+      "sourceKind": "published research FEM boundary; documented translation-only character placement",
+      "surfaceFit": {
+        "method": "Shared posterior shear of VKH context as a function of canonical superior coordinate",
+        "deltaX_m": "-0.008 - 0.025 * (1 - smoothstep((Y + 0.010) / 0.065))",
+        "continuousJacobianDeterminant": 1,
+        "clinicalMeasurement": false,
+        "reason": "Fit source pharyngeal/laryngeal context within the continuous character neck; preserve relative context placement"
+      }
+    },
+    "HYOID": {
+      "sourceKind": "published research rigid surface; not separately segmented dental crowns; documented translation-only character placement",
+      "surfaceFit": {
+        "method": "Shared posterior shear of VKH context as a function of canonical superior coordinate",
+        "deltaX_m": "-0.008 - 0.025 * (1 - smoothstep((Y + 0.010) / 0.065))",
+        "continuousJacobianDeterminant": 1,
+        "clinicalMeasurement": false,
+        "reason": "Fit source pharyngeal/laryngeal context within the continuous character neck; preserve relative context placement"
+      }
+    },
+    "THYROID": {
+      "sourceKind": "published research rigid surface; not separately segmented dental crowns; documented translation-only character placement",
+      "surfaceFit": {
+        "method": "Shared posterior shear of VKH context as a function of canonical superior coordinate",
+        "deltaX_m": "-0.008 - 0.025 * (1 - smoothstep((Y + 0.010) / 0.065))",
+        "continuousJacobianDeterminant": 1,
+        "clinicalMeasurement": false,
+        "reason": "Fit source pharyngeal/laryngeal context within the continuous character neck; preserve relative context placement"
+      }
+    },
+    "CRICOID": {
+      "sourceKind": "published research rigid surface; not separately segmented dental crowns; documented translation-only character placement",
+      "surfaceFit": {
+        "method": "Shared posterior shear of VKH context as a function of canonical superior coordinate",
+        "deltaX_m": "-0.008 - 0.025 * (1 - smoothstep((Y + 0.010) / 0.065))",
+        "continuousJacobianDeterminant": 1,
+        "clinicalMeasurement": false,
+        "reason": "Fit source pharyngeal/laryngeal context within the continuous character neck; preserve relative context placement"
+      }
+    },
+    "NASAL_LINING": {
+      "sourceKind": "Authored unmeasured hollow nasal reconstruction; not acquired donor geometry",
+      "reconstruction": "Palatal roof and source pharyngeal surface anchors; complete limits in nasal-reconstruction.json"
+    },
+    "NASAL_CONCHA_INFERIOR": {
+      "sourceKind": "Authored unmeasured hollow nasal reconstruction; not acquired donor geometry",
+      "reconstruction": "Palatal roof and source pharyngeal surface anchors; complete limits in nasal-reconstruction.json"
+    },
+    "NASAL_CONCHA_MIDDLE": {
+      "sourceKind": "Authored unmeasured hollow nasal reconstruction; not acquired donor geometry",
+      "reconstruction": "Palatal roof and source pharyngeal surface anchors; complete limits in nasal-reconstruction.json"
+    },
+    "NASAL_CONCHA_SUPERIOR": {
+      "sourceKind": "Authored unmeasured hollow nasal reconstruction; not acquired donor geometry",
+      "reconstruction": "Palatal roof and source pharyngeal surface anchors; complete limits in nasal-reconstruction.json"
+    }
+  },
+  "review": {
+    "geometry": "pending",
+    "externalVisual": "pending",
+    "anatomyExpert": "pending",
+    "tajwidExpert": "pending"
+  },
+  "unfinished": [
+    "tongue-root/floor and pharyngeal attachment continuity",
+    "nasal vestibule/choana fit and septal coverage",
+    "gingival continuity",
+    "laryngeal inlet/epiglottis coverage review",
+    "deformation retopology and visual gate review"
+  ],
+  "laterMilestones": [
+    "new independent rig",
+    "new articulation calibration"
+  ],
+  "cutaway": "Computed sections of actual closed tissue volumes, including the head after 3-D cavity subtraction; the explicit neck-context crop is an artificial boundary."
+}

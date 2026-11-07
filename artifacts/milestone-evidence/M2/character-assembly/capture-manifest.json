@@ -1,0 +1,23 @@
+{
+  "assetSha256": "df06cf0068d2b9c5f9abc8ef1ec179ddd7b8077b1ba762038c1c361f1ca7ff2c",
+  "sourceBlendSha256": "8e185065c03025314beb5f14a5e580102f86f7af75423c25b528c81a05d7ac68",
+  "rendererCodeSha256": "a4957887735b1e4beff722d3344b0c4a3fdac8579ca2c85750568071f609d9bf",
+  "sectionFileSha256": "6278d59f379789c2a440cb18648b3f9c02ebbdb1e742cc241ad83c5f0f2eac05",
+  "renderer": {
+    "engine": "Cycles CPU",
+    "samples": 48,
+    "resolution": 720,
+    "threads": 2
+  },
+  "views": {
+    "front": "d1aa4bd6954f0b90084f61fd8aa69fa31f34773dac1f0fbfd3fd651657750801",
+    "side": "61e6f21855fa0c3aff580df0ee06df9f1c47b85deb35b182fa5626f8782bc0af",
+    "three-quarter": "1b2d212a3fbfd879e459acb802b0c2c1e44de4f903d056d59e6484158bea799e",
+    "mouth": "6e06c6af9bf84cec961da51e3ed75e8a648217bd10dd431274b9d7b72af6f526",
+    "sagittal": "62f17c348f293cd3b6485a7204a157bab0bbb83f35a2f6eb14b40f12b48036df",
+    "oral-section": "9c03747f5b9eb20dbee4466007b8da79fbdce1adec050c05173b803d492679fb"
+  },
+  "sectionMethod": "Computed actual GLB closed-volume sections. Generic head-context section excludes separately represented tissue sections. Intentionally open surfaces are not capped.",
+  "visualAnatomyReview": "pending",
+  "materialLimit": "Procedural skin and exposed-muscle details are authored illustration shading, not scanned tissue or measured fiber directions."
+}

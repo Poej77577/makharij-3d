@@ -1,0 +1,1210 @@
+{
+  "assetSha256": "12cb4ccce5aa7b35657a73a581ba5a4a31e596e3b6e977c0efbaf302441d3340",
+  "topology": {
+    "HEAD_SKIN": {
+      "vertices": 18621,
+      "triangles": 37112,
+      "closedTissueVolumeClaimed": false,
+      "isWatertight": false,
+      "consistentWinding": true,
+      "boundaryEdges": 128,
+      "nonmanifoldEdges": 0,
+      "minimumTriangleArea_m2": 2.6091862544973374e-08,
+      "bounds_m": [
+        [
+          -0.08166731148958206,
+          -0.13500002026557922,
+          -0.24542072415351868
+        ],
+        [
+          0.1673787236213684,
+          0.21061058342456818,
+          0.24542072415351868
+        ]
+      ]
+    },
+    "EYES": {
+      "vertices": 1064,
+      "triangles": 2040,
+      "closedTissueVolumeClaimed": false,
+      "isWatertight": false,
+      "consistentWinding": true,
+      "boundaryEdges": 80,
+      "nonmanifoldEdges": 0,
+      "minimumTriangleArea_m2": 8.897139773703609e-08,
+      "bounds_m": [
+        [
+          0.11851246654987335,
+          0.08838987350463867,
+          -0.045030154287815094
+        ],
+        [
+          0.1433284878730774,
+          0.1183493435382843,
+          0.045030154287815094
+        ]
+      ]
+    },
+    "TONGUE": {
+      "vertices": 8834,
+      "triangles": 17664,
+      "closedTissueVolumeClaimed": true,
+      "isWatertight": true,
+      "consistentWinding": true,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "minimumTriangleArea_m2": 2.334829702868161e-08,
+      "bounds_m": [
+        [
+          0.0630011036992073,
+          -0.013030351139605045,
+          -0.030849626287817955
+        ],
+        [
+          0.13561184704303741,
+          0.044687896966934204,
+          0.033076729625463486
+        ]
+      ]
+    },
+    "UPPER_TEETH": {
+      "vertices": 4900,
+      "triangles": 9154,
+      "closedTissueVolumeClaimed": false,
+      "isWatertight": false,
+      "consistentWinding": true,
+      "boundaryEdges": 656,
+      "nonmanifoldEdges": 0,
+      "minimumTriangleArea_m2": 1.7580695563179891e-12,
+      "bounds_m": [
+        [
+          0.0881899818778038,
+          0.03043239749968052,
+          -0.03107050247490406
+        ],
+        [
+          0.14456281065940857,
+          0.042302198708057404,
+          0.0320916548371315
+        ]
+      ]
+    },
+    "LOWER_TEETH": {
+      "vertices": 2795,
+      "triangles": 4641,
+      "closedTissueVolumeClaimed": false,
+      "isWatertight": false,
+      "consistentWinding": true,
+      "boundaryEdges": 949,
+      "nonmanifoldEdges": 0,
+      "minimumTriangleArea_m2": 9.454307639524768e-13,
+      "bounds_m": [
+        [
+          0.08365713059902191,
+          0.015222628600895405,
+          -0.030583957210183144
+        ],
+        [
+          0.13410751521587372,
+          0.032296255230903625,
+          0.034421347081661224
+        ]
+      ]
+    },
+    "GINGIVA_UPPER": {
+      "vertices": 2467,
+      "triangles": 3554,
+      "closedTissueVolumeClaimed": false,
+      "isWatertight": false,
+      "consistentWinding": true,
+      "boundaryEdges": 1372,
+      "nonmanifoldEdges": 0,
+      "minimumTriangleArea_m2": 1.7764501477931363e-13,
+      "bounds_m": [
+        [
+          0.0868120789527893,
+          0.040894702076911926,
+          -0.03150409460067749
+        ],
+        [
+          0.14901602268218994,
+          0.04532930627465248,
+          0.03261392191052437
+        ]
+      ]
+    },
+    "GINGIVA_LOWER": {
+      "vertices": 2537,
+      "triangles": 3401,
+      "closedTissueVolumeClaimed": false,
+      "isWatertight": false,
+      "consistentWinding": true,
+      "boundaryEdges": 1677,
+      "nonmanifoldEdges": 0,
+      "minimumTriangleArea_m2": 5.3362739710580075e-12,
+      "bounds_m": [
+        [
+          0.0831310972571373,
+          0.013416801579296589,
+          -0.03194800764322281
+        ],
+        [
+          0.13341082632541656,
+          0.028638148680329323,
+          0.034763287752866745
+        ]
+      ]
+    },
+    "HARD_PALATE": {
+      "vertices": 412,
+      "triangles": 707,
+      "closedTissueVolumeClaimed": false,
+      "isWatertight": false,
+      "consistentWinding": true,
+      "boundaryEdges": 121,
+      "nonmanifoldEdges": 0,
+      "minimumTriangleArea_m2": 6.951450021632988e-08,
+      "bounds_m": [
+        [
+          0.07919332385063171,
+          0.03674338757991791,
+          -0.027910668402910233
+        ],
+        [
+          0.13789747655391693,
+          0.05492202565073967,
+          0.030991150066256523
+        ]
+      ]
+    },
+    "SOFT_PALATE": {
+      "vertices": 3787,
+      "triangles": 7570,
+      "closedTissueVolumeClaimed": true,
+      "isWatertight": true,
+      "consistentWinding": true,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "minimumTriangleArea_m2": 1.0026964765865811e-08,
+      "bounds_m": [
+        [
+          0.05469464138150215,
+          0.011366301216185093,
+          -0.02647734247148037
+        ],
+        [
+          0.0860714390873909,
+          0.059698883444070816,
+          0.02870405651628971
+        ]
+      ]
+    },
+    "PHARYNX": {
+      "vertices": 2556,
+      "triangles": 5114,
+      "closedTissueVolumeClaimed": true,
+      "isWatertight": true,
+      "consistentWinding": true,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "minimumTriangleArea_m2": 1.5500099631521446e-08,
+      "bounds_m": [
+        [
+          0.04964831471443176,
+          -0.06184792146086693,
+          -0.03792716935276985
+        ],
+        [
+          0.09276455640792847,
+          0.08191706240177155,
+          0.039110030978918076
+        ]
+      ]
+    },
+    "MOUTH_FLOOR_LEFT": {
+      "vertices": 395,
+      "triangles": 786,
+      "closedTissueVolumeClaimed": true,
+      "isWatertight": true,
+      "consistentWinding": true,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "minimumTriangleArea_m2": 5.234623078314088e-08,
+      "bounds_m": [
+        [
+          0.0779704675078392,
+          -0.016432974487543106,
+          -0.03457916900515556
+        ],
+        [
+          0.11319446563720703,
+          0.03319302573800087,
+          0.0019108320120722055
+        ]
+      ]
+    },
+    "MOUTH_FLOOR_RIGHT": {
+      "vertices": 461,
+      "triangles": 918,
+      "closedTissueVolumeClaimed": true,
+      "isWatertight": true,
+      "consistentWinding": true,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "minimumTriangleArea_m2": 1.9971229462568035e-08,
+      "bounds_m": [
+        [
+          0.0739324688911438,
+          -0.016089975833892822,
+          0.0009668319835327566
+        ],
+        [
+          0.11302946507930756,
+          0.03380902484059334,
+          0.0357145331799984
+        ]
+      ]
+    },
+    "HYOID": {
+      "vertices": 1251,
+      "triangles": 2498,
+      "closedTissueVolumeClaimed": false,
+      "isWatertight": true,
+      "consistentWinding": true,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "minimumTriangleArea_m2": 1.0543401400472605e-07,
+      "bounds_m": [
+        [
+          0.06040472537279129,
+          -0.011444555595517159,
+          -0.028972823172807693
+        ],
+        [
+          0.10071785002946854,
+          0.012547280639410019,
+          0.019937729462981224
+        ]
+      ]
+    },
+    "THYROID": {
+      "vertices": 2099,
+      "triangles": 4194,
+      "closedTissueVolumeClaimed": false,
+      "isWatertight": true,
+      "consistentWinding": true,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "minimumTriangleArea_m2": 1.3267967015639946e-07,
+      "bounds_m": [
+        [
+          0.06444816291332245,
+          -0.052748799324035645,
+          -0.03503192216157913
+        ],
+        [
+          0.10929122567176819,
+          0.006253914907574654,
+          0.01830870844423771
+        ]
+      ]
+    },
+    "CRICOID": {
+      "vertices": 1203,
+      "triangles": 2406,
+      "closedTissueVolumeClaimed": false,
+      "isWatertight": true,
+      "consistentWinding": true,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "minimumTriangleArea_m2": 1.561553267894163e-07,
+      "bounds_m": [
+        [
+          0.07351946830749512,
+          -0.06275109201669693,
+          -0.025106627494096756
+        ],
+        [
+          0.09881042689085007,
+          -0.03472989425063133,
+          0.008090073242783546
+        ]
+      ]
+    }
+  },
+  "surfaceDistances": [
+    {
+      "pair": [
+        "TONGUE",
+        "UPPER_TEETH"
+      ],
+      "minimumSurfaceDistance_m": 0.0012040690143791171,
+      "criticalRestClearance": true
+    },
+    {
+      "pair": [
+        "TONGUE",
+        "LOWER_TEETH"
+      ],
+      "minimumSurfaceDistance_m": 0.00010438642400489933,
+      "criticalRestClearance": true
+    },
+    {
+      "pair": [
+        "TONGUE",
+        "HARD_PALATE"
+      ],
+      "minimumSurfaceDistance_m": 0.0005581107281019698,
+      "criticalRestClearance": true
+    },
+    {
+      "pair": [
+        "TONGUE",
+        "SOFT_PALATE"
+      ],
+      "minimumSurfaceDistance_m": 0.0002488503327851204,
+      "criticalRestClearance": true
+    },
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "UPPER_TEETH"
+      ],
+      "minimumSurfaceDistance_m": 0.003626156022461114,
+      "criticalRestClearance": true
+    },
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "LOWER_TEETH"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": true
+    },
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "HARD_PALATE"
+      ],
+      "minimumSurfaceDistance_m": 0.004846337013284313,
+      "criticalRestClearance": true
+    },
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "SOFT_PALATE"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": true
+    },
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "TONGUE"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": false
+    },
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "PHARYNX"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": false
+    },
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "MOUTH_FLOOR_LEFT"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": false
+    },
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "MOUTH_FLOOR_RIGHT"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": false
+    },
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "THYROID"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": false
+    },
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "CRICOID"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": false
+    },
+    {
+      "pair": [
+        "TONGUE",
+        "PHARYNX"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": false
+    },
+    {
+      "pair": [
+        "TONGUE",
+        "MOUTH_FLOOR_LEFT"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": false
+    },
+    {
+      "pair": [
+        "TONGUE",
+        "MOUTH_FLOOR_RIGHT"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": false
+    },
+    {
+      "pair": [
+        "TONGUE",
+        "GINGIVA_UPPER"
+      ],
+      "minimumSurfaceDistance_m": 0.0012301632412381957,
+      "criticalRestClearance": false
+    },
+    {
+      "pair": [
+        "TONGUE",
+        "GINGIVA_LOWER"
+      ],
+      "minimumSurfaceDistance_m": 0.0002775111424607717,
+      "criticalRestClearance": false
+    }
+  ],
+  "surfaceIntersections": [
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "LOWER_TEETH"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": true,
+      "reportedTriangleContacts": 22,
+      "contactBounds_m": [
+        [
+          0.08604788780212402,
+          0.027064064517617226,
+          0.03339647129178047
+        ],
+        [
+          0.08976475894451141,
+          0.028345787897706032,
+          0.03418678790330887
+        ]
+      ],
+      "contactSample_m": [
+        [
+          0.08949487656354904,
+          0.027064064517617226,
+          0.03339647129178047
+        ],
+        [
+          0.08949487656354904,
+          0.027064064517617226,
+          0.03339647129178047
+        ],
+        [
+          0.08941256999969482,
+          0.027086257934570312,
+          0.03351804241538048
+        ],
+        [
+          0.08941256999969482,
+          0.027086257934570312,
+          0.03351804241538048
+        ],
+        [
+          0.08936392515897751,
+          0.027099376544356346,
+          0.033469341695308685
+        ],
+        [
+          0.08936392515897751,
+          0.027099376544356346,
+          0.033469341695308685
+        ],
+        [
+          0.08604788780212402,
+          0.02799350582063198,
+          0.03348223865032196
+        ],
+        [
+          0.08941256999969482,
+          0.027086257934570312,
+          0.03351804241538048
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "SOFT_PALATE"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": true,
+      "reportedTriangleContacts": 176,
+      "contactBounds_m": [
+        [
+          0.05291638895869255,
+          0.011366301216185093,
+          -0.0254895631223917
+        ],
+        [
+          0.06444749981164932,
+          0.029905879870057106,
+          0.027307331562042236
+        ]
+      ],
+      "contactSample_m": [
+        [
+          0.05831912159919739,
+          0.021101679652929306,
+          -0.02342844381928444
+        ],
+        [
+          0.062392786145210266,
+          0.020792260766029358,
+          -0.0254895631223917
+        ],
+        [
+          0.054914988577365875,
+          0.024627685546875,
+          -0.02198222279548645
+        ],
+        [
+          0.0600932314991951,
+          0.020253047347068787,
+          -0.024052493274211884
+        ],
+        [
+          0.06032465398311615,
+          0.022164562717080116,
+          -0.02462824247777462
+        ],
+        [
+          0.06032465398311615,
+          0.022164562717080116,
+          -0.02462824247777462
+        ],
+        [
+          0.05831912159919739,
+          0.021101679652929306,
+          -0.02342844381928444
+        ],
+        [
+          0.05831912159919739,
+          0.021101679652929306,
+          -0.02342844381928444
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "TONGUE"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": false,
+      "reportedTriangleContacts": 432,
+      "contactBounds_m": [
+        [
+          0.06356426328420639,
+          -0.004775554407387972,
+          -0.02908622846007347
+        ],
+        [
+          0.11647403240203857,
+          0.020446699112653732,
+          0.02990609034895897
+        ]
+      ],
+      "contactSample_m": [
+        [
+          0.06559234112501144,
+          0.013131701387465,
+          -0.024082671850919724
+        ],
+        [
+          0.06518448889255524,
+          0.012089346535503864,
+          -0.02355070598423481
+        ],
+        [
+          0.06518448889255524,
+          0.012089346535503864,
+          -0.02355070598423481
+        ],
+        [
+          0.06679659336805344,
+          0.015231446363031864,
+          -0.0260260421782732
+        ],
+        [
+          0.06679659336805344,
+          0.015231446363031864,
+          -0.0260260421782732
+        ],
+        [
+          0.06756763160228729,
+          0.016967032104730606,
+          -0.026162665337324142
+        ],
+        [
+          0.06591669470071793,
+          0.01326345931738615,
+          -0.02484292909502983
+        ],
+        [
+          0.06679659336805344,
+          0.015231446363031864,
+          -0.0260260421782732
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "PHARYNX"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": false,
+      "reportedTriangleContacts": 617,
+      "contactBounds_m": [
+        [
+          0.055617012083530426,
+          -0.060720909386873245,
+          -0.034509144723415375
+        ],
+        [
+          0.0924011617898941,
+          0.07311106473207474,
+          0.0323721319437027
+        ]
+      ],
+      "contactSample_m": [
+        [
+          0.07360979914665222,
+          -0.05300360545516014,
+          -0.028332063928246498
+        ],
+        [
+          0.07360979914665222,
+          -0.05300360545516014,
+          -0.028332063928246498
+        ],
+        [
+          0.07415755838155746,
+          -0.05494390055537224,
+          -0.026396162807941437
+        ],
+        [
+          0.07415755838155746,
+          -0.05494390055537224,
+          -0.026396162807941437
+        ],
+        [
+          0.07310356199741364,
+          -0.05102092772722244,
+          -0.027728164568543434
+        ],
+        [
+          0.07432655990123749,
+          -0.05184691399335861,
+          -0.02553517185151577
+        ],
+        [
+          0.07310356199741364,
+          -0.05102092772722244,
+          -0.027728164568543434
+        ],
+        [
+          0.07432655990123749,
+          -0.05184691399335861,
+          -0.02553517185151577
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "MOUTH_FLOOR_LEFT"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": false,
+      "reportedTriangleContacts": 155,
+      "contactBounds_m": [
+        [
+          0.074288509786129,
+          -0.014637527987360954,
+          -0.034203168004751205
+        ],
+        [
+          0.10934747010469437,
+          0.03044302575290203,
+          0.0010208319872617722
+        ]
+      ],
+      "contactSample_m": [
+        [
+          0.10236115008592606,
+          -0.012668153271079063,
+          -0.023787928745150566
+        ],
+        [
+          0.09955646842718124,
+          -0.011524975299835205,
+          -0.024730168282985687
+        ],
+        [
+          0.10236115008592606,
+          -0.012668153271079063,
+          -0.023787928745150566
+        ],
+        [
+          0.10236115008592606,
+          -0.012668153271079063,
+          -0.023787928745150566
+        ],
+        [
+          0.10236115008592606,
+          -0.012668153271079063,
+          -0.023787928745150566
+        ],
+        [
+          0.10236115008592606,
+          -0.012668153271079063,
+          -0.023787928745150566
+        ],
+        [
+          0.10236115008592606,
+          -0.012668153271079063,
+          -0.023787928745150566
+        ],
+        [
+          0.09955646842718124,
+          -0.011524975299835205,
+          -0.024730168282985687
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "MOUTH_FLOOR_RIGHT"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": false,
+      "reportedTriangleContacts": 167,
+      "contactBounds_m": [
+        [
+          0.07721547037363052,
+          -0.016462577506899834,
+          0.0
+        ],
+        [
+          0.10898946970701218,
+          0.03195202350616455,
+          0.034293632954359055
+        ]
+      ],
+      "contactSample_m": [
+        [
+          0.10533776134252548,
+          -0.014637527987360954,
+          0.020582349970936775
+        ],
+        [
+          0.10533776134252548,
+          -0.014637527987360954,
+          0.020582349970936775
+        ],
+        [
+          0.10539046674966812,
+          -0.01597597450017929,
+          0.017851831391453743
+        ],
+        [
+          0.10809937864542007,
+          -0.016462577506899834,
+          0.017261141911149025
+        ],
+        [
+          0.10809937864542007,
+          -0.016462577506899834,
+          0.017261141911149025
+        ],
+        [
+          0.10845062881708145,
+          -0.01414396334439516,
+          0.020755872130393982
+        ],
+        [
+          0.10533776134252548,
+          -0.014637527987360954,
+          0.020582349970936775
+        ],
+        [
+          0.10533776134252548,
+          -0.014637527987360954,
+          0.020582349970936775
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "THYROID"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": false,
+      "reportedTriangleContacts": 323,
+      "contactBounds_m": [
+        [
+          0.06444816291332245,
+          -0.04475453868508339,
+          -0.033057816326618195
+        ],
+        [
+          0.1068410873413086,
+          0.0049492428079247475,
+          0.01609594002366066
+        ]
+      ],
+      "contactSample_m": [
+        [
+          0.07298152893781662,
+          -0.022494178265333176,
+          -0.032041747123003006
+        ],
+        [
+          0.07298152893781662,
+          -0.022494178265333176,
+          -0.032041747123003006
+        ],
+        [
+          0.07262255251407623,
+          -0.019576437771320343,
+          -0.03286665305495262
+        ],
+        [
+          0.07298152893781662,
+          -0.022494178265333176,
+          -0.032041747123003006
+        ],
+        [
+          0.07325545698404312,
+          -0.02309393882751465,
+          -0.031271759420633316
+        ],
+        [
+          0.07308028638362885,
+          -0.0228563342243433,
+          -0.03204883635044098
+        ],
+        [
+          0.0742589682340622,
+          -0.02282947488129139,
+          -0.03009016439318657
+        ],
+        [
+          0.07325545698404312,
+          -0.02309393882751465,
+          -0.031271759420633316
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "CRICOID"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": false,
+      "reportedTriangleContacts": 152,
+      "contactBounds_m": [
+        [
+          0.07742982357740402,
+          -0.05966426804661751,
+          -0.020399587228894234
+        ],
+        [
+          0.08570297062397003,
+          -0.038588523864746094,
+          0.007959396578371525
+        ]
+      ],
+      "contactSample_m": [
+        [
+          0.07807857543230057,
+          -0.058750662952661514,
+          -0.015979675576090813
+        ],
+        [
+          0.07742982357740402,
+          -0.0580490343272686,
+          -0.015998702496290207
+        ],
+        [
+          0.07742982357740402,
+          -0.0580490343272686,
+          -0.015998702496290207
+        ],
+        [
+          0.07807857543230057,
+          -0.058750662952661514,
+          -0.015979675576090813
+        ],
+        [
+          0.07807857543230057,
+          -0.058750662952661514,
+          -0.015979675576090813
+        ],
+        [
+          0.07807857543230057,
+          -0.058750662952661514,
+          -0.015979675576090813
+        ],
+        [
+          0.0779661014676094,
+          -0.058228444308042526,
+          -0.01720391772687435
+        ],
+        [
+          0.0779661014676094,
+          -0.058228444308042526,
+          -0.01720391772687435
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "TONGUE",
+        "PHARYNX"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": false,
+      "reportedTriangleContacts": 831,
+      "contactBounds_m": [
+        [
+          0.06343857944011688,
+          -0.0073597920127213,
+          -0.029757171869277954
+        ],
+        [
+          0.07541853934526443,
+          0.02698271907866001,
+          0.022239701822400093
+        ]
+      ],
+      "contactSample_m": [
+        [
+          0.06721032410860062,
+          -0.0051141236908733845,
+          -0.023486429825425148
+        ],
+        [
+          0.06721032410860062,
+          -0.0051141236908733845,
+          -0.023486429825425148
+        ],
+        [
+          0.06784878671169281,
+          -0.00589763792231679,
+          -0.022403215989470482
+        ],
+        [
+          0.06825912743806839,
+          -0.006079163867980242,
+          -0.021047264337539673
+        ],
+        [
+          0.06825912743806839,
+          -0.006079163867980242,
+          -0.021047264337539673
+        ],
+        [
+          0.06825912743806839,
+          -0.006079163867980242,
+          -0.021047264337539673
+        ],
+        [
+          0.06976974010467529,
+          -0.006327368784695864,
+          -0.01932762935757637
+        ],
+        [
+          0.0737738236784935,
+          -0.006552484352141619,
+          -0.019723553210496902
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "TONGUE",
+        "MOUTH_FLOOR_LEFT"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": false,
+      "reportedTriangleContacts": 264,
+      "contactBounds_m": [
+        [
+          0.08168698847293854,
+          -0.01022170577198267,
+          -0.026460979133844376
+        ],
+        [
+          0.11041705310344696,
+          0.015954386442899704,
+          -0.005869213957339525
+        ]
+      ],
+      "contactSample_m": [
+        [
+          0.09597943723201752,
+          -0.0015764912823215127,
+          -0.01734074205160141
+        ],
+        [
+          0.09597943723201752,
+          -0.0015764912823215127,
+          -0.01734074205160141
+        ],
+        [
+          0.09775042533874512,
+          -0.0014621062437072396,
+          -0.016795525327324867
+        ],
+        [
+          0.09888125211000443,
+          -0.0021997769363224506,
+          -0.01597313955426216
+        ],
+        [
+          0.09888125211000443,
+          -0.0021997769363224506,
+          -0.01597313955426216
+        ],
+        [
+          0.09993761032819748,
+          -0.0028496054001152515,
+          -0.0151783162727952
+        ],
+        [
+          0.10086221992969513,
+          -0.003505211789160967,
+          -0.014484865590929985
+        ],
+        [
+          0.09993761032819748,
+          -0.0028496054001152515,
+          -0.0151783162727952
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "TONGUE",
+        "MOUTH_FLOOR_RIGHT"
+      ],
+      "minimumSurfaceDistance_m": 0.0,
+      "criticalRestClearance": false,
+      "reportedTriangleContacts": 328,
+      "contactBounds_m": [
+        [
+          0.07665842026472092,
+          -0.010903199203312397,
+          0.005565456114709377
+        ],
+        [
+          0.11202207952737808,
+          0.013029024936258793,
+          0.031017303466796875
+        ]
+      ],
+      "contactSample_m": [
+        [
+          0.09294024109840393,
+          -0.0035926257260143757,
+          0.01825670711696148
+        ],
+        [
+          0.09294024109840393,
+          -0.0035926257260143757,
+          0.01825670711696148
+        ],
+        [
+          0.09294024109840393,
+          -0.0035926257260143757,
+          0.01825670711696148
+        ],
+        [
+          0.09294024109840393,
+          -0.0035926257260143757,
+          0.01825670711696148
+        ],
+        [
+          0.09294024109840393,
+          -0.0035926257260143757,
+          0.01825670711696148
+        ],
+        [
+          0.09294024109840393,
+          -0.0035926257260143757,
+          0.01825670711696148
+        ],
+        [
+          0.0957464650273323,
+          -0.0043999748304486275,
+          0.016453832387924194
+        ],
+        [
+          0.0957464650273323,
+          -0.0043999748304486275,
+          0.016453832387924194
+        ]
+      ]
+    }
+  ],
+  "criticalRestClearancePassed": false,
+  "failures": [
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "LOWER_TEETH"
+      ],
+      "reason": "rest tissue/crown surface intersection"
+    },
+    {
+      "pair": [
+        "HEAD_SKIN",
+        "SOFT_PALATE"
+      ],
+      "reason": "rest tissue/crown surface intersection"
+    }
+  ],
+  "anatomyAccepted": false,
+  "scope": "Independent evaluated static triangle topology and FCL surface checks. No containment, attachment continuity, airway, deformation or expert approval.",
+  "stillRequired": [
+    "oral mucosa and pharyngeal attachment fit",
+    "nasal cavity fit",
+    "gingival continuity",
+    "new rig and articulation calibration"
+  ],
+  "gateRequested": false
+}
