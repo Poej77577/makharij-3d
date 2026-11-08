@@ -1,21 +1,21 @@
 {
-  "blend": "/tmp/makharij-oral-review-yck00dah/review-copy.blend",
+  "blend": "/tmp/makharij-oral-review-1tqhzuk3/review-copy.blend",
   "mode": "clay",
   "engine": "cycles",
   "bbox_min": [
-    -0.019738739356398582,
-    0.008435935713350773,
-    -0.0279733557254076
+    -0.017232293263077736,
+    0.019183434545993805,
+    -0.02797691524028778
   ],
   "bbox_max": [
-    0.01973874121904373,
-    0.07193466275930405,
-    0.010782461613416672
+    0.017232295125722885,
+    0.07195907831192017,
+    0.01072666049003601
   ],
   "size_xyz": [
-    0.03947748243808746,
-    0.06349872797727585,
-    0.03875581920146942
+    0.03446459025144577,
+    0.05277564376592636,
+    0.03870357573032379
   ],
   "objects": [
     "TONGUE"
@@ -28,12 +28,12 @@
         0,
         0
       ],
-      "distance": 4.019738741219044
+      "distance": 4.017232295125723
     },
     "top": {
       "file": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/review/clay/isolated/clay_top.png",
       "az_el_lens": "top",
-      "distance": 4.019377909600735
+      "distance": 4.019351787865162
     },
     "threequarter": {
       "file": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/review/clay/isolated/clay_threequarter.png",
@@ -42,7 +42,7 @@
         15,
         50
       ],
-      "distance": 0.1290249204805189
+      "distance": 0.11117294300088865
     },
     "ref": {
       "file": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/review/clay/isolated/clay_ref.png",
@@ -51,7 +51,7 @@
         -65.0,
         0.0
       ],
-      "distance": 4.030980211682618
+      "distance": 4.028690651990473
     }
   }
 }

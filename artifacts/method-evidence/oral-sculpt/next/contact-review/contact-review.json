@@ -1,0 +1,2074 @@
+{
+  "assetSha256": "40e2bd2303abbd250771fcd617f572e54a6b9e8da573a24d4881cabb07af7bea",
+  "frame": "+X anterior, +Y superior, +Z subject right; metres",
+  "evaluatedBy": "Blender official GLB importer, explicit runtime morph correction and rigid jaw state",
+  "cases": 18,
+  "pairsChecked": 36,
+  "contactLimit": 4000,
+  "maximumSamplesPerDirection": 512,
+  "nearTouchDistance_m": 0.0002,
+  "sampledIntrusionReviewThreshold_m": 0.0001,
+  "toothComponentAssignments": {
+    "UPPER_DENTITION": [
+      {
+        "tooth": "ATLAS_UPPER_CANINE_L",
+        "triangles": 1470,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_CANINE_R",
+        "triangles": 1470,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_FIRST_MOLAR_TOOTH_L",
+        "triangles": 2176,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_FIRST_MOLAR_TOOTH_R",
+        "triangles": 2176,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_FIRST_PREMOLAR_L",
+        "triangles": 1684,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_FIRST_PREMOLAR_R",
+        "triangles": 1684,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_LATERAL_INCISOR_L",
+        "triangles": 1454,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_LATERAL_INCISOR_R",
+        "triangles": 1454,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_MEDIAL_INCISOR_L",
+        "triangles": 1368,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_MEDIAL_INCISOR_R",
+        "triangles": 1368,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_L",
+        "triangles": 1844,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_R",
+        "triangles": 1844,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_SECOND_PREMOLAR_L",
+        "triangles": 1554,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_SECOND_PREMOLAR_R",
+        "triangles": 1554,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      }
+    ],
+    "LOWER_DENTITION": [
+      {
+        "tooth": "ATLAS_LOWER_CANINE_L",
+        "triangles": 1276,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_CANINE_R",
+        "triangles": 1276,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_L",
+        "triangles": 1836,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_L",
+        "triangles": 1762,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_L",
+        "triangles": 910,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_R",
+        "triangles": 1836,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_R",
+        "triangles": 1762,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_R",
+        "triangles": 910,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_FIRST_PREMOLAR_L",
+        "triangles": 1222,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_FIRST_PREMOLAR_R",
+        "triangles": 1222,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_LATERAL_INCISOR_L",
+        "triangles": 1040,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_LATERAL_INCISOR_R",
+        "triangles": 1040,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_MEDIAL_INCISOR_L",
+        "triangles": 984,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_MEDIAL_INCISOR_R",
+        "triangles": 984,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_SECOND_MOLAR_TOOTH_L",
+        "triangles": 1676,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_SECOND_MOLAR_TOOTH_R",
+        "triangles": 1676,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_SECOND_PREMOLAR_L",
+        "triangles": 1180,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_SECOND_PREMOLAR_R",
+        "triangles": 1180,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      }
+    ]
+  },
+  "records": [
+    {
+      "case": "rest",
+      "controls": {},
+      "pair": [
+        "TONGUE",
+        "UPPER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.00794918027717034,
+      "closestSurfacePoints_m": [
+        [
+          -0.04403985819081732,
+          0.005095861453281096,
+          0.013643044853204339
+        ],
+        [
+          -0.04294386241700823,
+          0.009448815687231242,
+          0.020203536433862152
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_R",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 2,
+        "testedSamples": 2,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 103,
+        "testedSamples": 103,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "rest",
+      "controls": {},
+      "pair": [
+        "TONGUE",
+        "LOWER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.0032231663242104818,
+      "closestSurfacePoints_m": [
+        [
+          -0.0197017639875412,
+          -0.009535138495266438,
+          -0.001426280359737575
+        ],
+        [
+          -0.016877805205294406,
+          -0.01093594115713909,
+          -0.002098448383513037
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_MEDIAL_INCISOR_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 59,
+        "testedSamples": 59,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 309,
+        "testedSamples": 309,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "TIP_ELEVATE_0.5",
+      "controls": {
+        "TIP_ELEVATE": 0.5
+      },
+      "pair": [
+        "TONGUE",
+        "UPPER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.0075330603375018965,
+      "closestSurfacePoints_m": [
+        [
+          -0.04399513895271105,
+          0.0050919618100801435,
+          0.014142493124541283
+        ],
+        [
+          -0.04291694806841447,
+          0.009217229941116083,
+          0.02035269966800851
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_R",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 2,
+        "testedSamples": 2,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 105,
+        "testedSamples": 105,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "TIP_ELEVATE_0.5",
+      "controls": {
+        "TIP_ELEVATE": 0.5
+      },
+      "pair": [
+        "TONGUE",
+        "LOWER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.002766104474873657,
+      "closestSurfacePoints_m": [
+        [
+          -0.03883225216179072,
+          -0.0004800490624873621,
+          -0.015187342552086158
+        ],
+        [
+          -0.03788065165281296,
+          0.00026428699493408203,
+          -0.017675666138529778
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 48,
+        "testedSamples": 48,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 309,
+        "testedSamples": 309,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "TIP_ELEVATE_1",
+      "controls": {
+        "TIP_ELEVATE": 1
+      },
+      "pair": [
+        "TONGUE",
+        "UPPER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.007112917130567284,
+      "closestSurfacePoints_m": [
+        [
+          -0.04392827588668689,
+          0.004750103516675725,
+          0.014868475910938886
+        ],
+        [
+          -0.04285826534032822,
+          0.008712291717529297,
+          0.020677927881479263
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_R",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 1,
+        "testedSamples": 1,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 113,
+        "testedSamples": 113,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "TIP_ELEVATE_1",
+      "controls": {
+        "TIP_ELEVATE": 1
+      },
+      "pair": [
+        "TONGUE",
+        "LOWER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.002324194564122187,
+      "closestSurfacePoints_m": [
+        [
+          -0.03873352085590282,
+          -0.00037551404054924205,
+          0.015610442390528015
+        ],
+        [
+          -0.03788065165281296,
+          0.00026428699493408203,
+          0.017675666138529778
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_R",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 36,
+        "testedSamples": 36,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 309,
+        "testedSamples": 309,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "DORSUM_ELEVATE_0.5",
+      "controls": {
+        "DORSUM_ELEVATE": 0.5
+      },
+      "pair": [
+        "TONGUE",
+        "UPPER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.008904610495623726,
+      "closestSurfacePoints_m": [
+        [
+          -0.043573679201013904,
+          0.007010395675022099,
+          0.01154079555333806
+        ],
+        [
+          -0.04245641827583313,
+          0.010199785232543945,
+          0.01977921836078167
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_R",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 4,
+        "testedSamples": 4,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 113,
+        "testedSamples": 113,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "DORSUM_ELEVATE_0.5",
+      "controls": {
+        "DORSUM_ELEVATE": 0.5
+      },
+      "pair": [
+        "TONGUE",
+        "LOWER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.0033743276805880506,
+      "closestSurfacePoints_m": [
+        [
+          -0.0197017639875412,
+          -0.009277259930968285,
+          -0.001243807841092348
+        ],
+        [
+          -0.01675082392253999,
+          -0.010714886017808359,
+          -0.0020256462279667035
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_MEDIAL_INCISOR_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 59,
+        "testedSamples": 59,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 262,
+        "testedSamples": 262,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "DORSUM_ELEVATE_1",
+      "controls": {
+        "DORSUM_ELEVATE": 1
+      },
+      "pair": [
+        "TONGUE",
+        "UPPER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.010554116887298157,
+      "closestSurfacePoints_m": [
+        [
+          -0.0450867135568325,
+          0.00598424444576677,
+          0.01038234333536467
+        ],
+        [
+          -0.04345636069774628,
+          0.010117173194885254,
+          0.01995575614273548
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_R",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 5,
+        "testedSamples": 5,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 123,
+        "testedSamples": 123,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "DORSUM_ELEVATE_1",
+      "controls": {
+        "DORSUM_ELEVATE": 1
+      },
+      "pair": [
+        "TONGUE",
+        "LOWER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.0035273767162457515,
+      "closestSurfacePoints_m": [
+        [
+          -0.0197017639875412,
+          -0.009019382297992706,
+          -0.0010613352060317993
+        ],
+        [
+          -0.016623842996393582,
+          -0.010493831499278036,
+          -0.0019528442768743722
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_MEDIAL_INCISOR_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 59,
+        "testedSamples": 59,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 236,
+        "testedSamples": 236,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "ROOT_RETRACT_0.5",
+      "controls": {
+        "ROOT_RETRACT": 0.5
+      },
+      "pair": [
+        "TONGUE",
+        "UPPER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.008410903699112522,
+      "closestSurfacePoints_m": [
+        [
+          -0.03987779756954773,
+          0.003399613658852289,
+          0.01303544761573272
+        ],
+        [
+          -0.037547171115875244,
+          0.007057666778564453,
+          0.02024170383810997
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_FIRST_MOLAR_TOOTH_R",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 2,
+        "testedSamples": 2,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 99,
+        "testedSamples": 99,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "ROOT_RETRACT_0.5",
+      "controls": {
+        "ROOT_RETRACT": 0.5
+      },
+      "pair": [
+        "TONGUE",
+        "LOWER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.003229845771060027,
+      "closestSurfacePoints_m": [
+        [
+          -0.0197017639875412,
+          -0.009535138495266438,
+          -0.0013948954874649644
+        ],
+        [
+          -0.016873677466921227,
+          -0.010928755391163107,
+          -0.002096081828028795
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_MEDIAL_INCISOR_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 59,
+        "testedSamples": 59,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 301,
+        "testedSamples": 301,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "ROOT_RETRACT_1",
+      "controls": {
+        "ROOT_RETRACT": 1
+      },
+      "pair": [
+        "TONGUE",
+        "UPPER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.00884202129276683,
+      "closestSurfacePoints_m": [
+        [
+          -0.039832159298679386,
+          0.003309304026477534,
+          -0.012566422330246248
+        ],
+        [
+          -0.037547171115875244,
+          0.007057666778564453,
+          -0.02024170383810997
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_FIRST_MOLAR_TOOTH_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 2,
+        "testedSamples": 2,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 96,
+        "testedSamples": 96,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "ROOT_RETRACT_1",
+      "controls": {
+        "ROOT_RETRACT": 1
+      },
+      "pair": [
+        "TONGUE",
+        "LOWER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.003236770243687537,
+      "closestSurfacePoints_m": [
+        [
+          -0.019704909284353173,
+          -0.009535008505776897,
+          -0.001376157061522881
+        ],
+        [
+          -0.01687188259939471,
+          -0.010925630799234684,
+          -0.002095052776959091
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_MEDIAL_INCISOR_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 59,
+        "testedSamples": 59,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 295,
+        "testedSamples": 295,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "JAW_OPEN_0.5",
+      "controls": {
+        "JAW_OPEN": 0.5
+      },
+      "pair": [
+        "TONGUE",
+        "UPPER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.009917476391142715,
+      "closestSurfacePoints_m": [
+        [
+          -0.044906444819238174,
+          0.002907815841658658,
+          -0.012901723241844253
+        ],
+        [
+          -0.04285826534032822,
+          0.008712291717529297,
+          -0.020677927881479263
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 0,
+        "testedSamples": 0,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": null,
+        "worstWitness_m": null
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 73,
+        "testedSamples": 73,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "JAW_OPEN_0.5",
+      "controls": {
+        "JAW_OPEN": 0.5
+      },
+      "pair": [
+        "TONGUE",
+        "LOWER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.0031380535288123503,
+      "closestSurfacePoints_m": [
+        [
+          -0.041142630299017775,
+          -0.004491523272127889,
+          -0.014790574521830156
+        ],
+        [
+          -0.040060121566057205,
+          -0.0038983949925750494,
+          -0.017675666138529778
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 48,
+        "testedSamples": 48,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 325,
+        "testedSamples": 325,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "JAW_OPEN_1",
+      "controls": {
+        "JAW_OPEN": 1
+      },
+      "pair": [
+        "TONGUE",
+        "UPPER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.012125250245872474,
+      "closestSurfacePoints_m": [
+        [
+          -0.046524662524461746,
+          0.0007770955562591553,
+          0.012238141149282455
+        ],
+        [
+          -0.043417725498327606,
+          0.008404821415464498,
+          0.02113681712144131
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_R",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 0,
+        "testedSamples": 0,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": null,
+        "worstWitness_m": null
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 44,
+        "testedSamples": 44,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "JAW_OPEN_1",
+      "controls": {
+        "JAW_OPEN": 1
+      },
+      "pair": [
+        "TONGUE",
+        "LOWER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.002976576198105391,
+      "closestSurfacePoints_m": [
+        [
+          -0.043537037743181836,
+          -0.008257935673927585,
+          -0.014842210666482175
+        ],
+        [
+          -0.042509577468963215,
+          -0.007857525685578496,
+          -0.017606989697301893
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 47,
+        "testedSamples": 47,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 313,
+        "testedSamples": 313,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "VELUM_RAISE_1",
+      "controls": {
+        "VELUM_RAISE": 1
+      },
+      "pair": [
+        "TONGUE",
+        "UPPER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.00794918027717034,
+      "closestSurfacePoints_m": [
+        [
+          -0.04403985819081732,
+          0.005095861453281096,
+          0.013643044853204339
+        ],
+        [
+          -0.04294386241700823,
+          0.009448815687231242,
+          0.020203536433862152
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_R",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 2,
+        "testedSamples": 2,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 103,
+        "testedSamples": 103,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "VELUM_RAISE_1",
+      "controls": {
+        "VELUM_RAISE": 1
+      },
+      "pair": [
+        "TONGUE",
+        "LOWER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.0032231663242104818,
+      "closestSurfacePoints_m": [
+        [
+          -0.0197017639875412,
+          -0.009535138495266438,
+          -0.001426280359737575
+        ],
+        [
+          -0.016877805205294406,
+          -0.01093594115713909,
+          -0.002098448383513037
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_MEDIAL_INCISOR_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 59,
+        "testedSamples": 59,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 309,
+        "testedSamples": 309,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "jaw_tip",
+      "controls": {
+        "JAW_OPEN": 0.65,
+        "TIP_ELEVATE": 0.8
+      },
+      "pair": [
+        "TONGUE",
+        "UPPER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.010000750911458287,
+      "closestSurfacePoints_m": [
+        [
+          -0.04527645228993717,
+          0.002491689194946726,
+          0.013230009049630058
+        ],
+        [
+          -0.04285826534032822,
+          0.008712291717529297,
+          0.020677927881479263
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_R",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 0,
+        "testedSamples": 0,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": null,
+        "worstWitness_m": null
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 70,
+        "testedSamples": 70,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "jaw_tip",
+      "controls": {
+        "JAW_OPEN": 0.65,
+        "TIP_ELEVATE": 0.8
+      },
+      "pair": [
+        "TONGUE",
+        "LOWER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.0023654939268753453,
+      "closestSurfacePoints_m": [
+        [
+          -0.041711829195211776,
+          -0.0055164738816085865,
+          -0.01552981617889965
+        ],
+        [
+          -0.04081140086054802,
+          -0.005092070437967777,
+          -0.017675666138529778
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 34,
+        "testedSamples": 34,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 320,
+        "testedSamples": 320,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "jaw_dorsum",
+      "controls": {
+        "JAW_OPEN": 0.6,
+        "DORSUM_ELEVATE": 1
+      },
+      "pair": [
+        "TONGUE",
+        "UPPER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.011864950961109311,
+      "closestSurfacePoints_m": [
+        [
+          -0.04428769932594928,
+          0.007340267500204261,
+          -0.008359616833224311
+        ],
+        [
+          -0.042488664783668806,
+          0.010759743221595602,
+          -0.019577803933465848
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 0,
+        "testedSamples": 0,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": null,
+        "worstWitness_m": null
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 90,
+        "testedSamples": 90,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "jaw_dorsum",
+      "controls": {
+        "JAW_OPEN": 0.6,
+        "DORSUM_ELEVATE": 1
+      },
+      "pair": [
+        "TONGUE",
+        "LOWER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.003907495863451509,
+      "closestSurfacePoints_m": [
+        [
+          -0.024005795943381657,
+          -0.016015459466746367,
+          -0.000934446313947381
+        ],
+        [
+          -0.02096346952021122,
+          -0.01827354170382023,
+          -0.0018903953023254871
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_MEDIAL_INCISOR_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 46,
+        "testedSamples": 46,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 257,
+        "testedSamples": 257,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "jaw_root",
+      "controls": {
+        "JAW_OPEN": 0.6,
+        "ROOT_RETRACT": 1
+      },
+      "pair": [
+        "TONGUE",
+        "UPPER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.011179474902809298,
+      "closestSurfacePoints_m": [
+        [
+          -0.0451135367365191,
+          0.0022533367004183217,
+          0.011836191054418464
+        ],
+        [
+          -0.04285826534032822,
+          0.008712291717529297,
+          0.020677927881479263
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_R",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 0,
+        "testedSamples": 0,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": null,
+        "worstWitness_m": null
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 62,
+        "testedSamples": 62,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "jaw_root",
+      "controls": {
+        "JAW_OPEN": 0.6,
+        "ROOT_RETRACT": 1
+      },
+      "pair": [
+        "TONGUE",
+        "LOWER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.0036216361494952583,
+      "closestSurfacePoints_m": [
+        [
+          -0.024105287618655463,
+          -0.01651254965245552,
+          -0.0013446021387846384
+        ],
+        [
+          -0.021197021019058623,
+          -0.018569541024198187,
+          -0.0019980700274957043
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_MEDIAL_INCISOR_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 46,
+        "testedSamples": 46,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 306,
+        "testedSamples": 306,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "closed_tongue_combination",
+      "controls": {
+        "TIP_ELEVATE": 0.7,
+        "DORSUM_ELEVATE": 0.7,
+        "ROOT_RETRACT": 0.7
+      },
+      "pair": [
+        "TONGUE",
+        "UPPER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.009542955449448491,
+      "closestSurfacePoints_m": [
+        [
+          -0.04360857549762201,
+          0.007793451453677257,
+          0.010574330521709552
+        ],
+        [
+          -0.042405806481838226,
+          0.01075756549835205,
+          0.01956517994403839
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_R",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 2,
+        "testedSamples": 2,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 118,
+        "testedSamples": 118,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "closed_tongue_combination",
+      "controls": {
+        "TIP_ELEVATE": 0.7,
+        "DORSUM_ELEVATE": 0.7,
+        "ROOT_RETRACT": 0.7
+      },
+      "pair": [
+        "TONGUE",
+        "LOWER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.00517212582501671,
+      "closestSurfacePoints_m": [
+        [
+          -0.021463006734848022,
+          -0.008703451603651047,
+          0.0012311986647546291
+        ],
+        [
+          -0.01692404148715061,
+          -0.01101643150584367,
+          0.002124957022507411
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_MEDIAL_INCISOR_R",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 45,
+        "testedSamples": 45,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 246,
+        "testedSamples": 246,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "all_half",
+      "controls": {
+        "TIP_ELEVATE": 0.5,
+        "DORSUM_ELEVATE": 0.5,
+        "ROOT_RETRACT": 0.5,
+        "JAW_OPEN": 0.5,
+        "VELUM_RAISE": 0.5
+      },
+      "pair": [
+        "TONGUE",
+        "UPPER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.010352120432322103,
+      "closestSurfacePoints_m": [
+        [
+          -0.045010972716904685,
+          0.005378646035173055,
+          0.010882144361077995
+        ],
+        [
+          -0.04334508534083219,
+          0.009977219427867607,
+          0.020005977954888482
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_R",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 0,
+        "testedSamples": 0,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": null,
+        "worstWitness_m": null
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 88,
+        "testedSamples": 88,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "all_half",
+      "controls": {
+        "TIP_ELEVATE": 0.5,
+        "DORSUM_ELEVATE": 0.5,
+        "ROOT_RETRACT": 0.5,
+        "JAW_OPEN": 0.5,
+        "VELUM_RAISE": 0.5
+      },
+      "pair": [
+        "TONGUE",
+        "LOWER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.004957440337966113,
+      "closestSurfacePoints_m": [
+        [
+          -0.041793631295601825,
+          -0.005062780299911966,
+          0.013179516054499484
+        ],
+        [
+          -0.040060121566057205,
+          -0.0038983949925750494,
+          0.017675666138529778
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_R",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 40,
+        "testedSamples": 40,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 280,
+        "testedSamples": 280,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "all_max",
+      "controls": {
+        "TIP_ELEVATE": 1,
+        "DORSUM_ELEVATE": 1,
+        "ROOT_RETRACT": 1,
+        "JAW_OPEN": 1,
+        "VELUM_RAISE": 1
+      },
+      "pair": [
+        "TONGUE",
+        "UPPER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.01276876898273975,
+      "closestSurfacePoints_m": [
+        [
+          -0.045551407990347986,
+          0.0057773553877729375,
+          0.008131280696551418
+        ],
+        [
+          -0.04345636069774628,
+          0.010117173194885254,
+          0.01995575614273548
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_R",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 0,
+        "testedSamples": 0,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": null,
+        "worstWitness_m": null
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 77,
+        "testedSamples": 77,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "all_max",
+      "controls": {
+        "TIP_ELEVATE": 1,
+        "DORSUM_ELEVATE": 1,
+        "ROOT_RETRACT": 1,
+        "JAW_OPEN": 1,
+        "VELUM_RAISE": 1
+      },
+      "pair": [
+        "TONGUE",
+        "LOWER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.005766501319750171,
+      "closestSurfacePoints_m": [
+        [
+          -0.04590784236573373,
+          -0.015248372131543992,
+          -0.014391829461219594
+        ],
+        [
+          -0.04332171108473011,
+          -0.014265509132946164,
+          -0.019451319830227357
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 33,
+        "testedSamples": 33,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 244,
+        "testedSamples": 244,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "source_combined",
+      "controls": {
+        "JAW_OPEN": 0.75,
+        "TIP_ELEVATE": 0.7,
+        "DORSUM_ELEVATE": 0.2,
+        "VELUM_RAISE": 0.5
+      },
+      "pair": [
+        "TONGUE",
+        "UPPER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.01041865705099423,
+      "closestSurfacePoints_m": [
+        [
+          -0.04534471780061722,
+          0.0028962043579667807,
+          -0.01239845436066389
+        ],
+        [
+          -0.04292385976225058,
+          0.008784630824210772,
+          -0.020645532319307467
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 0,
+        "testedSamples": 0,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": null,
+        "worstWitness_m": null
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 70,
+        "testedSamples": 70,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "source_combined",
+      "controls": {
+        "JAW_OPEN": 0.75,
+        "TIP_ELEVATE": 0.7,
+        "DORSUM_ELEVATE": 0.2,
+        "VELUM_RAISE": 0.5
+      },
+      "pair": [
+        "TONGUE",
+        "LOWER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.003231515366389906,
+      "closestSurfacePoints_m": [
+        [
+          -0.04235185272848764,
+          -0.006156674488054793,
+          -0.014615403364855952
+        ],
+        [
+          -0.04122823838540847,
+          -0.00573290178029273,
+          -0.017615503207094017
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 33,
+        "testedSamples": 33,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 297,
+        "testedSamples": 297,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "return",
+      "controls": {},
+      "pair": [
+        "TONGUE",
+        "UPPER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.00794918027717034,
+      "closestSurfacePoints_m": [
+        [
+          -0.04403985819081732,
+          0.005095861453281096,
+          0.013643044853204339
+        ],
+        [
+          -0.04294386241700823,
+          0.009448815687231242,
+          0.020203536433862152
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_R",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 2,
+        "testedSamples": 2,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 103,
+        "testedSamples": 103,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    },
+    {
+      "case": "return",
+      "controls": {},
+      "pair": [
+        "TONGUE",
+        "LOWER_DENTITION"
+      ],
+      "classification": "separated",
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.0032231663242104818,
+      "closestSurfacePoints_m": [
+        [
+          -0.0197017639875412,
+          -0.009535138495266438,
+          -0.001426280359737575
+        ],
+        [
+          -0.016877805205294406,
+          -0.01093594115713909,
+          -0.002098448383513037
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_MEDIAL_INCISOR_L",
+      "negativeFclDistanceNotUsedAsPenetrationDepth": false,
+      "crossingPatchTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "toothSurfaceInsideTongue": {
+        "candidateSurfaceSamples": 59,
+        "testedSamples": 59,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueSurfaceInsideTeeth": {
+        "candidateSurfaceSamples": 309,
+        "testedSamples": 309,
+        "opposingMeshWatertight": true,
+        "maximumSampledInteriorDistance_m": 0.0,
+        "worstWitness_m": null,
+        "classifiedInteriorSamples": 0
+      },
+      "tongueWatertight": true,
+      "dentalWatertight": true
+    }
+  ],
+  "worstRecordIndices": [
+    5,
+    21,
+    3,
+    17,
+    15
+  ],
+  "selectedDentalClearancePass": true,
+  "anatomyAccepted": false,
+  "expertAcceptance": "pending",
+  "scope": "Selected tongue/dental poses only. Surface collision and finite inside-solid surface sampling; not exact penetration depth, intersection volume, all controls, self-intersection audit, gingival or palatal contact, biomechanics or clinical acceptance.",
+  "cacheSourceGeometryRedistributed": false,
+  "sourceAttribution": "BodyParts3D / DBCLS / Kousaku Okubo; Z-Anatomy / Gauthier Kervyn, CC BY-SA 4.0 dental/reference geometry; see assets/source/z-anatomy/NOTICE.md",
+  "poseExporterSha256": "498ac933f7ca3ab61b5074eb295a6a708b0837e2c93a5c1fe4c8ea071e167bd4",
+  "componentLabelingMethod": "Delivered rest-pose component vertices matched against original source tooth vertices; multiple components per tooth allowed"
+}

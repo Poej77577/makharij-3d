@@ -1,11 +1,11 @@
 {
-  "status": "experimental-improvement; visual and expert acceptance pending",
+  "status": "experimental; internal form not visually accepted",
   "accepted": false,
   "productionSelected": false,
   "fullHeadComplete": false,
   "clinicalAccuracyClaim": false,
-  "date": "2026-11-07",
-  "userDirection": "Improve it using advanced skills, then continue",
+  "date": "2026-11-08",
+  "userDirection": "Continue autonomously and add a third team member",
   "method": "continuous patch surface, nonplanar closed root/floor attachment, B-spline cage and explicit corrective morphs",
   "peerReviewBeforeFinalChanges": {
     "reviewer": "method_review AI agent",
@@ -25,11 +25,30 @@
   },
   "technicalReview": "technical-review.json",
   "browserReview": "browser/browser-review.json",
-  "glbSha256": "e22cafd412a2928a1d002d8a1d1c437bf34bdc793eb27d43cfb8dcc13e42ba00",
+  "glbSha256": "e051e47ad424a3d301f12acd75325998d6079007c3babd78175a31bbf563e0c6",
   "remaining": [
-    "human anatomical/tajweed review",
-    "full head/nasal/pharyngeal context",
-    "complete dental contact and combined-range review",
-    "calibrated Arabic articulations"
-  ]
+    "Qualified internal sculpt and human anatomical/tajweed review",
+    "Full head/nasal/pharyngeal context",
+    "Palatal/gingival/self-intersection and broader combined-range contact review",
+    "Calibrated Arabic articulations"
+  ],
+  "peerReviewAfterFinalChanges": {
+    "reviewer": "method_review AI agent; coordinator inspected current rest clay views",
+    "anatomyAccepted": false,
+    "externalContextProgress": "Original CC0 artist face gives clearer human context and coupled lips/jaw",
+    "blockingInternalFormIssues": [
+      "Tongue/root still reads as a generic ovoid mass, including current isolated rest clay views",
+      "Ventral root/floor transition is not anatomically legible enough",
+      "Posterior palate and raised posterior gingival endings require reference-led sculpt revision"
+    ],
+    "evidence": [
+      "browser/section-detail.png",
+      "browser/mouth.png",
+      "review/clay/isolated/clay_side.png",
+      "review/clay/isolated/clay_threequarter.png"
+    ],
+    "medicalExpertApproval": false
+  },
+  "selectedDentalReview": "contact-review/e051e47ad424a3d3/contact-review.json",
+  "selectedDentalReviewPassed": true
 }

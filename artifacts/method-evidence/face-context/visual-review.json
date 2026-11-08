@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-08",
+  "status": "external-context prototype; complete anatomy not accepted",
+  "faceGlbSha256": "c8a0c97357e7e07c3796b4d9486f3622304f07fa087c36629e8d732bec730dbe",
+  "oralGlbSha256": "e051e47ad424a3d301f12acd75325998d6079007c3babd78175a31bbf563e0c6",
+  "completeAnatomyAccepted": false,
+  "photorealismClaim": false,
+  "clinicalAcceptance": false,
+  "reviewer": "method_review AI agent; coordinator visual inspection",
+  "confirmedProgress": [
+    "Continuous original artist face supplies human context",
+    "Original facial shape targets provide independent lip controls with one shared jaw state"
+  ],
+  "limits": [
+    "CG study shading, not photoreal skin",
+    "Translation-only multi-source fit and facial/jaw calibration remain experimental",
+    "Open head must not be treated as a closed skull tissue volume",
+    "Internal sculpt remains visibly generic; see ../oral-sculpt/visual-review.json"
+  ],
+  "evidence": [
+    "../oral-sculpt/browser/face.png",
+    "../oral-sculpt/browser/face-open.png",
+    "../oral-sculpt/browser/lip-motion.gif",
+    "review/jaw/material_threequarter.png"
+  ]
+}

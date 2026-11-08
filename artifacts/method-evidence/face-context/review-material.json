@@ -1,0 +1,60 @@
+{
+  "blendSha256": "182ec560bb976b5a0bf0dace5ff590955931d9ea30a3662b9fd250026fbdbdb9",
+  "faceGlbSha256": "c8a0c97357e7e07c3796b4d9486f3622304f07fa087c36629e8d732bec730dbe",
+  "oralGlbSha256": "e051e47ad424a3d301f12acd75325998d6079007c3babd78175a31bbf563e0c6",
+  "skillSha256": "b2fff3e7a7d4a32dbe9a2e889804ce3612add28a514397de4213757fcd53fc1e",
+  "scope": "Actual combined native surfaces, original facial morphs and one shared jaw state; no cranial sections",
+  "records": [
+    {
+      "label": "rest",
+      "nativeFrame": 1,
+      "controls": {},
+      "images": {
+        "review/rest/material_front.png": "1dcaab08f738f84ca22ffc973b7f9aedea2fafd8ce962e1c5cf0c42aecf6b66a",
+        "review/rest/material_threequarter.png": "cf438a19c8a451525034614adaf7f88cd15e57b135094a22dd7604ec7d8bc202",
+        "review/rest/material_side.png": "431df4503133d5aeda4d12429755d7b7bfdd565609aa99b7879c4f5d10a4a602"
+      }
+    },
+    {
+      "label": "jaw",
+      "nativeFrame": 169,
+      "controls": {
+        "JAW_OPEN": 1
+      },
+      "images": {
+        "review/jaw/material_threequarter.png": "cd6d7d004f043dc13eb3e1ac8b25348127d083e398df127b1ad60a15ffeee835"
+      }
+    },
+    {
+      "label": "press",
+      "nativeFrame": 265,
+      "controls": {
+        "LIP_PRESS": 1
+      },
+      "images": {
+        "review/press/material_threequarter.png": "a68896d31ba9b2800c72dd153c60b87720c6a6660fca8ea474f01ada8050b6c1"
+      }
+    },
+    {
+      "label": "round",
+      "nativeFrame": 313,
+      "controls": {
+        "LIP_ROUND": 1
+      },
+      "images": {
+        "review/round/material_threequarter.png": "54f034a7c9c7b591fca03173eff03737bc006e4d4fedfae9b4ed888210934054"
+      }
+    },
+    {
+      "label": "protrude",
+      "nativeFrame": 361,
+      "controls": {
+        "LIP_PROTRUDE": 1
+      },
+      "images": {
+        "review/protrude/material_threequarter.png": "e289967af7057c4a345275044a1a6572be9ce863a3a01f508ca422128237cb19"
+      }
+    }
+  ],
+  "clinicalAcceptance": "pending"
+}

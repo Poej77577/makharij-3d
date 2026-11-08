@@ -1,0 +1,43 @@
+{
+  "blend": "/workspace/makharij-3d/artifacts/method-evidence/face-context/face-context.blend",
+  "mode": "material",
+  "engine": "cycles",
+  "bbox_min": [
+    -0.03213685005903244,
+    -0.00040803849697113037,
+    -0.041283562779426575
+  ],
+  "bbox_max": [
+    0.03213685005903244,
+    0.06583115458488464,
+    0.03017258644104004
+  ],
+  "size_xyz": [
+    0.06427370011806488,
+    0.06623919308185577,
+    0.07145614922046661
+  ],
+  "objects": [
+    "HEAD_EXTERNAL",
+    "FACE_EYES",
+    "TONGUE",
+    "ORAL_FLOOR",
+    "LINGUAL_FRENULUM",
+    "PALATE",
+    "UPPER_DENTITION",
+    "LOWER_DENTITION",
+    "UPPER_GINGIVA",
+    "LOWER_GINGIVA"
+  ],
+  "renders": {
+    "threequarter": {
+      "file": "/workspace/makharij-3d/artifacts/method-evidence/face-context/review/jaw/material_threequarter.png",
+      "az_el_lens": [
+        35,
+        15,
+        50
+      ],
+      "distance": 0.18267636218418673
+    }
+  }
+}

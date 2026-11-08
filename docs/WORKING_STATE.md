@@ -1,33 +1,51 @@
-# Current implementation state — 2026-11-07
+# Current implementation state — 2026-11-08
 
 ## Latest user-directed improvement
 
-The user subsequently requested improvement using advanced skills, then said
-continue. A distinct oral surface/cage experiment now exists; read
-`ORAL_SCULPT_REVIEW.md`. This supersedes stopping all authoring work, while the
-old loft and both head reconstructions remain rejected. Do not repeat the old
-source search or relabel the old models as accepted.
+The user requested continued autonomous work and a third team member. The
+bounded team is the coordinator, method reviewer and independent contact
+reviewer; do not expand it without a concrete need. Read `ORAL_SCULPT_REVIEW.md`
+and `FACE_CONTEXT_REVIEW.md`. The old loft and both head reconstructions remain
+rejected. Do not relabel technical progress as visual/anatomical acceptance.
 
 New local review page: `/mouth.html`, source `tools/blender/build_oral_sculpt.py`,
 shape specification `data/anatomy/oral-sculpt.json`, editable native master and
-GLB under `artifacts/method-evidence/oral-sculpt`. Runtime assets have separate
-`oral-study` filenames; historical `makharij-realistic` assets are unchanged.
-The page is an experimental review tool, not a completed teaching UI.
+GLB under `artifacts/method-evidence/oral-sculpt`. A separate original CC0
+MakeHuman face is in `artifacts/method-evidence/face-context`; it does not use
+the rejected atlas/Boolean composite. `/mouth.html` defaults to the face and
+offers floor, whole-mouth and actual oral-section views. Runtime files use
+`oral-study` and `face-context` names. Historical `makharij-realistic` files
+are unchanged. This remains an experimental review tool.
 
 Implemented: continuous six-patch tongue; nonplanar BVH-sampled closed mucosal
 floor and frenulum; continuous hard/soft palatal volume; B-spline cage baked to
 morphs; actual rigid jaw pivot and coupled lower dentition/gingiva; combined
 jaw/tongue corrective shapes; constrained peak volume correction; portable PBR
-maps using the pinned MIT skill; actual dynamic mesh-section caps in the browser.
+maps using the pinned MIT skill; actual dynamic mesh-section caps in the browser;
+three original facial lip targets, original bound eyes and one shared jaw state.
+The combined native master has eight `SPEECH_CONTROLS` properties. Only the
+dental jaw rotates rigidly; the skin receives its original face morph once.
+Open head context is excluded from all tissue section caps.
 
-Technical review covers 13 native/GLB cases, authored topology, root/floor seam,
-rigid dental dimensions and volume diagnostics. Visual/expert acceptance and
-general dental-contact review remain pending. This is partial oral progress,
-not full M2/M3 acceptance, a scan, an incompressible simulation or Arabic letter
-calibration. Human anatomy/tajweed review and full-head integration are still
-needed. Source is original inferred art plus separately attributed dental data.
+The prior oral GLB actually crossed dental surfaces in 17/36 selected pairs.
+The corrected tongue is narrower/retracted and its frenulum is rebuilt from
+the actual free ventral span. Current GLB `e051e47ad424…` has zero crossings in
+18 selected poses/36 pairs, minimum separation 2.324 mm. The baseline and its
+failure report are retained. Staging now requires a matching full selected
+contact report, in addition to source/export checks. Face GLB `c8a0c97357e7…`
+passes 10 selected face/dental poses/20 surface pairs. These do not prove
+palatal/gingival contact, all combinations, tissue mechanics or phonetic fit.
 
-Use `assets:oral:*` and `test:oral` commands. Old `assets:export` reconstructs a
+Technical review covers 13 oral and 11 face native/GLB cases. Nineteen unit
+checks and actual Chromium controls/caps/mobile review pass. Visual review
+still finds the tongue/root too generic, root/floor transitions unclear and
+posterior palate/gingival endings insufficiently anatomical. Do not add letters
+or claim realistic teaching anatomy from these tests. A qualified internal
+sculpt and human anatomy/tajweed review remain necessary; face context alone
+does not complete the internal head. No scan, muscle simulation or M2/M3 claim.
+
+Use `assets:oral:*`, `assets:face:*` and `test:oral`. Build/check/contact-gate/stage
+the oral unit before building the paired face. Old `assets:export` reconstructs a
 rejected historical head; do not use it to publish this oral study. Material
 rebaking starts from the retained untextured source. Any base-shape edit requires
 rebuilding attachment, cage-derived shapes, export and evidence.
@@ -136,8 +154,9 @@ A five-domain draft was saved but not applied; current custom domains remain
 empty. Do not treat the user's generic “continue” as network or spending approval.
 Refresh runtime status after a real settings change and retry with a fresh
 connection. Generic autonomy does not itself apply a network-policy draft.
-One specialist was subsequently explicitly authorized and used; preserve that
-budget and do not return to atlas remeshing or the failed section-loft pilot.
+The later explicit third-agent request supersedes the older one-specialist
+budget, with three total team members retained. Do not return to atlas
+remeshing or the failed section-loft pilot.
 
 ## Recovery
 

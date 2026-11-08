@@ -1,0 +1,196 @@
+{
+  "status": "external-context-experimental",
+  "productionSelected": false,
+  "visualReview": "pending",
+  "expertAcceptance": "pending",
+  "fullInternalHeadComplete": false,
+  "clinicalAccuracyClaim": false,
+  "parts": [
+    "HEAD_EXTERNAL",
+    "FACE_EYES"
+  ],
+  "contextSurfaceOnly": true,
+  "nativeControlMaster": "SPEECH_CONTROLS",
+  "controls": [
+    "TIP_ELEVATE",
+    "DORSUM_ELEVATE",
+    "ROOT_RETRACT",
+    "JAW_OPEN",
+    "VELUM_RAISE",
+    "LIP_PRESS",
+    "LIP_ROUND",
+    "LIP_PROTRUDE"
+  ],
+  "jawSkinDoubleRotation": false,
+  "excludeFromTissueSectionCaps": [
+    "HEAD_EXTERNAL",
+    "FACE_EYES"
+  ],
+  "sourceRepository": "https://github.com/makehumancommunity/makehuman",
+  "sourceCommit": "a8bc2d54ff0ac92e78ff71431b1023eda42bf482",
+  "originalAssetLicense": "CC0-1.0",
+  "oralSourceGlbSha256": "e051e47ad424a3d301f12acd75325998d6079007c3babd78175a31bbf563e0c6",
+  "sourceToCanonicalTranslation_m": [
+    -0.14353666666666667,
+    -0.03159999999999998,
+    -0.0
+  ],
+  "gltfToProject": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      -1,
+      0,
+      0
+    ]
+  ],
+  "sourceVertexMapping": "SOURCE_HEAD/source_vertex_id in native master, before subdivision",
+  "originalOralPocket": {
+    "faces": 398,
+    "delivery": false,
+    "changedShape": false
+  },
+  "originalLipRimVertices": [
+    524,
+    525,
+    526,
+    527,
+    528,
+    529,
+    530,
+    531,
+    532,
+    533,
+    534,
+    535,
+    536,
+    537,
+    538,
+    539,
+    540,
+    3709,
+    3730,
+    5359,
+    7269,
+    7270,
+    7271,
+    7272,
+    7273,
+    7274,
+    7275,
+    7276,
+    7277,
+    7278,
+    7279,
+    7280,
+    7281,
+    7282,
+    7283,
+    10377,
+    10398,
+    11961
+  ],
+  "headVertices": 16084,
+  "neckCrop": {
+    "planeY_m": -0.115,
+    "flattenedBoundaryVertices": 54,
+    "capAsTissue": false
+  },
+  "targetFiles": [
+    {
+      "path": "assets/source/makehuman/makehuman/data/targets/expression/units/african/mouth-open.target",
+      "sha256": "c3e586735bdc8dc17c3690c7a3e18b3c90466071214c4c514624d1f75d3ba344",
+      "weight": 0.16666666666666666
+    },
+    {
+      "path": "assets/source/makehuman/makehuman/data/targets/expression/units/asian/mouth-open.target",
+      "sha256": "2222072e34027f7bc05e53548878832b041cb9b749062e369468d6946e68a32b",
+      "weight": 0.16666666666666666
+    },
+    {
+      "path": "assets/source/makehuman/makehuman/data/targets/expression/units/caucasian/mouth-open.target",
+      "sha256": "07377ba3a3eb1b92b00029908f896ea1f8cc50356789f54268d897f2e89c2843",
+      "weight": 0.16666666666666666
+    },
+    {
+      "path": "assets/source/makehuman/makehuman/data/targets/expression/units/african/mouth-compression.target",
+      "sha256": "12b8dc506faa0cde0c30a07b89c725dc728d4770900a7dd6956dceb91566c7ef",
+      "weight": 0.21666666666666667
+    },
+    {
+      "path": "assets/source/makehuman/makehuman/data/targets/expression/units/asian/mouth-compression.target",
+      "sha256": "b7abd0826708d7e4344559583edd0fc80e098b08b91f3e6d67d83b1eed20ccbe",
+      "weight": 0.21666666666666667
+    },
+    {
+      "path": "assets/source/makehuman/makehuman/data/targets/expression/units/caucasian/mouth-compression.target",
+      "sha256": "b7abd0826708d7e4344559583edd0fc80e098b08b91f3e6d67d83b1eed20ccbe",
+      "weight": 0.21666666666666667
+    },
+    {
+      "path": "assets/source/makehuman/makehuman/data/targets/expression/units/african/mouth-pursing.target",
+      "sha256": "72c3cb4eef3b2674e2265f77aca813ee7ed0219674b2ca4ce3661f5ad180fba2",
+      "weight": 0.2333333333333333
+    },
+    {
+      "path": "assets/source/makehuman/makehuman/data/targets/expression/units/asian/mouth-pursing.target",
+      "sha256": "d984a24e4c692d66d11d971d8cdc6483369688e498abd44a13d129f7bd248046",
+      "weight": 0.2333333333333333
+    },
+    {
+      "path": "assets/source/makehuman/makehuman/data/targets/expression/units/caucasian/mouth-pursing.target",
+      "sha256": "02b08ad99c2345e83cbd4c77819fadef2af8c7fc3111211fc169459eb7f37d10",
+      "weight": 0.2333333333333333
+    },
+    {
+      "path": "assets/source/makehuman/makehuman/data/targets/expression/units/african/mouth-protusion.target",
+      "sha256": "48ed31bbdcfd754f6e00732c2c3eaa305fbfed56ec7c64b0468ba0fb5514f829",
+      "weight": 0.21666666666666667
+    },
+    {
+      "path": "assets/source/makehuman/makehuman/data/targets/expression/units/asian/mouth-protusion.target",
+      "sha256": "536bd142a0985bf5cea6709561495756fd368a5582adcefc90c99348b1e47378",
+      "weight": 0.21666666666666667
+    },
+    {
+      "path": "assets/source/makehuman/makehuman/data/targets/expression/units/caucasian/mouth-protusion.target",
+      "sha256": "012c571c381c3dee06591132110d7d64fb2abd49d883afc619f6bc6c0000d2f4",
+      "weight": 0.21666666666666667
+    }
+  ],
+  "motion": {
+    "JAW_OPEN": {
+      "movedVertices": 4664,
+      "maximumDisplacement_m": 0.019340033591029638
+    },
+    "LIP_PRESS": {
+      "movedVertices": 2610,
+      "maximumDisplacement_m": 0.005399234143493231
+    },
+    "LIP_ROUND": {
+      "movedVertices": 3128,
+      "maximumDisplacement_m": 0.011108081252391199
+    },
+    "LIP_PROTRUDE": {
+      "movedVertices": 2790,
+      "maximumDisplacement_m": 0.010557109208838688
+    }
+  },
+  "specSha256": "a7104dc2f282974b7d05eba074eb40691d84a1da75aeecf57a7a0ece35382076",
+  "blendSha256": "182ec560bb976b5a0bf0dace5ff590955931d9ea30a3662b9fd250026fbdbdb9",
+  "glbSha256": "c8a0c97357e7e07c3796b4d9486f3622304f07fa087c36629e8d732bec730dbe",
+  "limitations": [
+    "External face context, not complete internal head anatomy",
+    "Helper-anchor authoring fit, not clinical registration",
+    "Lip/dental contact and Arabic phoneme calibration pending",
+    "Generic source oral pocket excluded rather than presented as anatomy"
+  ]
+}

@@ -1,5 +1,16 @@
 # M1 anatomical foundation decision — 2026-11-06
 
+## Face context and contact correction — 2026-11-08
+
+The user authorized continued work with a third team member. A separate
+original MakeHuman external face and three lip morphs now accompany the oral
+prototype; see `FACE_CONTEXT_REVIEW.md`. The rejected atlas/Boolean head was
+not reused. One state drives the facial jaw shape and the rigid dental pivot.
+The independent reviewer found and verified a real oral dental-intersection
+fix (17/36 crossing pairs before, zero in the selected final pairs). These
+checks do not accept the still-generic tongue/root/palatal form. A qualified
+internal sculpt and expert review remain required before teaching use.
+
 ## New user-authorized oral study — 2026-11-07
 
 After the bounded loft failed, the user explicitly requested improvement with

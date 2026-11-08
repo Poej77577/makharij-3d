@@ -4,8 +4,8 @@
   "generalDentalContactReview": "pending",
   "volumeConservingSimulation": false,
   "productionSelected": false,
-  "blendSha256": "ec96288ed20a6d9a3f676896d1a24cbb9f82426a1493f2120318ce02ef567925",
-  "glbSha256": "e22cafd412a2928a1d002d8a1d1c437bf34bdc793eb27d43cfb8dcc13e42ba00",
+  "blendSha256": "272f9efe532524c9972b2a7151bee7b9f69c8f9c4c4e189702b78b1f79bc7708",
+  "glbSha256": "e051e47ad424a3d301f12acd75325998d6079007c3babd78175a31bbf563e0c6",
   "topology": {
     "TONGUE": {
       "boundaryEdges": 0,
@@ -27,55 +27,55 @@
   "rootFloorSeam": [
     {
       "case": "rest",
-      "maximumRootFloorGap_m": 8.172322374377927e-09
+      "maximumRootFloorGap_m": 7.80590525550906e-09
     },
     {
       "case": "TIP_ELEVATE_0.5",
-      "maximumRootFloorGap_m": 8.172322374377927e-09
+      "maximumRootFloorGap_m": 7.80590525550906e-09
     },
     {
       "case": "TIP_ELEVATE_1",
-      "maximumRootFloorGap_m": 8.172322374377927e-09
+      "maximumRootFloorGap_m": 7.80590525550906e-09
     },
     {
       "case": "DORSUM_ELEVATE_0.5",
-      "maximumRootFloorGap_m": 8.172322374377927e-09
+      "maximumRootFloorGap_m": 7.80590525550906e-09
     },
     {
       "case": "DORSUM_ELEVATE_1",
-      "maximumRootFloorGap_m": 8.172322374377927e-09
+      "maximumRootFloorGap_m": 7.80590525550906e-09
     },
     {
       "case": "ROOT_RETRACT_0.5",
-      "maximumRootFloorGap_m": 8.172322374377927e-09
+      "maximumRootFloorGap_m": 7.80590525550906e-09
     },
     {
       "case": "ROOT_RETRACT_1",
-      "maximumRootFloorGap_m": 8.172322374377927e-09
+      "maximumRootFloorGap_m": 7.80590525550906e-09
     },
     {
       "case": "JAW_OPEN_0.5",
-      "maximumRootFloorGap_m": 4.7424350668734405e-08
+      "maximumRootFloorGap_m": 5.56734285339644e-08
     },
     {
       "case": "JAW_OPEN_1",
-      "maximumRootFloorGap_m": 7.58213261065066e-08
+      "maximumRootFloorGap_m": 9.369517073309908e-08
     },
     {
       "case": "VELUM_RAISE_0.5",
-      "maximumRootFloorGap_m": 8.172322374377927e-09
+      "maximumRootFloorGap_m": 7.80590525550906e-09
     },
     {
       "case": "VELUM_RAISE_1",
-      "maximumRootFloorGap_m": 8.172322374377927e-09
+      "maximumRootFloorGap_m": 7.80590525550906e-09
     },
     {
       "case": "combined",
-      "maximumRootFloorGap_m": 5.75011576131601e-08
+      "maximumRootFloorGap_m": 7.337389007489037e-08
     },
     {
       "case": "return",
-      "maximumRootFloorGap_m": 8.172322374377927e-09
+      "maximumRootFloorGap_m": 7.80590525550906e-09
     }
   ],
   "cases": [
@@ -111,7 +111,7 @@
         "LOWER_GINGIVA": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 0.0,
-      "tongueVolumeChangeFraction": -0.006892490581635435
+      "tongueVolumeChangeFraction": -0.0012743123953818936
     },
     {
       "case": "TIP_ELEVATE_1",
@@ -129,7 +129,7 @@
         "LOWER_GINGIVA": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 0.0,
-      "tongueVolumeChangeFraction": -1.6966006377572285e-10
+      "tongueVolumeChangeFraction": 1.0824163787503949e-10
     },
     {
       "case": "DORSUM_ELEVATE_0.5",
@@ -147,7 +147,7 @@
         "LOWER_GINGIVA": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 0.0,
-      "tongueVolumeChangeFraction": 0.007067544588955199
+      "tongueVolumeChangeFraction": 0.009017644255848722
     },
     {
       "case": "DORSUM_ELEVATE_1",
@@ -165,7 +165,7 @@
         "LOWER_GINGIVA": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 0.0,
-      "tongueVolumeChangeFraction": -3.611041465845233e-10
+      "tongueVolumeChangeFraction": 2.668909537817399e-10
     },
     {
       "case": "ROOT_RETRACT_0.5",
@@ -183,7 +183,7 @@
         "LOWER_GINGIVA": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 0.0,
-      "tongueVolumeChangeFraction": 0.0002626318752432244
+      "tongueVolumeChangeFraction": 0.000406481402147163
     },
     {
       "case": "ROOT_RETRACT_1",
@@ -201,7 +201,7 @@
         "LOWER_GINGIVA": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 0.0,
-      "tongueVolumeChangeFraction": 2.9056979045094522e-11
+      "tongueVolumeChangeFraction": -2.6593227619997606e-10
     },
     {
       "case": "JAW_OPEN_0.5",
@@ -219,7 +219,7 @@
         "LOWER_GINGIVA": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 4.5361633199680895e-10,
-      "tongueVolumeChangeFraction": 0.0020196729799062396
+      "tongueVolumeChangeFraction": -0.0005298606243959725
     },
     {
       "case": "JAW_OPEN_1",
@@ -237,7 +237,7 @@
         "LOWER_GINGIVA": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 3.1172114195454625e-10,
-      "tongueVolumeChangeFraction": 0.03336791200021327
+      "tongueVolumeChangeFraction": 0.028235014086163357
     },
     {
       "case": "VELUM_RAISE_0.5",
@@ -294,7 +294,7 @@
         "LOWER_GINGIVA": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 2.317219124914338e-10,
-      "tongueVolumeChangeFraction": 0.008277772009910533
+      "tongueVolumeChangeFraction": 0.013830162192211448
     },
     {
       "case": "return",

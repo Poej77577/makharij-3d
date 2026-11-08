@@ -1,5 +1,5 @@
 {
-  "masterSha256": "8a6e491310f8d5ad0b85869483cb2356ca88438756d84df3c2c81efb5371af82",
+  "masterSha256": "67c505f49191f07f2d8feeb43412b14098051b6d25e64281d67e77413a770311",
   "masterFile": "oral-unit.untextured.blend",
   "skillSha256": "b2fff3e7a7d4a32dbe9a2e889804ce3612add28a514397de4213757fcd53fc1e",
   "mode": "clay",
@@ -18,10 +18,10 @@
         0
       ],
       "images": {
-        "review/clay/isolated/clay_top.png": "ec1cedc203ae8ce456c08498da4932455070242ba7103c487f860f8d6aa14feb",
-        "review/clay/isolated/clay_threequarter.png": "38abc13390108f905577fc2fdd5e63f90ccc211079faa52a7164ae4111606129",
-        "review/clay/isolated/clay_ref.png": "dfad53b70f8c34b6f8c1f0ea90c01d8a9d69d5c5c1d3b6a9be79b3e274fa2c48",
-        "review/clay/isolated/clay_side.png": "808181c60c0acf9bea474eb29bc1c5f6c65ec5130ee198174ed0fe6b312e39cc"
+        "review/clay/isolated/clay_top.png": "5070065220ad7ff3e4db70a4cf2dbc2488a3ef6c5d2c3a7565ed1a17477f1130",
+        "review/clay/isolated/clay_threequarter.png": "c0362cfa5f6da588feb427931c4211c35e577344c7cd1002f5efcac4a883968a",
+        "review/clay/isolated/clay_ref.png": "2b7fbb57801fb5145071858a03ad7def89085391031abdc1978e9a44028a2a3f",
+        "review/clay/isolated/clay_side.png": "e950db00ac386ecd11c5e5512fa1d8d540079fc5b22b8125d9556e37598a34b7"
       }
     },
     {
@@ -47,8 +47,8 @@
         55
       ],
       "images": {
-        "review/clay/mouth/clay_threequarter.png": "ca2ec517ee19b692893d3e47ee5c280f5c7904bbbc9be835c09925f856c50e1c",
-        "review/clay/mouth/clay_ref.png": "2166582975fe0cabb03c9b54a45cbd523cddeeb45b298a6011c9b739d4b85193"
+        "review/clay/mouth/clay_threequarter.png": "06cdcd3291d5c6c5d75e5f66a9d412c8d98927df8b635d309d1b38a357b1e113",
+        "review/clay/mouth/clay_ref.png": "6ce3d4f4252d8ad1911696e53aaa5a484ec75a34486459552fff117e810aa387"
       }
     },
     {
@@ -69,7 +69,7 @@
         55
       ],
       "images": {
-        "review/clay/floor/clay_ref.png": "2d1595f8d0c98e905802eb5f834ed3030a1f0f23cb8c85a816ac9e38c22218af"
+        "review/clay/floor/clay_ref.png": "3b88586d3eccf0c1f11d096b63c3f05633f92e020e8e3a2e6c5f09d1325a2585"
       }
     },
     {
@@ -91,8 +91,8 @@
       "views": "side,threequarter",
       "referenceCamera": null,
       "images": {
-        "review/clay/sagittal/clay_threequarter.png": "0fed5cc85b8ecf2942b6e12006e1915daa8e1656523b48f3f5424cde44eb0461",
-        "review/clay/sagittal/clay_side.png": "92d6833e8c63008583e1e843c5055f0689dfeaf80cb0d47ad6dc9d203e1226dd"
+        "review/clay/sagittal/clay_threequarter.png": "f5f782bd00f86fd720ddd5cc07b710dccdf682069e70822095e987656a7b6470",
+        "review/clay/sagittal/clay_side.png": "a762b6ed1ae59bd057d266ac7da56431be9c3faf66623ec6e8c756832d5492e6"
       }
     },
     {
@@ -115,7 +115,7 @@
       "views": "side",
       "referenceCamera": null,
       "images": {
-        "review/clay/tip/clay_side.png": "06118e87b063530f3cd4630c3a94b104c77b2af19a0d01b52f929c078d4b3331"
+        "review/clay/tip/clay_side.png": "014dac2c904530d835368ad5679dbe2ac47515630c7b786b135ff6bf95d574c3"
       }
     },
     {
@@ -138,7 +138,7 @@
       "views": "side",
       "referenceCamera": null,
       "images": {
-        "review/clay/dorsum/clay_side.png": "13067c09b06286b5d5e0f0dd917f770fa5fb9e0565006503d6fa6283f2768421"
+        "review/clay/dorsum/clay_side.png": "4cf9fa34ef3207ae5ef7ad60ad945dcbe2a64e7e0ec13ab787e4fc76fe585506"
       }
     },
     {
@@ -161,7 +161,7 @@
       "views": "side",
       "referenceCamera": null,
       "images": {
-        "review/clay/root/clay_side.png": "589ef8fab88de95c42c12c2dbca9190e830a2369c96d7188fbbba37b81859f6b"
+        "review/clay/root/clay_side.png": "fbf3c8011eb9d22766b90d73a54d6e2e05846c190ba60e6572f515d46b3997a8"
       }
     }
   ],

@@ -130,7 +130,7 @@ def sculpt_point(cube):
     width = spec['transverseHalfWidth_mm']*.001
     width *= (.83+.17*smooth((-px-.018)/.035))
     width *= (1-.13*smooth((-py-.018)/.012))
-    width *= 1+.28*smooth((px+.039)/.026)
+    width *= 1+spec.get('anteriorWidthFlare', 0)*smooth((px+.039)/.026)
     pz = sz*width
     dorsal = smooth((py+.005)/.010)
     sulcus = .00055*math.exp(-(pz/.0032)**2)*math.exp(-((px+.038)/.024)**4)
@@ -237,9 +237,13 @@ floor['source'] = 'Original closed mucosal surface; inner boundary sampled from 
 web_vertices, web_faces = [], []
 web_nx, web_ny = 18, 8
 front_inner, front_outer = inner[0], outer[0]
+web_start = front_inner.x+.001
+web_end = max(point.x for point in rest_coords)-.004
+if web_start >= web_end:
+    raise RuntimeError('No free ventral span remains for the lingual frenulum')
 for side in (-1, 1):
     for i in range(web_nx+1):
-        x = -.025+.008*i/web_nx
+        x = web_start+(web_end-web_start)*i/web_nx
         hit, _, _, _ = bvh.ray_cast(Vector((x, -.060, 0)), Vector((0, 1, 0)), .1)
         if hit is None:
             raise RuntimeError('Frenulum ventral attachment not found')

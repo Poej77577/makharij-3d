@@ -1,0 +1,158 @@
+{
+  "scope": "Actual positive-Z lower arch +X ray hits from posterior, selected Y/Z lines; not a continuous global constraint",
+  "rows": [
+    {
+      "y_mm": -2.0,
+      "z_mm": 2.0,
+      "firstLingualHitX_mm": -7.208
+    },
+    {
+      "y_mm": -2.0,
+      "z_mm": 6.0,
+      "firstLingualHitX_mm": -7.178
+    },
+    {
+      "y_mm": -2.0,
+      "z_mm": 10.0,
+      "firstLingualHitX_mm": -9.37
+    },
+    {
+      "y_mm": -2.0,
+      "z_mm": 14.0,
+      "firstLingualHitX_mm": -22.345
+    },
+    {
+      "y_mm": -2.0,
+      "z_mm": 18.0,
+      "firstLingualHitX_mm": -35.385
+    },
+    {
+      "y_mm": -4.0,
+      "z_mm": 2.0,
+      "firstLingualHitX_mm": -10.603
+    },
+    {
+      "y_mm": -4.0,
+      "z_mm": 6.0,
+      "firstLingualHitX_mm": -10.575
+    },
+    {
+      "y_mm": -4.0,
+      "z_mm": 10.0,
+      "firstLingualHitX_mm": -11.383
+    },
+    {
+      "y_mm": -4.0,
+      "z_mm": 14.0,
+      "firstLingualHitX_mm": -23.151
+    },
+    {
+      "y_mm": -4.0,
+      "z_mm": 18.0,
+      "firstLingualHitX_mm": -30.152
+    },
+    {
+      "y_mm": -8.0,
+      "z_mm": 2.0,
+      "firstLingualHitX_mm": -15.016
+    },
+    {
+      "y_mm": -8.0,
+      "z_mm": 6.0,
+      "firstLingualHitX_mm": -16.125
+    },
+    {
+      "y_mm": -8.0,
+      "z_mm": 10.0,
+      "firstLingualHitX_mm": -17.353
+    },
+    {
+      "y_mm": -8.0,
+      "z_mm": 14.0,
+      "firstLingualHitX_mm": -22.874
+    },
+    {
+      "y_mm": -8.0,
+      "z_mm": 18.0,
+      "firstLingualHitX_mm": -29.773
+    },
+    {
+      "y_mm": -12.0,
+      "z_mm": 2.0,
+      "firstLingualHitX_mm": -17.288
+    },
+    {
+      "y_mm": -12.0,
+      "z_mm": 6.0,
+      "firstLingualHitX_mm": -17.339
+    },
+    {
+      "y_mm": -12.0,
+      "z_mm": 10.0,
+      "firstLingualHitX_mm": -18.815
+    },
+    {
+      "y_mm": -12.0,
+      "z_mm": 14.0,
+      "firstLingualHitX_mm": -23.561
+    },
+    {
+      "y_mm": -12.0,
+      "z_mm": 18.0,
+      "firstLingualHitX_mm": -25.859
+    },
+    {
+      "y_mm": -16.0,
+      "z_mm": 2.0,
+      "firstLingualHitX_mm": -18.15
+    },
+    {
+      "y_mm": -16.0,
+      "z_mm": 6.0,
+      "firstLingualHitX_mm": -18.154
+    },
+    {
+      "y_mm": -16.0,
+      "z_mm": 10.0,
+      "firstLingualHitX_mm": -19.764
+    },
+    {
+      "y_mm": -16.0,
+      "z_mm": 14.0,
+      "firstLingualHitX_mm": -18.609
+    },
+    {
+      "y_mm": -16.0,
+      "z_mm": 18.0,
+      "firstLingualHitX_mm": -27.575
+    },
+    {
+      "y_mm": -20.0,
+      "z_mm": 2.0,
+      "firstLingualHitX_mm": -19.75
+    },
+    {
+      "y_mm": -20.0,
+      "z_mm": 6.0,
+      "firstLingualHitX_mm": -19.167
+    },
+    {
+      "y_mm": -20.0,
+      "z_mm": 10.0,
+      "firstLingualHitX_mm": null
+    },
+    {
+      "y_mm": -20.0,
+      "z_mm": 14.0,
+      "firstLingualHitX_mm": null
+    },
+    {
+      "y_mm": -20.0,
+      "z_mm": 18.0,
+      "firstLingualHitX_mm": -28.782
+    }
+  ],
+  "assetSha256": "e22cafd412a2928a1d002d8a1d1c437bf34bdc793eb27d43cfb8dcc13e42ba00",
+  "units": "mm",
+  "pose": "rest"
+}

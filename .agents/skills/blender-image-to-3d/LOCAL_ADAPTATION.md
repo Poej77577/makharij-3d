@@ -37,6 +37,14 @@ Skill review coordinates are +Z up, -Y anterior. The orientation-preserving map
 is `(x_blender, y_blender, z_blender) = (-z_project, -x_project, y_project)`.
 Record and test any source/runtime conversion; never silently mirror anatomy.
 
+On 2026-11-08 the user explicitly authorized a third team member and continued
+autonomous work. The bounded team is coordinator, method reviewer and contact
+reviewer. The original CC0 MakeHuman face is a separate external context with
+source lip targets; it does not reuse the rejected atlas/Boolean composite.
+Keep its open skin out of tissue caps. Selected dental clearances and successful
+export do not accept the generic internal tongue/root/palate shape. Preserve
+the current visual limitations in the review records before adding details.
+
 Open third-party `.blend` files with `use_scripts=False, load_ui=False`, start
 Blender with `--disable-autoexec --python-exit-code 1`, and do not run embedded
 scripts/add-ons. Only use reviewed helper scripts. The local review helper was

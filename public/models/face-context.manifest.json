@@ -1,0 +1,64 @@
+{
+  "status": "external-context-experimental",
+  "visualReview": "pending",
+  "expertAcceptance": "pending",
+  "contextSurfaceOnly": true,
+  "fullInternalHeadComplete": false,
+  "clinicalAccuracyClaim": false,
+  "parts": [
+    "HEAD_EXTERNAL",
+    "FACE_EYES"
+  ],
+  "glbSha256": "c8a0c97357e7e07c3796b4d9486f3622304f07fa087c36629e8d732bec730dbe",
+  "oralSourceGlbSha256": "e051e47ad424a3d301f12acd75325998d6079007c3babd78175a31bbf563e0c6",
+  "controls": [
+    "TIP_ELEVATE",
+    "DORSUM_ELEVATE",
+    "ROOT_RETRACT",
+    "JAW_OPEN",
+    "VELUM_RAISE",
+    "LIP_PRESS",
+    "LIP_ROUND",
+    "LIP_PROTRUDE"
+  ],
+  "gltfToProject": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      -1,
+      0,
+      0
+    ]
+  ],
+  "excludeFromTissueSectionCaps": [
+    "HEAD_EXTERNAL",
+    "FACE_EYES"
+  ],
+  "limitations": [
+    "External face context, not complete internal head anatomy",
+    "Helper-anchor authoring fit, not clinical registration",
+    "Lip/dental contact and Arabic phoneme calibration pending",
+    "Generic source oral pocket excluded rather than presented as anatomy"
+  ],
+  "originalAssetLicense": "CC0-1.0",
+  "selectedHeadDentalSurfaceReview": {
+    "faceAssetSha256": "c8a0c97357e7e07c3796b4d9486f3622304f07fa087c36629e8d732bec730dbe",
+    "oralAssetSha256": "e051e47ad424a3d301f12acd75325998d6079007c3babd78175a31bbf563e0c6",
+    "cases": 10,
+    "pairsChecked": 20,
+    "surfaceCrossings": 0,
+    "minimumSurfaceDistance_m": 0.005614573940883318,
+    "headSurfaceIntentionallyOpen": true,
+    "insideOrVolumeTestsRun": false,
+    "scope": "Selected external-head/dental surface intersections and nearest distances only. No head containment, tissue volume, exact penetration depth, self-intersection audit, all control combinations, tongue/skin or phonetic acceptance.",
+    "report": "artifacts/method-evidence/face-context/contact-review/face-contacts.json"
+  }
+}

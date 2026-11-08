@@ -1,0 +1,12 @@
+{
+  "baselineSha256": "e22cafd412a2928a1d002d8a1d1c437bf34bdc793eb27d43cfb8dcc13e42ba00",
+  "finalSha256": "e051e47ad424a3d301f12acd75325998d6079007c3babd78175a31bbf563e0c6",
+  "casesPerAsset": 18,
+  "pairsPerAsset": 36,
+  "baselineCrossingPairs": 17,
+  "finalCrossingPairs": 0,
+  "finalMinimumSurfaceDistance_m": 0.002324194564122187,
+  "finalSaturatedPairs": 0,
+  "scope": "Selected tongue/dental poses only. Surface collision and finite inside-solid surface sampling; not exact penetration depth, intersection volume, all controls, self-intersection audit, gingival or palatal contact, biomechanics or clinical acceptance.",
+  "anatomyAccepted": false
+}

@@ -1,0 +1,14 @@
+{
+  "role": "External artist head context; not complete internal cranial anatomy",
+  "source": "Official CC0 MakeHuman base, adult macro targets, facial targets and bound eye asset",
+  "mouthOpenTargetWeight": 0.5,
+  "lipPressTargetWeight": 0.65,
+  "lipRoundTargetWeight": 0.7,
+  "lipProtrudeTargetWeight": 0.65,
+  "neckCropY_m": -0.115,
+  "skinLinearColor": [0.49, 0.30, 0.22],
+  "lipLinearColor": [0.36, 0.105, 0.095],
+  "clinicalCalibration": false,
+  "fit": "Upper-incisor helper anchor translation only; fit requires review",
+  "jawCoupling": "One JAW_OPEN state drives the artist facial target; no second rigid skin rotation"
+}

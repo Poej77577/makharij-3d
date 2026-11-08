@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "fixture": "Known open two-triangle plane and triangulated box surfaces",
+  "separatedDistance_m": 1.0,
+  "crossingDetected": true,
+  "insideOrVolumeTestsRun": false,
+  "penetrationDepthClaimed": false
+}

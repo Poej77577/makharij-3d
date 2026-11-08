@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "scope": "Analytical metre-unit boxes; not anatomy",
+  "centreToSurfaceDistance_m": 1.0,
+  "separatedGap_m": 1.0,
+  "overlappingBoxSurfaceSampleInsideDistance_m": 0.5,
+  "fullyContainedSmallBoxSurfaceDistance_m": 0.9
+}

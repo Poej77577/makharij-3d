@@ -1,0 +1,132 @@
+{
+  "scope": "Actual external face/eye data and 11 source/GLB poses",
+  "clinicalAcceptance": "pending",
+  "fullInternalHeadComplete": false,
+  "contextSurfaceOnly": true,
+  "cranialVolumeCertified": false,
+  "blendSha256": "182ec560bb976b5a0bf0dace5ff590955931d9ea30a3662b9fd250026fbdbdb9",
+  "glbSha256": "c8a0c97357e7e07c3796b4d9486f3622304f07fa087c36629e8d732bec730dbe",
+  "sourceShapes": [
+    "JAW_OPEN",
+    "LIP_PRESS",
+    "LIP_ROUND",
+    "LIP_PROTRUDE"
+  ],
+  "nativeSingleControlOwner": "SPEECH_CONTROLS",
+  "vertexColorsExported": true,
+  "eyeMaterialAlphaModes": [
+    "BLEND"
+  ],
+  "cases": [
+    {
+      "case": "rest",
+      "controls": {},
+      "partErrors_m": {
+        "HEAD_EXTERNAL": 0.0,
+        "FACE_EYES": 0.0
+      }
+    },
+    {
+      "case": "JAW_OPEN_0.5",
+      "controls": {
+        "JAW_OPEN": 0.5
+      },
+      "partErrors_m": {
+        "HEAD_EXTERNAL": 0.0,
+        "FACE_EYES": 0.0
+      }
+    },
+    {
+      "case": "JAW_OPEN_1",
+      "controls": {
+        "JAW_OPEN": 1
+      },
+      "partErrors_m": {
+        "HEAD_EXTERNAL": 0.0,
+        "FACE_EYES": 0.0
+      }
+    },
+    {
+      "case": "LIP_PRESS_0.5",
+      "controls": {
+        "LIP_PRESS": 0.5
+      },
+      "partErrors_m": {
+        "HEAD_EXTERNAL": 0.0,
+        "FACE_EYES": 0.0
+      }
+    },
+    {
+      "case": "LIP_PRESS_1",
+      "controls": {
+        "LIP_PRESS": 1
+      },
+      "partErrors_m": {
+        "HEAD_EXTERNAL": 0.0,
+        "FACE_EYES": 0.0
+      }
+    },
+    {
+      "case": "LIP_ROUND_0.5",
+      "controls": {
+        "LIP_ROUND": 0.5
+      },
+      "partErrors_m": {
+        "HEAD_EXTERNAL": 0.0,
+        "FACE_EYES": 0.0
+      }
+    },
+    {
+      "case": "LIP_ROUND_1",
+      "controls": {
+        "LIP_ROUND": 1
+      },
+      "partErrors_m": {
+        "HEAD_EXTERNAL": 0.0,
+        "FACE_EYES": 0.0
+      }
+    },
+    {
+      "case": "LIP_PROTRUDE_0.5",
+      "controls": {
+        "LIP_PROTRUDE": 0.5
+      },
+      "partErrors_m": {
+        "HEAD_EXTERNAL": 0.0,
+        "FACE_EYES": 0.0
+      }
+    },
+    {
+      "case": "LIP_PROTRUDE_1",
+      "controls": {
+        "LIP_PROTRUDE": 1
+      },
+      "partErrors_m": {
+        "HEAD_EXTERNAL": 0.0,
+        "FACE_EYES": 0.0
+      }
+    },
+    {
+      "case": "combined",
+      "controls": {
+        "JAW_OPEN": 0.6,
+        "LIP_ROUND": 0.4,
+        "LIP_PROTRUDE": 0.3
+      },
+      "partErrors_m": {
+        "HEAD_EXTERNAL": 0.0,
+        "FACE_EYES": 0.0
+      }
+    },
+    {
+      "case": "return",
+      "controls": {},
+      "partErrors_m": {
+        "HEAD_EXTERNAL": 0.0,
+        "FACE_EYES": 0.0
+      }
+    }
+  ],
+  "failures": [],
+  "technicalPass": true
+}

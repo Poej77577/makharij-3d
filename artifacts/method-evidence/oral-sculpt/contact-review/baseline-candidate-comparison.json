@@ -1,0 +1,24 @@
+{
+  "baseline": {
+    "assetSha256": "e22cafd412a2928a1d002d8a1d1c437bf34bdc793eb27d43cfb8dcc13e42ba00",
+    "cases": 18,
+    "pairs": 36,
+    "surfaceCrossingPairs": 17,
+    "saturatedPairs": 0,
+    "minimumSurfaceSeparation_m": 0.0,
+    "maximumSampledInteriorDistance_m": 0.004680303465671752,
+    "selectedDentalClearancePass": false
+  },
+  "candidate": {
+    "assetSha256": "40e2bd2303abbd250771fcd617f572e54a6b9e8da573a24d4881cabb07af7bea",
+    "cases": 18,
+    "pairs": 36,
+    "surfaceCrossingPairs": 0,
+    "saturatedPairs": 0,
+    "minimumSurfaceSeparation_m": 0.002324194564122187,
+    "maximumSampledInteriorDistance_m": 0,
+    "selectedDentalClearancePass": true
+  },
+  "scope": "Same 18 selected actual GLB states and two dental arches; not all controls, other tissues or anatomical acceptance",
+  "anatomyAccepted": false
+}
