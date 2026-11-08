@@ -1,54 +1,34 @@
 {
-  "status": "experimental; internal form not visually accepted",
+  "date": "2026-11-08",
+  "status": "improved experimental home prototype; internal visual/clinical acceptance pending",
   "accepted": false,
   "productionSelected": false,
   "fullHeadComplete": false,
   "clinicalAccuracyClaim": false,
-  "date": "2026-11-08",
-  "userDirection": "Continue autonomously and add a third team member",
-  "method": "continuous patch surface, nonplanar closed root/floor attachment, B-spline cage and explicit corrective morphs",
-  "peerReviewBeforeFinalChanges": {
-    "reviewer": "method_review AI agent",
-    "confirmed": [
-      "tip/dorsum connection improved",
-      "cap/collar removed",
-      "lateral transitions improved",
-      "more recognizable tongue in dental context"
-    ],
-    "requested": [
-      "lengthen ventral/root transition",
-      "vary root/floor attachment height",
-      "smooth hard/soft palate transition"
-    ],
-    "subsequentChangesImplemented": true,
-    "medicalExpertApproval": false
-  },
-  "technicalReview": "technical-review.json",
-  "browserReview": "browser/browser-review.json",
-  "glbSha256": "e051e47ad424a3d301f12acd75325998d6079007c3babd78175a31bbf563e0c6",
-  "remaining": [
-    "Qualified internal sculpt and human anatomical/tajweed review",
-    "Full head/nasal/pharyngeal context",
-    "Palatal/gingival/self-intersection and broader combined-range contact review",
-    "Calibrated Arabic articulations"
+  "userDirection": "Continue autonomous professional improvements, revisions and testing with a bounded three-member team",
+  "glbSha256": "013445a15e559c3c34183dc64b92d6c8df55d7445d79f672f241fde2ec89efa5",
+  "blendSha256": "bac056d3c170a158fc90d4b6d288d95d0fb10e11e6015bd58c2a0d616e8b367a",
+  "untexturedBlendSha256": "cb5ba1b7c0f9435d5b37266aabe6b635a5e734d6970c6dcea2e2978fb50a25b1",
+  "method": "Continuous welded quad-patch tongue, descending root/floor, bounded source-normal gingival fit, source palatal mucosa with attached posterior soft palate, B-spline controls and baked corrections",
+  "reviewer": "method_review AI agent, plus coordinator visual inspection; not a medical reviewer",
+  "confirmedProgress": [
+    "Free blade and descending root more distinct than the previous ovoid contour",
+    "Duplicated anterior palatal plate removed; actual source mucosal roof retained",
+    "Posterior gingival fins reduced while source topology/tooth-near vertices are retained",
+    "Fine ventral fit irregularities reduced by interpolated source normals and wider rest smoothing"
   ],
-  "peerReviewAfterFinalChanges": {
-    "reviewer": "method_review AI agent; coordinator inspected current rest clay views",
-    "anatomyAccepted": false,
-    "externalContextProgress": "Original CC0 artist face gives clearer human context and coupled lips/jaw",
-    "blockingInternalFormIssues": [
-      "Tongue/root still reads as a generic ovoid mass, including current isolated rest clay views",
-      "Ventral root/floor transition is not anatomically legible enough",
-      "Posterior palate and raised posterior gingival endings require reference-led sculpt revision"
-    ],
-    "evidence": [
-      "browser/section-detail.png",
-      "browser/mouth.png",
-      "review/clay/isolated/clay_side.png",
-      "review/clay/isolated/clay_threequarter.png"
-    ],
-    "medicalExpertApproval": false
-  },
-  "selectedDentalReview": "contact-review/e051e47ad424a3d3/contact-review.json",
-  "selectedDentalReviewPassed": true
+  "remaining": [
+    "Broad ventral horseshoe-shaped ridge/concavity still visible",
+    "Qualified anatomical sculpt and human anatomy/tajweed review",
+    "Root/floor tissue relationships, posterior shape and full nasal/pharyngeal context",
+    "Calibrated Arabic articulations and broader control-range biomechanics"
+  ],
+  "technicalReview": "technical-review.json",
+  "dentalReview": "contact-review/013445a15e559c3c/contact-review.json",
+  "tissueReview": "tissue-contact-review/013445a15e559c3c/tissue-contacts.json",
+  "selfReview": "self-contact-review/self-contacts.json",
+  "independentVisualReview": "self-contact-review/FINAL_REVIEW.md",
+  "browserReview": "browser/browser-review.json",
+  "selectedEngineeringChecksPassed": true,
+  "engineeringChecksGrantAnatomyAcceptance": false
 }

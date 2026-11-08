@@ -16,7 +16,7 @@ with sync_playwright() as p:
     page = browser.new_page(viewport={'width': 1280, 'height': 900})
     errors = []
     page.on('pageerror', lambda error: errors.append(str(error)))
-    response = page.goto(url, wait_until='networkidle')
+    response = page.goto(url + '/legacy.html', wait_until='networkidle')
     assert response and response.ok
     page.wait_for_function("!document.querySelector('#motionPlay').disabled")
     assert '13' in page.locator('#status').inner_text(), 'Preserved model inventory changed'
@@ -34,6 +34,7 @@ with sync_playwright() as p:
     assert not errors, errors
     (OUT / 'browser-smoke.json').write_text(json.dumps({
         'httpStatus': response.status,
+        'pagePath': '/legacy.html',
         'assetSha256': hashlib.sha256(data).hexdigest(),
         'actualPoseChange': True,
         'returnMatchesRest': True,

@@ -1,0 +1,74 @@
+{
+  "assetSha256": "013445a15e559c3c34183dc64b92d6c8df55d7445d79f672f241fde2ec89efa5",
+  "untexturedNativeSha256": "cb5ba1b7c0f9435d5b37266aabe6b635a5e734d6970c6dcea2e2978fb50a25b1",
+  "previousRawCandidateSha256": "e7763c1a7fd189940622cf1a507859e8a16404f5a0947abb4ff9583e0c6b7165",
+  "visualInputsVerified": true,
+  "decision": "Retain as improved experimental working revision; not an accepted realistic teaching anatomy model. No further geometry change proposed in this review.",
+  "visibleImprovements": [
+    "The new profile retains the clearer free anterior blade and descending posterior/inferior root relative to the frozen oval baseline.",
+    "The duplicated authored anterior roof remains removed and the gingival posterior fins remain reduced.",
+    "Interpolated source normals and broader smoothing soften the fine local corrugation beneath the blade while preserving the blade/root silhouette."
+  ],
+  "remainingVentralLimitation": "A broad horseshoe-like ridge/recess remains visible beneath the anterior blade in the ventral and oblique clay views. Fine irregularity improved, but this region still reads as a designed transition rather than independently accepted mucosal anatomy. The field change has not established a fully convincing tongue surface.",
+  "otherLimits": [
+    "Root/floor insertions and tissue transitions remain inferred; no genial/hyoid insertion validation.",
+    "The posterior roof/gingival volumes intentionally overlap; the dark cap seam is not proof of an anatomical air gap or welded continuity.",
+    "No medical, phonetic/tajweed or classroom acceptance. Successful technical checks are separate from perceived realism."
+  ],
+  "mechanicalResult": {
+    "passed": true,
+    "fourExplicitCases": [
+      "rest",
+      "TIP_ELEVATE_1",
+      "DORSUM_ELEVATE_1",
+      "ROOT_RETRACT_1"
+    ],
+    "jaw": 0,
+    "nonadjacentIntersectingPairs": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "unsaturated": true,
+    "contactsRange": [
+      937970,
+      940117
+    ],
+    "limit": 2000000,
+    "scope": "Rest and three isolated tongue endpoints at jaw=0 only. No intermediate/combined controls, adjacent-fold/strain, contact biomechanics, phoneme or clinical/anatomical acceptance."
+  },
+  "visualPoseScope": "Native isolated/floor rest; sagittal jaw=.55 and diagnostic tongue endpoint images at jaw=.6. The independent GLB self test uses isolated tongue endpoints at jaw=0; these scopes must not be conflated.",
+  "identityGuardsPassed": true,
+  "comparisons": [
+    {
+      "oldVariant": "candidate",
+      "oldCachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/comparison-inputs/candidate/isolated/clay_threequarter.png",
+      "oldSha256": "68fb1ada2503a97145d42f3d969c42c5e8f804d8a567fb7fcda8889c3f7e085a",
+      "finalCachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/final-clay-inputs/isolated/clay_threequarter.png"
+    },
+    {
+      "oldVariant": "candidate",
+      "oldCachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/comparison-inputs/candidate/isolated/clay_ref.png",
+      "oldSha256": "8c373d44c0afedb4a08444ca07006d027856b15d6bbb5afb96f40b3dbfae6d33",
+      "finalCachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/final-clay-inputs/isolated/clay_ref.png"
+    },
+    {
+      "oldVariant": "baseline",
+      "oldCachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/comparison-inputs/baseline/isolated/clay_side.png",
+      "oldSha256": "e950db00ac386ecd11c5e5512fa1d8d540079fc5b22b8125d9556e37598a34b7",
+      "finalCachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/final-clay-inputs/isolated/clay_side.png"
+    },
+    {
+      "oldVariant": "baseline",
+      "oldCachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/comparison-inputs/baseline/sagittal/clay_side.png",
+      "oldSha256": "a762b6ed1ae59bd057d266ac7da56431be9c3faf66623ec6e8c756832d5492e6",
+      "finalCachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/final-clay-inputs/sagittal/clay_side.png"
+    }
+  ],
+  "comparisonLimits": "Matching view directions, independent automatic framing. No calibrated size, pixel-IoU or medical-image agreement claim.",
+  "changedProductFiles": [
+    "tools/qa/oral_tongue_self_contacts.py"
+  ],
+  "changedModels": false
+}

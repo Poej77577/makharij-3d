@@ -25,6 +25,8 @@
     "assets:oral:materials": "blender --background --factory-startup --disable-autoexec --threads 2 --python-exit-code 1 --python tools/blender/bake_oral_materials.py --",
     "assets:oral:validate": "blender --background --factory-startup --disable-autoexec --threads 2 --python-exit-code 1 --python tools/blender/check_oral_sculpt.py --",
     "assets:oral:contacts": ".venv-qa/bin/python tools/qa/oral_contacts.py --gate",
+    "assets:oral:tissue-contacts": ".venv-qa/bin/python tools/qa/oral_tissue_contacts.py --gate",
+    "assets:oral:self-contacts": ".venv-qa/bin/python tools/qa/oral_tongue_self_contacts.py",
     "assets:oral:stage": "python tools/anatomy/stage_oral_sculpt.py",
     "assets:oral:review": "blender --background --factory-startup --disable-autoexec --threads 2 --python-exit-code 1 --python tools/blender/render_oral_sculpt.py --",
     "test:oral": ".venv-qa/bin/python tools/qa/oral_browser.py",

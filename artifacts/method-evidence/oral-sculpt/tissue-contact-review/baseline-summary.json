@@ -1,0 +1,250 @@
+{
+  "assetSha256": "e051e47ad424a3d301f12acd75325998d6079007c3babd78175a31bbf563e0c6",
+  "manifestSha256": "973e05fae49f187368ba575a9fda9ef0fdb9acedaa910d9c605a7403630bc0d7",
+  "cases": 8,
+  "pairsChecked": 40,
+  "forbiddenPairsChecked": 24,
+  "attachmentPairsDiagnosticOnly": 16,
+  "selectedForbiddenTissueSurfacePass": false,
+  "forbiddenSurfaceContactPairs": 8,
+  "forbiddenConfirmedTransversePairs": 8,
+  "caseTable": [
+    {
+      "case": "rest",
+      "part": "PALATE",
+      "surfaceContactOrCrossing": false,
+      "properIntersectionSegments": 0,
+      "minimumSurfaceDistance_mm": 11.894492029403173,
+      "maxSampledInteriorDistance_mm": 0
+    },
+    {
+      "case": "rest",
+      "part": "UPPER_GINGIVA",
+      "surfaceContactOrCrossing": false,
+      "properIntersectionSegments": 0,
+      "minimumSurfaceDistance_mm": 9.707224163124572,
+      "maxSampledInteriorDistance_mm": 0
+    },
+    {
+      "case": "rest",
+      "part": "LOWER_GINGIVA",
+      "surfaceContactOrCrossing": true,
+      "properIntersectionSegments": 807,
+      "minimumSurfaceDistance_mm": 0.0,
+      "maxSampledInteriorDistance_mm": 0.5857008555207623
+    },
+    {
+      "case": "TIP_ELEVATE_1",
+      "part": "PALATE",
+      "surfaceContactOrCrossing": false,
+      "properIntersectionSegments": 0,
+      "minimumSurfaceDistance_mm": 11.894492029403173,
+      "maxSampledInteriorDistance_mm": 0
+    },
+    {
+      "case": "TIP_ELEVATE_1",
+      "part": "UPPER_GINGIVA",
+      "surfaceContactOrCrossing": false,
+      "properIntersectionSegments": 0,
+      "minimumSurfaceDistance_mm": 9.150037414667333,
+      "maxSampledInteriorDistance_mm": 0
+    },
+    {
+      "case": "TIP_ELEVATE_1",
+      "part": "LOWER_GINGIVA",
+      "surfaceContactOrCrossing": true,
+      "properIntersectionSegments": 541,
+      "minimumSurfaceDistance_mm": 0.0,
+      "maxSampledInteriorDistance_mm": 0.5985519512226475
+    },
+    {
+      "case": "DORSUM_ELEVATE_1",
+      "part": "PALATE",
+      "surfaceContactOrCrossing": false,
+      "properIntersectionSegments": 0,
+      "minimumSurfaceDistance_mm": 7.680074595932485,
+      "maxSampledInteriorDistance_mm": 0
+    },
+    {
+      "case": "DORSUM_ELEVATE_1",
+      "part": "UPPER_GINGIVA",
+      "surfaceContactOrCrossing": false,
+      "properIntersectionSegments": 0,
+      "minimumSurfaceDistance_mm": 4.416842760399165,
+      "maxSampledInteriorDistance_mm": 0
+    },
+    {
+      "case": "DORSUM_ELEVATE_1",
+      "part": "LOWER_GINGIVA",
+      "surfaceContactOrCrossing": true,
+      "properIntersectionSegments": 108,
+      "minimumSurfaceDistance_mm": 0.0,
+      "maxSampledInteriorDistance_mm": 0.1264645406321305
+    },
+    {
+      "case": "ROOT_RETRACT_1",
+      "part": "PALATE",
+      "surfaceContactOrCrossing": false,
+      "properIntersectionSegments": 0,
+      "minimumSurfaceDistance_mm": 9.595081636167434,
+      "maxSampledInteriorDistance_mm": 0
+    },
+    {
+      "case": "ROOT_RETRACT_1",
+      "part": "UPPER_GINGIVA",
+      "surfaceContactOrCrossing": false,
+      "properIntersectionSegments": 0,
+      "minimumSurfaceDistance_mm": 10.415623551469862,
+      "maxSampledInteriorDistance_mm": 0
+    },
+    {
+      "case": "ROOT_RETRACT_1",
+      "part": "LOWER_GINGIVA",
+      "surfaceContactOrCrossing": true,
+      "properIntersectionSegments": 651,
+      "minimumSurfaceDistance_mm": 0.0,
+      "maxSampledInteriorDistance_mm": 0.46590874239383484
+    },
+    {
+      "case": "JAW_OPEN_0.5",
+      "part": "PALATE",
+      "surfaceContactOrCrossing": false,
+      "properIntersectionSegments": 0,
+      "minimumSurfaceDistance_mm": 10.747847515262983,
+      "maxSampledInteriorDistance_mm": 0
+    },
+    {
+      "case": "JAW_OPEN_0.5",
+      "part": "UPPER_GINGIVA",
+      "surfaceContactOrCrossing": false,
+      "properIntersectionSegments": 0,
+      "minimumSurfaceDistance_mm": 12.253628749640448,
+      "maxSampledInteriorDistance_mm": 0
+    },
+    {
+      "case": "JAW_OPEN_0.5",
+      "part": "LOWER_GINGIVA",
+      "surfaceContactOrCrossing": true,
+      "properIntersectionSegments": 536,
+      "minimumSurfaceDistance_mm": 0.0,
+      "maxSampledInteriorDistance_mm": 0.3453270564768577
+    },
+    {
+      "case": "JAW_OPEN_1",
+      "part": "PALATE",
+      "surfaceContactOrCrossing": false,
+      "properIntersectionSegments": 0,
+      "minimumSurfaceDistance_mm": 9.806612450425924,
+      "maxSampledInteriorDistance_mm": 0
+    },
+    {
+      "case": "JAW_OPEN_1",
+      "part": "UPPER_GINGIVA",
+      "surfaceContactOrCrossing": false,
+      "properIntersectionSegments": 0,
+      "minimumSurfaceDistance_mm": 14.85819299629635,
+      "maxSampledInteriorDistance_mm": 0
+    },
+    {
+      "case": "JAW_OPEN_1",
+      "part": "LOWER_GINGIVA",
+      "surfaceContactOrCrossing": true,
+      "properIntersectionSegments": 760,
+      "minimumSurfaceDistance_mm": 0.0,
+      "maxSampledInteriorDistance_mm": 0.5561564147667417
+    },
+    {
+      "case": "jaw_tip",
+      "part": "PALATE",
+      "surfaceContactOrCrossing": false,
+      "properIntersectionSegments": 0,
+      "minimumSurfaceDistance_mm": 10.458025304533619,
+      "maxSampledInteriorDistance_mm": 0
+    },
+    {
+      "case": "jaw_tip",
+      "part": "UPPER_GINGIVA",
+      "surfaceContactOrCrossing": false,
+      "properIntersectionSegments": 0,
+      "minimumSurfaceDistance_mm": 12.673966846162468,
+      "maxSampledInteriorDistance_mm": 0
+    },
+    {
+      "case": "jaw_tip",
+      "part": "LOWER_GINGIVA",
+      "surfaceContactOrCrossing": true,
+      "properIntersectionSegments": 483,
+      "minimumSurfaceDistance_mm": 0.0,
+      "maxSampledInteriorDistance_mm": 0.8209513458479611
+    },
+    {
+      "case": "source_combined",
+      "part": "PALATE",
+      "surfaceContactOrCrossing": false,
+      "properIntersectionSegments": 0,
+      "minimumSurfaceDistance_mm": 14.11075992002352,
+      "maxSampledInteriorDistance_mm": 0
+    },
+    {
+      "case": "source_combined",
+      "part": "UPPER_GINGIVA",
+      "surfaceContactOrCrossing": false,
+      "properIntersectionSegments": 0,
+      "minimumSurfaceDistance_mm": 12.638704456464927,
+      "maxSampledInteriorDistance_mm": 0
+    },
+    {
+      "case": "source_combined",
+      "part": "LOWER_GINGIVA",
+      "surfaceContactOrCrossing": true,
+      "properIntersectionSegments": 366,
+      "minimumSurfaceDistance_mm": 0.0,
+      "maxSampledInteriorDistance_mm": 0.38909010237488306
+    }
+  ],
+  "worstFiniteSampleRecord": {
+    "case": "jaw_tip",
+    "controls": {
+      "JAW_OPEN": 0.65,
+      "TIP_ELEVATE": 0.8
+    },
+    "pair": [
+      "TONGUE",
+      "LOWER_GINGIVA"
+    ],
+    "otherSurfaceInsideTongue": {
+      "candidateSurfaceSamples": 362,
+      "testedSamples": 256,
+      "opposingMeshWatertight": true,
+      "maximumSampledInteriorDistance_m": 0.0008209513458479612,
+      "worstWitness_m": [
+        -0.03530644252896309,
+        -0.015548823401331902,
+        0.011179296299815178
+      ],
+      "classifiedInteriorSamples": 115,
+      "run": true,
+      "numericalQueryUnits": "millimetres; all output positions/distances converted to metres",
+      "metric": "Finite surface samples classified inside a closed opposing solid; nearest surface distance is a sampled lower bound, not exact penetration depth",
+      "opposingSurfaceNearestToWorstWitness_m": [
+        -0.034917173222991614,
+        -0.01583750655538214,
+        0.011841936893384326
+      ],
+      "opposingTriangleAtWorstWitness": 61861
+    },
+    "surfaceIntersectionBounds_m": [
+      [
+        -0.04636028744254345,
+        -0.01859913874933393,
+        -0.016862728494140257
+      ],
+      [
+        -0.0318010822055023,
+        -0.009711186670839311,
+        0.016862729330327036
+      ]
+    ]
+  },
+  "interpretation": "All 8 forbidden contacts are with lower gingiva; floor/frenulum interfaces are diagnostic and have no automatic acceptance. Finite interior sample distances are not exact penetration depth. No open opposing surface was used for containment."
+}

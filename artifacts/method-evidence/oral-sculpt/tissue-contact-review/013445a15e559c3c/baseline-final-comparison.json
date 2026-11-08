@@ -1,0 +1,166 @@
+{
+  "baselineAssetSha256": "e051e47ad424a3d301f12acd75325998d6079007c3babd78175a31bbf563e0c6",
+  "finalAssetSha256": "013445a15e559c3c34183dc64b92d6c8df55d7445d79f672f241fde2ec89efa5",
+  "finalManifestSha256": "b53888e16f0aa33817caf379287495faa5d368a03be0459eca384f784d67d275",
+  "sameSelectedConditionsAndPairs": true,
+  "reports": {
+    "baselineTissue": {
+      "path": "../tissue-contacts.json",
+      "sha256": "c88c2126b72f6249bf1ea63884d9b9781cd445ef667306283d8fdc95f34780eb"
+    },
+    "finalTissue": {
+      "path": "tissue-contacts.json",
+      "sha256": "7c8164eb30713f52d2c3d6c920e940ffaa79ebcd42e3b759ef8ea7d9c62954f7"
+    },
+    "baselineDental": {
+      "path": "../../contact-review/e051e47ad424a3d3/contact-review.json",
+      "sha256": "17508fc53de518a5181aed5df7bd244cd4943a8436e64f669205d6936a5e6e13"
+    },
+    "finalDental": {
+      "path": "../../contact-review/013445a15e559c3c/contact-review.json",
+      "sha256": "f3b03829a958cfbb8caf3a5d8ee5ccb69e80d0298463015b8d541a94da1212d5"
+    }
+  },
+  "baseline": {
+    "tissue": {
+      "cases": 8,
+      "forbiddenPairsChecked": 24,
+      "selectedForbiddenTissueSurfacePass": false,
+      "surfaceContactOrCrossingPairs": 8,
+      "confirmedTransverseCrossingPairs": 8,
+      "minimumSurfaceSeparation_mm": 0.0,
+      "minimumSeparationCondition": {
+        "case": "rest",
+        "controls": {},
+        "pair": [
+          "TONGUE",
+          "LOWER_GINGIVA"
+        ],
+        "nearestSurfacePoints_m": null
+      },
+      "maximumFiniteInteriorSampleDistance_mm": 0.8209513458479611,
+      "worstInteriorSample": {
+        "case": "jaw_tip",
+        "controls": {
+          "JAW_OPEN": 0.65,
+          "TIP_ELEVATE": 0.8
+        },
+        "pair": [
+          "TONGUE",
+          "LOWER_GINGIVA"
+        ],
+        "direction": "otherSurfaceInsideTongue",
+        "surfaceWitness_m": [
+          -0.03530644252896309,
+          -0.015548823401331902,
+          0.011179296299815178
+        ],
+        "nearestOpposingSurface_m": [
+          -0.034917173222991614,
+          -0.01583750655538214,
+          0.011841936893384326
+        ]
+      },
+      "attachmentDiagnosticPairs": 16,
+      "allAttachmentPairsStillHaveSurfaceContact": true,
+      "attachmentAccepted": false
+    },
+    "dental": {
+      "cases": 18,
+      "pairsChecked": 36,
+      "selectedDentalClearancePass": true,
+      "surfaceCrossingPairs": 0,
+      "minimumSurfaceSeparation_mm": 2.3241945641221866,
+      "minimumSeparationCondition": {
+        "case": "TIP_ELEVATE_1",
+        "controls": {
+          "TIP_ELEVATE": 1
+        },
+        "pair": [
+          "TONGUE",
+          "LOWER_DENTITION"
+        ],
+        "closestTooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_R",
+        "closestSurfacePoints_m": [
+          [
+            -0.03873352085590282,
+            -0.00037551404054924205,
+            0.015610442390528015
+          ],
+          [
+            -0.03788065165281296,
+            0.00026428699493408203,
+            0.017675666138529778
+          ]
+        ]
+      },
+      "maximumFiniteInteriorSampleDistance_mm": 0
+    }
+  },
+  "final": {
+    "tissue": {
+      "cases": 8,
+      "forbiddenPairsChecked": 24,
+      "selectedForbiddenTissueSurfacePass": true,
+      "surfaceContactOrCrossingPairs": 0,
+      "confirmedTransverseCrossingPairs": 0,
+      "minimumSurfaceSeparation_mm": 0.6888262417977338,
+      "minimumSeparationCondition": {
+        "case": "rest",
+        "controls": {},
+        "pair": [
+          "TONGUE",
+          "LOWER_GINGIVA"
+        ],
+        "nearestSurfacePoints_m": [
+          [
+            -0.022317927066158014,
+            -0.011639890423186432,
+            -6.794201308495034e-05
+          ],
+          [
+            -0.021699336361690236,
+            -0.01193638622601718,
+            -0.00013053091496858238
+          ]
+        ]
+      },
+      "maximumFiniteInteriorSampleDistance_mm": 0,
+      "worstInteriorSample": null,
+      "attachmentDiagnosticPairs": 16,
+      "allAttachmentPairsStillHaveSurfaceContact": true,
+      "attachmentAccepted": false
+    },
+    "dental": {
+      "cases": 18,
+      "pairsChecked": 36,
+      "selectedDentalClearancePass": true,
+      "surfaceCrossingPairs": 0,
+      "minimumSurfaceSeparation_mm": 4.264239383593445,
+      "minimumSeparationCondition": {
+        "case": "rest",
+        "controls": {},
+        "pair": [
+          "TONGUE",
+          "LOWER_DENTITION"
+        ],
+        "closestTooth": "ATLAS_LOWER_MEDIAL_INCISOR_L",
+        "closestSurfacePoints_m": [
+          [
+            -0.0201836362130069,
+            -0.008329712299889071,
+            -0.0009817670299093581
+          ],
+          [
+            -0.016514919698238373,
+            -0.01030421257019043,
+            -0.0018903953023254871
+          ]
+        ]
+      },
+      "maximumFiniteInteriorSampleDistance_mm": 0
+    }
+  },
+  "finalContactBudgetSaturated": false,
+  "scope": "Same selected actual-GLB suites: 8 tissue cases (24 forbidden pairs and 16 attachment diagnostics), 18 dental cases (36 pairs). FCL surface tests and bounded finite interior samples only. Interior sample distances are sampled lower bounds, not exact penetration depth. Attachment contact persistence does not exclude local gaps or excessive overlap and is not attachment/anatomy acceptance. No full control-space, self-intersection, phoneme or clinical claim."
+}

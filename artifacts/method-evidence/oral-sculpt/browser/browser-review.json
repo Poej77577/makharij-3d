@@ -1,5 +1,5 @@
 {
-  "assetSha256": "e051e47ad424a3d301f12acd75325998d6079007c3babd78175a31bbf563e0c6",
+  "assetSha256": "013445a15e559c3c34183dc64b92d6c8df55d7445d79f672f241fde2ec89efa5",
   "faceSha256": "c8a0c97357e7e07c3796b4d9486f3622304f07fa087c36629e8d732bec730dbe",
   "meshCount": 8,
   "faceContextMeshes": 2,
@@ -30,9 +30,9 @@
     }
   },
   "actualSurfaceMovement_m": {
-    "TIP_ELEVATE": 0.006910400273870988,
-    "DORSUM_ELEVATE": 0.009260993427955229,
-    "ROOT_RETRACT": 0.004531928399319848,
+    "TIP_ELEVATE": 0.005899775101806036,
+    "DORSUM_ELEVATE": 0.008893062666585438,
+    "ROOT_RETRACT": 0.004719419965750075,
     "JAW_OPEN": 0.01494805825839458,
     "VELUM_RAISE": 0.00912414483168604
   },
@@ -50,16 +50,16 @@
       "loops": 1,
       "openChains": 0
     },
-    "PALATE": {
-      "loops": 1,
-      "openChains": 0
-    },
     "UPPER_DENTITION": {
       "loops": 1,
       "openChains": 0
     },
     "UPPER_GINGIVA": {
       "loops": 2,
+      "openChains": 0
+    },
+    "PALATE": {
+      "loops": 1,
       "openChains": 0
     },
     "LOWER_DENTITION": {
@@ -75,9 +75,20 @@
   "pointerOrbit": true,
   "clayToggle": true,
   "animationPlayback": true,
-  "idleRenderFramesIn350ms": 2,
+  "cameraViewsPreservePose": true,
+  "actualPngExport": {
+    "size": [
+      961,
+      694
+    ],
+    "file": "model-export.png"
+  },
+  "playbackRateControl": true,
+  "idleRenderFramesIn350ms": 1,
   "mobileWidth": 390,
   "horizontalOverflow": false,
   "pageErrors": [],
+  "homePageLoadsCurrentModel": true,
+  "mouthAliasAvailable": true,
   "scope": "Actual experimental GLB in Chromium SwiftShader; no clinical acceptance or physical-phone benchmark"
 }

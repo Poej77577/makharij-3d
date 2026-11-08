@@ -36,8 +36,9 @@ with sync_playwright() as p:
     page = browser.new_page(viewport={'width': 1365, 'height': 1024}, device_scale_factor=1)
     page.on('pageerror', lambda error: errors.append(str(error)))
     page.on('console', lambda message: errors.append(message.text) if message.type == 'error' else None)
-    response = page.goto(URL+'/mouth.html', wait_until='networkidle')
+    response = page.goto(URL+'/', wait_until='networkidle')
     assert response and response.ok
+    assert page.request.get(URL+'/mouth.html').ok, 'Existing mouth review link no longer resolves'
     page.wait_for_function('window.__oralStudy?.ready', timeout=90000)
     page.wait_for_timeout(600)
     initial = snap(page)
@@ -80,6 +81,30 @@ with sync_playwright() as p:
         page.locator('#oral-stage').screenshot(path=str(path))
         face_frames.append(Image.open(path).convert('RGB'))
     face_frames[0].save(OUT/'lip-motion.gif', save_all=True, append_images=face_frames[1:], duration=180, loop=0)
+    pose_before_camera = snap(page)
+    cameras = {}
+    for view in ['front', 'side', 'detail']:
+        page.locator('[data-camera="'+view+'"]').click()
+        page.wait_for_timeout(250)
+        current = snap(page)
+        cameras[view] = current['camera']
+        assert current['state'] == pose_before_camera['state'], 'Camera tool changed the pose'
+        assert movement(pose_before_camera, current, 'HEAD_EXTERNAL') < 1e-7
+        page.locator('#oral-stage').screenshot(path=str(OUT/('face-camera-'+view+'.png')))
+    assert math.dist(cameras['front'], cameras['side']) > .05
+    assert math.dist(cameras['front'], cameras['detail']) > .05
+    with page.expect_download() as pending_download:
+        page.locator('#save-image').click()
+    download = pending_download.value
+    assert download.suggested_filename == 'makharij-face.png'
+    download.save_as(str(OUT/'model-export.png'))
+    exported = Image.open(OUT/'model-export.png').convert('RGB')
+    assert min(exported.size) >= 300
+    model_height = page.locator('canvas').evaluate('(canvas)=>canvas.height')
+    model_image = exported.crop((0, 0, exported.width, model_height))
+    assert len(model_image.getcolors(model_image.width*model_image.height)) > 100, 'Actual model region of PNG export is blank'
+    assert exported.height > model_height + 90, 'Export attribution/review footer missing'
+    page.locator('#camera-reset').click()
     page.locator('#rest').click()
     page.get_by_role('button', name='اللسان والقاع', exact=True).click()
     page.wait_for_timeout(200)
@@ -131,8 +156,13 @@ with sync_playwright() as p:
     assert math.dist(camera_before, snap(page)['camera']) > .001, 'Actual camera did not orbit'
     assert page.locator('#oral-stage').screenshot() != before, 'Composited model image did not change'
     page.locator('#camera-reset').click()
+    page.locator('#playback-rate').select_option('0.5')
     page.locator('#play').click(); page.wait_for_timeout(700)
     assert snap(page)['playing']
+    assert snap(page)['playbackRate'] == .5
+    assert any(value > .001 for value in snap(page)['state'].values()), 'Slow playback did not move the actual state'
+    page.locator('#playback-rate').select_option('1.5')
+    assert snap(page)['playbackRate'] == 1.5
     page.locator('#play').click(); page.locator('#rest').click()
     page.wait_for_timeout(900)
     idle_a = snap(page)['renderCount']; page.wait_for_timeout(350)
@@ -145,6 +175,9 @@ with sync_playwright() as p:
     assert snap(mobile)['mode'] == 'face'
     assert mobile.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
     mobile.screenshot(path=str(OUT/'mobile-face.png'), full_page=True)
+    mobile.locator('[data-camera="front"]').tap()
+    mobile.wait_for_timeout(200)
+    assert mobile.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
     mobile.get_by_role('button', name='المقطع الجانبي', exact=True).tap()
     mobile.wait_for_function('window.__oralStudy.snapshot().capSignatures.TONGUE?.triangles>0')
     mobile.screenshot(path=str(OUT/'mobile.png'), full_page=True)
@@ -158,8 +191,11 @@ with sync_playwright() as p:
               'actualSurfaceMovement_m': movements, 'dynamicCaps': True,
               'capDiagnostics': combined['capDiagnostics'], 'returnToRest': True,
               'pointerOrbit': True, 'clayToggle': True, 'animationPlayback': True,
+              'cameraViewsPreservePose': True, 'actualPngExport': {'size': list(exported.size), 'file': 'model-export.png'},
+              'playbackRateControl': True,
               'idleRenderFramesIn350ms': idle_frames, 'mobileWidth': 390,
               'horizontalOverflow': False, 'pageErrors': errors,
+              'homePageLoadsCurrentModel': True, 'mouthAliasAvailable': True,
               'scope': 'Actual experimental GLB in Chromium SwiftShader; no clinical acceptance or physical-phone benchmark'}
     (OUT/'browser-review.json').write_text(json.dumps(report, indent=2)+'\n')
     browser.close()

@@ -1,0 +1,108 @@
+{
+  "masterFile": "oral-unit.untextured.blend",
+  "masterSha256": "cb5ba1b7c0f9435d5b37266aabe6b635a5e734d6970c6dcea2e2978fb50a25b1",
+  "assetSha256": "013445a15e559c3c34183dc64b92d6c8df55d7445d79f672f241fde2ec89efa5",
+  "images": [
+    {
+      "path": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/review/clay/isolated/clay_top.png",
+      "cachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/final-clay-inputs/isolated/clay_top.png",
+      "sha256": "37b9a25ad0dc90d02a4f7dde8d449b3edbb3612d1147f8e50c91b2695a437df6",
+      "label": "isolated",
+      "controls": {}
+    },
+    {
+      "path": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/review/clay/isolated/clay_threequarter.png",
+      "cachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/final-clay-inputs/isolated/clay_threequarter.png",
+      "sha256": "39328a92e515dbf55458d28325f8e23bce3e29ee435e6ba088e24227bbd99f89",
+      "label": "isolated",
+      "controls": {}
+    },
+    {
+      "path": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/review/clay/isolated/clay_ref.png",
+      "cachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/final-clay-inputs/isolated/clay_ref.png",
+      "sha256": "0170fb3d281630d7eea0556cd6f116faece373a78b9bc1511398eea64b9a519a",
+      "label": "isolated",
+      "controls": {}
+    },
+    {
+      "path": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/review/clay/isolated/clay_side.png",
+      "cachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/final-clay-inputs/isolated/clay_side.png",
+      "sha256": "77e6571cfbc04a124508a52d71711634560d8726667b48c1377acb16af1b83f7",
+      "label": "isolated",
+      "controls": {}
+    },
+    {
+      "path": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/review/clay/mouth/clay_threequarter.png",
+      "cachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/final-clay-inputs/mouth/clay_threequarter.png",
+      "sha256": "2c439f113e91f8666e760b8920c28b578a6ddd68b1da36e89a3159cb820c3655",
+      "label": "mouth",
+      "controls": {
+        "JAW_OPEN": 0.75
+      }
+    },
+    {
+      "path": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/review/clay/mouth/clay_ref.png",
+      "cachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/final-clay-inputs/mouth/clay_ref.png",
+      "sha256": "d108404df88eab358ed3bea6ef5a1adf26e0cfcb1990c82cca618b40c207230e",
+      "label": "mouth",
+      "controls": {
+        "JAW_OPEN": 0.75
+      }
+    },
+    {
+      "path": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/review/clay/floor/clay_ref.png",
+      "cachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/final-clay-inputs/floor/clay_ref.png",
+      "sha256": "258ce3c128ed21c5babbc597f5b8fbe33b2fdfa32e150b065130579c1e194323",
+      "label": "floor",
+      "controls": {}
+    },
+    {
+      "path": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/review/clay/sagittal/clay_threequarter.png",
+      "cachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/final-clay-inputs/sagittal/clay_threequarter.png",
+      "sha256": "85d76fd5adc0ad78325c87acaa5ce69ac92ab06fb9c61d152fc84b18de728504",
+      "label": "sagittal",
+      "controls": {
+        "JAW_OPEN": 0.55
+      }
+    },
+    {
+      "path": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/review/clay/sagittal/clay_side.png",
+      "cachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/final-clay-inputs/sagittal/clay_side.png",
+      "sha256": "4ce1c85f2ec58cb5b5efa510d456ea95d4517f3cf7be441155746b1f2d74fbc4",
+      "label": "sagittal",
+      "controls": {
+        "JAW_OPEN": 0.55
+      }
+    },
+    {
+      "path": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/review/clay/tip/clay_side.png",
+      "cachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/final-clay-inputs/tip/clay_side.png",
+      "sha256": "541291268a1a2f1e53797b034633874e660c785bba536acf650e261a10247c89",
+      "label": "tip",
+      "controls": {
+        "TIP_ELEVATE": 1,
+        "JAW_OPEN": 0.6
+      }
+    },
+    {
+      "path": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/review/clay/dorsum/clay_side.png",
+      "cachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/final-clay-inputs/dorsum/clay_side.png",
+      "sha256": "6529807b69adcad4971ad72106da81d1addd4f90c2fe80076d60037205740b91",
+      "label": "dorsum",
+      "controls": {
+        "DORSUM_ELEVATE": 1,
+        "JAW_OPEN": 0.6
+      }
+    },
+    {
+      "path": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/review/clay/root/clay_side.png",
+      "cachedPath": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/final-clay-inputs/root/clay_side.png",
+      "sha256": "bac29325753be7066631ae85421a4dbeab9a35192c98db4a96ec33affe7ed312",
+      "label": "root",
+      "controls": {
+        "ROOT_RETRACT": 1,
+        "JAW_OPEN": 0.6
+      }
+    }
+  ]
+}

@@ -1,31 +1,31 @@
 {
-  "blend": "/tmp/makharij-oral-review-6s076gwb/review-copy.blend",
+  "blend": "/tmp/makharij-oral-review-5rm70wm0/review-copy.blend",
   "mode": "clay",
   "engine": "cycles",
   "bbox_min": [
-    -0.03674229979515076,
+    -0.03627253323793411,
     -0.00040803849697113037,
-    -0.03267764672636986
+    -0.03897014632821083
   ],
   "bbox_max": [
-    5.8207657444020455e-11,
-    0.08000603318214417,
+    8.205897294999431e-09,
+    0.08116725832223892,
     0.03017258644104004
   ],
   "size_xyz": [
-    0.03674229979515076,
-    0.0804140716791153,
-    0.0628502368927002
+    0.03627254068851471,
+    0.08157529681921005,
+    0.06914272904396057
   ],
   "objects": [
     "TONGUE",
     "ORAL_FLOOR",
     "LINGUAL_FRENULUM",
-    "PALATE",
     "UPPER_DENTITION",
     "LOWER_DENTITION",
     "UPPER_GINGIVA",
-    "LOWER_GINGIVA"
+    "LOWER_GINGIVA",
+    "PALATE"
   ],
   "renders": {
     "side": {
@@ -35,7 +35,7 @@
         0,
         0
       ],
-      "distance": 4.018371149897575
+      "distance": 4.018136270344257
     }
   }
 }

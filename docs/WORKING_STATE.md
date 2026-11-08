@@ -8,7 +8,7 @@ reviewer; do not expand it without a concrete need. Read `ORAL_SCULPT_REVIEW.md`
 and `FACE_CONTEXT_REVIEW.md`. The old loft and both head reconstructions remain
 rejected. Do not relabel technical progress as visual/anatomical acceptance.
 
-New local review page: `/mouth.html`, source `tools/blender/build_oral_sculpt.py`,
+Current home page: `/` (also `/mouth.html`), source `tools/blender/build_oral_sculpt.py`,
 shape specification `data/anatomy/oral-sculpt.json`, editable native master and
 GLB under `artifacts/method-evidence/oral-sculpt`. A separate original CC0
 MakeHuman face is in `artifacts/method-evidence/face-context`; it does not use
@@ -18,7 +18,8 @@ offers floor, whole-mouth and actual oral-section views. Runtime files use
 are unchanged. This remains an experimental review tool.
 
 Implemented: continuous six-patch tongue; nonplanar BVH-sampled closed mucosal
-floor and frenulum; continuous hard/soft palatal volume; B-spline cage baked to
+floor and frenulum; retained source anterior palatal mucosa with an attached
+authored posterior soft palate/uvula; B-spline cage baked to
 morphs; actual rigid jaw pivot and coupled lower dentition/gingiva; combined
 jaw/tongue corrective shapes; constrained peak volume correction; portable PBR
 maps using the pinned MIT skill; actual dynamic mesh-section caps in the browser;
@@ -27,22 +28,33 @@ The combined native master has eight `SPEECH_CONTROLS` properties. Only the
 dental jaw rotates rigidly; the skin receives its original face morph once.
 Open head context is excluded from all tissue section caps.
 
-The prior oral GLB actually crossed dental surfaces in 17/36 selected pairs.
-The corrected tongue is narrower/retracted and its frenulum is rebuilt from
-the actual free ventral span. Current GLB `e051e47ad424…` has zero crossings in
-18 selected poses/36 pairs, minimum separation 2.324 mm. The baseline and its
-failure report are retained. Staging now requires a matching full selected
-contact report, in addition to source/export checks. Face GLB `c8a0c97357e7…`
-passes 10 selected face/dental poses/20 surface pairs. These do not prove
-palatal/gingival contact, all combinations, tissue mechanics or phonetic fit.
+Current revision: `ORAL_FORM_REVISION.md`. Blade/root contour and local gingival
+fit were revised; duplicated anterior roof removed; posterior gingival ends
+refined while preserving source faces/IDs and tooth-near vertices. A fresh velum
+shape pins the anterior 15%. Added front/side/detail cameras, playback speed,
+attributed actual PNG export and tuned real geometry shadows. `/legacy.html`
+preserves the old technical inspector; `/anatomy.html` preserves the rejected atlas.
 
-Technical review covers 13 oral and 11 face native/GLB cases. Nineteen unit
-checks and actual Chromium controls/caps/mobile review pass. Visual review
-still finds the tongue/root too generic, root/floor transitions unclear and
-posterior palate/gingival endings insufficiently anatomical. Do not add letters
-or claim realistic teaching anatomy from these tests. A qualified internal
-sculpt and human anatomy/tajweed review remain necessary; face context alone
-does not complete the internal head. No scan, muscle simulation or M2/M3 claim.
+Older GLB `e22…` crossed dental surfaces in 17/36 selected pairs; `e051…` fixed
+those but the expanded checker found lower-gingival crossings in 8/24 forbidden
+tissue pairs. Current GLB `013445a15e55…` clears 36 dental pairs (18 poses,
+min 4.264 mm) and 24 tongue/palate/gingiva pairs (8 poses, min 0.689 mm). Four actual
+tongue rest/endpoint self-intersection checks are clear and unsaturated.
+The old files and failures are retained. Staging requires matching full source,
+dental, tissue and self reports; it does not approve anatomy. Face GLB
+`c8a0c97357e7…` is unchanged but paired with the new oral identity; its 20 selected
+face/dental surface pairs pass again. These checks do not prove all combinations,
+tissue mechanics, adjacent-fold strain or phonetic fit.
+
+Technical review covers 16 oral and 11 face native/GLB cases, including sampled
+frenulum margins and 147 roof-interface points per oral case. Source/export
+deviation is 0; peak tested tongue volume change is <2%, not a muscle simulation.
+Nineteen unit checks and actual Chromium controls/caps/mobile/export review pass.
+Visual review confirms clearer blade/root and improved roof/gums, but the broad
+ventral horseshoe-like ridge remains after smoothing. Root/floor relationships,
+posterior shape and full nasal/pharyngeal anatomy still need qualified sculpt
+and human anatomy/tajweed review. Do not add letters or claim teaching/medical
+acceptance from these tests. No scan or M2/M3 claim.
 
 Use `assets:oral:*`, `assets:face:*` and `test:oral`. Build/check/contact-gate/stage
 the oral unit before building the paired face. Old `assets:export` reconstructs a

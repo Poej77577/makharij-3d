@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "fixture": "Open plane crosses a box, then separates by 1 metre",
+  "openSurfaceContainmentSkipped": true,
+  "knownSeparation_m": 1.0,
+  "strictTransverseDetectionPassed": true,
+  "subMillimetreTriangleNearestPointPassed": true,
+  "anatomyFixture": false
+}

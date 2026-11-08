@@ -29,7 +29,7 @@
   "sourceRepository": "https://github.com/makehumancommunity/makehuman",
   "sourceCommit": "a8bc2d54ff0ac92e78ff71431b1023eda42bf482",
   "originalAssetLicense": "CC0-1.0",
-  "oralSourceGlbSha256": "e051e47ad424a3d301f12acd75325998d6079007c3babd78175a31bbf563e0c6",
+  "oralSourceGlbSha256": "013445a15e559c3c34183dc64b92d6c8df55d7445d79f672f241fde2ec89efa5",
   "sourceToCanonicalTranslation_m": [
     -0.14353666666666667,
     -0.03159999999999998,
@@ -185,7 +185,7 @@
     }
   },
   "specSha256": "a7104dc2f282974b7d05eba074eb40691d84a1da75aeecf57a7a0ece35382076",
-  "blendSha256": "182ec560bb976b5a0bf0dace5ff590955931d9ea30a3662b9fd250026fbdbdb9",
+  "blendSha256": "64a0a0bf8e2e81a31755b8b0b9dac93b70eeb2ebe4d43c09d508e2c3dfb15c5e",
   "glbSha256": "c8a0c97357e7e07c3796b4d9486f3622304f07fa087c36629e8d732bec730dbe",
   "limitations": [
     "External face context, not complete internal head anatomy",

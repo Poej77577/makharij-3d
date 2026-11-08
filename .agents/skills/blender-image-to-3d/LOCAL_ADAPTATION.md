@@ -45,6 +45,15 @@ Keep its open skin out of tissue caps. Selected dental clearances and successful
 export do not accept the generic internal tongue/root/palate shape. Preserve
 the current visual limitations in the review records before adding details.
 
+The subsequent professional-improvement request authorizes the bounded revision
+in `docs/ORAL_FORM_REVISION.md`: blade/root proportions, local source-normal
+gingival fit, source anterior palatal mucosa with an overlapping authored soft
+palate, and preserved-source gingival-end refinement. Selected clearance and
+self-intersection tests pass; the ventral sculpt ridge and clinical/teaching
+review remain unresolved. Keep acceptance false and do not add phonemes from
+these numbers. The current prototype is now the home page; historical studies
+remain available at `/legacy.html` and `/anatomy.html`.
+
 Open third-party `.blend` files with `use_scripts=False, load_ui=False`, start
 Blender with `--disable-autoexec --python-exit-code 1`, and do not run embedded
 scripts/add-ons. Only use reviewed helper scripts. The local review helper was

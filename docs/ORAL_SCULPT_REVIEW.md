@@ -1,5 +1,10 @@
 # تجربة الفم المتحرك — تحسين الشكل وتجهيز الحركة
 
+**التحديث الحالي:** [ORAL_FORM_REVISION.md](ORAL_FORM_REVISION.md) يوثق
+إعادة تشكيل النصل والجذر، وإزالة السقف المكرر، وتحسين اللثة وإصلاح
+تقاطعها، وفحوص الملف الحالي `013445a1…`. الصفحة الرئيسية تعرضه الآن.
+الأرقام الخاصة بنسخة `e051…` أدناه محفوظة كسجل المرحلة السابقة.
+
 طلب المستخدم تحسين العمل باستخدام مهارات متقدمة، ثم متابعة التنفيذ.
 هذه عينة فم جديدة، مختلفة عن تجربة الشرائح المرفوضة. **لم تُعتمد بعد
 تشريحًا نهائيًا للطلاب، ولم يكتمل الرأس أو مخارج الحروف.** الدراسات
@@ -117,6 +122,8 @@ npm run assets:oral:build
 npm run assets:oral:materials
 npm run assets:oral:validate
 npm run assets:oral:contacts
+npm run assets:oral:tissue-contacts
+npm run assets:oral:self-contacts -- --expected-sha256 <current-glb-sha256>
 npm run assets:oral:stage
 npm run assets:face:build
 npm run assets:face:validate

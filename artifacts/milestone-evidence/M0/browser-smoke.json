@@ -1,5 +1,6 @@
 {
   "httpStatus": 200,
+  "pagePath": "/legacy.html",
   "assetSha256": "be34ad893194cc3e192618c89d332916eb5f7976f08617917c94da41e252d6cb",
   "actualPoseChange": true,
   "returnMatchesRest": true,

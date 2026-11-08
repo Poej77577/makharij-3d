@@ -1,0 +1,1128 @@
+{
+  "faceAssetSha256": "c8a0c97357e7e07c3796b4d9486f3622304f07fa087c36629e8d732bec730dbe",
+  "oralAssetSha256": "013445a15e559c3c34183dc64b92d6c8df55d7445d79f672f241fde2ec89efa5",
+  "cases": 10,
+  "pairsChecked": 20,
+  "frame": "+X anterior, +Y superior, +Z subject right; metres",
+  "sharedJawState": "One JAW_OPEN state; oral rigid pivot once, separate baked face-skin morph once",
+  "headSurfaceIntentionallyOpen": true,
+  "insideOrVolumeTestsRun": false,
+  "penetrationDepthClaimed": false,
+  "contactLimit": 4000,
+  "toothComponentAssignments": {
+    "UPPER_DENTITION": [
+      {
+        "tooth": "ATLAS_UPPER_CANINE_L",
+        "triangles": 1470,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_CANINE_R",
+        "triangles": 1470,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_FIRST_MOLAR_TOOTH_L",
+        "triangles": 2176,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_FIRST_MOLAR_TOOTH_R",
+        "triangles": 2176,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_FIRST_PREMOLAR_L",
+        "triangles": 1684,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_FIRST_PREMOLAR_R",
+        "triangles": 1684,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_LATERAL_INCISOR_L",
+        "triangles": 1454,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_LATERAL_INCISOR_R",
+        "triangles": 1454,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_MEDIAL_INCISOR_L",
+        "triangles": 1368,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_MEDIAL_INCISOR_R",
+        "triangles": 1368,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_L",
+        "triangles": 1844,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_SECOND_MOLAR_TOOTH_R",
+        "triangles": 1844,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_SECOND_PREMOLAR_L",
+        "triangles": 1554,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_UPPER_SECOND_PREMOLAR_R",
+        "triangles": 1554,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      }
+    ],
+    "LOWER_DENTITION": [
+      {
+        "tooth": "ATLAS_LOWER_CANINE_L",
+        "triangles": 1276,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_CANINE_R",
+        "triangles": 1276,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_L",
+        "triangles": 1836,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_L",
+        "triangles": 1762,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_L",
+        "triangles": 910,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_R",
+        "triangles": 1836,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_R",
+        "triangles": 1762,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_FIRST_MOLAR_TOOTH_R",
+        "triangles": 910,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_FIRST_PREMOLAR_L",
+        "triangles": 1222,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_FIRST_PREMOLAR_R",
+        "triangles": 1222,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_LATERAL_INCISOR_L",
+        "triangles": 1040,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_LATERAL_INCISOR_R",
+        "triangles": 1040,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_MEDIAL_INCISOR_L",
+        "triangles": 984,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_MEDIAL_INCISOR_R",
+        "triangles": 984,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_SECOND_MOLAR_TOOTH_L",
+        "triangles": 1676,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_SECOND_MOLAR_TOOTH_R",
+        "triangles": 1676,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_SECOND_PREMOLAR_L",
+        "triangles": 1180,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      },
+      {
+        "tooth": "ATLAS_LOWER_SECOND_PREMOLAR_R",
+        "triangles": 1180,
+        "sourceVertexMaximumResidual_m": 0.0,
+        "sourceVertexMeanResidual_m": 0.0,
+        "componentLabelSamples": 256
+      }
+    ]
+  },
+  "records": [
+    {
+      "case": "rest",
+      "controls": {},
+      "pair": [
+        "HEAD_EXTERNAL",
+        "UPPER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.0056582481830675544,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          -5.175989642513959e-05,
+          -0.0010013090119309535,
+          -0.017062170488925155
+        ],
+        [
+          -0.004456119826798762,
+          -3.399217378244183e-05,
+          -0.013644322593020348
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_LATERAL_INCISOR_L",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "rest",
+      "controls": {},
+      "pair": [
+        "HEAD_EXTERNAL",
+        "LOWER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.008715119528893063,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          0.00020820102988816386,
+          -0.0009476093870178253,
+          -0.016742373655003428
+        ],
+        [
+          -0.0065462476281396426,
+          -0.0010421338692178056,
+          -0.011235850536807661
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_LATERAL_INCISOR_L",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "JAW_OPEN_0.5",
+      "controls": {
+        "JAW_OPEN": 0.5
+      },
+      "pair": [
+        "HEAD_EXTERNAL",
+        "UPPER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.009670017269261954,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.008657142194169715
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.006189350384573226,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          -0.0029140242095691367,
+          -0.0072200107681852,
+          0.01527775405056422
+        ],
+        [
+          -0.005089916288852692,
+          -0.0018970966339111328,
+          0.0129886195063591
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_LATERAL_INCISOR_R",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "JAW_OPEN_0.5",
+      "controls": {
+        "JAW_OPEN": 0.5
+      },
+      "pair": [
+        "HEAD_EXTERNAL",
+        "LOWER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.009670017269261954,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.008657142194169715
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.007552546312806313,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          -0.0034153870321505793,
+          -0.007199477335594597,
+          0.015906069043045024
+        ],
+        [
+          -0.009318683296442032,
+          -0.008591648191213608,
+          0.011405634693801403
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_LATERAL_INCISOR_R",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "JAW_OPEN_1",
+      "controls": {
+        "JAW_OPEN": 1
+      },
+      "pair": [
+        "HEAD_EXTERNAL",
+        "UPPER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.019340034159226648,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.017281988385299166
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.006683309790206125,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          0.00025993994823385536,
+          -0.0012969303171327983,
+          -0.018224842836182358
+        ],
+        [
+          -0.004612015394882183,
+          -0.0002266475957270846,
+          -0.013776789803359064
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_LATERAL_INCISOR_L",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "JAW_OPEN_1",
+      "controls": {
+        "JAW_OPEN": 1
+      },
+      "pair": [
+        "HEAD_EXTERNAL",
+        "LOWER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.019340034159226648,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.017281988385299166
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.007219539557081616,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          -0.0066974731074041505,
+          -0.013708632280139407,
+          0.014572670781312911
+        ],
+        [
+          -0.012400074861943722,
+          -0.01604296639561653,
+          0.010810627602040768
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_LATERAL_INCISOR_R",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "LIP_PRESS_0.5",
+      "controls": {
+        "LIP_PRESS": 0.5
+      },
+      "pair": [
+        "HEAD_EXTERNAL",
+        "UPPER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.002699616917696715,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.005614573940883318,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          0.00013508535004369375,
+          0.0003260354820430598,
+          -0.017051824051798597
+        ],
+        [
+          -0.004268194944344694,
+          0.0008054771738624687,
+          -0.01360150539247997
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_LATERAL_INCISOR_L",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "LIP_PRESS_0.5",
+      "controls": {
+        "LIP_PRESS": 0.5
+      },
+      "pair": [
+        "HEAD_EXTERNAL",
+        "LOWER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.002699616917696715,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.008948020973883837,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          0.00029248110741732203,
+          0.00033857203778716466,
+          -0.016852698360172256
+        ],
+        [
+          -0.006610438227653503,
+          -0.000978231430053711,
+          -0.011313491500914097
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_LATERAL_INCISOR_L",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "LIP_PRESS_1",
+      "controls": {
+        "LIP_PRESS": 1
+      },
+      "pair": [
+        "HEAD_EXTERNAL",
+        "UPPER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.00539923418951712,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.005639259985578328,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          0.00014019198180086306,
+          0.0016118007345046338,
+          -0.017263935491159475
+        ],
+        [
+          -0.004305805591014646,
+          0.002087513808619124,
+          -0.013827650311116931
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_LATERAL_INCISOR_L",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "LIP_PRESS_1",
+      "controls": {
+        "LIP_PRESS": 1
+      },
+      "pair": [
+        "HEAD_EXTERNAL",
+        "LOWER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.00539923418951712,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.009331720144916678,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          0.000771944469306618,
+          0.0015805556904524565,
+          -0.016442224383354187
+        ],
+        [
+          -0.006323404105063688,
+          -0.0008638553594578196,
+          -0.01089588468132533
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_LATERAL_INCISOR_L",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "LIP_ROUND_0.5",
+      "controls": {
+        "LIP_ROUND": 0.5
+      },
+      "pair": [
+        "HEAD_EXTERNAL",
+        "UPPER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.00555404085013722,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.0072624929351554615,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          0.00161747392128176,
+          -0.0015066814546402152,
+          -0.017390639652293805
+        ],
+        [
+          -0.004175207447358203,
+          -0.00022114128803509946,
+          -0.013203035005883244
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_LATERAL_INCISOR_L",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "LIP_ROUND_0.5",
+      "controls": {
+        "LIP_ROUND": 0.5
+      },
+      "pair": [
+        "HEAD_EXTERNAL",
+        "LOWER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.00555404085013722,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.010217762912295798,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          0.001707192117183583,
+          -0.0014747323989841902,
+          -0.017276341105054435
+        ],
+        [
+          -0.006361484527587891,
+          -0.0012260675430297852,
+          -0.011012372560799122
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_LATERAL_INCISOR_L",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "LIP_ROUND_1",
+      "controls": {
+        "LIP_ROUND": 1
+      },
+      "pair": [
+        "HEAD_EXTERNAL",
+        "UPPER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.011108080957548195,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.00883549619386774,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          0.003614027751609683,
+          -0.002020069630816579,
+          -0.017132362350821495
+        ],
+        [
+          -0.0036637344412205996,
+          -0.00036662986215941704,
+          -0.012403059295625686
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_LATERAL_INCISOR_L",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "LIP_ROUND_1",
+      "controls": {
+        "LIP_ROUND": 1
+      },
+      "pair": [
+        "HEAD_EXTERNAL",
+        "LOWER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.011108080957548195,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.011726696600756271,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          0.003614027751609683,
+          -0.002020069630816579,
+          -0.017132362350821495
+        ],
+        [
+          -0.006210915659507377,
+          -0.0012621446369122402,
+          -0.010775362284898005
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_LATERAL_INCISOR_L",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "LIP_PROTRUDE_0.5",
+      "controls": {
+        "LIP_PROTRUDE": 0.5
+      },
+      "pair": [
+        "HEAD_EXTERNAL",
+        "UPPER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.005278554754879618,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.006720316819109217,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          0.0009017536067403853,
+          -0.0019752085208892822,
+          -0.017285868525505066
+        ],
+        [
+          -0.0043520654143023585,
+          -0.0006028223557699695,
+          -0.013326499881753794
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_LATERAL_INCISOR_L",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "LIP_PROTRUDE_0.5",
+      "controls": {
+        "LIP_PROTRUDE": 0.5
+      },
+      "pair": [
+        "HEAD_EXTERNAL",
+        "LOWER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.005278554754879618,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.009608825905512456,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          0.001251895232506554,
+          -0.0020287813920514364,
+          -0.01681940574372656
+        ],
+        [
+          -0.006361484527587891,
+          -0.0012260675430297852,
+          -0.011012372560799122
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_LATERAL_INCISOR_L",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "LIP_PROTRUDE_1",
+      "controls": {
+        "LIP_PROTRUDE": 1
+      },
+      "pair": [
+        "HEAD_EXTERNAL",
+        "UPPER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.01055710907324759,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.007890797503794027,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          0.002675937721505761,
+          -0.002779583912342787,
+          -0.016500001773238182
+        ],
+        [
+          -0.0037969340319023437,
+          -0.000743634473888497,
+          -0.01247240616371242
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_LATERAL_INCISOR_L",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "LIP_PROTRUDE_1",
+      "controls": {
+        "LIP_PROTRUDE": 1
+      },
+      "pair": [
+        "HEAD_EXTERNAL",
+        "LOWER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.01055710907324759,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.010678674308722293,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          0.002675937721505761,
+          -0.002779583912342787,
+          -0.016500001773238182
+        ],
+        [
+          -0.006143227331553345,
+          -0.001278363116824291,
+          -0.010668814168489959
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_LATERAL_INCISOR_L",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "combined_jaw_lips",
+      "controls": {
+        "JAW_OPEN": 0.5,
+        "LIP_PRESS": 0.5,
+        "LIP_ROUND": 0.5,
+        "LIP_PROTRUDE": 0.5
+      },
+      "pair": [
+        "HEAD_EXTERNAL",
+        "UPPER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.01343927138049112,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.008657142194169715
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.007317593848908101,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          -0.0005091673228889704,
+          -0.006286806892603636,
+          -0.01684027910232544
+        ],
+        [
+          -0.004738703370094299,
+          -0.001721501350402832,
+          -0.012991098687052727
+        ]
+      ],
+      "closestTooth": "ATLAS_UPPER_LATERAL_INCISOR_L",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    },
+    {
+      "case": "combined_jaw_lips",
+      "controls": {
+        "JAW_OPEN": 0.5,
+        "LIP_PRESS": 0.5,
+        "LIP_ROUND": 0.5,
+        "LIP_PROTRUDE": 0.5
+      },
+      "pair": [
+        "HEAD_EXTERNAL",
+        "LOWER_DENTITION"
+      ],
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.01343927138049112,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.008657142194169715
+      },
+      "surfaceCrossing": false,
+      "triangleContactCount": 0,
+      "contactLimitHit": false,
+      "minimumSurfaceDistance_m": 0.010384378656052492,
+      "crossingTeeth": [],
+      "crossingBounds_m": null,
+      "crossingWitnesses_m": [],
+      "closestSurfacePoints_m": [
+        [
+          0.00022628461010754108,
+          -0.006710313726216555,
+          0.015541390515863895
+        ],
+        [
+          -0.008579284884035587,
+          -0.008630430325865746,
+          0.010382861830294132
+        ]
+      ],
+      "closestTooth": "ATLAS_LOWER_LATERAL_INCISOR_R",
+      "headSurfaceIntentionallyOpen": true,
+      "insideOrVolumeTestsRun": false,
+      "penetrationDepthClaimed": false
+    }
+  ],
+  "poseMotion": [
+    {
+      "case": "rest",
+      "controls": {},
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      }
+    },
+    {
+      "case": "JAW_OPEN_0.5",
+      "controls": {
+        "JAW_OPEN": 0.5
+      },
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.009670017269261954,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.008657142194169715
+      }
+    },
+    {
+      "case": "JAW_OPEN_1",
+      "controls": {
+        "JAW_OPEN": 1
+      },
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.019340034159226648,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.017281988385299166
+      }
+    },
+    {
+      "case": "LIP_PRESS_0.5",
+      "controls": {
+        "LIP_PRESS": 0.5
+      },
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.002699616917696715,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      }
+    },
+    {
+      "case": "LIP_PRESS_1",
+      "controls": {
+        "LIP_PRESS": 1
+      },
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.00539923418951712,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      }
+    },
+    {
+      "case": "LIP_ROUND_0.5",
+      "controls": {
+        "LIP_ROUND": 0.5
+      },
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.00555404085013722,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      }
+    },
+    {
+      "case": "LIP_ROUND_1",
+      "controls": {
+        "LIP_ROUND": 1
+      },
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.011108080957548195,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      }
+    },
+    {
+      "case": "LIP_PROTRUDE_0.5",
+      "controls": {
+        "LIP_PROTRUDE": 0.5
+      },
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.005278554754879618,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      }
+    },
+    {
+      "case": "LIP_PROTRUDE_1",
+      "controls": {
+        "LIP_PROTRUDE": 1
+      },
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.01055710907324759,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0
+      }
+    },
+    {
+      "case": "combined_jaw_lips",
+      "controls": {
+        "JAW_OPEN": 0.5,
+        "LIP_PRESS": 0.5,
+        "LIP_ROUND": 0.5,
+        "LIP_PROTRUDE": 0.5
+      },
+      "maximumDisplacementFromRest_m": {
+        "HEAD_EXTERNAL": 0.01343927138049112,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.008657142194169715
+      }
+    }
+  ],
+  "selectedHeadDentalSurfacePass": true,
+  "anatomyAccepted": false,
+  "poseExporterSha256": "03785290ac681eb14c55f628140b3661ebed358249196269442d0cd11f115771",
+  "scope": "Selected external-head/dental surface intersections and nearest distances only. No head containment, tissue volume, exact penetration depth, self-intersection audit, all control combinations, tongue/skin or phonetic acceptance.",
+  "sourceProvenance": {
+    "head": "https://github.com/makehumancommunity/makehuman",
+    "headLicense": "CC0-1.0",
+    "dental": "BodyParts3D / DBCLS / Kousaku Okubo; Z-Anatomy / Gauthier Kervyn, CC BY-SA 4.0 dental/reference geometry; see assets/source/z-anatomy/NOTICE.md"
+  }
+}

@@ -27,7 +27,10 @@ cases = [('rest', {})]
 for name in ['TIP_ELEVATE', 'DORSUM_ELEVATE', 'ROOT_RETRACT', 'JAW_OPEN', 'VELUM_RAISE']:
     for value in [.5, 1]:
         cases.append((name+'_'+str(value), {name: value}))
-cases += [('combined', {'JAW_OPEN': .75, 'TIP_ELEVATE': .7, 'DORSUM_ELEVATE': .2, 'VELUM_RAISE': .5}), ('return', {})]
+cases += [('combined', {'JAW_OPEN': .75, 'TIP_ELEVATE': .7, 'DORSUM_ELEVATE': .2, 'VELUM_RAISE': .5}),
+          ('jaw_velum', {'JAW_OPEN': .5, 'VELUM_RAISE': 1}),
+          ('dorsum_velum', {'DORSUM_ELEVATE': 1, 'VELUM_RAISE': 1}),
+          ('root_velum', {'ROOT_RETRACT': 1, 'VELUM_RAISE': 1}), ('return', {})]
 failures = []
 
 
@@ -79,10 +82,31 @@ def distance(a, b):
     return max(tree.find(point)[2] for point in a)
 
 
+def sampled_inside_closed_surface(bvh, point):
+    """Three deterministic parity rays, only used for verified closed gum."""
+    if bvh.find_nearest(point)[3] <= 2e-6:
+        return True
+    votes = 0
+    for direction in [Vector((1, .371, .173)), Vector((-.293, .511, 1)), Vector((.421, -1, .257))]:
+        direction.normalize()
+        origin = point.copy()
+        hits = 0
+        for _ in range(128):
+            hit, _, _, _ = bvh.ray_cast(origin, direction, 1.)
+            if hit is None:
+                break
+            hits += 1
+            origin = hit+direction*1e-7
+        else:
+            raise RuntimeError('Unresolved interface classification ray; did not reach free space')
+        votes += hits % 2
+    return votes >= 2
+
+
 bpy.ops.wm.open_mainfile(filepath=str(folder/'oral-unit.blend'), use_scripts=False, load_ui=False)
 objects = {name: bpy.data.objects[name] for name in manifest['parts']}
 topology = {}
-for name in ['TONGUE', 'ORAL_FLOOR', 'LINGUAL_FRENULUM', 'PALATE']:
+for name in ['TONGUE', 'ORAL_FLOOR', 'LINGUAL_FRENULUM', 'PALATE', 'UPPER_GINGIVA', 'LOWER_GINGIVA']:
     bm = bmesh.new()
     bm.from_mesh(objects[name].data)
     topology[name] = {'boundaryEdges': sum(e.is_boundary for e in bm.edges),
@@ -90,7 +114,7 @@ for name in ['TONGUE', 'ORAL_FLOOR', 'LINGUAL_FRENULUM', 'PALATE']:
     bm.free()
     if any(topology[name].values()):
         failures.append(name+': authored tissue is not closed/manifold')
-source, seam = {}, []
+source, seam, additional_attachments = {}, [], []
 for label, values in cases:
     set_state(objects, values, True)
     source[label] = {name: snapshot(ob) for name, ob in objects.items()}
@@ -101,6 +125,40 @@ for label, values in cases:
     seam.append({'case': label, 'maximumRootFloorGap_m': gap})
     if gap > .0002:
         failures.append(label+': root/floor gap exceeds 0.2 mm')
+    attachment = {'case': label}
+    web = manifest.get('frenulumAttachment')
+    if web:
+        floor_snapshot = source[label]['ORAL_FLOOR']
+        floor_bvh = BVHTree.FromPolygons(floor_snapshot['points'], floor_snapshot['polygons'])
+        web_points = source[label]['LINGUAL_FRENULUM']['points']
+        top = max(bvh.find_nearest(web_points[i])[3] for i in web['tongueVertices'])
+        bottom = max(floor_bvh.find_nearest(web_points[i])[3] for i in web['floorVertices'])
+        attachment.update(frenulumTongueMaximumSurfaceDistance_m=top, frenulumFloorMaximumSurfaceDistance_m=bottom)
+        if top > .0003 or bottom > .0003:
+            failures.append(label+': sampled frenulum attachment exceeds 0.3 mm')
+    roof = manifest.get('oralRoofAuthoring', {}).get('posteriorSoftPalate')
+    if roof:
+        grid = roof['deformationGrid']
+        ids = [offset+j for offset in [0, grid['verticesPerLayer']] for j in range(grid['transverseSegments']+1)]
+        palate = source[label]['PALATE']['points']
+        rest = source['rest']['PALATE']['points']
+        drift = max((palate[i]-rest[i]).length for i in ids)
+        upper = source[label]['UPPER_GINGIVA']
+        gum_bvh = BVHTree.FromPolygons(upper['points'], upper['polygons'])
+        samples = [palate[i] for i in ids]
+        samples += [(palate[j]+palate[grid['verticesPerLayer']+j])*.5 for j in range(grid['transverseSegments']+1)]
+        proximity = max(gum_bvh.find_nearest(p)[3] for p in samples)
+        if any(topology['UPPER_GINGIVA'].values()):
+            raise RuntimeError('Cannot classify interface samples against an open upper gingival surface')
+        outside = [p for p in samples if not sampled_inside_closed_surface(gum_bvh, p)]
+        attachment.update(velumAnteriorPinnedMaximumDrift_m=drift,
+                          palatalMucosalInterfaceMaximumSurfaceDistance_m=proximity,
+                          palatalMucosalInterfaceSamples=len(samples),
+                          palatalMucosalInterfaceSampledOutsideCount=len(outside),
+                          palatalMucosalInterfaceMaximumOutsideDistance_m=max((gum_bvh.find_nearest(p)[3] for p in outside), default=0))
+        if drift > 2e-6 or outside:
+            failures.append(label+': posterior palate attachment moved or sampled points left the closed source mucosa')
+    additional_attachments.append(attachment)
     if tongue['volume_m3'] <= 0:
         failures.append(label+': inverted/collapsed tongue volume')
 source_shapes = {name: [k.name for k in ob.data.shape_keys.key_blocks][1:] if ob.data.shape_keys else [] for name, ob in objects.items()}
@@ -144,6 +202,8 @@ report = {'scope': 'Closed authored tissues, measured root/floor seam and actual
           'volumeConservingSimulation': False, 'productionSelected': False,
           'blendSha256': manifest['blendSha256'], 'glbSha256': manifest['glbSha256'],
           'topology': topology, 'rootFloorSeam': seam, 'cases': comparisons,
+          'additionalAttachmentSamples': additional_attachments,
+          'attachmentScope': 'Unsigned nearest distances of sampled interfaces; intentional overlap is not welded continuity',
           'correctiveMapping': manifest['correctives'],
           'maximumExportError_m': max(v for row in comparisons for v in row['partErrors_m'].values()),
           'failures': failures, 'technicalPass': not failures}

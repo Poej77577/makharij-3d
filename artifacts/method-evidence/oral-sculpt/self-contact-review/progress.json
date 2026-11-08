@@ -1,0 +1,108 @@
+[
+  {
+    "name": "TONGUE",
+    "fclTriangleContacts": 937970,
+    "nonadjacentIntersectingTrianglePairs": 0,
+    "truncated": false,
+    "examples": [],
+    "case": "rest",
+    "controls": {},
+    "jawOpen": 0,
+    "poseFileSha256": "aab0ab7f1662a6b9cccdb5f9a00322f3f4445ce06a357653723fee9b044c8222",
+    "enumerationAttempts": [
+      {
+        "limit": 2000000,
+        "contacts": 937970,
+        "saturated": false
+      }
+    ],
+    "triangles": 62208,
+    "geometricVertices": 31106,
+    "watertight": true,
+    "windingConsistent": true,
+    "volume_m3": 2.7760223355003064e-05,
+    "minimumTriangleArea_m2": 1.2281353305822605e-08,
+    "passed": true
+  },
+  {
+    "name": "TONGUE",
+    "fclTriangleContacts": 938132,
+    "nonadjacentIntersectingTrianglePairs": 0,
+    "truncated": false,
+    "examples": [],
+    "case": "TIP_ELEVATE_1",
+    "controls": {
+      "TIP_ELEVATE": 1
+    },
+    "jawOpen": 0,
+    "poseFileSha256": "cef20a244a7353bb804855de49491747acc92086250d46ddd9e3ec6a778257b4",
+    "enumerationAttempts": [
+      {
+        "limit": 2000000,
+        "contacts": 938132,
+        "saturated": false
+      }
+    ],
+    "triangles": 62208,
+    "geometricVertices": 31106,
+    "watertight": true,
+    "windingConsistent": true,
+    "volume_m3": 2.7739688375485144e-05,
+    "minimumTriangleArea_m2": 1.2281353305822605e-08,
+    "passed": true
+  },
+  {
+    "name": "TONGUE",
+    "fclTriangleContacts": 940117,
+    "nonadjacentIntersectingTrianglePairs": 0,
+    "truncated": false,
+    "examples": [],
+    "case": "DORSUM_ELEVATE_1",
+    "controls": {
+      "DORSUM_ELEVATE": 1
+    },
+    "jawOpen": 0,
+    "poseFileSha256": "1207427e589f30aab52cd05853a68c6c1c123df8ee784d9c7ae501d90b420f59",
+    "enumerationAttempts": [
+      {
+        "limit": 2000000,
+        "contacts": 940117,
+        "saturated": false
+      }
+    ],
+    "triangles": 62208,
+    "geometricVertices": 31106,
+    "watertight": true,
+    "windingConsistent": true,
+    "volume_m3": 2.7760137234056142e-05,
+    "minimumTriangleArea_m2": 1.2281353305822605e-08,
+    "passed": true
+  },
+  {
+    "name": "TONGUE",
+    "fclTriangleContacts": 938647,
+    "nonadjacentIntersectingTrianglePairs": 0,
+    "truncated": false,
+    "examples": [],
+    "case": "ROOT_RETRACT_1",
+    "controls": {
+      "ROOT_RETRACT": 1
+    },
+    "jawOpen": 0,
+    "poseFileSha256": "2ab0b9689e4ba63764bc63ca2acc11579de702fc539ae2370c7826fd26fbe70f",
+    "enumerationAttempts": [
+      {
+        "limit": 2000000,
+        "contacts": 938647,
+        "saturated": false
+      }
+    ],
+    "triangles": 62208,
+    "geometricVertices": 31106,
+    "watertight": true,
+    "windingConsistent": true,
+    "volume_m3": 2.7756350505192236e-05,
+    "minimumTriangleArea_m2": 1.2281353305822605e-08,
+    "passed": true
+  }
+]

@@ -4,7 +4,7 @@
   "expertAcceptance": "pending",
   "clinicalAccuracyClaim": false,
   "productionSelected": false,
-  "glbSha256": "e051e47ad424a3d301f12acd75325998d6079007c3babd78175a31bbf563e0c6",
+  "glbSha256": "013445a15e559c3c34183dc64b92d6c8df55d7445d79f672f241fde2ec89efa5",
   "gltfToProject": [
     [
       0,
@@ -26,11 +26,11 @@
     "TONGUE",
     "ORAL_FLOOR",
     "LINGUAL_FRENULUM",
-    "PALATE",
     "UPPER_DENTITION",
     "LOWER_DENTITION",
     "UPPER_GINGIVA",
-    "LOWER_GINGIVA"
+    "LOWER_GINGIVA",
+    "PALATE"
   ],
   "jawBinding": {
     "node": "JAW_PIVOT",
@@ -65,10 +65,29 @@
   "selectedDentalContactReview": {
     "cases": 18,
     "pairsChecked": 36,
-    "assetSha256": "e051e47ad424a3d301f12acd75325998d6079007c3babd78175a31bbf563e0c6",
+    "assetSha256": "013445a15e559c3c34183dc64b92d6c8df55d7445d79f672f241fde2ec89efa5",
     "surfaceCrossings": 0,
-    "minimumSurfaceDistance_m": 0.002324194564122187,
+    "minimumSurfaceDistance_m": 0.004264239383593445,
     "scope": "Selected tongue/dental poses only. Surface collision and finite inside-solid surface sampling; not exact penetration depth, intersection volume, all controls, self-intersection audit, gingival or palatal contact, biomechanics or clinical acceptance.",
-    "report": "artifacts/method-evidence/oral-sculpt/contact-review/e051e47ad424a3d3/contact-review.json"
+    "report": "artifacts/method-evidence/oral-sculpt/contact-review/013445a15e559c3c/contact-review.json"
+  },
+  "anatomicalRoles": {
+    "PALATE": "posterior soft palate and uvula only",
+    "UPPER_GINGIVA": "source gingiva including palatal mucosal surface; no hard-palatal bone claim"
+  },
+  "selectedTissueContactReview": {
+    "assetSha256": "013445a15e559c3c34183dc64b92d6c8df55d7445d79f672f241fde2ec89efa5",
+    "cases": 8,
+    "forbiddenPairsChecked": 24,
+    "attachmentPairsDiagnosticOnly": 16,
+    "forbiddenSurfaceContactPairs": 0,
+    "report": "artifacts/method-evidence/oral-sculpt/tissue-contact-review/013445a15e559c3c/tissue-contacts.json",
+    "scope": "Selected tongue/palate/gingiva surface clearance; floor/frenulum contacts are diagnostic only"
+  },
+  "selectedTongueSelfContactReview": {
+    "assetSha256": "013445a15e559c3c34183dc64b92d6c8df55d7445d79f672f241fde2ec89efa5",
+    "cases": 4,
+    "scope": "Rest and three isolated tongue endpoints at jaw=0 only. No intermediate/combined controls, adjacent-fold/strain, contact biomechanics, phoneme or clinical/anatomical acceptance.",
+    "report": "artifacts/method-evidence/oral-sculpt/self-contact-review/self-contacts.json"
   }
 }

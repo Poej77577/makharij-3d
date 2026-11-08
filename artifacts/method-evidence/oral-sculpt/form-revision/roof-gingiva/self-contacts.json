@@ -1,0 +1,45 @@
+{
+  "selfContacts": [
+    {
+      "name": "PALATE",
+      "fclTriangleContacts": 149506,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": []
+    },
+    {
+      "name": "UPPER_GINGIVA",
+      "fclTriangleContacts": 243601,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": []
+    },
+    {
+      "name": "LOWER_GINGIVA",
+      "fclTriangleContacts": 232008,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": []
+    }
+  ],
+  "dentalContactChange": [
+    {
+      "jaw": "UPPER",
+      "sourceContacts": 3253,
+      "candidateContacts": 3253,
+      "newTriangleContactPairs": 0,
+      "truncated": false,
+      "scope": "Existing cervical source overlaps retained; new actual triangle pair witness enumeration only."
+    },
+    {
+      "jaw": "LOWER",
+      "sourceContacts": 3126,
+      "candidateContacts": 3126,
+      "newTriangleContactPairs": 0,
+      "truncated": false,
+      "scope": "Existing cervical source overlaps retained; new actual triangle pair witness enumeration only."
+    }
+  ],
+  "passed": true,
+  "scope": "One geometry-only candidate at rest. No velum/jaw/combined-pose acceptance or medical review."
+}

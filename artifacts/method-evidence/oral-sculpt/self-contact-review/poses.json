@@ -1,0 +1,32 @@
+[
+  {
+    "case": "rest",
+    "controls": {},
+    "jawOpen": 0,
+    "file": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/pose-00.npz"
+  },
+  {
+    "case": "TIP_ELEVATE_1",
+    "controls": {
+      "TIP_ELEVATE": 1
+    },
+    "jawOpen": 0,
+    "file": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/pose-01.npz"
+  },
+  {
+    "case": "DORSUM_ELEVATE_1",
+    "controls": {
+      "DORSUM_ELEVATE": 1
+    },
+    "jawOpen": 0,
+    "file": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/pose-02.npz"
+  },
+  {
+    "case": "ROOT_RETRACT_1",
+    "controls": {
+      "ROOT_RETRACT": 1
+    },
+    "jawOpen": 0,
+    "file": "/workspace/makharij-3d/artifacts/method-evidence/oral-sculpt/self-contact-review/pose-03.npz"
+  }
+]

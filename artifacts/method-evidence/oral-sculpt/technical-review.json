@@ -4,8 +4,8 @@
   "generalDentalContactReview": "pending",
   "volumeConservingSimulation": false,
   "productionSelected": false,
-  "blendSha256": "272f9efe532524c9972b2a7151bee7b9f69c8f9c4c4e189702b78b1f79bc7708",
-  "glbSha256": "e051e47ad424a3d301f12acd75325998d6079007c3babd78175a31bbf563e0c6",
+  "blendSha256": "bac056d3c170a158fc90d4b6d288d95d0fb10e11e6015bd58c2a0d616e8b367a",
+  "glbSha256": "013445a15e559c3c34183dc64b92d6c8df55d7445d79f672f241fde2ec89efa5",
   "topology": {
     "TONGUE": {
       "boundaryEdges": 0,
@@ -22,60 +22,80 @@
     "PALATE": {
       "boundaryEdges": 0,
       "nonmanifoldEdges": 0
+    },
+    "UPPER_GINGIVA": {
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0
+    },
+    "LOWER_GINGIVA": {
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0
     }
   },
   "rootFloorSeam": [
     {
       "case": "rest",
-      "maximumRootFloorGap_m": 7.80590525550906e-09
+      "maximumRootFloorGap_m": 7.957223324694951e-09
     },
     {
       "case": "TIP_ELEVATE_0.5",
-      "maximumRootFloorGap_m": 7.80590525550906e-09
+      "maximumRootFloorGap_m": 7.957223324694951e-09
     },
     {
       "case": "TIP_ELEVATE_1",
-      "maximumRootFloorGap_m": 7.80590525550906e-09
+      "maximumRootFloorGap_m": 7.957223324694951e-09
     },
     {
       "case": "DORSUM_ELEVATE_0.5",
-      "maximumRootFloorGap_m": 7.80590525550906e-09
+      "maximumRootFloorGap_m": 7.957223324694951e-09
     },
     {
       "case": "DORSUM_ELEVATE_1",
-      "maximumRootFloorGap_m": 7.80590525550906e-09
+      "maximumRootFloorGap_m": 7.957223324694951e-09
     },
     {
       "case": "ROOT_RETRACT_0.5",
-      "maximumRootFloorGap_m": 7.80590525550906e-09
+      "maximumRootFloorGap_m": 7.957223324694951e-09
     },
     {
       "case": "ROOT_RETRACT_1",
-      "maximumRootFloorGap_m": 7.80590525550906e-09
+      "maximumRootFloorGap_m": 7.957223324694951e-09
     },
     {
       "case": "JAW_OPEN_0.5",
-      "maximumRootFloorGap_m": 5.56734285339644e-08
+      "maximumRootFloorGap_m": 1.353977694407149e-07
     },
     {
       "case": "JAW_OPEN_1",
-      "maximumRootFloorGap_m": 9.369517073309908e-08
+      "maximumRootFloorGap_m": 2.682791091501713e-07
     },
     {
       "case": "VELUM_RAISE_0.5",
-      "maximumRootFloorGap_m": 7.80590525550906e-09
+      "maximumRootFloorGap_m": 7.957223324694951e-09
     },
     {
       "case": "VELUM_RAISE_1",
-      "maximumRootFloorGap_m": 7.80590525550906e-09
+      "maximumRootFloorGap_m": 7.957223324694951e-09
     },
     {
       "case": "combined",
-      "maximumRootFloorGap_m": 7.337389007489037e-08
+      "maximumRootFloorGap_m": 2.0186296012525418e-07
+    },
+    {
+      "case": "jaw_velum",
+      "maximumRootFloorGap_m": 1.353977694407149e-07
+    },
+    {
+      "case": "dorsum_velum",
+      "maximumRootFloorGap_m": 7.957223324694951e-09
+    },
+    {
+      "case": "root_velum",
+      "maximumRootFloorGap_m": 7.957223324694951e-09
     },
     {
       "case": "return",
-      "maximumRootFloorGap_m": 7.80590525550906e-09
+      "maximumRootFloorGap_m": 7.957223324694951e-09
     }
   ],
   "cases": [
@@ -86,11 +106,11 @@
         "TONGUE": 0.0,
         "ORAL_FLOOR": 0.0,
         "LINGUAL_FRENULUM": 0.0,
-        "PALATE": 0.0,
         "UPPER_DENTITION": 0.0,
         "LOWER_DENTITION": 0.0,
         "UPPER_GINGIVA": 0.0,
-        "LOWER_GINGIVA": 0.0
+        "LOWER_GINGIVA": 0.0,
+        "PALATE": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 0.0,
       "tongueVolumeChangeFraction": 0.0
@@ -104,14 +124,14 @@
         "TONGUE": 0.0,
         "ORAL_FLOOR": 0.0,
         "LINGUAL_FRENULUM": 0.0,
-        "PALATE": 0.0,
         "UPPER_DENTITION": 0.0,
         "LOWER_DENTITION": 0.0,
         "UPPER_GINGIVA": 0.0,
-        "LOWER_GINGIVA": 0.0
+        "LOWER_GINGIVA": 0.0,
+        "PALATE": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 0.0,
-      "tongueVolumeChangeFraction": -0.0012743123953818936
+      "tongueVolumeChangeFraction": -0.001317160112675908
     },
     {
       "case": "TIP_ELEVATE_1",
@@ -122,14 +142,14 @@
         "TONGUE": 0.0,
         "ORAL_FLOOR": 0.0,
         "LINGUAL_FRENULUM": 0.0,
-        "PALATE": 0.0,
         "UPPER_DENTITION": 0.0,
         "LOWER_DENTITION": 0.0,
         "UPPER_GINGIVA": 0.0,
-        "LOWER_GINGIVA": 0.0
+        "LOWER_GINGIVA": 0.0,
+        "PALATE": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 0.0,
-      "tongueVolumeChangeFraction": 1.0824163787503949e-10
+      "tongueVolumeChangeFraction": -0.0007397267397786234
     },
     {
       "case": "DORSUM_ELEVATE_0.5",
@@ -140,14 +160,14 @@
         "TONGUE": 0.0,
         "ORAL_FLOOR": 0.0,
         "LINGUAL_FRENULUM": 0.0,
-        "PALATE": 0.0,
         "UPPER_DENTITION": 0.0,
         "LOWER_DENTITION": 0.0,
         "UPPER_GINGIVA": 0.0,
-        "LOWER_GINGIVA": 0.0
+        "LOWER_GINGIVA": 0.0,
+        "PALATE": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 0.0,
-      "tongueVolumeChangeFraction": 0.009017644255848722
+      "tongueVolumeChangeFraction": 0.009578053161285904
     },
     {
       "case": "DORSUM_ELEVATE_1",
@@ -158,14 +178,14 @@
         "TONGUE": 0.0,
         "ORAL_FLOOR": 0.0,
         "LINGUAL_FRENULUM": 0.0,
-        "PALATE": 0.0,
         "UPPER_DENTITION": 0.0,
         "LOWER_DENTITION": 0.0,
         "UPPER_GINGIVA": 0.0,
-        "LOWER_GINGIVA": 0.0
+        "LOWER_GINGIVA": 0.0,
+        "PALATE": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 0.0,
-      "tongueVolumeChangeFraction": 2.668909537817399e-10
+      "tongueVolumeChangeFraction": -3.1023146255249046e-06
     },
     {
       "case": "ROOT_RETRACT_0.5",
@@ -176,14 +196,14 @@
         "TONGUE": 0.0,
         "ORAL_FLOOR": 0.0,
         "LINGUAL_FRENULUM": 0.0,
-        "PALATE": 0.0,
         "UPPER_DENTITION": 0.0,
         "LOWER_DENTITION": 0.0,
         "UPPER_GINGIVA": 0.0,
-        "LOWER_GINGIVA": 0.0
+        "LOWER_GINGIVA": 0.0,
+        "PALATE": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 0.0,
-      "tongueVolumeChangeFraction": 0.000406481402147163
+      "tongueVolumeChangeFraction": 0.0017047908490916974
     },
     {
       "case": "ROOT_RETRACT_1",
@@ -194,14 +214,14 @@
         "TONGUE": 0.0,
         "ORAL_FLOOR": 0.0,
         "LINGUAL_FRENULUM": 0.0,
-        "PALATE": 0.0,
         "UPPER_DENTITION": 0.0,
         "LOWER_DENTITION": 0.0,
         "UPPER_GINGIVA": 0.0,
-        "LOWER_GINGIVA": 0.0
+        "LOWER_GINGIVA": 0.0,
+        "PALATE": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 0.0,
-      "tongueVolumeChangeFraction": -2.6593227619997606e-10
+      "tongueVolumeChangeFraction": -0.00013951075829976567
     },
     {
       "case": "JAW_OPEN_0.5",
@@ -212,14 +232,14 @@
         "TONGUE": 0.0,
         "ORAL_FLOOR": 0.0,
         "LINGUAL_FRENULUM": 0.0,
-        "PALATE": 0.0,
         "UPPER_DENTITION": 0.0,
         "LOWER_DENTITION": 0.0,
         "UPPER_GINGIVA": 0.0,
-        "LOWER_GINGIVA": 0.0
+        "LOWER_GINGIVA": 0.0,
+        "PALATE": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 4.5361633199680895e-10,
-      "tongueVolumeChangeFraction": -0.0005298606243959725
+      "tongueVolumeChangeFraction": -0.006147566409258953
     },
     {
       "case": "JAW_OPEN_1",
@@ -230,14 +250,14 @@
         "TONGUE": 0.0,
         "ORAL_FLOOR": 0.0,
         "LINGUAL_FRENULUM": 0.0,
-        "PALATE": 0.0,
         "UPPER_DENTITION": 0.0,
         "LOWER_DENTITION": 0.0,
         "UPPER_GINGIVA": 0.0,
-        "LOWER_GINGIVA": 0.0
+        "LOWER_GINGIVA": 0.0,
+        "PALATE": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 3.1172114195454625e-10,
-      "tongueVolumeChangeFraction": 0.028235014086163357
+      "tongueVolumeChangeFraction": 0.01947894166983266
     },
     {
       "case": "VELUM_RAISE_0.5",
@@ -248,11 +268,11 @@
         "TONGUE": 0.0,
         "ORAL_FLOOR": 0.0,
         "LINGUAL_FRENULUM": 0.0,
-        "PALATE": 0.0,
         "UPPER_DENTITION": 0.0,
         "LOWER_DENTITION": 0.0,
         "UPPER_GINGIVA": 0.0,
-        "LOWER_GINGIVA": 0.0
+        "LOWER_GINGIVA": 0.0,
+        "PALATE": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 0.0,
       "tongueVolumeChangeFraction": 0.0
@@ -266,11 +286,11 @@
         "TONGUE": 0.0,
         "ORAL_FLOOR": 0.0,
         "LINGUAL_FRENULUM": 0.0,
-        "PALATE": 0.0,
         "UPPER_DENTITION": 0.0,
         "LOWER_DENTITION": 0.0,
         "UPPER_GINGIVA": 0.0,
-        "LOWER_GINGIVA": 0.0
+        "LOWER_GINGIVA": 0.0,
+        "PALATE": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 0.0,
       "tongueVolumeChangeFraction": 0.0
@@ -287,14 +307,71 @@
         "TONGUE": 0.0,
         "ORAL_FLOOR": 0.0,
         "LINGUAL_FRENULUM": 0.0,
-        "PALATE": 0.0,
         "UPPER_DENTITION": 0.0,
         "LOWER_DENTITION": 0.0,
         "UPPER_GINGIVA": 0.0,
-        "LOWER_GINGIVA": 0.0
+        "LOWER_GINGIVA": 0.0,
+        "PALATE": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 2.317219124914338e-10,
-      "tongueVolumeChangeFraction": 0.013830162192211448
+      "tongueVolumeChangeFraction": 0.005554550877727493
+    },
+    {
+      "case": "jaw_velum",
+      "controls": {
+        "JAW_OPEN": 0.5,
+        "VELUM_RAISE": 1
+      },
+      "partErrors_m": {
+        "TONGUE": 0.0,
+        "ORAL_FLOOR": 0.0,
+        "LINGUAL_FRENULUM": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0,
+        "UPPER_GINGIVA": 0.0,
+        "LOWER_GINGIVA": 0.0,
+        "PALATE": 0.0
+      },
+      "lowerDentalArchDistanceDrift_m": 4.5361633199680895e-10,
+      "tongueVolumeChangeFraction": -0.006147566409258953
+    },
+    {
+      "case": "dorsum_velum",
+      "controls": {
+        "DORSUM_ELEVATE": 1,
+        "VELUM_RAISE": 1
+      },
+      "partErrors_m": {
+        "TONGUE": 0.0,
+        "ORAL_FLOOR": 0.0,
+        "LINGUAL_FRENULUM": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0,
+        "UPPER_GINGIVA": 0.0,
+        "LOWER_GINGIVA": 0.0,
+        "PALATE": 0.0
+      },
+      "lowerDentalArchDistanceDrift_m": 0.0,
+      "tongueVolumeChangeFraction": -3.1023146255249046e-06
+    },
+    {
+      "case": "root_velum",
+      "controls": {
+        "ROOT_RETRACT": 1,
+        "VELUM_RAISE": 1
+      },
+      "partErrors_m": {
+        "TONGUE": 0.0,
+        "ORAL_FLOOR": 0.0,
+        "LINGUAL_FRENULUM": 0.0,
+        "UPPER_DENTITION": 0.0,
+        "LOWER_DENTITION": 0.0,
+        "UPPER_GINGIVA": 0.0,
+        "LOWER_GINGIVA": 0.0,
+        "PALATE": 0.0
+      },
+      "lowerDentalArchDistanceDrift_m": 0.0,
+      "tongueVolumeChangeFraction": -0.00013951075829976567
     },
     {
       "case": "return",
@@ -303,16 +380,179 @@
         "TONGUE": 0.0,
         "ORAL_FLOOR": 0.0,
         "LINGUAL_FRENULUM": 0.0,
-        "PALATE": 0.0,
         "UPPER_DENTITION": 0.0,
         "LOWER_DENTITION": 0.0,
         "UPPER_GINGIVA": 0.0,
-        "LOWER_GINGIVA": 0.0
+        "LOWER_GINGIVA": 0.0,
+        "PALATE": 0.0
       },
       "lowerDentalArchDistanceDrift_m": 0.0,
       "tongueVolumeChangeFraction": 0.0
     }
   ],
+  "additionalAttachmentSamples": [
+    {
+      "case": "rest",
+      "frenulumTongueMaximumSurfaceDistance_m": 0.00011743389768525958,
+      "frenulumFloorMaximumSurfaceDistance_m": 2.8027217922499403e-05,
+      "velumAnteriorPinnedMaximumDrift_m": 0.0,
+      "palatalMucosalInterfaceMaximumSurfaceDistance_m": 0.0011163388844579458,
+      "palatalMucosalInterfaceSamples": 147,
+      "palatalMucosalInterfaceSampledOutsideCount": 0,
+      "palatalMucosalInterfaceMaximumOutsideDistance_m": 0
+    },
+    {
+      "case": "TIP_ELEVATE_0.5",
+      "frenulumTongueMaximumSurfaceDistance_m": 0.00011940392141696066,
+      "frenulumFloorMaximumSurfaceDistance_m": 2.8027217922499403e-05,
+      "velumAnteriorPinnedMaximumDrift_m": 0.0,
+      "palatalMucosalInterfaceMaximumSurfaceDistance_m": 0.0011163388844579458,
+      "palatalMucosalInterfaceSamples": 147,
+      "palatalMucosalInterfaceSampledOutsideCount": 0,
+      "palatalMucosalInterfaceMaximumOutsideDistance_m": 0
+    },
+    {
+      "case": "TIP_ELEVATE_1",
+      "frenulumTongueMaximumSurfaceDistance_m": 0.00012137675366830081,
+      "frenulumFloorMaximumSurfaceDistance_m": 2.8027217922499403e-05,
+      "velumAnteriorPinnedMaximumDrift_m": 0.0,
+      "palatalMucosalInterfaceMaximumSurfaceDistance_m": 0.0011163388844579458,
+      "palatalMucosalInterfaceSamples": 147,
+      "palatalMucosalInterfaceSampledOutsideCount": 0,
+      "palatalMucosalInterfaceMaximumOutsideDistance_m": 0
+    },
+    {
+      "case": "DORSUM_ELEVATE_0.5",
+      "frenulumTongueMaximumSurfaceDistance_m": 0.00012320213136263192,
+      "frenulumFloorMaximumSurfaceDistance_m": 2.8027217922499403e-05,
+      "velumAnteriorPinnedMaximumDrift_m": 0.0,
+      "palatalMucosalInterfaceMaximumSurfaceDistance_m": 0.0011163388844579458,
+      "palatalMucosalInterfaceSamples": 147,
+      "palatalMucosalInterfaceSampledOutsideCount": 0,
+      "palatalMucosalInterfaceMaximumOutsideDistance_m": 0
+    },
+    {
+      "case": "DORSUM_ELEVATE_1",
+      "frenulumTongueMaximumSurfaceDistance_m": 0.00012867730401922017,
+      "frenulumFloorMaximumSurfaceDistance_m": 2.8027217922499403e-05,
+      "velumAnteriorPinnedMaximumDrift_m": 0.0,
+      "palatalMucosalInterfaceMaximumSurfaceDistance_m": 0.0011163388844579458,
+      "palatalMucosalInterfaceSamples": 147,
+      "palatalMucosalInterfaceSampledOutsideCount": 0,
+      "palatalMucosalInterfaceMaximumOutsideDistance_m": 0
+    },
+    {
+      "case": "ROOT_RETRACT_0.5",
+      "frenulumTongueMaximumSurfaceDistance_m": 0.00011743392678909004,
+      "frenulumFloorMaximumSurfaceDistance_m": 2.8027217922499403e-05,
+      "velumAnteriorPinnedMaximumDrift_m": 0.0,
+      "palatalMucosalInterfaceMaximumSurfaceDistance_m": 0.0011163388844579458,
+      "palatalMucosalInterfaceSamples": 147,
+      "palatalMucosalInterfaceSampledOutsideCount": 0,
+      "palatalMucosalInterfaceMaximumOutsideDistance_m": 0
+    },
+    {
+      "case": "ROOT_RETRACT_1",
+      "frenulumTongueMaximumSurfaceDistance_m": 0.00011743506911443546,
+      "frenulumFloorMaximumSurfaceDistance_m": 2.8027217922499403e-05,
+      "velumAnteriorPinnedMaximumDrift_m": 0.0,
+      "palatalMucosalInterfaceMaximumSurfaceDistance_m": 0.0011163388844579458,
+      "palatalMucosalInterfaceSamples": 147,
+      "palatalMucosalInterfaceSampledOutsideCount": 0,
+      "palatalMucosalInterfaceMaximumOutsideDistance_m": 0
+    },
+    {
+      "case": "JAW_OPEN_0.5",
+      "frenulumTongueMaximumSurfaceDistance_m": 0.00011695362627506256,
+      "frenulumFloorMaximumSurfaceDistance_m": 2.781670082185883e-05,
+      "velumAnteriorPinnedMaximumDrift_m": 0.0,
+      "palatalMucosalInterfaceMaximumSurfaceDistance_m": 0.0011163388844579458,
+      "palatalMucosalInterfaceSamples": 147,
+      "palatalMucosalInterfaceSampledOutsideCount": 0,
+      "palatalMucosalInterfaceMaximumOutsideDistance_m": 0
+    },
+    {
+      "case": "JAW_OPEN_1",
+      "frenulumTongueMaximumSurfaceDistance_m": 0.00011875008203787729,
+      "frenulumFloorMaximumSurfaceDistance_m": 2.802637027343735e-05,
+      "velumAnteriorPinnedMaximumDrift_m": 0.0,
+      "palatalMucosalInterfaceMaximumSurfaceDistance_m": 0.0011163388844579458,
+      "palatalMucosalInterfaceSamples": 147,
+      "palatalMucosalInterfaceSampledOutsideCount": 0,
+      "palatalMucosalInterfaceMaximumOutsideDistance_m": 0
+    },
+    {
+      "case": "VELUM_RAISE_0.5",
+      "frenulumTongueMaximumSurfaceDistance_m": 0.00011743389768525958,
+      "frenulumFloorMaximumSurfaceDistance_m": 2.8027217922499403e-05,
+      "velumAnteriorPinnedMaximumDrift_m": 0.0,
+      "palatalMucosalInterfaceMaximumSurfaceDistance_m": 0.0011163388844579458,
+      "palatalMucosalInterfaceSamples": 147,
+      "palatalMucosalInterfaceSampledOutsideCount": 0,
+      "palatalMucosalInterfaceMaximumOutsideDistance_m": 0
+    },
+    {
+      "case": "VELUM_RAISE_1",
+      "frenulumTongueMaximumSurfaceDistance_m": 0.00011743389768525958,
+      "frenulumFloorMaximumSurfaceDistance_m": 2.8027217922499403e-05,
+      "velumAnteriorPinnedMaximumDrift_m": 0.0,
+      "palatalMucosalInterfaceMaximumSurfaceDistance_m": 0.0011163388844579458,
+      "palatalMucosalInterfaceSamples": 147,
+      "palatalMucosalInterfaceSampledOutsideCount": 0,
+      "palatalMucosalInterfaceMaximumOutsideDistance_m": 0
+    },
+    {
+      "case": "combined",
+      "frenulumTongueMaximumSurfaceDistance_m": 0.00012238639465067536,
+      "frenulumFloorMaximumSurfaceDistance_m": 2.7870162739418447e-05,
+      "velumAnteriorPinnedMaximumDrift_m": 0.0,
+      "palatalMucosalInterfaceMaximumSurfaceDistance_m": 0.0011163388844579458,
+      "palatalMucosalInterfaceSamples": 147,
+      "palatalMucosalInterfaceSampledOutsideCount": 0,
+      "palatalMucosalInterfaceMaximumOutsideDistance_m": 0
+    },
+    {
+      "case": "jaw_velum",
+      "frenulumTongueMaximumSurfaceDistance_m": 0.00011695362627506256,
+      "frenulumFloorMaximumSurfaceDistance_m": 2.781670082185883e-05,
+      "velumAnteriorPinnedMaximumDrift_m": 0.0,
+      "palatalMucosalInterfaceMaximumSurfaceDistance_m": 0.0011163388844579458,
+      "palatalMucosalInterfaceSamples": 147,
+      "palatalMucosalInterfaceSampledOutsideCount": 0,
+      "palatalMucosalInterfaceMaximumOutsideDistance_m": 0
+    },
+    {
+      "case": "dorsum_velum",
+      "frenulumTongueMaximumSurfaceDistance_m": 0.00012867730401922017,
+      "frenulumFloorMaximumSurfaceDistance_m": 2.8027217922499403e-05,
+      "velumAnteriorPinnedMaximumDrift_m": 0.0,
+      "palatalMucosalInterfaceMaximumSurfaceDistance_m": 0.0011163388844579458,
+      "palatalMucosalInterfaceSamples": 147,
+      "palatalMucosalInterfaceSampledOutsideCount": 0,
+      "palatalMucosalInterfaceMaximumOutsideDistance_m": 0
+    },
+    {
+      "case": "root_velum",
+      "frenulumTongueMaximumSurfaceDistance_m": 0.00011743506911443546,
+      "frenulumFloorMaximumSurfaceDistance_m": 2.8027217922499403e-05,
+      "velumAnteriorPinnedMaximumDrift_m": 0.0,
+      "palatalMucosalInterfaceMaximumSurfaceDistance_m": 0.0011163388844579458,
+      "palatalMucosalInterfaceSamples": 147,
+      "palatalMucosalInterfaceSampledOutsideCount": 0,
+      "palatalMucosalInterfaceMaximumOutsideDistance_m": 0
+    },
+    {
+      "case": "return",
+      "frenulumTongueMaximumSurfaceDistance_m": 0.00011743389768525958,
+      "frenulumFloorMaximumSurfaceDistance_m": 2.8027217922499403e-05,
+      "velumAnteriorPinnedMaximumDrift_m": 0.0,
+      "palatalMucosalInterfaceMaximumSurfaceDistance_m": 0.0011163388844579458,
+      "palatalMucosalInterfaceSamples": 147,
+      "palatalMucosalInterfaceSampledOutsideCount": 0,
+      "palatalMucosalInterfaceMaximumOutsideDistance_m": 0
+    }
+  ],
+  "attachmentScope": "Unsigned nearest distances of sampled interfaces; intentional overlap is not welded continuity",
   "correctiveMapping": {
     "JAW_X_TIP_ELEVATE": [
       "JAW_OPEN",

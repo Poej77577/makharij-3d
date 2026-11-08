@@ -18,14 +18,25 @@ from mathutils import Vector
 from mathutils.bvhtree import BVHTree
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT/'tools/anatomy'))
+from oral_clearance import LingualGingivalFit, lower_gingival_source
+from oral_roof_refinement import refine_gingival_ends, make_posterior_soft_palate
 p = argparse.ArgumentParser()
 p.add_argument('--out', default='artifacts/method-evidence/oral-sculpt')
 p.add_argument('--geometry-only', action='store_true')
+p.add_argument('--spec', default='data/anatomy/oral-sculpt.json')
 a = p.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
 OUT = (ROOT/a.out).resolve()
 OUT.mkdir(parents=True, exist_ok=True)
-spec_path = ROOT/'data/anatomy/oral-sculpt.json'
+spec_path = (ROOT/a.spec).resolve()
 spec = json.loads(spec_path.read_text())
+src = ROOT/'assets/source/z-anatomy/reference-meshes.json'
+source_data = json.loads(src.read_text())['parts']
+gingival_fit = LingualGingivalFit(*lower_gingival_source(source_data['ATLAS_GINGIVA']),
+                                margin_m=spec.get('gingivalClearanceMargin_mm', .8)*.001)
+gingival_fit_records = {}
+roof_authoring = {'gingivalRefinement': {}}
+soft_grid = None
 bpy.ops.wm.read_factory_settings(use_empty=True)
 scene = bpy.context.scene
 scene.unit_settings.system = 'METRIC'
@@ -125,13 +136,22 @@ def sculpt_point(cube):
     r2 = sx*sx+sy*sy
     boundary = float(np.interp(math.atan2(sy, sx), sample_angles, sample_radii, period=2*math.pi))
     # At the lateral centre use an isotropic tangent disk, not a radial pinch.
-    radius = .024 + r2*(boundary-.024)
+    tangent_radius = spec.get('lateralTangentRadius_mm', 24)*.001
+    radius = tangent_radius + r2*(boundary-tangent_radius)
     px, py = center + np.array([sx, sy])*radius
     width = spec['transverseHalfWidth_mm']*.001
     width *= (.83+.17*smooth((-px-.018)/.035))
     width *= (1-.13*smooth((-py-.018)/.012))
     width *= 1+spec.get('anteriorWidthFlare', 0)*smooth((px+.039)/.026)
     pz = sz*width
+    # Inferred free-blade sculpt field on the same fixed quad patches. Advance
+    # the anterior lateral blade to a broad rounded margin rather than leaving
+    # the sphere parameterisation's pointed top silhouette. Basal tissue stays.
+    blade = smooth((px+.051)/.027)*smooth((py+.024)/.014)
+    lateral = smooth((abs(pz)/width-.15)/.65)
+    px += spec.get('bladeLateralAdvance_mm', 0)*.001*blade*lateral
+    shoulder = math.exp(-((abs(pz)-.008)/.006)**2)
+    py += spec.get('bladeDorsalShoulder_mm', 0)*.001*blade*shoulder*smooth((py+.014)/.014)
     dorsal = smooth((py+.005)/.010)
     sulcus = .00055*math.exp(-(pz/.0032)**2)*math.exp(-((px+.038)/.024)**4)
     py -= dorsal*sulcus
@@ -171,6 +191,13 @@ tongue['source'] = 'Original six-patch anatomical surface; inferred dimensions'
 tongue['review'] = 'experimental, not medically accepted'
 subdivide(tongue, 2)
 rest_coords = [project(v.co) for v in tongue.data.vertices]
+if spec.get('fitLingualGingivalCavity', False):
+    rest_coords, gingival_fit_records['rest'] = gingival_fit.fit(
+        rest_coords, [list(face.vertices) for face in tongue.data.polygons],
+        smoothing_iterations=spec.get('restClearanceSmoothingPasses', 32))
+    for vertex, point in zip(tongue.data.vertices, rest_coords):
+        vertex.co = native(point)
+    tongue.data.update()
 
 # A real closed mucosal annulus meets the actual root section. Its central
 # opening is occupied by the tongue's basal body, not a plane through the tongue.
@@ -179,7 +206,9 @@ floor_y = spec['floorAttachmentHeight_mm']*.001
 
 def attachment_height(point):
     theta = math.atan2(point[2], point[0]+.046)
-    return floor_y+.009*smooth((1-math.cos(theta))/2)+.003*math.sin(theta)**2
+    posterior = spec.get('floorAttachmentPosteriorOffset_mm', 9)*.001
+    lateral = spec.get('floorAttachmentLateralOffset_mm', 3)*.001
+    return floor_y+posterior*smooth((1-math.cos(theta))/2)+lateral*math.sin(theta)**2
 
 
 bvh = BVHTree.FromPolygons(rest_coords, [list(p.vertices) for p in tongue.data.polygons])
@@ -198,7 +227,7 @@ for j in range(segments):
     # Outer boundary follows the oral arch; every value is an inferred fit.
     px = -.040+.034*math.cos(theta)
     pz = .027*math.sin(theta)*(1-.12*math.cos(theta))
-    py = -.018-.006*(1-math.cos(theta))/2
+    py = -.018-spec.get('floorOuterPosteriorDrop_mm', 6)*.001*(1-math.cos(theta))/2
     outer.append(Vector((px, py, pz)))
 floor_coords = []
 for lower in (False, True):
@@ -312,14 +341,13 @@ def palate_surface(x0, x1, name):
     return ob
 
 
-soft = palate_surface(-.009, -.075, 'PALATE')
-subdivide(soft, 1)
-soft['anatomical_regions'] = 'Hard palate anterior to X=-0.056m; soft palate/uvula posterior; shared continuous tissue mesh'
+if not spec.get('useSourcePalatalMucosa', False):
+    soft = palate_surface(-.009, -.075, 'PALATE')
+    subdivide(soft, 1)
+    soft['anatomical_regions'] = 'Hard palate anterior to X=-0.056m; soft palate/uvula posterior; shared continuous tissue mesh'
 
 # Source dental context retains its native fit. Meshes are grouped by jaw and
 # gingiva is split by actual connected components before any jaw articulation.
-src = ROOT/'assets/source/z-anatomy/reference-meshes.json'
-source_data = json.loads(src.read_text())['parts']
 source_objects = []
 for prefix, name in [('ATLAS_UPPER_', 'UPPER_DENTITION'), ('ATLAS_LOWER_', 'LOWER_DENTITION')]:
     verts, polys = [], []
@@ -360,10 +388,31 @@ for triangles in groups.values():
 for name, triangles in gum_by_jaw.items():
     ids = sorted(set(v for tri in triangles for v in tri))
     index_map = {v: i for i, v in enumerate(ids)}
-    ob = mesh_object(name, [gum_points[v] for v in ids],
-                     [tuple(index_map[v] for v in tri) for tri in triangles], mat=FLOOR_MAT)
+    points = [gum_points[v] for v in ids]
+    faces = [tuple(index_map[v] for v in tri) for tri in triangles]
+    if spec.get('refineGingivalEnds', False):
+        dental = bpy.data.objects[name.replace('GINGIVA', 'DENTITION')]
+        points, report = refine_gingival_ends(points, faces, [project(v.co) for v in dental.data.vertices],
+                                            [list(face.vertices) for face in dental.data.polygons],
+                                            'upper' if name.startswith('UPPER') else 'lower')
+        roof_authoring['gingivalRefinement'][name] = report
+    ob = mesh_object(name, points, faces, mat=FLOOR_MAT)
+    attribute = ob.data.attributes.new('reference_vertex_id', 'INT', 'POINT')
+    for value, source_id in zip(attribute.data, ids):
+        value.value = source_id
     ob['source'] = 'BodyParts3D / Z-Anatomy; original connected gingival components grouped by jaw'
+    ob['source_topology_retained'] = True
+    ob['posterior_shape_refined'] = spec.get('refineGingivalEnds', False)
     source_objects.append(ob)
+if spec.get('useSourcePalatalMucosa', False):
+    upper = bpy.data.objects['UPPER_GINGIVA']
+    roof_points, roof_faces, report = make_posterior_soft_palate(
+        [project(v.co) for v in upper.data.vertices], [list(face.vertices) for face in upper.data.polygons])
+    soft = mesh_object('PALATE', roof_points, roof_faces, mat=FLOOR_MAT)
+    soft['source'] = 'Authored posterior soft-palate/uvular tissue fitted to real source palatal mucosa'
+    soft['anatomical_regions'] = report['role']
+    soft_grid = report['deformationGrid']
+    roof_authoring['posteriorSoftPalate'] = report
 for key in ['ATLAS_MANDIBLE', 'ATLAS_HYOID_BONE']:
     part = source_data[key]
     ref = mesh_object('REFERENCE_'+key, [part['positions'][i:i+3] for i in range(0, len(part['positions']), 3)],
@@ -464,6 +513,15 @@ if not a.geometry_only:
                 original = project(ob.data.vertices[i].co)
                 weight = smooth((original.y-attachment_height(original)-.002)/.014)
                 point.x *= 1+amount*weight
+            if spec.get('fitLingualGingivalCavity', False):
+                eligible = [smooth((p.y-attachment_height(p)-.002)/.014) > 1e-6
+                            for p in (project(v.co) for v in ob.data.vertices)]
+                fitted, record = gingival_fit.fit([project(p) for p in baked[ob.name][control]],
+                                                  [list(face.vertices) for face in ob.data.polygons], eligible)
+                baked[ob.name][control] = [native(p) for p in fitted]
+                gingival_fit_records[control+'/'+ob.name] = record
+        volume_adjustments[control]['afterGingivalFitVolumeChangeFraction'] = volume(
+            np.array([tuple(v) for v in baked[tongue.name][control]], dtype=np.float64))/reference_volume-1
         distances = [(point-v.co).length for point, v in zip(baked[tongue.name][control], tongue.data.vertices)]
         motion[control]['maxDisplacement_m'] = max(distances)
     for point, base in zip(ld.points, cage_rest):
@@ -498,6 +556,14 @@ if not a.geometry_only:
             point = project(vertex.co)
             weight = jaw_weight(point) if ob in soft_targets else 1
             target.co = native(jaw_point(point, weight))
+        if ob in soft_targets and spec.get('fitLingualGingivalCavity', False):
+            eligible = [smooth((p.y-attachment_height(p)-.002)/.014) > 1e-6
+                        for p in (project(v.co) for v in ob.data.vertices)]
+            local = [jaw_point(project(v.co), -1) for v in key.data]
+            fitted, record = gingival_fit.fit(local, [list(face.vertices) for face in ob.data.polygons], eligible)
+            for target, point in zip(key.data, fitted):
+                target.co = native(jaw_point(point))
+            gingival_fit_records['JAW_OPEN/'+ob.name] = record
     # Teeth and gingiva use one actual rigid pivot, including intermediate
     # values; morph interpolation must not shrink a rigid dental arch.
     jaw_node = bpy.data.objects.new('JAW_PIVOT', None)
@@ -523,11 +589,22 @@ if not a.geometry_only:
         keys = ob.data.shape_keys
         for control in ['TIP_ELEVATE', 'DORSUM_ELEVATE', 'ROOT_RETRACT']:
             corrective = ob.shape_key_add(name='JAW_X_'+control)
+            expected_points = []
+            for i, vertex in enumerate(ob.data.vertices):
+                base_point = project(vertex.co)
+                deformed_point = project(keys.key_blocks[control].data[i].co)
+                expected_points.append(jaw_point(deformed_point, jaw_weight(base_point)))
+            if spec.get('fitLingualGingivalCavity', False):
+                eligible = [smooth((p.y-attachment_height(p)-.002)/.014) > 1e-6
+                            for p in (project(v.co) for v in ob.data.vertices)]
+                fitted, record = gingival_fit.fit([jaw_point(p, -1) for p in expected_points],
+                                                  [list(face.vertices) for face in ob.data.polygons], eligible)
+                expected_points = [jaw_point(p) for p in fitted]
+                gingival_fit_records['JAW_X_'+control+'/'+ob.name] = record
             for i, vertex in enumerate(ob.data.vertices):
                 base = project(vertex.co)
                 deformed = project(keys.key_blocks[control].data[i].co)
-                weight = jaw_weight(base)
-                expected = jaw_point(deformed, weight)
+                expected = expected_points[i]
                 additive = deformed + (project(keys.key_blocks['JAW_OPEN'].data[i].co)-base)
                 corrective.data[i].co = native(base+expected-additive)
             driver = corrective.driver_add('value').driver
@@ -543,7 +620,11 @@ if not a.geometry_only:
     key = soft.shape_key_add(name='VELUM_RAISE')
     for target, vertex in zip(key.data, soft.data.vertices):
         point = project(vertex.co)
-        w = smooth((-point.x-.056)/.019)
+        if soft_grid:
+            u = (vertex.index % soft_grid['verticesPerLayer'])//(soft_grid['transverseSegments']+1)/soft_grid['longitudinalSegments']
+            w = smooth((u-.15)/.85)
+        else:
+            w = smooth((-point.x-.056)/.019)
         target.co = native(point+Vector((-.0015*w, .009*w, 0)))
     controls = ['TIP_ELEVATE', 'DORSUM_ELEVATE', 'ROOT_RETRACT', 'JAW_OPEN', 'VELUM_RAISE']
     for ob in LOW.objects:
@@ -587,11 +668,18 @@ manifest = {'status': 'experimental-review-pending', 'productionSelected': False
             'authoringSkill': '.agents/skills/blender-image-to-3d/SKILL.md',
             'specSha256': hashlib.sha256(spec_path.read_bytes()).hexdigest(),
             'sourceContextSha256': hashlib.sha256(src.read_bytes()).hexdigest(),
+            'authoringCodeSha256': {str(path.relative_to(ROOT)): hashlib.sha256(path.read_bytes()).hexdigest()
+                                   for path in [Path(__file__).resolve(), ROOT/'tools/anatomy/oral_clearance.py',
+                                                ROOT/'tools/anatomy/oral_roof_refinement.py']},
             'blendSha256': hashlib.sha256(blend.read_bytes()).hexdigest(),
             'glbSha256': hashlib.sha256(glb.read_bytes()).hexdigest(),
             'gltfToProject': [[0, 0, 1], [0, 1, 0], [-1, 0, 0]],
             'tongueVertices': len(tongue.data.vertices), 'motion': motion,
             'peakVolumeCorrectives': volume_adjustments,
+            'lingualGingivalFit': gingival_fit_records,
+            'oralRoofAuthoring': roof_authoring,
+            'anatomicalRoles': {'PALATE': 'posterior soft palate and uvula only' if soft_grid else 'authored hard/soft palate and uvula',
+                                'UPPER_GINGIVA': 'source gingiva including palatal mucosal surface; no hard-palatal bone claim'},
             'cage': {'type': 'B-spline lattice', 'resolution': [5, 14, 6], 'exportedAs': 'evaluated morph targets'},
             'correctives': {'JAW_X_TIP_ELEVATE': ['JAW_OPEN', 'TIP_ELEVATE'],
                             'JAW_X_DORSUM_ELEVATE': ['JAW_OPEN', 'DORSUM_ELEVATE'],
@@ -603,6 +691,11 @@ manifest = {'status': 'experimental-review-pending', 'productionSelected': False
                                 'heightRange_m': [min(p.y for p in inner), max(p.y for p in inner)],
                                 'innerSeamPoints_m': [list(p) for p in inner],
                                 'floorIsClosedVolume': True, 'genialAndHyoidInsertionValidated': False},
+            'frenulumAttachment': {'longitudinalSegments': web_nx, 'verticalSegments': web_ny,
+                                   'floorVertices': [side*web_layer+i*(web_ny+1) for side in range(2) for i in range(web_nx+1)],
+                                   'tongueVertices': [side*web_layer+i*(web_ny+1)+web_ny for side in range(2) for i in range(web_nx+1)],
+                                   'intentionalTongueEmbedding_m': .00015,
+                                   'scope': 'Both actual web margins; finite surface-distance samples, not all interface topology'},
             'parts': [ob.name for ob in LOW.objects],
             'limitations': ['Inferred art anatomy, not a scan', 'No contact-constrained biomechanics',
                             'No phoneme calibration or classroom approval', 'Floor/palatal relationships require visual review'],

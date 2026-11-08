@@ -1,5 +1,14 @@
 # M1 anatomical foundation decision — 2026-11-06
 
+## Revised prototype with wider contact review — 2026-11-08
+
+See `ORAL_FORM_REVISION.md`. The current prototype `013445a1…` removes the
+duplicated authored anterior roof, uses retained palatal mucosa with an attached
+authored soft palate, reduces posterior gingival ends and refines blade/root
+form. A real lower-gingival crossing defect was corrected and checked beyond
+the dental-only suite. This is a better working prototype; a ventral sculpt
+ridge and broader anatomical review still prevent visual/clinical acceptance.
+
 ## Face context and contact correction — 2026-11-08
 
 The user authorized continued work with a third team member. A separate

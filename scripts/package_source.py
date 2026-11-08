@@ -10,7 +10,7 @@ for folder in ['src','data','docs','scripts','tools','tests','public','.agents/s
   for f in p.rglob('*'):
    if f.is_file() and not f.is_symlink() and '__pycache__' not in f.parts and not (f.suffix == '.pyc' or (f.suffix.startswith('.blend') and f.suffix != '.blend')):
     entries.append(f)
-for name in ['package.json','package-lock.json','tsconfig.json','vite.config.ts','index.html','anatomy.html','mouth.html','README.md','.gitignore','.node-version']:
+for name in ['package.json','package-lock.json','tsconfig.json','vite.config.ts','index.html','anatomy.html','mouth.html','legacy.html','README.md','.gitignore','.node-version']:
  if (ROOT/name).exists(): entries.append(ROOT/name)
 manifest={str(p.relative_to(ROOT)):{'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(set(entries))}
 temporary=OUT/'makharij-source.zip.tmp'

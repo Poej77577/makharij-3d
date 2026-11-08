@@ -1,0 +1,12 @@
+{
+  "sourceMasterSha256": "67c505f49191f07f2d8feeb43412b14098051b6d25e64281d67e77413a770311",
+  "helperSha256": "cec6cd31b3865cf70374bcef60e20f08af3291dcda894c6397777bce2e9715e8",
+  "candidateBlendSha256": "0b799655528f568de2cb7ff454ecdb116a75da7119e48b69c1fb957decba460c",
+  "evidence": {
+    "roof-comparison.png": "70e669949fddd9f258c87e4203529e4850546186fd3ab13298ad44a3cd10e879",
+    "gingival-comparison.png": "31ee20769cf2b4265b092899a93a8b8c958472c633216a7c3fcbd4b0ca66c4cb",
+    "source-and-proposed-points.npz": "2d0ee05780c8c5c06d11cb605ae05609e6cc31987d73be4893292fb66912c133",
+    "self-contacts.json": "42fd28d22dbebb2b6696af11e1d17437406ca2685a329d1f9be581b24d22ebdd",
+    "interface-check.json": "1302c5528f66aafd1a6a351139470b51e17fb6e74f296106570239aeaef0ca3f"
+  }
+}

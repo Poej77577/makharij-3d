@@ -1,0 +1,22 @@
+{
+  "assetSha256": "013445a15e559c3c34183dc64b92d6c8df55d7445d79f672f241fde2ec89efa5",
+  "cases": [
+    {
+      "case": "current_bytes_and_manifest",
+      "rejected": false,
+      "passed": true
+    },
+    {
+      "case": "wrong_expected_hash",
+      "rejected": true,
+      "passed": true
+    },
+    {
+      "case": "stale_manifest_hash",
+      "rejected": true,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "scope": "Read-only identity guard checks; no changed file or surrogate geometry."
+}

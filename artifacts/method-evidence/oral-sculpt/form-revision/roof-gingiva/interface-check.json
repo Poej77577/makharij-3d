@@ -1,0 +1,9 @@
+{
+  "sampledInterfacePoints": 147,
+  "classifiedWithinClosedUpperGingivalSource": 147,
+  "outsideSamples": [],
+  "outsideMaximumNearestDistance_m": 0,
+  "lowerRowMaximumNearestDistance_m": 0.00016737686381962212,
+  "method": "49 lower and 49 upper anterior vertices plus 49 front-cap midpoints; closed-source ray containment and nearest triangle distance",
+  "limits": "Finite interface samples only. Not a welded union, all-surface seam guarantee, or clinical registration."
+}
