@@ -1,6 +1,6 @@
 {
-  "blendSha256": "64a0a0bf8e2e81a31755b8b0b9dac93b70eeb2ebe4d43c09d508e2c3dfb15c5e",
-  "faceGlbSha256": "c8a0c97357e7e07c3796b4d9486f3622304f07fa087c36629e8d732bec730dbe",
+  "blendSha256": "b76e407f7f7354936f84416c517bb96900f079d70a8477d3849f3c0cfaa619cf",
+  "faceGlbSha256": "dce24684c15a7a18683f55beee17609a97330ce86de7dec61429c3db1305cf94",
   "oralGlbSha256": "013445a15e559c3c34183dc64b92d6c8df55d7445d79f672f241fde2ec89efa5",
   "skillSha256": "b2fff3e7a7d4a32dbe9a2e889804ce3612add28a514397de4213757fcd53fc1e",
   "scope": "Actual combined native surfaces, original facial morphs and one shared jaw state; no cranial sections",
@@ -10,9 +10,9 @@
       "nativeFrame": 1,
       "controls": {},
       "images": {
-        "review/rest/material_front.png": "a234edf68ee0983305f2e07201ef38b902a3b394f597579e262648d73414ae0f",
-        "review/rest/material_threequarter.png": "274954d00dbdd4b35b00a0cd9336283457436b3525bcd86a5bab01d797e66523",
-        "review/rest/material_side.png": "3ade1eea636e91e22a7af5fa5cfc013d07cfe7fbc19272c82c135ccfde309ba8"
+        "review/rest/material_front.png": "c85c41b30dcb41aad83d945eb2b9ce47cf84f6ffed5efa0f1d932864b7459a04",
+        "review/rest/material_threequarter.png": "432fbb1adab2a4d41e7161a54ea47519e9a872b0c10272d8bf79d0e84c322a94",
+        "review/rest/material_side.png": "06578f3a375fc57df9475f430db775a82ba55b9ac5cad8685415fde824f854ed"
       }
     },
     {
@@ -22,7 +22,7 @@
         "JAW_OPEN": 1
       },
       "images": {
-        "review/jaw/material_threequarter.png": "087be25bc19600ab7309b730a9386a90fdd51b20021ac87091430f8e139aa06f"
+        "review/jaw/material_threequarter.png": "bd84d9cc32620108d3c02f68971b4b2bd2b60f688c17f80ec8eab099043046db"
       }
     },
     {
@@ -32,7 +32,7 @@
         "LIP_PRESS": 1
       },
       "images": {
-        "review/press/material_threequarter.png": "6589f3cd7475c42ba93f93e9c05e7047ee1b4a708f83bdd252e0efc6f0c31794"
+        "review/press/material_threequarter.png": "c7ab31b90cb8fc3054abedd6c1de33fe8dcd26e44c65d80a4f6fb77669b193a4"
       }
     },
     {
@@ -42,7 +42,7 @@
         "LIP_ROUND": 1
       },
       "images": {
-        "review/round/material_threequarter.png": "90d0237ccaa7995416033b3d07c37e5d7cd0c182a7eb5e941794724f3d2175eb"
+        "review/round/material_threequarter.png": "5885cd8905352bbef5037b5e11ce8dbf0f95bc4570a80e6d5675769bb278815d"
       }
     },
     {
@@ -52,7 +52,7 @@
         "LIP_PROTRUDE": 1
       },
       "images": {
-        "review/protrude/material_threequarter.png": "d9f542d482ea3c3d66b97c8b80acf0eee073b4b098b487bf25b8c87843f095ad"
+        "review/protrude/material_threequarter.png": "37d69b58bd44d680db54df25e363d882c3cc31961b8de540a0bfe9d4fd0c8918"
       }
     }
   ],

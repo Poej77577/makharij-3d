@@ -3,6 +3,7 @@ import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js';
 import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls.js';
 import {RoomEnvironment} from 'three/examples/jsm/environments/RoomEnvironment.js';
 import {sectionCap} from './oral-section';
+import {NasalView} from './nasal-view';
 import './oral-study.css';
 
 const oralDefinitions = [
@@ -14,7 +15,7 @@ const lipDefinitions = [
 ] as const;
 const definitions = [...oralDefinitions, ...lipDefinitions] as const;
 type Control = typeof definitions[number][0];
-type Mode = 'floor' | 'whole' | 'section' | 'face';
+type Mode = 'floor' | 'whole' | 'section' | 'face' | 'nasal';
 type Manifest = {glbSha256: string; parts: string[]; correctives: Record<string, [Control, Control]>;
   jawBinding: {node: string; angle_radians: number}; visualReview: string; anatomicalRoles?: Record<string, string>};
 type FaceManifest = {glbSha256: string; oralSourceGlbSha256: string; parts: string[]; contextSurfaceOnly: boolean};
@@ -28,6 +29,12 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
 const stage = document.querySelector<HTMLDivElement>('#oral-stage')!;
 const canvas = stage.querySelector('canvas')!;
+document.querySelector('h1')!.textContent = 'الفم والتجويف الأنفي، بوضوح';
+document.querySelector('.intro > p:last-child')!.textContent = 'استكشف الفم والشفتين، وتتبّع الفراغ الأنفي حتى بداية الحلق.';
+document.querySelector('.review-note')!.textContent = 'نموذج تجريبي للفم والممر الأنفي إلى البلعوم الأنفي. الأبعاد المؤلفة والمراجعة العلمية وضبط الحروف قيد العمل.';
+document.querySelector('details')!.insertAdjacentHTML('beforeend','<p><a href="/models/nasal-cavity.NOTICE.md">مصدر التجويف الأنفي وحدود إعادة البناء</a></p>');
+document.querySelector('.view-tabs')!.insertAdjacentHTML('beforeend', '<button data-mode="nasal" aria-pressed="false">الخيشوم</button>');
+document.querySelector('#controls')!.insertAdjacentHTML('beforebegin', `<div id="nasal-tools" hidden><p>ممر فارغ من فتحتي الأنف إلى البلعوم الأنفي خلف الحنك.</p><label><input id="nasal-cut" type="checkbox" checked> مقطع يكشف التجويف</label><label><input id="nasal-paths" type="checkbox" checked> مسار توضيحي داخل الفراغ</label><p class="nasal-hint">عرض تشريحي تجريبي في الراحة؛ الخطوط دليل للمسار وليست محاكاة تدفق.</p></div>`);
 stage.insertAdjacentHTML('afterend', `<div class="camera-tools" role="group" aria-label="أدوات العرض">
   <button data-camera="front">أمام</button><button data-camera="side">جانب</button>
   <button data-camera="detail">تفاصيل الفم</button>
@@ -43,6 +50,7 @@ renderer.localClippingEnabled = true;
 renderer.shadowMap.enabled = true;
 renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 const scene = new THREE.Scene();
+const nasal = new NasalView(scene);
 scene.background = new THREE.Color('#e8ebe7');
 const pmrem = new THREE.PMREMGenerator(renderer);
 const room = new RoomEnvironment();
@@ -99,7 +107,7 @@ function syncInputs() {
   }
 }
 function applyState() {
-  for (const mesh of [...meshes, ...faceMeshes]) {
+  for (const mesh of [...meshes, ...faceMeshes, ...nasal.wallMeshes]) {
     for (const [name, idx] of Object.entries(mesh.morphTargetDictionary ?? {})) {
       const correction = manifest.correctives[name];
       mesh.morphTargetInfluences![idx] = correction ? state[correction[0]] * state[correction[1]] : state[name as Control] ?? 0;
@@ -112,19 +120,25 @@ function stop() { playing = false; document.querySelector('#play')!.textContent 
 function focusCamera(view: 'front' | 'side' | 'detail') {
   if (!ready) return;
   const fit = mode === 'face' && view !== 'detail' ? faceModel : model;
-  const box = new THREE.Box3().setFromObject(fit);
+  const box = mode === 'nasal' ? nasal.bounds() : new THREE.Box3().setFromObject(fit);
   const size = box.getSize(new THREE.Vector3());
   box.getCenter(orbit.target);
   const projectedWidth = view === 'front' ? size.z : size.x;
   const verticalSpan = Math.max(size.y, projectedWidth / camera.aspect);
   const distance = verticalSpan / (2 * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2))) * 1.35;
-  const direction = view === 'front' ? new THREE.Vector3(1, .025, 0)
+  const direction = view === 'front' ? new THREE.Vector3(1, mode === 'nasal' ? -.45 : .025, 0)
     : view === 'side' ? new THREE.Vector3(0, .025, -1) : new THREE.Vector3(1, .12, -.55);
   orbit.maxDistance = mode === 'face' ? 1.4 : .6;
   camera.position.copy(orbit.target).add(direction.normalize().multiplyScalar(Math.max(.09, distance)));
   camera.up.set(0, 1, 0); orbit.update(); draw();
 }
 function resetCamera() {
+  if (mode === 'nasal') {
+    const box = nasal.bounds(); const size = box.getSize(new THREE.Vector3()); box.getCenter(orbit.target);
+    const distance = Math.max(size.y, size.x/camera.aspect)/(2*Math.tan(THREE.MathUtils.degToRad(camera.fov/2)))*1.4;
+    camera.position.copy(orbit.target).add(new THREE.Vector3(.12,.06,-1).normalize().multiplyScalar(Math.max(.15,distance)));
+    orbit.maxDistance=.6; orbit.update(); draw(); return;
+  }
   if (mode === 'face' && faceModel) {
     const box = new THREE.Box3().setFromObject(faceModel);
     const size = box.getSize(new THREE.Vector3());
@@ -142,9 +156,15 @@ function resetCamera() {
 function setMode(next: Mode) {
   if (playing) stop();
   mode = next;
+  if (mode === 'nasal') {definitions.forEach(([key])=>state[key]=0);syncInputs();applyState();}
+  nasal.group.visible = mode === 'nasal';
+  document.querySelector<HTMLElement>('#nasal-tools')!.hidden = mode !== 'nasal';
+  document.querySelector<HTMLElement>('#controls')!.hidden = mode === 'nasal';
+  document.querySelector<HTMLElement>('.playback-rate')!.hidden = mode === 'nasal';
   document.querySelectorAll<HTMLButtonElement>('[data-mode]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.mode === mode)));
   for (const mesh of meshes) {
     mesh.visible = mode !== 'floor' || !roof.has(mesh.name);
+    if (mode === 'nasal') mesh.visible = mesh.name==='UPPER_GINGIVA' || mesh.name==='PALATE';
     for (const material of Array.isArray(mesh.material) ? mesh.material : [mesh.material]) {
       material.clippingPlanes = mode === 'section' ? [clipping] : [];
       material.clipShadows = true;
@@ -156,8 +176,8 @@ function setMode(next: Mode) {
     const key = row.dataset.control!;
     row.hidden = mode === 'face' ? key !== 'JAW_OPEN' && !key.startsWith('LIP_') : key.startsWith('LIP_');
   }
-  document.querySelector('#control-heading')!.textContent = mode === 'face' ? 'الشفتان والفك' : 'حركة الأعضاء';
-  const description = mode === 'face' ? anatomy.HEAD_EXTERNAL : anatomy.TONGUE;
+  document.querySelector('#control-heading')!.textContent = mode === 'nasal' ? 'التجويف الأنفي' : mode === 'face' ? 'الشفتان والفك' : 'حركة الأعضاء';
+  const description = mode === 'nasal' ? ['الخيشوم والبلعوم الأنفي','تدخل الفتحتان إلى ممرين يفصل بينهما الحاجز، ثم يلتقي المسار خلف الأنف عند بداية الحلق. شاهد الفراغ من خلال المقطع.'] : mode === 'face' ? anatomy.HEAD_EXTERNAL : anatomy.TONGUE;
   document.querySelector('#part-name')!.textContent = description[0];
   document.querySelector('#part-description')!.textContent = description[1];
   const center = mode === 'face' ? new THREE.Box3().setFromObject(faceModel).getCenter(new THREE.Vector3()) : new THREE.Vector3(-.04, -.005, 0);
@@ -202,6 +222,8 @@ document.querySelector('#play')!.addEventListener('click', () => {
   playing = !playing; playStart = performance.now(); document.querySelector('#play')!.textContent = playing ? 'إيقاف الحركة' : 'تشغيل الحركة'; draw();
 });
 document.querySelector('#camera-reset')!.addEventListener('click', resetCamera);
+document.querySelector('#nasal-cut')!.addEventListener('change', event => {nasal.section=(event.target as HTMLInputElement).checked; nasal.update(); draw();});
+document.querySelector('#nasal-paths')!.addEventListener('change', event => {nasal.paths=(event.target as HTMLInputElement).checked; nasal.update(); draw();});
 document.querySelectorAll<HTMLButtonElement>('[data-camera]').forEach(button => button.addEventListener('click', () => {
   focusCamera(button.dataset.camera as 'front' | 'side' | 'detail');
 }));
@@ -237,6 +259,7 @@ document.querySelector('#save-image')!.addEventListener('click', () => {
 });
 document.querySelector<HTMLInputElement>('#clay')!.addEventListener('change', event => {
   clay = (event.target as HTMLInputElement).checked;
+  nasal.setClay(clay);
   for (const mesh of [...meshes, ...faceMeshes]) {
     if (clay) mesh.material = new THREE.MeshStandardMaterial({color: '#aaa99e', roughness: .83});
     else {
@@ -247,6 +270,7 @@ document.querySelector<HTMLInputElement>('#clay')!.addEventListener('change', ev
   setMode(mode);
 });
 const anatomy: Record<string, [string, string]> = {
+  NASAL_MUCOSA: ['جدار التجويف الأنفي', 'يحيط الجدار بممر فارغ يمتد من فتحتي الأنف إلى البلعوم الأنفي خلف الحنك. خطوط المسار توضيحية ويمكن إخفاؤها.'],
   HEAD_EXTERNAL: ['الوجه والشفتان', 'الشفتان جزء متصل بجلد الوجه. قارن فتح الفك وضم الشفتين وبروزهما، ثم انتقل إلى المقطع لمراجعة الداخل.'],
   FACE_EYES: ['العينان', 'العينان جزء من السياق الخارجي للوجه؛ تبقى الأجزاء الداخلية للفم متاحة في طرق العرض الأخرى.'],
   TONGUE: ['اللسان', 'يتصل طرف اللسان بنصله وظهره، ويمتد جذره نحو قاع الفم. جرّب رفع الطرف والظهر كلًا على حدة.'],
@@ -262,7 +286,7 @@ canvas.addEventListener('pointerup', event => {
   if (!ready || pointerStart.distanceTo(new THREE.Vector2(event.clientX, event.clientY)) > 5) return;
   const box = canvas.getBoundingClientRect();
   const ray = new THREE.Raycaster(); ray.setFromCamera(new THREE.Vector2(2 * (event.clientX - box.left) / box.width - 1, 1 - 2 * (event.clientY - box.top) / box.height), camera);
-  const hit = ray.intersectObjects([...meshes, ...faceMeshes].filter(mesh => mesh.visible)).find(hit => mode !== 'section' || hit.point.z >= .00015);
+  const hit = ray.intersectObjects([...meshes, ...faceMeshes, ...(nasal.group.visible ? nasal.wallMeshes : [])].filter(mesh => mesh.visible)).find(hit => (mode !== 'section' || hit.point.z >= .00015) && (mode !== 'nasal' || !nasal.section || hit.point.z >= -nasal.cut.constant));
   if (!hit) return;
   const name = hit.object.name;
   const [label, text] = anatomy[name] ?? (name.includes('DENTITION') ? ['الأسنان', 'تساعد الأسنان وحوافها على تحديد مواضع تماس بعض الحروف. يتبع الصف السفلي حركة الفك.'] : ['اللثة', 'تحيط اللثة بأعناق الأسنان وتحدد حدود القوس السني.']);
@@ -291,6 +315,7 @@ Object.assign(window, {__oralStudy: {get ready() { return ready; }, snapshot() {
     return [child.name, {triangles: points.count / 3, signature: sum}];
   }));
   return {ready, mode, clay, playing, playbackRate, state: {...state}, assetSha256: manifest?.glbSha256, faceSha256: faceManifest?.glbSha256,
+    nasalSha256:nasal.manifest?.glbSha256, nasalVisible:nasal.group.visible, nasalSection:nasal.section,nasalPaths:nasal.paths,nasalParts:nasal.wallMeshes.map(m=>m.name),
     parts: meshes.map(mesh => mesh.name), contextParts: faceMeshes.map(mesh => mesh.name), faceVisible: faceMeshes.some(mesh => mesh.visible),
     probes, capDiagnostics, capSignatures, camera: camera.position.toArray(), renderCount};
 }}});
@@ -331,6 +356,7 @@ async function load() {
     });
     if (!jaw || meshes.length !== manifest.parts.length) throw new Error('Incomplete anatomical assembly');
     if (faceMeshes.length !== faceManifest.parts.length) throw new Error('Incomplete face context');
+    await nasal.load(faceManifest.glbSha256, manifest.glbSha256, faceModel);
     ready = true; (document.querySelector('#controls') as HTMLFieldSetElement).disabled = false;
     document.querySelector<HTMLInputElement>('#clay')!.disabled = false;
     document.querySelector('#load-status')!.textContent = 'النموذج جاهز للاستكشاف';

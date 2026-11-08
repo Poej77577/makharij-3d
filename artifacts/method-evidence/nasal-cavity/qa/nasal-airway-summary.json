@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "assetSha256": "db86baa8e1ac86d576ef0dee27ca8eeb687d016f09544e7960dbd1f6214bc554",
+  "airAssetSha256": "871524951f2f24215d93d6bf2f5a011948e9d60c35547a38eb8634b4a30f81d1",
+  "faceAssetSha256": "dce24684c15a7a18683f55beee17609a97330ce86de7dec61429c3db1305cf94",
+  "manifestSha256": "c498bd08daea66749f3221283bc4246e2f48ba5bbe1d90d41b54a0ba5521e480",
+  "topologyPass": true,
+  "wallGenus": 2,
+  "airGenus": 0,
+  "wallConnectedComponents": 1,
+  "airConnectedComponents": 1,
+  "wallWatertight": true,
+  "airWatertight": true,
+  "wallWindingConsistent": true,
+  "airWindingConsistent": true,
+  "twoInletsReachCommonOutletAtProbeRadius": true,
+  "allThreePortsGeometricallyOpenAtProbeRadius": true,
+  "certifiedPositiveCorridorRadius_m": 0.00025,
+  "minimumWallOrContextCenterlineClearance_m": 0.0011007183026785963,
+  "negativeAirConnectedComponents": 1,
+  "externalHeadContainmentRun": false,
+  "anatomyAccepted": false,
+  "geometryProof": {
+    "pathSegmentsPerInlet": {
+      "nostril_left": 77,
+      "nostril_right": 77
+    },
+    "unexpectedUncoveredAirBoundarySamples": 0,
+    "boundarySamples": 1024,
+    "inletMaximumHeadBoundaryRingDistance_m": 0.0,
+    "allTestedGuideCentersOutsidePositiveWall": true
+  },
+  "interpretation": "Strict topology is mandatory: one connected genus-2 watertight wound wall and genus-0 closed air. Two guided physical corridors and three openings pass at radius 0.25 mm; minimum physical-surface centreline clearance is 1.101 mm. No CFD, optimal area, all-path, motion, self-intersection or clinical anatomy claim. Prior genus-4 route-only pass is explicitly invalidated in history and topology-regression.json."
+}

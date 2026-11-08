@@ -4,8 +4,8 @@
   "fullInternalHeadComplete": false,
   "contextSurfaceOnly": true,
   "cranialVolumeCertified": false,
-  "blendSha256": "64a0a0bf8e2e81a31755b8b0b9dac93b70eeb2ebe4d43c09d508e2c3dfb15c5e",
-  "glbSha256": "c8a0c97357e7e07c3796b4d9486f3622304f07fa087c36629e8d732bec730dbe",
+  "blendSha256": "b76e407f7f7354936f84416c517bb96900f079d70a8477d3849f3c0cfaa619cf",
+  "glbSha256": "dce24684c15a7a18683f55beee17609a97330ce86de7dec61429c3db1305cf94",
   "sourceShapes": [
     "JAW_OPEN",
     "LIP_PRESS",

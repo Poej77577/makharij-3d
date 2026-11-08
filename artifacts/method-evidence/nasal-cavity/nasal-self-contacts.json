@@ -1,0 +1,113 @@
+{
+  "nasalSha256": "db86baa8e1ac86d576ef0dee27ca8eeb687d016f09544e7960dbd1f6214bc554",
+  "airSha256": "871524951f2f24215d93d6bf2f5a011948e9d60c35547a38eb8634b4a30f81d1",
+  "faceSha256": "dce24684c15a7a18683f55beee17609a97330ce86de7dec61429c3db1305cf94",
+  "cases": [
+    {
+      "name": "NASAL_MUCOSA",
+      "fclTriangleContacts": 272432,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "case": "rest",
+      "vertices": 8168,
+      "triangles": 16340,
+      "watertight": true,
+      "windingConsistent": true,
+      "volume_m3": 6.752427850768899e-06
+    },
+    {
+      "name": "NASAL_AIR_NEGATIVE",
+      "fclTriangleContacts": 138201,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "case": "rest",
+      "vertices": 4087,
+      "triangles": 8170,
+      "watertight": true,
+      "windingConsistent": true,
+      "volume_m3": 3.730745516257334e-05
+    },
+    {
+      "name": "NASAL_MUCOSA",
+      "fclTriangleContacts": 272458,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "case": "JAW_OPEN_1",
+      "vertices": 8168,
+      "triangles": 16340,
+      "watertight": true,
+      "windingConsistent": true,
+      "volume_m3": 6.752439744426902e-06
+    },
+    {
+      "name": "NASAL_AIR_NEGATIVE",
+      "fclTriangleContacts": 138212,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "case": "JAW_OPEN_1",
+      "vertices": 4087,
+      "triangles": 8170,
+      "watertight": true,
+      "windingConsistent": true,
+      "volume_m3": 3.7304376520266504e-05
+    },
+    {
+      "name": "NASAL_MUCOSA",
+      "fclTriangleContacts": 272445,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "case": "LIP_ROUND_1",
+      "vertices": 8168,
+      "triangles": 16340,
+      "watertight": true,
+      "windingConsistent": true,
+      "volume_m3": 6.749891586547341e-06
+    },
+    {
+      "name": "NASAL_AIR_NEGATIVE",
+      "fclTriangleContacts": 138259,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "case": "LIP_ROUND_1",
+      "vertices": 4087,
+      "triangles": 8170,
+      "watertight": true,
+      "windingConsistent": true,
+      "volume_m3": 3.7302102662825855e-05
+    },
+    {
+      "name": "NASAL_MUCOSA",
+      "fclTriangleContacts": 272427,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "case": "combined",
+      "vertices": 8168,
+      "triangles": 16340,
+      "watertight": true,
+      "windingConsistent": true,
+      "volume_m3": 6.749884170503673e-06
+    },
+    {
+      "name": "NASAL_AIR_NEGATIVE",
+      "fclTriangleContacts": 138263,
+      "nonadjacentIntersectingTrianglePairs": 0,
+      "truncated": false,
+      "examples": [],
+      "case": "combined",
+      "vertices": 4087,
+      "triangles": 8170,
+      "watertight": true,
+      "windingConsistent": true,
+      "volume_m3": 3.729828683099414e-05
+    }
+  ],
+  "passed": true,
+  "scope": "Actual frozen GLB meshes; four selected shared-face states; nonadjacent self contacts with saturation guard. Adjacent folds, every control combination, CFD and anatomical acceptance excluded."
+}

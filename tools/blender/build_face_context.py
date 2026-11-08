@@ -18,10 +18,12 @@ from mathutils import Vector
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT/'tools/anatomy'))
 from mesh_sources import makehuman_head_data, makehuman_eye_data, uv_islands, apply_target
+from nasal_ports import makehuman_nasal_cap_faces, find_nasal_boundary_ports
 
 p = argparse.ArgumentParser()
 p.add_argument('--out', default='artifacts/method-evidence/face-context')
 p.add_argument('--oral-folder', default='artifacts/method-evidence/oral-sculpt')
+p.add_argument('--closed-nostrils', action='store_true', help='Research only: retain original blind nostril caps')
 a = p.parse_args(sys.argv[sys.argv.index('--')+1:])
 OUT = ROOT/a.out
 OUT.mkdir(parents=True, exist_ok=True)
@@ -72,7 +74,9 @@ external_ids = {v for face in body if face not in pocket_faces for v in head['fa
 rim_ids = sorted(pocket_ids & external_ids)
 assert len(rim_ids) == 38
 rim = points[rim_ids]
-selected_faces = [face for face in body if face not in pocket_faces and
+cap_faces, nasal_cap_record = (set(), {'enabled': False}) if a.closed_nostrils else makehuman_nasal_cap_faces(
+    head, points, hashlib.sha256((ROOT/'assets/source/makehuman/makehuman/data/3dobjs/base.obj').read_bytes()).hexdigest())
+selected_faces = [face for face in body if face not in pocket_faces and face not in cap_faces and
                   min(points[v, 1] for v in head['faces'][face]) >= spec['neckCropY_m']]
 used = sorted({v for face in selected_faces for v in head['faces'][face]})
 index = {v: i for i, v in enumerate(used)}
@@ -186,6 +190,11 @@ DELIVERY.objects.link(external)
 external['context_only'] = True
 external['not_closed_cranial_tissue'] = True
 external.shape_key_add(name='Basis')
+nasal_ports = find_nasal_boundary_ports(
+    [(-v.co.y, v.co.z, -v.co.x) for v in external.data.vertices],
+    [list(face.vertices) for face in external.data.polygons])
+if not a.closed_nostrils:
+    assert len(nasal_ports) == 2, 'Nostril opening failed after source subdivision'
 motion = {}
 for name in controls:
     source.data.shape_keys.key_blocks[name].value = 1
@@ -297,6 +306,7 @@ record = {'status': 'external-context-experimental', 'productionSelected': False
           'gltfToProject': [[0, 0, 1], [0, 1, 0], [-1, 0, 0]],
           'sourceVertexMapping': 'SOURCE_HEAD/source_vertex_id in native master, before subdivision',
           'originalOralPocket': {'faces': len(pocket_faces), 'delivery': False, 'changedShape': False},
+          'nostrilOpening': nasal_cap_record, 'nasalPorts': nasal_ports,
           'originalLipRimVertices': rim_ids, 'headVertices': len(external.data.vertices),
           'neckCrop': {'planeY_m': spec['neckCropY_m'], 'flattenedBoundaryVertices': len(neck_rim), 'capAsTissue': False},
           'targetFiles': target_files, 'motion': motion,

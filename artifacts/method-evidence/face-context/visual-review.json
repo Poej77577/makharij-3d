@@ -1,7 +1,7 @@
 {
   "date": "2026-11-08",
   "status": "external-context prototype paired with revised oral unit; complete anatomy not accepted",
-  "faceGlbSha256": "c8a0c97357e7e07c3796b4d9486f3622304f07fa087c36629e8d732bec730dbe",
+  "faceGlbSha256": "dce24684c15a7a18683f55beee17609a97330ce86de7dec61429c3db1305cf94",
   "oralGlbSha256": "013445a15e559c3c34183dc64b92d6c8df55d7445d79f672f241fde2ec89efa5",
   "completeAnatomyAccepted": false,
   "photorealismClaim": false,
@@ -22,5 +22,6 @@
     "../oral-sculpt/browser/face-open.png",
     "../oral-sculpt/browser/lip-motion.gif",
     "review/jaw/material_threequarter.png"
-  ]
+  ],
+  "nasalPortChange": "Two internal blind caps opened; external vestibular rims retained; nasal cavity separately reviewed"
 }

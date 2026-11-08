@@ -1,5 +1,23 @@
 # Current implementation state — 2026-11-08
 
+## Current nasal-cavity addition
+
+The user explicitly requested an EMPTY connected nasal passage from nostrils to
+beginning of throat. Implemented in `docs/NASAL_CAVITY.md`, source
+`tools/blender/build_nasal_cavity.py`, specification `data/anatomy/nasal-cavity.json`.
+Current nasal GLB db86baa8… contains positive hollow mucosal wall only; separate
+analysis air GLB87152495… is not rendered as solid tissue. Source face now
+`dce24684…` opens22 internal blind-cap quads and retains original vestibular rims,
+UV/source IDs and4 face morphs. Both evaluated port rings match the new wall;
+local4 nasal morphs follow them (10 checked face states). Oral013445a1 unchanged.
+Actual open-path QA passes both inlets to the common nasopharyngeal outlet,
+all3 ports, strict wall genus2 / air genus0 and positive-width path probes.
+Runtime tab `الخيشوم` uses a parasagittal cut, optional guide and ghost context;
+rest geometry only, not CFD or calibrated velopharyngeal closure. Dimensions
+are inferred, clinical acceptance remains pending; no complete throat claim.
+The older a91 nasal candidate passed route probes but had extra windows/genus4;
+it is superseded and explicitly rejected by the strengthened topology gate.
+
 ## Latest user-directed improvement
 
 The user requested continued autonomous work and a third team member. The
@@ -42,7 +60,7 @@ min 4.264 mm) and 24 tongue/palate/gingiva pairs (8 poses, min 0.689 mm). Four a
 tongue rest/endpoint self-intersection checks are clear and unsaturated.
 The old files and failures are retained. Staging requires matching full source,
 dental, tissue and self reports; it does not approve anatomy. Face GLB
-`c8a0c97357e7…` is unchanged but paired with the new oral identity; its 20 selected
+`dce24684…` has opened internal nasal caps and retains the oral identity; its 20 selected
 face/dental surface pairs pass again. These checks do not prove all combinations,
 tissue mechanics, adjacent-fold strain or phonetic fit.
 

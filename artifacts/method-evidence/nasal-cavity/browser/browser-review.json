@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "assetSha256": "db86baa8e1ac86d576ef0dee27ca8eeb687d016f09544e7960dbd1f6214bc554",
+  "runtimePositiveWallOnly": true,
+  "cutawayToggle": true,
+  "guideToggle": true,
+  "mobileWidth": 390,
+  "pageErrors": [],
+  "scope": "Actual browser wall rendering and controls; geometry/continuity evaluated separately"
+}

@@ -1,0 +1,183 @@
+{
+  "name": "Authored bilateral nasal passage and nasopharyngeal beginning",
+  "status": "experimental; inferred dimensions; no clinical or airflow acceptance",
+  "units": "m",
+  "wallThickness_m": 0.00065,
+  "samplesPerSegment": 8,
+  "recommendedSectionZ_m": 0.008,
+  "sourceReferenceBounds_m": {
+    "nasalMucosa": [
+      [
+        -0.05063,
+        0.02208,
+        -0.01366
+      ],
+      [
+        0.0153,
+        0.07003,
+        0.01366
+      ]
+    ],
+    "nasopharyngealTissue": [
+      [
+        -0.08324,
+        0.02261,
+        -0.01752
+      ],
+      [
+        -0.04742,
+        0.06369,
+        0.01752
+      ]
+    ],
+    "role": "Open positive reference tissues only, never negative air or donor registration"
+  },
+  "bilateralSections": [
+    {
+      "center_m": [
+        0.004,
+        0.036,
+        0.008
+      ],
+      "radii_m": [
+        0.0029,
+        0.0039
+      ]
+    },
+    {
+      "center_m": [
+        -0.003,
+        0.042,
+        0.0068
+      ],
+      "radii_m": [
+        0.0037,
+        0.0065
+      ]
+    },
+    {
+      "center_m": [
+        -0.012,
+        0.047,
+        0.006
+      ],
+      "radii_m": [
+        0.0046,
+        0.016
+      ]
+    },
+    {
+      "center_m": [
+        -0.025,
+        0.047,
+        0.0058
+      ],
+      "radii_m": [
+        0.0048,
+        0.02
+      ]
+    },
+    {
+      "center_m": [
+        -0.044,
+        0.046,
+        0.0057
+      ],
+      "radii_m": [
+        0.0048,
+        0.018
+      ]
+    },
+    {
+      "center_m": [
+        -0.055,
+        0.044,
+        0.0057
+      ],
+      "radii_m": [
+        0.005,
+        0.014
+      ]
+    },
+    {
+      "center_m": [
+        -0.065,
+        0.043,
+        0.0052
+      ],
+      "radii_m": [
+        0.0056,
+        0.01
+      ]
+    },
+    {
+      "center_m": [
+        -0.072,
+        0.041,
+        0.0035
+      ],
+      "radii_m": [
+        0.006,
+        0.007
+      ]
+    }
+  ],
+  "commonSections": [
+    {
+      "center_m": [
+        -0.059,
+        0.047,
+        0
+      ],
+      "radii_m": [
+        0.0105,
+        0.014
+      ]
+    },
+    {
+      "center_m": [
+        -0.07,
+        0.044,
+        0
+      ],
+      "radii_m": [
+        0.0125,
+        0.011
+      ]
+    },
+    {
+      "center_m": [
+        -0.077,
+        0.035,
+        0
+      ],
+      "radii_m": [
+        0.0125,
+        0.007
+      ]
+    },
+    {
+      "center_m": [
+        -0.078,
+        0.023,
+        0
+      ],
+      "radii_m": [
+        0.0125,
+        0.005
+      ]
+    }
+  ],
+  "inferred": [
+    "all internal centerlines and cross sections",
+    "wall thickness",
+    "bilateral merger",
+    "nasopharyngeal outlet",
+    "hidden transverse geometry"
+  ],
+  "limitations": [
+    "No acquired turbinate/septal histology or dynamic velopharyngeal closure",
+    "Guide lines are illustrative geometry paths, not CFD or measured airflow",
+    "External source nostril coordinates are artistic CC0 data, not clinical dimensions"
+  ]
+}

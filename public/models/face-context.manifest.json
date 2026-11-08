@@ -9,7 +9,7 @@
     "HEAD_EXTERNAL",
     "FACE_EYES"
   ],
-  "glbSha256": "c8a0c97357e7e07c3796b4d9486f3622304f07fa087c36629e8d732bec730dbe",
+  "glbSha256": "dce24684c15a7a18683f55beee17609a97330ce86de7dec61429c3db1305cf94",
   "oralSourceGlbSha256": "013445a15e559c3c34183dc64b92d6c8df55d7445d79f672f241fde2ec89efa5",
   "controls": [
     "TIP_ELEVATE",
@@ -50,7 +50,7 @@
   ],
   "originalAssetLicense": "CC0-1.0",
   "selectedHeadDentalSurfaceReview": {
-    "faceAssetSha256": "c8a0c97357e7e07c3796b4d9486f3622304f07fa087c36629e8d732bec730dbe",
+    "faceAssetSha256": "dce24684c15a7a18683f55beee17609a97330ce86de7dec61429c3db1305cf94",
     "oralAssetSha256": "013445a15e559c3c34183dc64b92d6c8df55d7445d79f672f241fde2ec89efa5",
     "cases": 10,
     "pairsChecked": 20,
@@ -59,6 +59,6 @@
     "headSurfaceIntentionallyOpen": true,
     "insideOrVolumeTestsRun": false,
     "scope": "Selected external-head/dental surface intersections and nearest distances only. No head containment, tissue volume, exact penetration depth, self-intersection audit, all control combinations, tongue/skin or phonetic acceptance.",
-    "report": "artifacts/method-evidence/face-context/contact-review/c8a0c97357e7e07c-013445a15e55/face-contacts.json"
+    "report": "artifacts/method-evidence/face-context/contact-review/dce24684c15a7a18-013445a15e55/face-contacts.json"
   }
 }

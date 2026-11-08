@@ -1,0 +1,250 @@
+{
+  "nasalSha256": "db86baa8e1ac86d576ef0dee27ca8eeb687d016f09544e7960dbd1f6214bc554",
+  "airSha256": "871524951f2f24215d93d6bf2f5a011948e9d60c35547a38eb8634b4a30f81d1",
+  "faceSha256": "dce24684c15a7a18683f55beee17609a97330ce86de7dec61429c3db1305cf94",
+  "cases": [
+    {
+      "case": "rest",
+      "port": "nostril_left",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "rest",
+      "port": "nostril_left",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "rest",
+      "port": "nostril_right",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "rest",
+      "port": "nostril_right",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "JAW_OPEN_0.5",
+      "port": "nostril_left",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "JAW_OPEN_0.5",
+      "port": "nostril_left",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "JAW_OPEN_0.5",
+      "port": "nostril_right",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "JAW_OPEN_0.5",
+      "port": "nostril_right",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "JAW_OPEN_1",
+      "port": "nostril_left",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "JAW_OPEN_1",
+      "port": "nostril_left",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "JAW_OPEN_1",
+      "port": "nostril_right",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "JAW_OPEN_1",
+      "port": "nostril_right",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_PRESS_0.5",
+      "port": "nostril_left",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_PRESS_0.5",
+      "port": "nostril_left",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_PRESS_0.5",
+      "port": "nostril_right",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_PRESS_0.5",
+      "port": "nostril_right",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_PRESS_1",
+      "port": "nostril_left",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_PRESS_1",
+      "port": "nostril_left",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_PRESS_1",
+      "port": "nostril_right",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_PRESS_1",
+      "port": "nostril_right",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_ROUND_0.5",
+      "port": "nostril_left",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_ROUND_0.5",
+      "port": "nostril_left",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_ROUND_0.5",
+      "port": "nostril_right",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_ROUND_0.5",
+      "port": "nostril_right",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_ROUND_1",
+      "port": "nostril_left",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_ROUND_1",
+      "port": "nostril_left",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_ROUND_1",
+      "port": "nostril_right",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_ROUND_1",
+      "port": "nostril_right",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_PROTRUDE_0.5",
+      "port": "nostril_left",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_PROTRUDE_0.5",
+      "port": "nostril_left",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_PROTRUDE_0.5",
+      "port": "nostril_right",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_PROTRUDE_0.5",
+      "port": "nostril_right",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_PROTRUDE_1",
+      "port": "nostril_left",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_PROTRUDE_1",
+      "port": "nostril_left",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_PROTRUDE_1",
+      "port": "nostril_right",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "LIP_PROTRUDE_1",
+      "port": "nostril_right",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "combined",
+      "port": "nostril_left",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "combined",
+      "port": "nostril_left",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "combined",
+      "port": "nostril_right",
+      "part": "NASAL_MUCOSA",
+      "maximumRingMismatch_m": 0.0
+    },
+    {
+      "case": "combined",
+      "port": "nostril_right",
+      "part": "NASAL_AIR_NEGATIVE",
+      "maximumRingMismatch_m": 0.0
+    }
+  ],
+  "maximumRingMismatch_m": 0.0,
+  "passed": true,
+  "scope": "Actual GLBs,rest/half/endpoints of four shared face controls plus all4=1; vertex ring matching only, not contact/biomechanical or full motion-space acceptance."
+}

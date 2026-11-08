@@ -29,3 +29,8 @@ See `../oral-sculpt/NOTICE.md` and `assets/source/z-anatomy/NOTICE.md`.
 Combined model adaptations use the project's CC BY-SA 4.0 model-data terms;
 original CC0 rights remain available and independent application code is not
 relicensed by this notice.
+
+The two original blind internal nasal caps (22 source quads) are now removed
+to connect the retained external nostril/vestibular rims to the separate nasal
+cavity study. Original source IDs, UVs and all four face targets are retained.
+This does not certify the inferred internal nasal anatomy.

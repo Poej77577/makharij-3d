@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "test": "Actual cached prior candidate must fail strict topology, corrected current candidate must pass",
+  "supersededAssetSha256": "a91dc0db14fa1ba8a6780f27d04887ea04e80a4d74b6c1a47fa3629d7a16fe28",
+  "correctedAssetSha256": "db86baa8e1ac86d576ef0dee27ca8eeb687d016f09544e7960dbd1f6214bc554",
+  "priorCandidate": {
+    "topologyPass": false,
+    "expectedWallGenus": 2,
+    "expectedAirGenus": 0,
+    "wallGenus": 4,
+    "airGenus": 0,
+    "wallConnectedComponents": 1,
+    "airConnectedComponents": 1,
+    "wallWatertight": true,
+    "airWatertight": true,
+    "wallWindingConsistent": true,
+    "airWindingConsistent": true,
+    "wallEulerCharacteristic": -6,
+    "airEulerCharacteristic": 2
+  },
+  "correctedCandidate": {
+    "topologyPass": true,
+    "expectedWallGenus": 2,
+    "expectedAirGenus": 0,
+    "wallGenus": 2,
+    "airGenus": 0,
+    "wallConnectedComponents": 1,
+    "airConnectedComponents": 1,
+    "wallWatertight": true,
+    "airWatertight": true,
+    "wallWindingConsistent": true,
+    "airWindingConsistent": true,
+    "wallEulerCharacteristic": -2,
+    "airEulerCharacteristic": 2
+  },
+  "priorGeometrySha256": "c0fcef45c1cf8b9857640e32079ee85c11e49b1055b6deefb556755900df1f5f",
+  "correctedGeometrySha256": "73b7883db1c01ef87eb1d5add662e870c610a9d5d151d01fc06796fc4e523632",
+  "supersededFailureReport": "history/367a3e097ad0b184/nasal-airway.json",
+  "originalRouteOnlyReport": "history/367a3e097ad0b184/superseded-route-only-report.json",
+  "toolSha256": "a8eb9f0973f00296a000c70cbbdb51612938ec0c5f21611024cf91fa60cce575"
+}

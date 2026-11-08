@@ -1,0 +1,1559 @@
+{
+  "passed": true,
+  "fixtureUnits": "metres; exact rectilinear two-inlet/common-outlet solids",
+  "topologyFixtures": {
+    "closedBox": {
+      "vertices": 8,
+      "triangles": 12,
+      "closedPositiveVolume": true,
+      "watertight": true,
+      "windingConsistent": true,
+      "connectedComponents": 1,
+      "eulerCharacteristic": 2,
+      "genus": 0,
+      "volume_m3": 1.0
+    },
+    "closedTorus": {
+      "vertices": 192,
+      "triangles": 384,
+      "closedPositiveVolume": true,
+      "watertight": true,
+      "windingConsistent": true,
+      "connectedComponents": 1,
+      "eulerCharacteristic": 0,
+      "genus": 1,
+      "volume_m3": 7.027687752661224e-07
+    }
+  },
+  "openBilateralChannel": {
+    "passed": true,
+    "volumeContractPass": true,
+    "wallTopology": {
+      "TOP": {
+        "vertices": 8,
+        "triangles": 12,
+        "closedPositiveVolume": true,
+        "watertight": true,
+        "windingConsistent": true,
+        "connectedComponents": 1,
+        "eulerCharacteristic": 2,
+        "genus": 0,
+        "volume_m3": 2.8000000000000003e-06
+      },
+      "BOTTOM": {
+        "vertices": 8,
+        "triangles": 12,
+        "closedPositiveVolume": true,
+        "watertight": true,
+        "windingConsistent": true,
+        "connectedComponents": 1,
+        "eulerCharacteristic": 2,
+        "genus": 0,
+        "volume_m3": 2.8000000000000003e-06
+      },
+      "SIDE_L": {
+        "vertices": 8,
+        "triangles": 12,
+        "closedPositiveVolume": true,
+        "watertight": true,
+        "windingConsistent": true,
+        "connectedComponents": 1,
+        "eulerCharacteristic": 2,
+        "genus": 0,
+        "volume_m3": 1.000000000000001e-06
+      },
+      "SIDE_R": {
+        "vertices": 8,
+        "triangles": 12,
+        "closedPositiveVolume": true,
+        "watertight": true,
+        "windingConsistent": true,
+        "connectedComponents": 1,
+        "eulerCharacteristic": 2,
+        "genus": 0,
+        "volume_m3": 1.000000000000001e-06
+      },
+      "SEPTUM": {
+        "vertices": 8,
+        "triangles": 12,
+        "closedPositiveVolume": true,
+        "watertight": true,
+        "windingConsistent": true,
+        "connectedComponents": 1,
+        "eulerCharacteristic": 2,
+        "genus": 0,
+        "volume_m3": 6.000000000000001e-07
+      }
+    },
+    "airTopology": {
+      "vertices": 24,
+      "triangles": 44,
+      "closedPositiveVolume": true,
+      "watertight": true,
+      "windingConsistent": true,
+      "connectedComponents": 1,
+      "eulerCharacteristic": 2,
+      "genus": 0,
+      "volume_m3": 1.14e-05
+    },
+    "negativeAirConnectedComponents": 1,
+    "strictAirwayTopologyRequired": false,
+    "topologyPass": false,
+    "expectedWallGenus": 2,
+    "expectedAirGenus": 0,
+    "wallGenus": null,
+    "airGenus": 0,
+    "wallConnectedComponents": 5,
+    "airConnectedComponents": 1,
+    "wallWatertight": false,
+    "airWatertight": true,
+    "wallWindingConsistent": true,
+    "airWindingConsistent": true,
+    "wallEulerCharacteristic": 6,
+    "airEulerCharacteristic": 2,
+    "ports": [
+      {
+        "clearAtProbeRadius": true,
+        "probeRadius_m": 0.00025,
+        "segmentsChecked": 2,
+        "minimumTestedCenterlineClearance_m": 0.005000000011199518,
+        "minimumWallOrContextCenterlineClearance_m": 0.005000000011199518,
+        "minimumCenterlineClearanceByObstacle_m": {
+          "TOP": 0.005000000011199518,
+          "BOTTOM": 0.0050000000139551574,
+          "SIDE_L": 0.006000000005581459,
+          "SIDE_R": 0.01800001534542177,
+          "SEPTUM": 0.005000000011888628
+        },
+        "limitingSurface": {
+          "segment": 0,
+          "obstacle": "TOP",
+          "nearestCapsuleAndSurfacePoints_m": [
+            [
+              0.03,
+              0.005,
+              -0.005999969644977397
+            ],
+            [
+              0.029999961876027395,
+              0.00024999998895347607,
+              -0.005999969645627687
+            ]
+          ]
+        },
+        "collisionCount": 0,
+        "failures": [],
+        "fclPenetrationDepthUsed": false,
+        "id": "L",
+        "role": "inlet",
+        "center_m": [
+          0.03,
+          0.0,
+          -0.006
+        ],
+        "inwardNormalPointsInsideActualAir": true,
+        "outsideProbeOutsideActualAir": true,
+        "portCenterDistanceToClosedAirBoundary_m": 0.0,
+        "ringMaximumDistanceToPositiveWall_m": 0.0,
+        "ringWallBindingTolerance_m": 0.00035,
+        "inletRingMaximumDistanceToActualHeadBoundary_m": null,
+        "inletFaceBoundaryBindingTestRun": false,
+        "analysisAirCapExcludedFromOpeningTest": true,
+        "passed": true
+      },
+      {
+        "clearAtProbeRadius": true,
+        "probeRadius_m": 0.00025,
+        "segmentsChecked": 2,
+        "minimumTestedCenterlineClearance_m": 0.005000000011888628,
+        "minimumWallOrContextCenterlineClearance_m": 0.005000000011888628,
+        "minimumCenterlineClearanceByObstacle_m": {
+          "TOP": 0.005000000546328885,
+          "BOTTOM": 0.005000000033897751,
+          "SIDE_L": 0.01800001534542177,
+          "SIDE_R": 0.006000000005581459,
+          "SEPTUM": 0.005000000011888628
+        },
+        "limitingSurface": {
+          "segment": 0,
+          "obstacle": "SEPTUM",
+          "nearestCapsuleAndSurfacePoints_m": [
+            [
+              0.03,
+              -3.8002947401818976e-08,
+              0.001
+            ],
+            [
+              0.02999995213261944,
+              -3.799634877807653e-08,
+              0.00575000001164744
+            ]
+          ]
+        },
+        "collisionCount": 0,
+        "failures": [],
+        "fclPenetrationDepthUsed": false,
+        "id": "R",
+        "role": "inlet",
+        "center_m": [
+          0.03,
+          0.0,
+          0.006
+        ],
+        "inwardNormalPointsInsideActualAir": true,
+        "outsideProbeOutsideActualAir": true,
+        "portCenterDistanceToClosedAirBoundary_m": 8.881784197001253e-19,
+        "ringMaximumDistanceToPositiveWall_m": 0.0,
+        "ringWallBindingTolerance_m": 0.00035,
+        "inletRingMaximumDistanceToActualHeadBoundary_m": null,
+        "inletFaceBoundaryBindingTestRun": false,
+        "analysisAirCapExcludedFromOpeningTest": true,
+        "passed": true
+      },
+      {
+        "clearAtProbeRadius": true,
+        "probeRadius_m": 0.00025,
+        "segmentsChecked": 2,
+        "minimumTestedCenterlineClearance_m": 0.005000000779714915,
+        "minimumWallOrContextCenterlineClearance_m": 0.005000000779714915,
+        "minimumCenterlineClearanceByObstacle_m": {
+          "TOP": 0.005000000779714915,
+          "BOTTOM": 0.005000004040429523,
+          "SIDE_L": 0.011844543827302356,
+          "SIDE_R": 0.012000000204527565,
+          "SEPTUM": 0.01901942024487799
+        },
+        "limitingSurface": {
+          "segment": 1,
+          "obstacle": "TOP",
+          "nearestCapsuleAndSurfacePoints_m": [
+            [
+              -0.01951317229189271,
+              0.005,
+              -9.77883489948466e-05
+            ],
+            [
+              -0.01951317194253338,
+              0.00024999922028510525,
+              -9.778808444867914e-05
+            ]
+          ]
+        },
+        "collisionCount": 0,
+        "failures": [],
+        "fclPenetrationDepthUsed": false,
+        "id": "POSTERIOR",
+        "role": "outlet",
+        "center_m": [
+          -0.02,
+          0.0,
+          0.0
+        ],
+        "inwardNormalPointsInsideActualAir": true,
+        "outsideProbeOutsideActualAir": true,
+        "portCenterDistanceToClosedAirBoundary_m": 0.0,
+        "ringMaximumDistanceToPositiveWall_m": 0.0,
+        "ringWallBindingTolerance_m": 0.00035,
+        "inletRingMaximumDistanceToActualHeadBoundary_m": null,
+        "inletFaceBoundaryBindingTestRun": false,
+        "analysisAirCapExcludedFromOpeningTest": true,
+        "passed": true
+      }
+    ],
+    "perInlet": [
+      {
+        "clearAtProbeRadius": true,
+        "probeRadius_m": 0.00025,
+        "segmentsChecked": 5,
+        "minimumTestedCenterlineClearance_m": 0.0009806312349444836,
+        "minimumWallOrContextCenterlineClearance_m": 0.003352394284669084,
+        "minimumCenterlineClearanceByObstacle_m": {
+          "TOP": 0.005000000143789649,
+          "BOTTOM": 0.005000000548209018,
+          "SIDE_L": 0.006000001863023527,
+          "SIDE_R": 0.01220206974035618,
+          "SEPTUM": 0.003352394284669084,
+          "NEGATIVE_AIR_BOUNDARY_ONLY": 0.0009806312349444836
+        },
+        "limitingSurface": {
+          "segment": 4,
+          "obstacle": "NEGATIVE_AIR_BOUNDARY_ONLY",
+          "nearestCapsuleAndSurfacePoints_m": [
+            [
+              -0.02,
+              4.5238306196643957e-07,
+              -0.00019897492460344706
+            ],
+            [
+              -0.019269368766446793,
+              4.523464461032307e-07,
+              -0.0001989298356123022
+            ]
+          ]
+        },
+        "collisionCount": 0,
+        "failures": [],
+        "fclPenetrationDepthUsed": false,
+        "allTestedCentersInsideNegativeAir": true,
+        "testedCenterSamples": 11,
+        "centerSamplesInsidePositiveWall": {
+          "TOP": 0,
+          "BOTTOM": 0,
+          "SIDE_L": 0,
+          "SIDE_R": 0,
+          "SEPTUM": 0
+        },
+        "passed": true,
+        "inlet": "L",
+        "outlet": "POSTERIOR",
+        "trimmedPath_m": [
+          [
+            0.028999999999999998,
+            0.0,
+            -0.006
+          ],
+          [
+            0.025,
+            0.0,
+            -0.006
+          ],
+          [
+            0.005,
+            0.0,
+            -0.006
+          ],
+          [
+            -0.005,
+            0.0,
+            -0.003
+          ],
+          [
+            -0.015,
+            0.0,
+            -0.001
+          ],
+          [
+            -0.019019419324309082,
+            0.0,
+            -0.0001961161351381836
+          ]
+        ],
+        "outletBridgeToCommonCenter": {
+          "clearAtProbeRadius": true,
+          "probeRadius_m": 0.00025,
+          "segmentsChecked": 1,
+          "minimumTestedCenterlineClearance_m": 0.005000000779714915,
+          "minimumWallOrContextCenterlineClearance_m": 0.005000000779714915,
+          "minimumCenterlineClearanceByObstacle_m": {
+            "TOP": 0.005000000779714915,
+            "BOTTOM": 0.005000004040429523,
+            "SIDE_L": 0.011844543827302354,
+            "SIDE_R": 0.012000000373778298,
+            "SEPTUM": 0.01901942024487799
+          },
+          "limitingSurface": {
+            "segment": 0,
+            "obstacle": "TOP",
+            "nearestCapsuleAndSurfacePoints_m": [
+              [
+                -0.01951317229189271,
+                0.005,
+                -9.77883489948466e-05
+              ],
+              [
+                -0.01951317194253338,
+                0.00024999922028510525,
+                -9.778808444867916e-05
+              ]
+            ]
+          },
+          "collisionCount": 0,
+          "failures": [],
+          "fclPenetrationDepthUsed": false
+        }
+      },
+      {
+        "clearAtProbeRadius": true,
+        "probeRadius_m": 0.00025,
+        "segmentsChecked": 5,
+        "minimumTestedCenterlineClearance_m": 0.000980615909213449,
+        "minimumWallOrContextCenterlineClearance_m": 0.0033523942846690833,
+        "minimumCenterlineClearanceByObstacle_m": {
+          "TOP": 0.005000000346600736,
+          "BOTTOM": 0.005000000143789649,
+          "SIDE_L": 0.012202069740356182,
+          "SIDE_R": 0.006000001863023529,
+          "SEPTUM": 0.0033523942846690833,
+          "NEGATIVE_AIR_BOUNDARY_ONLY": 0.000980615909213449
+        },
+        "limitingSurface": {
+          "segment": 4,
+          "obstacle": "NEGATIVE_AIR_BOUNDARY_ONLY",
+          "nearestCapsuleAndSurfacePoints_m": [
+            [
+              -0.02,
+              3.058569786554971e-07,
+              0.00019842829631930552
+            ],
+            [
+              -0.019269384091174353,
+              3.045297677447284e-07,
+              0.00019840452859326435
+            ]
+          ]
+        },
+        "collisionCount": 0,
+        "failures": [],
+        "fclPenetrationDepthUsed": false,
+        "allTestedCentersInsideNegativeAir": true,
+        "testedCenterSamples": 11,
+        "centerSamplesInsidePositiveWall": {
+          "TOP": 0,
+          "BOTTOM": 0,
+          "SIDE_L": 0,
+          "SIDE_R": 0,
+          "SEPTUM": 0
+        },
+        "passed": true,
+        "inlet": "R",
+        "outlet": "POSTERIOR",
+        "trimmedPath_m": [
+          [
+            0.028999999999999998,
+            0.0,
+            0.006
+          ],
+          [
+            0.025,
+            0.0,
+            0.006
+          ],
+          [
+            0.005,
+            0.0,
+            0.006
+          ],
+          [
+            -0.005,
+            0.0,
+            0.003
+          ],
+          [
+            -0.015,
+            0.0,
+            0.001
+          ],
+          [
+            -0.019019419324309082,
+            0.0,
+            0.0001961161351381836
+          ]
+        ],
+        "outletBridgeToCommonCenter": {
+          "clearAtProbeRadius": true,
+          "probeRadius_m": 0.00025,
+          "segmentsChecked": 1,
+          "minimumTestedCenterlineClearance_m": 0.00500000083175451,
+          "minimumWallOrContextCenterlineClearance_m": 0.00500000083175451,
+          "minimumCenterlineClearanceByObstacle_m": {
+            "TOP": 0.00500000083175451,
+            "BOTTOM": 0.005000004031077801,
+            "SIDE_L": 0.012000000373778298,
+            "SIDE_R": 0.011844543827302356,
+            "SEPTUM": 0.019019419371688637
+          },
+          "limitingSurface": {
+            "segment": 0,
+            "obstacle": "TOP",
+            "nearestCapsuleAndSurfacePoints_m": [
+              [
+                -0.019513144120145896,
+                0.005,
+                9.694526913829604e-05
+              ],
+              [
+                -0.019513143786215683,
+                0.00024999916824550855,
+                9.694552437636983e-05
+              ]
+            ]
+          },
+          "collisionCount": 0,
+          "failures": [],
+          "fclPenetrationDepthUsed": false
+        }
+      }
+    ],
+    "sampledAirBoundaryWallCoverage": {
+      "samples": 44,
+      "wallCoverageTolerance_m": 0.0004,
+      "unexpectedUncoveredBoundarySamples": 0,
+      "uncoveredWitnesses_m": [],
+      "passed": true
+    },
+    "twoInletsReachCommonOutletAtProbeRadius": true,
+    "allThreePortsGeometricallyOpenAtProbeRadius": true,
+    "certifiedPositiveCorridorRadius_m": 0.00025,
+    "minimumWallOrContextCenterlineClearance_m": 0.0033523942846690833,
+    "commonPosteriorOutlet": "POSTERIOR",
+    "probeRadius_m": 0.00025,
+    "externalHeadContainmentRun": false,
+    "negativeAirIsRuntimeTissue": false,
+    "anatomyAccepted": false,
+    "scope": "Two provided guide paths validated against actual surfaces using finite-radius swept capsules; three explicit opening bridges; closed-air membership; sampled air-boundary wall coverage. This proves selected geometric corridors at the tested radius, not optimal cross-sectional area, all alternate paths, micro-leaks, motion, CFD, clinical or full nasal anatomy."
+  },
+  "leftBranchSolidBlock": {
+    "passed": false,
+    "volumeContractPass": true,
+    "wallTopology": {
+      "TOP": {
+        "vertices": 8,
+        "triangles": 12,
+        "closedPositiveVolume": true,
+        "watertight": true,
+        "windingConsistent": true,
+        "connectedComponents": 1,
+        "eulerCharacteristic": 2,
+        "genus": 0,
+        "volume_m3": 2.8000000000000003e-06
+      },
+      "BOTTOM": {
+        "vertices": 8,
+        "triangles": 12,
+        "closedPositiveVolume": true,
+        "watertight": true,
+        "windingConsistent": true,
+        "connectedComponents": 1,
+        "eulerCharacteristic": 2,
+        "genus": 0,
+        "volume_m3": 2.8000000000000003e-06
+      },
+      "SIDE_L": {
+        "vertices": 8,
+        "triangles": 12,
+        "closedPositiveVolume": true,
+        "watertight": true,
+        "windingConsistent": true,
+        "connectedComponents": 1,
+        "eulerCharacteristic": 2,
+        "genus": 0,
+        "volume_m3": 1.000000000000001e-06
+      },
+      "SIDE_R": {
+        "vertices": 8,
+        "triangles": 12,
+        "closedPositiveVolume": true,
+        "watertight": true,
+        "windingConsistent": true,
+        "connectedComponents": 1,
+        "eulerCharacteristic": 2,
+        "genus": 0,
+        "volume_m3": 1.000000000000001e-06
+      },
+      "SEPTUM": {
+        "vertices": 8,
+        "triangles": 12,
+        "closedPositiveVolume": true,
+        "watertight": true,
+        "windingConsistent": true,
+        "connectedComponents": 1,
+        "eulerCharacteristic": 2,
+        "genus": 0,
+        "volume_m3": 6.000000000000001e-07
+      },
+      "ACTUAL_LEFT_BRANCH_BLOCK": {
+        "vertices": 8,
+        "triangles": 12,
+        "closedPositiveVolume": true,
+        "watertight": true,
+        "windingConsistent": true,
+        "connectedComponents": 1,
+        "eulerCharacteristic": 2,
+        "genus": 0,
+        "volume_m3": 1.1000000000000007e-07
+      }
+    },
+    "airTopology": {
+      "vertices": 24,
+      "triangles": 44,
+      "closedPositiveVolume": true,
+      "watertight": true,
+      "windingConsistent": true,
+      "connectedComponents": 1,
+      "eulerCharacteristic": 2,
+      "genus": 0,
+      "volume_m3": 1.14e-05
+    },
+    "negativeAirConnectedComponents": 1,
+    "strictAirwayTopologyRequired": false,
+    "topologyPass": false,
+    "expectedWallGenus": 2,
+    "expectedAirGenus": 0,
+    "wallGenus": null,
+    "airGenus": 0,
+    "wallConnectedComponents": 6,
+    "airConnectedComponents": 1,
+    "wallWatertight": false,
+    "airWatertight": true,
+    "wallWindingConsistent": true,
+    "airWindingConsistent": true,
+    "wallEulerCharacteristic": 8,
+    "airEulerCharacteristic": 2,
+    "ports": [
+      {
+        "clearAtProbeRadius": true,
+        "probeRadius_m": 0.00025,
+        "segmentsChecked": 2,
+        "minimumTestedCenterlineClearance_m": 0.005000000011199518,
+        "minimumWallOrContextCenterlineClearance_m": 0.005000000011199518,
+        "minimumCenterlineClearanceByObstacle_m": {
+          "TOP": 0.005000000011199518,
+          "BOTTOM": 0.0050000000139551574,
+          "SIDE_L": 0.006000000005581459,
+          "SIDE_R": 0.01800001534542177,
+          "SEPTUM": 0.005000000011888628,
+          "ACTUAL_LEFT_BRANCH_BLOCK": 0.01600000035024304
+        },
+        "limitingSurface": {
+          "segment": 0,
+          "obstacle": "TOP",
+          "nearestCapsuleAndSurfacePoints_m": [
+            [
+              0.03,
+              0.005,
+              -0.005999969644977397
+            ],
+            [
+              0.029999961876027395,
+              0.00024999998895347607,
+              -0.005999969645627687
+            ]
+          ]
+        },
+        "collisionCount": 0,
+        "failures": [],
+        "fclPenetrationDepthUsed": false,
+        "id": "L",
+        "role": "inlet",
+        "center_m": [
+          0.03,
+          0.0,
+          -0.006
+        ],
+        "inwardNormalPointsInsideActualAir": true,
+        "outsideProbeOutsideActualAir": true,
+        "portCenterDistanceToClosedAirBoundary_m": 0.0,
+        "ringMaximumDistanceToPositiveWall_m": 0.0,
+        "ringWallBindingTolerance_m": 0.00035,
+        "inletRingMaximumDistanceToActualHeadBoundary_m": null,
+        "inletFaceBoundaryBindingTestRun": false,
+        "analysisAirCapExcludedFromOpeningTest": true,
+        "passed": true
+      },
+      {
+        "clearAtProbeRadius": true,
+        "probeRadius_m": 0.00025,
+        "segmentsChecked": 2,
+        "minimumTestedCenterlineClearance_m": 0.005000000011888628,
+        "minimumWallOrContextCenterlineClearance_m": 0.005000000011888628,
+        "minimumCenterlineClearanceByObstacle_m": {
+          "TOP": 0.005000000546328885,
+          "BOTTOM": 0.005000000033897751,
+          "SIDE_L": 0.01800001534542177,
+          "SIDE_R": 0.006000000005581459,
+          "SEPTUM": 0.005000000011888628,
+          "ACTUAL_LEFT_BRANCH_BLOCK": 0.017464249200178795
+        },
+        "limitingSurface": {
+          "segment": 0,
+          "obstacle": "SEPTUM",
+          "nearestCapsuleAndSurfacePoints_m": [
+            [
+              0.03,
+              -3.8002947401818976e-08,
+              0.001
+            ],
+            [
+              0.02999995213261944,
+              -3.799634877807653e-08,
+              0.00575000001164744
+            ]
+          ]
+        },
+        "collisionCount": 0,
+        "failures": [],
+        "fclPenetrationDepthUsed": false,
+        "id": "R",
+        "role": "inlet",
+        "center_m": [
+          0.03,
+          0.0,
+          0.006
+        ],
+        "inwardNormalPointsInsideActualAir": true,
+        "outsideProbeOutsideActualAir": true,
+        "portCenterDistanceToClosedAirBoundary_m": 8.881784197001253e-19,
+        "ringMaximumDistanceToPositiveWall_m": 0.0,
+        "ringWallBindingTolerance_m": 0.00035,
+        "inletRingMaximumDistanceToActualHeadBoundary_m": null,
+        "inletFaceBoundaryBindingTestRun": false,
+        "analysisAirCapExcludedFromOpeningTest": true,
+        "passed": true
+      },
+      {
+        "clearAtProbeRadius": true,
+        "probeRadius_m": 0.00025,
+        "segmentsChecked": 2,
+        "minimumTestedCenterlineClearance_m": 0.005000000779714915,
+        "minimumWallOrContextCenterlineClearance_m": 0.005000000779714915,
+        "minimumCenterlineClearanceByObstacle_m": {
+          "TOP": 0.005000000779714915,
+          "BOTTOM": 0.005000004040429523,
+          "SIDE_L": 0.011844543827302356,
+          "SIDE_R": 0.012000000204527565,
+          "SEPTUM": 0.01901942024487799,
+          "ACTUAL_LEFT_BRANCH_BLOCK": 0.031029834110958672
+        },
+        "limitingSurface": {
+          "segment": 1,
+          "obstacle": "TOP",
+          "nearestCapsuleAndSurfacePoints_m": [
+            [
+              -0.01951317229189271,
+              0.005,
+              -9.77883489948466e-05
+            ],
+            [
+              -0.01951317194253338,
+              0.00024999922028510525,
+              -9.778808444867914e-05
+            ]
+          ]
+        },
+        "collisionCount": 0,
+        "failures": [],
+        "fclPenetrationDepthUsed": false,
+        "id": "POSTERIOR",
+        "role": "outlet",
+        "center_m": [
+          -0.02,
+          0.0,
+          0.0
+        ],
+        "inwardNormalPointsInsideActualAir": true,
+        "outsideProbeOutsideActualAir": true,
+        "portCenterDistanceToClosedAirBoundary_m": 0.0,
+        "ringMaximumDistanceToPositiveWall_m": 0.0,
+        "ringWallBindingTolerance_m": 0.00035,
+        "inletRingMaximumDistanceToActualHeadBoundary_m": null,
+        "inletFaceBoundaryBindingTestRun": false,
+        "analysisAirCapExcludedFromOpeningTest": true,
+        "passed": true
+      }
+    ],
+    "perInlet": [
+      {
+        "clearAtProbeRadius": false,
+        "probeRadius_m": 0.00025,
+        "segmentsChecked": 5,
+        "minimumTestedCenterlineClearance_m": null,
+        "minimumWallOrContextCenterlineClearance_m": null,
+        "minimumCenterlineClearanceByObstacle_m": {
+          "TOP": 0.005000000143789649,
+          "BOTTOM": 0.005000000548209018,
+          "SIDE_L": 0.006000001863023527,
+          "SIDE_R": 0.01220206974035618,
+          "SEPTUM": 0.003352394284669084,
+          "ACTUAL_LEFT_BRANCH_BLOCK": null,
+          "NEGATIVE_AIR_BOUNDARY_ONLY": 0.0009806312349444836
+        },
+        "limitingSurface": {
+          "segment": 4,
+          "obstacle": "NEGATIVE_AIR_BOUNDARY_ONLY",
+          "nearestCapsuleAndSurfacePoints_m": [
+            [
+              -0.02,
+              4.5238306196643957e-07,
+              -0.00019897492460344706
+            ],
+            [
+              -0.019269368766446793,
+              4.523464461032307e-07,
+              -0.0001989298356123022
+            ]
+          ]
+        },
+        "collisionCount": 1,
+        "failures": [
+          {
+            "segment": 1,
+            "obstacle": "ACTUAL_LEFT_BRANCH_BLOCK",
+            "from_m": [
+              0.025,
+              0.0,
+              -0.006
+            ],
+            "to_m": [
+              0.005,
+              0.0,
+              -0.006
+            ],
+            "fclContactPositions_m": [
+              [
+                0.012000000000000002,
+                -0.0001447134238298172,
+                -0.005867756862004746
+              ],
+              [
+                0.013000000000000001,
+                0.0001445050626167802,
+                -0.005867546931132523
+              ]
+            ]
+          }
+        ],
+        "fclPenetrationDepthUsed": false,
+        "allTestedCentersInsideNegativeAir": true,
+        "testedCenterSamples": 11,
+        "centerSamplesInsidePositiveWall": {
+          "TOP": 0,
+          "BOTTOM": 0,
+          "SIDE_L": 0,
+          "SIDE_R": 0,
+          "SEPTUM": 0,
+          "ACTUAL_LEFT_BRANCH_BLOCK": 0
+        },
+        "passed": false,
+        "inlet": "L",
+        "outlet": "POSTERIOR",
+        "trimmedPath_m": [
+          [
+            0.028999999999999998,
+            0.0,
+            -0.006
+          ],
+          [
+            0.025,
+            0.0,
+            -0.006
+          ],
+          [
+            0.005,
+            0.0,
+            -0.006
+          ],
+          [
+            -0.005,
+            0.0,
+            -0.003
+          ],
+          [
+            -0.015,
+            0.0,
+            -0.001
+          ],
+          [
+            -0.019019419324309082,
+            0.0,
+            -0.0001961161351381836
+          ]
+        ],
+        "outletBridgeToCommonCenter": {
+          "clearAtProbeRadius": true,
+          "probeRadius_m": 0.00025,
+          "segmentsChecked": 1,
+          "minimumTestedCenterlineClearance_m": 0.005000000779714915,
+          "minimumWallOrContextCenterlineClearance_m": 0.005000000779714915,
+          "minimumCenterlineClearanceByObstacle_m": {
+            "TOP": 0.005000000779714915,
+            "BOTTOM": 0.005000004040429523,
+            "SIDE_L": 0.011844543827302354,
+            "SIDE_R": 0.012000000373778298,
+            "SEPTUM": 0.01901942024487799,
+            "ACTUAL_LEFT_BRANCH_BLOCK": 0.031029834110958672
+          },
+          "limitingSurface": {
+            "segment": 0,
+            "obstacle": "TOP",
+            "nearestCapsuleAndSurfacePoints_m": [
+              [
+                -0.01951317229189271,
+                0.005,
+                -9.77883489948466e-05
+              ],
+              [
+                -0.01951317194253338,
+                0.00024999922028510525,
+                -9.778808444867916e-05
+              ]
+            ]
+          },
+          "collisionCount": 0,
+          "failures": [],
+          "fclPenetrationDepthUsed": false
+        }
+      },
+      {
+        "clearAtProbeRadius": true,
+        "probeRadius_m": 0.00025,
+        "segmentsChecked": 5,
+        "minimumTestedCenterlineClearance_m": 0.000980615909213449,
+        "minimumWallOrContextCenterlineClearance_m": 0.0033523942846690833,
+        "minimumCenterlineClearanceByObstacle_m": {
+          "TOP": 0.005000000346600736,
+          "BOTTOM": 0.005000000143789649,
+          "SIDE_L": 0.012202069740356182,
+          "SIDE_R": 0.006000001863023529,
+          "SEPTUM": 0.0033523942846690833,
+          "ACTUAL_LEFT_BRANCH_BLOCK": 0.0070000127111681165,
+          "NEGATIVE_AIR_BOUNDARY_ONLY": 0.000980615909213449
+        },
+        "limitingSurface": {
+          "segment": 4,
+          "obstacle": "NEGATIVE_AIR_BOUNDARY_ONLY",
+          "nearestCapsuleAndSurfacePoints_m": [
+            [
+              -0.02,
+              3.058569786554971e-07,
+              0.00019842829631930552
+            ],
+            [
+              -0.019269384091174353,
+              3.045297677447284e-07,
+              0.00019840452859326435
+            ]
+          ]
+        },
+        "collisionCount": 0,
+        "failures": [],
+        "fclPenetrationDepthUsed": false,
+        "allTestedCentersInsideNegativeAir": true,
+        "testedCenterSamples": 11,
+        "centerSamplesInsidePositiveWall": {
+          "TOP": 0,
+          "BOTTOM": 0,
+          "SIDE_L": 0,
+          "SIDE_R": 0,
+          "SEPTUM": 0,
+          "ACTUAL_LEFT_BRANCH_BLOCK": 0
+        },
+        "passed": true,
+        "inlet": "R",
+        "outlet": "POSTERIOR",
+        "trimmedPath_m": [
+          [
+            0.028999999999999998,
+            0.0,
+            0.006
+          ],
+          [
+            0.025,
+            0.0,
+            0.006
+          ],
+          [
+            0.005,
+            0.0,
+            0.006
+          ],
+          [
+            -0.005,
+            0.0,
+            0.003
+          ],
+          [
+            -0.015,
+            0.0,
+            0.001
+          ],
+          [
+            -0.019019419324309082,
+            0.0,
+            0.0001961161351381836
+          ]
+        ],
+        "outletBridgeToCommonCenter": {
+          "clearAtProbeRadius": true,
+          "probeRadius_m": 0.00025,
+          "segmentsChecked": 1,
+          "minimumTestedCenterlineClearance_m": 0.00500000083175451,
+          "minimumWallOrContextCenterlineClearance_m": 0.00500000083175451,
+          "minimumCenterlineClearanceByObstacle_m": {
+            "TOP": 0.00500000083175451,
+            "BOTTOM": 0.005000004031077801,
+            "SIDE_L": 0.012000000373778298,
+            "SIDE_R": 0.011844543827302356,
+            "SEPTUM": 0.019019419371688637,
+            "ACTUAL_LEFT_BRANCH_BLOCK": 0.031042472027441616
+          },
+          "limitingSurface": {
+            "segment": 0,
+            "obstacle": "TOP",
+            "nearestCapsuleAndSurfacePoints_m": [
+              [
+                -0.019513144120145896,
+                0.005,
+                9.694526913829604e-05
+              ],
+              [
+                -0.019513143786215683,
+                0.00024999916824550855,
+                9.694552437636983e-05
+              ]
+            ]
+          },
+          "collisionCount": 0,
+          "failures": [],
+          "fclPenetrationDepthUsed": false
+        }
+      }
+    ],
+    "sampledAirBoundaryWallCoverage": {
+      "samples": 44,
+      "wallCoverageTolerance_m": 0.0004,
+      "unexpectedUncoveredBoundarySamples": 0,
+      "uncoveredWitnesses_m": [],
+      "passed": true
+    },
+    "twoInletsReachCommonOutletAtProbeRadius": false,
+    "allThreePortsGeometricallyOpenAtProbeRadius": true,
+    "certifiedPositiveCorridorRadius_m": null,
+    "minimumWallOrContextCenterlineClearance_m": null,
+    "commonPosteriorOutlet": "POSTERIOR",
+    "probeRadius_m": 0.00025,
+    "externalHeadContainmentRun": false,
+    "negativeAirIsRuntimeTissue": false,
+    "anatomyAccepted": false,
+    "scope": "Two provided guide paths validated against actual surfaces using finite-radius swept capsules; three explicit opening bridges; closed-air membership; sampled air-boundary wall coverage. This proves selected geometric corridors at the tested radius, not optimal cross-sectional area, all alternate paths, micro-leaks, motion, CFD, clinical or full nasal anatomy."
+  },
+  "leftPortOpenTriangleSurfaceCap": {
+    "passed": false,
+    "volumeContractPass": true,
+    "wallTopology": {
+      "TOP": {
+        "vertices": 8,
+        "triangles": 12,
+        "closedPositiveVolume": true,
+        "watertight": true,
+        "windingConsistent": true,
+        "connectedComponents": 1,
+        "eulerCharacteristic": 2,
+        "genus": 0,
+        "volume_m3": 2.8000000000000003e-06
+      },
+      "BOTTOM": {
+        "vertices": 8,
+        "triangles": 12,
+        "closedPositiveVolume": true,
+        "watertight": true,
+        "windingConsistent": true,
+        "connectedComponents": 1,
+        "eulerCharacteristic": 2,
+        "genus": 0,
+        "volume_m3": 2.8000000000000003e-06
+      },
+      "SIDE_L": {
+        "vertices": 8,
+        "triangles": 12,
+        "closedPositiveVolume": true,
+        "watertight": true,
+        "windingConsistent": true,
+        "connectedComponents": 1,
+        "eulerCharacteristic": 2,
+        "genus": 0,
+        "volume_m3": 1.000000000000001e-06
+      },
+      "SIDE_R": {
+        "vertices": 8,
+        "triangles": 12,
+        "closedPositiveVolume": true,
+        "watertight": true,
+        "windingConsistent": true,
+        "connectedComponents": 1,
+        "eulerCharacteristic": 2,
+        "genus": 0,
+        "volume_m3": 1.000000000000001e-06
+      },
+      "SEPTUM": {
+        "vertices": 8,
+        "triangles": 12,
+        "closedPositiveVolume": true,
+        "watertight": true,
+        "windingConsistent": true,
+        "connectedComponents": 1,
+        "eulerCharacteristic": 2,
+        "genus": 0,
+        "volume_m3": 6.000000000000001e-07
+      }
+    },
+    "airTopology": {
+      "vertices": 24,
+      "triangles": 44,
+      "closedPositiveVolume": true,
+      "watertight": true,
+      "windingConsistent": true,
+      "connectedComponents": 1,
+      "eulerCharacteristic": 2,
+      "genus": 0,
+      "volume_m3": 1.14e-05
+    },
+    "negativeAirConnectedComponents": 1,
+    "strictAirwayTopologyRequired": false,
+    "topologyPass": false,
+    "expectedWallGenus": 2,
+    "expectedAirGenus": 0,
+    "wallGenus": null,
+    "airGenus": 0,
+    "wallConnectedComponents": 5,
+    "airConnectedComponents": 1,
+    "wallWatertight": false,
+    "airWatertight": true,
+    "wallWindingConsistent": true,
+    "airWindingConsistent": true,
+    "wallEulerCharacteristic": 6,
+    "airEulerCharacteristic": 2,
+    "ports": [
+      {
+        "clearAtProbeRadius": false,
+        "probeRadius_m": 0.00025,
+        "segmentsChecked": 2,
+        "minimumTestedCenterlineClearance_m": null,
+        "minimumWallOrContextCenterlineClearance_m": null,
+        "minimumCenterlineClearanceByObstacle_m": {
+          "TOP": 0.005000000011199518,
+          "BOTTOM": 0.0050000000139551574,
+          "SIDE_L": 0.006000000005581459,
+          "SIDE_R": 0.01800001534542177,
+          "SEPTUM": 0.005000000011888628
+        },
+        "limitingSurface": {
+          "segment": 0,
+          "obstacle": "TOP",
+          "nearestCapsuleAndSurfacePoints_m": [
+            [
+              0.03,
+              0.005,
+              -0.005999969644977397
+            ],
+            [
+              0.029999961876027395,
+              0.00024999998895347607,
+              -0.005999969645627687
+            ]
+          ]
+        },
+        "collisionCount": 2,
+        "failures": [
+          {
+            "segment": 0,
+            "obstacle": "OPEN_HEAD_SURFACE_CAP",
+            "from_m": [
+              0.0315,
+              0.0,
+              -0.006
+            ],
+            "to_m": [
+              0.03,
+              0.0,
+              -0.006
+            ],
+            "fclContactPositions_m": [
+              [
+                0.03,
+                -0.00010361985660281765,
+                -0.005905803329198195
+              ]
+            ]
+          },
+          {
+            "segment": 1,
+            "obstacle": "OPEN_HEAD_SURFACE_CAP",
+            "from_m": [
+              0.03,
+              0.0,
+              -0.006
+            ],
+            "to_m": [
+              0.028999999999999998,
+              0.0,
+              -0.006
+            ],
+            "fclContactPositions_m": [
+              [
+                0.03,
+                -0.00012566813277227473,
+                -0.005885802672169491
+              ]
+            ]
+          }
+        ],
+        "fclPenetrationDepthUsed": false,
+        "id": "L",
+        "role": "inlet",
+        "center_m": [
+          0.03,
+          0.0,
+          -0.006
+        ],
+        "inwardNormalPointsInsideActualAir": true,
+        "outsideProbeOutsideActualAir": true,
+        "portCenterDistanceToClosedAirBoundary_m": 0.0,
+        "ringMaximumDistanceToPositiveWall_m": 0.0,
+        "ringWallBindingTolerance_m": 0.00035,
+        "inletRingMaximumDistanceToActualHeadBoundary_m": null,
+        "inletFaceBoundaryBindingTestRun": false,
+        "analysisAirCapExcludedFromOpeningTest": true,
+        "passed": false
+      },
+      {
+        "clearAtProbeRadius": true,
+        "probeRadius_m": 0.00025,
+        "segmentsChecked": 2,
+        "minimumTestedCenterlineClearance_m": 0.005000000011888628,
+        "minimumWallOrContextCenterlineClearance_m": 0.005000000011888628,
+        "minimumCenterlineClearanceByObstacle_m": {
+          "TOP": 0.005000000546328885,
+          "BOTTOM": 0.005000000033897751,
+          "SIDE_L": 0.01800001534542177,
+          "SIDE_R": 0.006000000005581459,
+          "SEPTUM": 0.005000000011888628,
+          "OPEN_HEAD_SURFACE_CAP": 0.007000150005266708
+        },
+        "limitingSurface": {
+          "segment": 0,
+          "obstacle": "SEPTUM",
+          "nearestCapsuleAndSurfacePoints_m": [
+            [
+              0.03,
+              -3.8002947401818976e-08,
+              0.001
+            ],
+            [
+              0.02999995213261944,
+              -3.799634877807653e-08,
+              0.00575000001164744
+            ]
+          ]
+        },
+        "collisionCount": 0,
+        "failures": [],
+        "fclPenetrationDepthUsed": false,
+        "id": "R",
+        "role": "inlet",
+        "center_m": [
+          0.03,
+          0.0,
+          0.006
+        ],
+        "inwardNormalPointsInsideActualAir": true,
+        "outsideProbeOutsideActualAir": true,
+        "portCenterDistanceToClosedAirBoundary_m": 8.881784197001253e-19,
+        "ringMaximumDistanceToPositiveWall_m": 0.0,
+        "ringWallBindingTolerance_m": 0.00035,
+        "inletRingMaximumDistanceToActualHeadBoundary_m": null,
+        "inletFaceBoundaryBindingTestRun": false,
+        "analysisAirCapExcludedFromOpeningTest": true,
+        "passed": true
+      },
+      {
+        "clearAtProbeRadius": true,
+        "probeRadius_m": 0.00025,
+        "segmentsChecked": 2,
+        "minimumTestedCenterlineClearance_m": 0.005000000779714915,
+        "minimumWallOrContextCenterlineClearance_m": 0.005000000779714915,
+        "minimumCenterlineClearanceByObstacle_m": {
+          "TOP": 0.005000000779714915,
+          "BOTTOM": 0.005000004040429523,
+          "SIDE_L": 0.011844543827302356,
+          "SIDE_R": 0.012000000204527565,
+          "SEPTUM": 0.01901942024487799,
+          "OPEN_HEAD_SURFACE_CAP": 0.049026010500624974
+        },
+        "limitingSurface": {
+          "segment": 1,
+          "obstacle": "TOP",
+          "nearestCapsuleAndSurfacePoints_m": [
+            [
+              -0.01951317229189271,
+              0.005,
+              -9.77883489948466e-05
+            ],
+            [
+              -0.01951317194253338,
+              0.00024999922028510525,
+              -9.778808444867914e-05
+            ]
+          ]
+        },
+        "collisionCount": 0,
+        "failures": [],
+        "fclPenetrationDepthUsed": false,
+        "id": "POSTERIOR",
+        "role": "outlet",
+        "center_m": [
+          -0.02,
+          0.0,
+          0.0
+        ],
+        "inwardNormalPointsInsideActualAir": true,
+        "outsideProbeOutsideActualAir": true,
+        "portCenterDistanceToClosedAirBoundary_m": 0.0,
+        "ringMaximumDistanceToPositiveWall_m": 0.0,
+        "ringWallBindingTolerance_m": 0.00035,
+        "inletRingMaximumDistanceToActualHeadBoundary_m": null,
+        "inletFaceBoundaryBindingTestRun": false,
+        "analysisAirCapExcludedFromOpeningTest": true,
+        "passed": true
+      }
+    ],
+    "perInlet": [
+      {
+        "clearAtProbeRadius": true,
+        "probeRadius_m": 0.00025,
+        "segmentsChecked": 5,
+        "minimumTestedCenterlineClearance_m": 0.0009806312349444836,
+        "minimumWallOrContextCenterlineClearance_m": 0.0010000263980168979,
+        "minimumCenterlineClearanceByObstacle_m": {
+          "TOP": 0.005000000143789649,
+          "BOTTOM": 0.005000000548209018,
+          "SIDE_L": 0.006000001863023527,
+          "SIDE_R": 0.01220206974035618,
+          "SEPTUM": 0.003352394284669084,
+          "OPEN_HEAD_SURFACE_CAP": 0.0010000263980168979,
+          "NEGATIVE_AIR_BOUNDARY_ONLY": 0.0009806312349444836
+        },
+        "limitingSurface": {
+          "segment": 4,
+          "obstacle": "NEGATIVE_AIR_BOUNDARY_ONLY",
+          "nearestCapsuleAndSurfacePoints_m": [
+            [
+              -0.02,
+              4.5238306196643957e-07,
+              -0.00019897492460344706
+            ],
+            [
+              -0.019269368766446793,
+              4.523464461032307e-07,
+              -0.0001989298356123022
+            ]
+          ]
+        },
+        "collisionCount": 0,
+        "failures": [],
+        "fclPenetrationDepthUsed": false,
+        "allTestedCentersInsideNegativeAir": true,
+        "testedCenterSamples": 11,
+        "centerSamplesInsidePositiveWall": {
+          "TOP": 0,
+          "BOTTOM": 0,
+          "SIDE_L": 0,
+          "SIDE_R": 0,
+          "SEPTUM": 0
+        },
+        "passed": true,
+        "inlet": "L",
+        "outlet": "POSTERIOR",
+        "trimmedPath_m": [
+          [
+            0.028999999999999998,
+            0.0,
+            -0.006
+          ],
+          [
+            0.025,
+            0.0,
+            -0.006
+          ],
+          [
+            0.005,
+            0.0,
+            -0.006
+          ],
+          [
+            -0.005,
+            0.0,
+            -0.003
+          ],
+          [
+            -0.015,
+            0.0,
+            -0.001
+          ],
+          [
+            -0.019019419324309082,
+            0.0,
+            -0.0001961161351381836
+          ]
+        ],
+        "outletBridgeToCommonCenter": {
+          "clearAtProbeRadius": true,
+          "probeRadius_m": 0.00025,
+          "segmentsChecked": 1,
+          "minimumTestedCenterlineClearance_m": 0.005000000779714915,
+          "minimumWallOrContextCenterlineClearance_m": 0.005000000779714915,
+          "minimumCenterlineClearanceByObstacle_m": {
+            "TOP": 0.005000000779714915,
+            "BOTTOM": 0.005000004040429523,
+            "SIDE_L": 0.011844543827302354,
+            "SIDE_R": 0.012000000373778298,
+            "SEPTUM": 0.01901942024487799,
+            "OPEN_HEAD_SURFACE_CAP": 0.049026010500624974
+          },
+          "limitingSurface": {
+            "segment": 0,
+            "obstacle": "TOP",
+            "nearestCapsuleAndSurfacePoints_m": [
+              [
+                -0.01951317229189271,
+                0.005,
+                -9.77883489948466e-05
+              ],
+              [
+                -0.01951317194253338,
+                0.00024999922028510525,
+                -9.778808444867916e-05
+              ]
+            ]
+          },
+          "collisionCount": 0,
+          "failures": [],
+          "fclPenetrationDepthUsed": false
+        }
+      },
+      {
+        "clearAtProbeRadius": true,
+        "probeRadius_m": 0.00025,
+        "segmentsChecked": 5,
+        "minimumTestedCenterlineClearance_m": 0.000980615909213449,
+        "minimumWallOrContextCenterlineClearance_m": 0.0033523942846690833,
+        "minimumCenterlineClearanceByObstacle_m": {
+          "TOP": 0.005000000346600736,
+          "BOTTOM": 0.005000000143789649,
+          "SIDE_L": 0.012202069740356182,
+          "SIDE_R": 0.006000001863023529,
+          "SEPTUM": 0.0033523942846690833,
+          "OPEN_HEAD_SURFACE_CAP": 0.007071068066277228,
+          "NEGATIVE_AIR_BOUNDARY_ONLY": 0.000980615909213449
+        },
+        "limitingSurface": {
+          "segment": 4,
+          "obstacle": "NEGATIVE_AIR_BOUNDARY_ONLY",
+          "nearestCapsuleAndSurfacePoints_m": [
+            [
+              -0.02,
+              3.058569786554971e-07,
+              0.00019842829631930552
+            ],
+            [
+              -0.019269384091174353,
+              3.045297677447284e-07,
+              0.00019840452859326435
+            ]
+          ]
+        },
+        "collisionCount": 0,
+        "failures": [],
+        "fclPenetrationDepthUsed": false,
+        "allTestedCentersInsideNegativeAir": true,
+        "testedCenterSamples": 11,
+        "centerSamplesInsidePositiveWall": {
+          "TOP": 0,
+          "BOTTOM": 0,
+          "SIDE_L": 0,
+          "SIDE_R": 0,
+          "SEPTUM": 0
+        },
+        "passed": true,
+        "inlet": "R",
+        "outlet": "POSTERIOR",
+        "trimmedPath_m": [
+          [
+            0.028999999999999998,
+            0.0,
+            0.006
+          ],
+          [
+            0.025,
+            0.0,
+            0.006
+          ],
+          [
+            0.005,
+            0.0,
+            0.006
+          ],
+          [
+            -0.005,
+            0.0,
+            0.003
+          ],
+          [
+            -0.015,
+            0.0,
+            0.001
+          ],
+          [
+            -0.019019419324309082,
+            0.0,
+            0.0001961161351381836
+          ]
+        ],
+        "outletBridgeToCommonCenter": {
+          "clearAtProbeRadius": true,
+          "probeRadius_m": 0.00025,
+          "segmentsChecked": 1,
+          "minimumTestedCenterlineClearance_m": 0.00500000083175451,
+          "minimumWallOrContextCenterlineClearance_m": 0.00500000083175451,
+          "minimumCenterlineClearanceByObstacle_m": {
+            "TOP": 0.00500000083175451,
+            "BOTTOM": 0.005000004031077801,
+            "SIDE_L": 0.012000000373778298,
+            "SIDE_R": 0.011844543827302356,
+            "SEPTUM": 0.019019419371688637,
+            "OPEN_HEAD_SURFACE_CAP": 0.04903401033974554
+          },
+          "limitingSurface": {
+            "segment": 0,
+            "obstacle": "TOP",
+            "nearestCapsuleAndSurfacePoints_m": [
+              [
+                -0.019513144120145896,
+                0.005,
+                9.694526913829604e-05
+              ],
+              [
+                -0.019513143786215683,
+                0.00024999916824550855,
+                9.694552437636983e-05
+              ]
+            ]
+          },
+          "collisionCount": 0,
+          "failures": [],
+          "fclPenetrationDepthUsed": false
+        }
+      }
+    ],
+    "sampledAirBoundaryWallCoverage": {
+      "samples": 44,
+      "wallCoverageTolerance_m": 0.0004,
+      "unexpectedUncoveredBoundarySamples": 0,
+      "uncoveredWitnesses_m": [],
+      "passed": true
+    },
+    "twoInletsReachCommonOutletAtProbeRadius": true,
+    "allThreePortsGeometricallyOpenAtProbeRadius": false,
+    "certifiedPositiveCorridorRadius_m": null,
+    "minimumWallOrContextCenterlineClearance_m": null,
+    "commonPosteriorOutlet": "POSTERIOR",
+    "probeRadius_m": 0.00025,
+    "externalHeadContainmentRun": false,
+    "negativeAirIsRuntimeTissue": false,
+    "anatomyAccepted": false,
+    "scope": "Two provided guide paths validated against actual surfaces using finite-radius swept capsules; three explicit opening bridges; closed-air membership; sampled air-boundary wall coverage. This proves selected geometric corridors at the tested radius, not optimal cross-sectional area, all alternate paths, micro-leaks, motion, CFD, clinical or full nasal anatomy."
+  },
+  "assertions": "Open channel passes; actual one-branch tissue obstruction fails only that guided branch; open two-triangle cap blocks inlet without any head-volume operation.",
+  "clinicalOrCFDValidation": false,
+  "toolSha256": "a8eb9f0973f00296a000c70cbbdb51612938ec0c5f21611024cf91fa60cce575",
+  "helperSha256": "3ccf95d82832a98083a1e0aaf79075d1ec80d9b525b79100ec834a830549666d"
+}

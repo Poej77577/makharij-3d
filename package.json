@@ -34,7 +34,11 @@
     "assets:face:validate": "blender --background --factory-startup --disable-autoexec --threads 2 --python-exit-code 1 --python tools/blender/check_face_context.py --",
     "assets:face:contacts": ".venv-qa/bin/python tools/qa/face_contacts.py --gate",
     "assets:face:stage": "python tools/anatomy/stage_face_context.py",
-    "assets:face:review": "blender --background --factory-startup --disable-autoexec --threads 2 --python-exit-code 1 --python tools/blender/render_face_context.py --"
+    "assets:face:review": "blender --background --factory-startup --disable-autoexec --threads 2 --python-exit-code 1 --python tools/blender/render_face_context.py --",
+    "assets:nasal:build": "blender --background --factory-startup --disable-autoexec --threads 2 --python-exit-code 1 --python tools/blender/build_nasal_cavity.py --",
+    "assets:nasal:validate": ".venv-qa/bin/python tools/qa/nasal_airway.py --gate",
+    "assets:nasal:stage": "python tools/anatomy/stage_nasal_cavity.py",
+    "test:nasal": ".venv-qa/bin/python tools/qa/nasal_browser.py"
   },
   "dependencies": {
     "react": "19.2.0",

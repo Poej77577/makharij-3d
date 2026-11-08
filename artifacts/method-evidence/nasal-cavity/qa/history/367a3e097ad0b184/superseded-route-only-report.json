@@ -1,0 +1,1118 @@
+{
+  "passed": true,
+  "volumeContractPass": true,
+  "wallTopology": {
+    "NASAL_MUCOSA": {
+      "vertices": 8110,
+      "triangles": 16232,
+      "closedPositiveVolume": true,
+      "watertight": true,
+      "windingConsistent": true,
+      "volume_m3": 6.730677645531156e-06
+    }
+  },
+  "airTopology": {
+    "vertices": 4087,
+    "triangles": 8170,
+    "closedPositiveVolume": true,
+    "watertight": true,
+    "windingConsistent": true,
+    "volume_m3": 3.730745516257334e-05
+  },
+  "negativeAirConnectedComponents": 1,
+  "ports": [
+    {
+      "clearAtProbeRadius": true,
+      "probeRadius_m": 0.00025,
+      "segmentsChecked": 2,
+      "minimumTestedCenterlineClearance_m": 0.0011007183026785963,
+      "minimumWallOrContextCenterlineClearance_m": 0.0011007183026785963,
+      "minimumCenterlineClearanceByObstacle_m": {
+        "NASAL_MUCOSA": 0.0011007183026785963,
+        "HEAD_EXTERNAL_SURFACE_ONLY": 0.0011009588859934617
+      },
+      "limitingSurface": {
+        "segment": 1,
+        "obstacle": "NASAL_MUCOSA",
+        "nearestCapsuleAndSurfacePoints_m": [
+          [
+            0.012613976991372918,
+            0.027489258036736942,
+            -0.01031456953055071
+          ],
+          [
+            0.0122093847135899,
+            0.02733856319178159,
+            -0.009581549897133853
+          ]
+        ]
+      },
+      "collisionCount": 0,
+      "failures": [],
+      "fclPenetrationDepthUsed": false,
+      "id": "nostril_left",
+      "role": "inlet",
+      "center_m": [
+        0.012149723518329361,
+        0.026908336284880836,
+        -0.009412778910094252
+      ],
+      "inwardNormalPointsInsideActualAir": true,
+      "outsideProbeOutsideActualAir": true,
+      "portCenterDistanceToClosedAirBoundary_m": 1.520920562982538e-10,
+      "ringMaximumDistanceToPositiveWall_m": 0.0,
+      "ringWallBindingTolerance_m": 0.00035,
+      "inletRingMaximumDistanceToActualHeadBoundary_m": 0.0,
+      "inletFaceBoundaryBindingTestRun": true,
+      "analysisAirCapExcludedFromOpeningTest": true,
+      "passed": true
+    },
+    {
+      "clearAtProbeRadius": true,
+      "probeRadius_m": 0.00025,
+      "segmentsChecked": 2,
+      "minimumTestedCenterlineClearance_m": 0.001100958930288883,
+      "minimumWallOrContextCenterlineClearance_m": 0.001100958930288883,
+      "minimumCenterlineClearanceByObstacle_m": {
+        "NASAL_MUCOSA": 0.001100958930288883,
+        "HEAD_EXTERNAL_SURFACE_ONLY": 0.001100958930288883
+      },
+      "limitingSurface": {
+        "segment": 1,
+        "obstacle": "NASAL_MUCOSA",
+        "nearestCapsuleAndSurfacePoints_m": [
+          [
+            0.012617510980741193,
+            0.027488915969133932,
+            0.010312689370446467
+          ],
+          [
+            0.012212952323080286,
+            0.0273385227574181,
+            0.009579310017437535
+          ]
+        ]
+      },
+      "collisionCount": 0,
+      "failures": [],
+      "fclPenetrationDepthUsed": false,
+      "id": "nostril_right",
+      "role": "inlet",
+      "center_m": [
+        0.012149723634744683,
+        0.026908336362491053,
+        0.009412778754873822
+      ],
+      "inwardNormalPointsInsideActualAir": true,
+      "outsideProbeOutsideActualAir": true,
+      "portCenterDistanceToClosedAirBoundary_m": 1.9424384959050476e-10,
+      "ringMaximumDistanceToPositiveWall_m": 0.0,
+      "ringWallBindingTolerance_m": 0.00035,
+      "inletRingMaximumDistanceToActualHeadBoundary_m": 0.0,
+      "inletFaceBoundaryBindingTestRun": true,
+      "analysisAirCapExcludedFromOpeningTest": true,
+      "passed": true
+    },
+    {
+      "clearAtProbeRadius": true,
+      "probeRadius_m": 0.00025,
+      "segmentsChecked": 2,
+      "minimumTestedCenterlineClearance_m": 0.0049788915393291135,
+      "minimumWallOrContextCenterlineClearance_m": 0.0049788915393291135,
+      "minimumCenterlineClearanceByObstacle_m": {
+        "NASAL_MUCOSA": 0.0049788915393291135,
+        "HEAD_EXTERNAL_SURFACE_ONLY": 0.06066493598705026
+      },
+      "limitingSurface": {
+        "segment": 0,
+        "obstacle": "NASAL_MUCOSA",
+        "nearestCapsuleAndSurfacePoints_m": [
+          [
+            -0.08299229051095908,
+            0.023000000044703484,
+            -0.00019562103910139236
+          ],
+          [
+            -0.07828336074320096,
+            0.022607594836741813,
+            -1.0111508822352575e-05
+          ]
+        ]
+      },
+      "collisionCount": 0,
+      "failures": [],
+      "fclPenetrationDepthUsed": false,
+      "id": "nasopharynx_outlet",
+      "role": "outlet",
+      "center_m": [
+        -0.07800000000000001,
+        0.02300000000000001,
+        -6.505213034913027e-19
+      ],
+      "inwardNormalPointsInsideActualAir": true,
+      "outsideProbeOutsideActualAir": true,
+      "portCenterDistanceToClosedAirBoundary_m": 4.470347292340193e-11,
+      "ringMaximumDistanceToPositiveWall_m": 3.2320624585361665e-09,
+      "ringWallBindingTolerance_m": 0.00035,
+      "inletRingMaximumDistanceToActualHeadBoundary_m": null,
+      "inletFaceBoundaryBindingTestRun": false,
+      "analysisAirCapExcludedFromOpeningTest": true,
+      "passed": true
+    }
+  ],
+  "perInlet": [
+    {
+      "clearAtProbeRadius": true,
+      "probeRadius_m": 0.00025,
+      "segmentsChecked": 77,
+      "minimumTestedCenterlineClearance_m": 0.0009343000978673368,
+      "minimumWallOrContextCenterlineClearance_m": 0.0011489697517787123,
+      "minimumCenterlineClearanceByObstacle_m": {
+        "NASAL_MUCOSA": 0.0011489697517787123,
+        "HEAD_EXTERNAL_SURFACE_ONLY": 0.0012529781478449482,
+        "NEGATIVE_AIR_BOUNDARY_ONLY": 0.0009343000978673368
+      },
+      "limitingSurface": {
+        "segment": 0,
+        "obstacle": "NEGATIVE_AIR_BOUNDARY_ONLY",
+        "nearestCapsuleAndSurfacePoints_m": [
+          [
+            0.012232597445161307,
+            0.027086478141704753,
+            -0.009710397135993044
+          ],
+          [
+            0.01206175001327413,
+            0.027674923052240948,
+            -0.0094057491978368
+          ]
+        ]
+      },
+      "collisionCount": 0,
+      "failures": [],
+      "fclPenetrationDepthUsed": false,
+      "allTestedCentersInsideNegativeAir": true,
+      "testedCenterSamples": 155,
+      "centerSamplesInsidePositiveWall": {
+        "NASAL_MUCOSA": 0
+      },
+      "passed": true,
+      "inlet": "nostril_left",
+      "outlet": "nasopharynx_outlet",
+      "trimmedPath_m": [
+        [
+          0.011998095593622304,
+          0.027889703775791176,
+          -0.009294766960557872
+        ],
+        [
+          0.011908903178103052,
+          0.028466975654935264,
+          -0.00922534854136087
+        ],
+        [
+          0.011366253150426412,
+          0.03004512710823084,
+          -0.00900582400547979
+        ],
+        [
+          0.010561560407658195,
+          0.031572722973766336,
+          -0.008771799958163665
+        ],
+        [
+          0.00953461192215716,
+          0.032979695580540536,
+          -0.008540871055125139
+        ],
+        [
+          0.008325194666282067,
+          0.03419597725755222,
+          -0.008330631952076863
+        ],
+        [
+          0.006973095612391669,
+          0.03515150033380017,
+          -0.008158677304731483
+        ],
+        [
+          0.005518101732844728,
+          0.035776197138283165,
+          -0.008042601768801646
+        ],
+        [
+          0.004,
+          0.036,
+          -0.008
+        ],
+        [
+          0.0036992187500000002,
+          0.0362578125,
+          -0.0079484375
+        ],
+        [
+          0.00290625,
+          0.0369375,
+          -0.0078125
+        ],
+        [
+          0.0017851562499999999,
+          0.0378984375,
+          -0.0076203125
+        ],
+        [
+          0.0005,
+          0.039,
+          -0.0074
+        ],
+        [
+          -0.0007851562500000003,
+          0.0401015625,
+          -0.0071796874999999994
+        ],
+        [
+          -0.00190625,
+          0.0410625,
+          -0.0069875
+        ],
+        [
+          -0.0026992187500000002,
+          0.0417421875,
+          -0.0068515625
+        ],
+        [
+          -0.003,
+          0.042,
+          -0.0068
+        ],
+        [
+          -0.00338671875,
+          0.04221484375,
+          -0.006765625
+        ],
+        [
+          -0.0044062500000000004,
+          0.04278125,
+          -0.0066749999999999995
+        ],
+        [
+          -0.00584765625,
+          0.04358203125,
+          -0.006546875
+        ],
+        [
+          -0.007500000000000001,
+          0.0445,
+          -0.0063999999999999994
+        ],
+        [
+          -0.00915234375,
+          0.04541796875,
+          -0.006253125
+        ],
+        [
+          -0.01059375,
+          0.04621875,
+          -0.006125
+        ],
+        [
+          -0.01161328125,
+          0.04678515625,
+          -0.006034375
+        ],
+        [
+          -0.012,
+          0.047,
+          -0.006
+        ],
+        [
+          -0.01255859375,
+          0.047,
+          -0.00599140625
+        ],
+        [
+          -0.01403125,
+          0.047,
+          -0.00596875
+        ],
+        [
+          -0.01611328125,
+          0.047,
+          -0.00593671875
+        ],
+        [
+          -0.018500000000000003,
+          0.047,
+          -0.0059
+        ],
+        [
+          -0.02088671875,
+          0.047,
+          -0.00586328125
+        ],
+        [
+          -0.022968750000000003,
+          0.047,
+          -0.00583125
+        ],
+        [
+          -0.024441406250000002,
+          0.047,
+          -0.0058085937499999995
+        ],
+        [
+          -0.025,
+          0.047,
+          -0.0058
+        ],
+        [
+          -0.02581640625,
+          0.04695703125,
+          -0.005795703124999999
+        ],
+        [
+          -0.02796875,
+          0.04684375,
+          -0.005784375
+        ],
+        [
+          -0.03101171875,
+          0.04668359375,
+          -0.005768359375
+        ],
+        [
+          -0.0345,
+          0.0465,
+          -0.00575
+        ],
+        [
+          -0.03798828125,
+          0.04631640625,
+          -0.005731640625
+        ],
+        [
+          -0.04103125,
+          0.046156249999999996,
+          -0.005715625
+        ],
+        [
+          -0.04318359375,
+          0.046042968749999996,
+          -0.005704296875000001
+        ],
+        [
+          -0.044,
+          0.046,
+          -0.0057
+        ],
+        [
+          -0.04447265625,
+          0.0459140625,
+          -0.0057
+        ],
+        [
+          -0.045718749999999996,
+          0.0456875,
+          -0.0057
+        ],
+        [
+          -0.04748046875,
+          0.045367187499999996,
+          -0.0057
+        ],
+        [
+          -0.0495,
+          0.045,
+          -0.0057
+        ],
+        [
+          -0.05151953125,
+          0.0446328125,
+          -0.0057
+        ],
+        [
+          -0.05328125,
+          0.0443125,
+          -0.0057
+        ],
+        [
+          -0.05452734375,
+          0.0440859375,
+          -0.0057
+        ],
+        [
+          -0.055,
+          0.044,
+          -0.0057
+        ],
+        [
+          -0.0554296875,
+          0.04395703125,
+          -0.005678515625
+        ],
+        [
+          -0.0565625,
+          0.04384375,
+          -0.005621875
+        ],
+        [
+          -0.0581640625,
+          0.04368359375,
+          -0.005541796875
+        ],
+        [
+          -0.06,
+          0.0435,
+          -0.00545
+        ],
+        [
+          -0.0618359375,
+          0.043316406249999995,
+          -0.005358203125
+        ],
+        [
+          -0.06343750000000001,
+          0.04315624999999999,
+          -0.005278125
+        ],
+        [
+          -0.0645703125,
+          0.043042968749999994,
+          -0.005221484375
+        ],
+        [
+          -0.065,
+          0.043,
+          -0.0052
+        ],
+        [
+          -0.06530078125,
+          0.042914062499999996,
+          -0.005126953125
+        ],
+        [
+          -0.06609375,
+          0.042687499999999996,
+          -0.0049343749999999995
+        ],
+        [
+          -0.06721484375,
+          0.0423671875,
+          -0.004662109375
+        ],
+        [
+          -0.0685,
+          0.041999999999999996,
+          -0.00435
+        ],
+        [
+          -0.06978515625,
+          0.0416328125,
+          -0.004037890625
+        ],
+        [
+          -0.07090624999999999,
+          0.0413125,
+          -0.003765625
+        ],
+        [
+          -0.07169921874999999,
+          0.0410859375,
+          -0.0035730468750000003
+        ],
+        [
+          -0.072,
+          0.041,
+          -0.0035
+        ],
+        [
+          -0.07221484375000001,
+          0.04115234375,
+          0.0
+        ],
+        [
+          -0.07350000000000001,
+          0.0395,
+          0.0
+        ],
+        [
+          -0.07478515625,
+          0.03784765625,
+          0.0
+        ],
+        [
+          -0.07590625,
+          0.03640625,
+          0.0
+        ],
+        [
+          -0.07669921874999999,
+          0.035386718750000004,
+          0.0
+        ],
+        [
+          -0.077,
+          0.035,
+          0.0
+        ],
+        [
+          -0.07704296875,
+          0.034484375000000005,
+          0.0
+        ],
+        [
+          -0.07715625,
+          0.033125,
+          0.0
+        ],
+        [
+          -0.07731640625,
+          0.031203125,
+          0.0
+        ],
+        [
+          -0.0775,
+          0.029,
+          0.0
+        ],
+        [
+          -0.07768359375,
+          0.026796875,
+          0.0
+        ],
+        [
+          -0.07784375,
+          0.024875,
+          0.0
+        ],
+        [
+          -0.07791695452014626,
+          0.023996545758244895,
+          0.0
+        ]
+      ],
+      "outletBridgeToCommonCenter": {
+        "clearAtProbeRadius": true,
+        "probeRadius_m": 0.00025,
+        "segmentsChecked": 1,
+        "minimumTestedCenterlineClearance_m": 0.004978940359450594,
+        "minimumWallOrContextCenterlineClearance_m": 0.004978940359450594,
+        "minimumCenterlineClearanceByObstacle_m": {
+          "NASAL_MUCOSA": 0.004978940359450594,
+          "HEAD_EXTERNAL_SURFACE_ONLY": 0.061167795829878156
+        },
+        "limitingSurface": {
+          "segment": 0,
+          "obstacle": "NASAL_MUCOSA",
+          "nearestCapsuleAndSurfacePoints_m": [
+            [
+              -0.07300774289945455,
+              0.023000000044703484,
+              -0.00019656132532586677
+            ],
+            [
+              -0.07771668858701164,
+              0.023392791900159724,
+              -1.1029675288995745e-05
+            ]
+          ]
+        },
+        "collisionCount": 0,
+        "failures": [],
+        "fclPenetrationDepthUsed": false
+      }
+    },
+    {
+      "clearAtProbeRadius": true,
+      "probeRadius_m": 0.00025,
+      "segmentsChecked": 77,
+      "minimumTestedCenterlineClearance_m": 0.0009343003556826331,
+      "minimumWallOrContextCenterlineClearance_m": 0.0011490593722352864,
+      "minimumCenterlineClearanceByObstacle_m": {
+        "NASAL_MUCOSA": 0.0011490593722352864,
+        "HEAD_EXTERNAL_SURFACE_ONLY": 0.0012529782158138703,
+        "NEGATIVE_AIR_BOUNDARY_ONLY": 0.0009343003556826331
+      },
+      "limitingSurface": {
+        "segment": 0,
+        "obstacle": "NEGATIVE_AIR_BOUNDARY_ONLY",
+        "nearestCapsuleAndSurfacePoints_m": [
+          [
+            0.012232598099984882,
+            0.027086478142835085,
+            0.009710397137881473
+          ],
+          [
+            0.01206175033081783,
+            0.027674923181727068,
+            0.00940574905769479
+          ]
+        ]
+      },
+      "collisionCount": 0,
+      "failures": [],
+      "fclPenetrationDepthUsed": false,
+      "allTestedCentersInsideNegativeAir": true,
+      "testedCenterSamples": 155,
+      "centerSamplesInsidePositiveWall": {
+        "NASAL_MUCOSA": 0
+      },
+      "passed": true,
+      "inlet": "nostril_right",
+      "outlet": "nasopharynx_outlet",
+      "trimmedPath_m": [
+        [
+          0.011998095798018586,
+          0.027889703867925397,
+          0.009294766813074121
+        ],
+        [
+          0.011908903437027753,
+          0.028466975737651338,
+          0.009225348400588015
+        ],
+        [
+          0.011366253465455564,
+          0.03004512718611707,
+          0.009005823885941375
+        ],
+        [
+          0.010561560713152006,
+          0.031572723039739584,
+          0.008771799863960972
+        ],
+        [
+          0.009534612173240975,
+          0.03297969563037019,
+          0.00854087098767388
+        ],
+        [
+          0.008325194838846365,
+          0.034195977289860215,
+          0.008330631910107165
+        ],
+        [
+          0.00697309570309207,
+          0.035151500350060975,
+          0.008158677284287898
+        ],
+        [
+          0.005518101759101984,
+          0.03577619714282379,
+          0.008042601763243153
+        ],
+        [
+          0.004,
+          0.036,
+          0.008
+        ],
+        [
+          0.0036992187500000002,
+          0.0362578125,
+          0.0079484375
+        ],
+        [
+          0.00290625,
+          0.0369375,
+          0.0078125
+        ],
+        [
+          0.0017851562499999999,
+          0.0378984375,
+          0.0076203125
+        ],
+        [
+          0.0005,
+          0.039,
+          0.0074
+        ],
+        [
+          -0.0007851562500000003,
+          0.0401015625,
+          0.0071796874999999994
+        ],
+        [
+          -0.00190625,
+          0.0410625,
+          0.0069875
+        ],
+        [
+          -0.0026992187500000002,
+          0.0417421875,
+          0.0068515625
+        ],
+        [
+          -0.003,
+          0.042,
+          0.0068
+        ],
+        [
+          -0.00338671875,
+          0.04221484375,
+          0.006765625
+        ],
+        [
+          -0.0044062500000000004,
+          0.04278125,
+          0.0066749999999999995
+        ],
+        [
+          -0.00584765625,
+          0.04358203125,
+          0.006546875
+        ],
+        [
+          -0.007500000000000001,
+          0.0445,
+          0.0063999999999999994
+        ],
+        [
+          -0.00915234375,
+          0.04541796875,
+          0.006253125
+        ],
+        [
+          -0.01059375,
+          0.04621875,
+          0.006125
+        ],
+        [
+          -0.01161328125,
+          0.04678515625,
+          0.006034375
+        ],
+        [
+          -0.012,
+          0.047,
+          0.006
+        ],
+        [
+          -0.01255859375,
+          0.047,
+          0.00599140625
+        ],
+        [
+          -0.01403125,
+          0.047,
+          0.00596875
+        ],
+        [
+          -0.01611328125,
+          0.047,
+          0.00593671875
+        ],
+        [
+          -0.018500000000000003,
+          0.047,
+          0.0059
+        ],
+        [
+          -0.02088671875,
+          0.047,
+          0.00586328125
+        ],
+        [
+          -0.022968750000000003,
+          0.047,
+          0.00583125
+        ],
+        [
+          -0.024441406250000002,
+          0.047,
+          0.0058085937499999995
+        ],
+        [
+          -0.025,
+          0.047,
+          0.0058
+        ],
+        [
+          -0.02581640625,
+          0.04695703125,
+          0.005795703124999999
+        ],
+        [
+          -0.02796875,
+          0.04684375,
+          0.005784375
+        ],
+        [
+          -0.03101171875,
+          0.04668359375,
+          0.005768359375
+        ],
+        [
+          -0.0345,
+          0.0465,
+          0.00575
+        ],
+        [
+          -0.03798828125,
+          0.04631640625,
+          0.005731640625
+        ],
+        [
+          -0.04103125,
+          0.046156249999999996,
+          0.005715625
+        ],
+        [
+          -0.04318359375,
+          0.046042968749999996,
+          0.005704296875000001
+        ],
+        [
+          -0.044,
+          0.046,
+          0.0057
+        ],
+        [
+          -0.04447265625,
+          0.0459140625,
+          0.0057
+        ],
+        [
+          -0.045718749999999996,
+          0.0456875,
+          0.0057
+        ],
+        [
+          -0.04748046875,
+          0.045367187499999996,
+          0.0057
+        ],
+        [
+          -0.0495,
+          0.045,
+          0.0057
+        ],
+        [
+          -0.05151953125,
+          0.0446328125,
+          0.0057
+        ],
+        [
+          -0.05328125,
+          0.0443125,
+          0.0057
+        ],
+        [
+          -0.05452734375,
+          0.0440859375,
+          0.0057
+        ],
+        [
+          -0.055,
+          0.044,
+          0.0057
+        ],
+        [
+          -0.0554296875,
+          0.04395703125,
+          0.005678515625
+        ],
+        [
+          -0.0565625,
+          0.04384375,
+          0.005621875
+        ],
+        [
+          -0.0581640625,
+          0.04368359375,
+          0.005541796875
+        ],
+        [
+          -0.06,
+          0.0435,
+          0.00545
+        ],
+        [
+          -0.0618359375,
+          0.043316406249999995,
+          0.005358203125
+        ],
+        [
+          -0.06343750000000001,
+          0.04315624999999999,
+          0.005278125
+        ],
+        [
+          -0.0645703125,
+          0.043042968749999994,
+          0.005221484375
+        ],
+        [
+          -0.065,
+          0.043,
+          0.0052
+        ],
+        [
+          -0.06530078125,
+          0.042914062499999996,
+          0.005126953125
+        ],
+        [
+          -0.06609375,
+          0.042687499999999996,
+          0.0049343749999999995
+        ],
+        [
+          -0.06721484375,
+          0.0423671875,
+          0.004662109375
+        ],
+        [
+          -0.0685,
+          0.041999999999999996,
+          0.00435
+        ],
+        [
+          -0.06978515625,
+          0.0416328125,
+          0.004037890625
+        ],
+        [
+          -0.07090624999999999,
+          0.0413125,
+          0.003765625
+        ],
+        [
+          -0.07169921874999999,
+          0.0410859375,
+          0.0035730468750000003
+        ],
+        [
+          -0.072,
+          0.041,
+          0.0035
+        ],
+        [
+          -0.07221484375000001,
+          0.04115234375,
+          0.0
+        ],
+        [
+          -0.07350000000000001,
+          0.0395,
+          0.0
+        ],
+        [
+          -0.07478515625,
+          0.03784765625,
+          0.0
+        ],
+        [
+          -0.07590625,
+          0.03640625,
+          0.0
+        ],
+        [
+          -0.07669921874999999,
+          0.035386718750000004,
+          0.0
+        ],
+        [
+          -0.077,
+          0.035,
+          0.0
+        ],
+        [
+          -0.07704296875,
+          0.034484375000000005,
+          0.0
+        ],
+        [
+          -0.07715625,
+          0.033125,
+          0.0
+        ],
+        [
+          -0.07731640625,
+          0.031203125,
+          0.0
+        ],
+        [
+          -0.0775,
+          0.029,
+          0.0
+        ],
+        [
+          -0.07768359375,
+          0.026796875,
+          0.0
+        ],
+        [
+          -0.07784375,
+          0.024875,
+          0.0
+        ],
+        [
+          -0.07791695452014626,
+          0.023996545758244895,
+          0.0
+        ]
+      ],
+      "outletBridgeToCommonCenter": {
+        "clearAtProbeRadius": true,
+        "probeRadius_m": 0.00025,
+        "segmentsChecked": 1,
+        "minimumTestedCenterlineClearance_m": 0.004978940359450594,
+        "minimumWallOrContextCenterlineClearance_m": 0.004978940359450594,
+        "minimumCenterlineClearanceByObstacle_m": {
+          "NASAL_MUCOSA": 0.004978940359450594,
+          "HEAD_EXTERNAL_SURFACE_ONLY": 0.061167795829878156
+        },
+        "limitingSurface": {
+          "segment": 0,
+          "obstacle": "NASAL_MUCOSA",
+          "nearestCapsuleAndSurfacePoints_m": [
+            [
+              -0.07300774289945455,
+              0.023000000044703484,
+              -0.00019656132532586677
+            ],
+            [
+              -0.07771668858701164,
+              0.023392791900159724,
+              -1.1029675288995745e-05
+            ]
+          ]
+        },
+        "collisionCount": 0,
+        "failures": [],
+        "fclPenetrationDepthUsed": false
+      }
+    }
+  ],
+  "sampledAirBoundaryWallCoverage": {
+    "samples": 1024,
+    "wallCoverageTolerance_m": 0.0004,
+    "unexpectedUncoveredBoundarySamples": 0,
+    "uncoveredWitnesses_m": [],
+    "passed": true
+  },
+  "twoInletsReachCommonOutletAtProbeRadius": true,
+  "allThreePortsGeometricallyOpenAtProbeRadius": true,
+  "certifiedPositiveCorridorRadius_m": 0.00025,
+  "minimumWallOrContextCenterlineClearance_m": 0.0011007183026785963,
+  "commonPosteriorOutlet": "nasopharynx_outlet",
+  "probeRadius_m": 0.00025,
+  "externalHeadContainmentRun": false,
+  "negativeAirIsRuntimeTissue": false,
+  "anatomyAccepted": false,
+  "scope": "Two provided guide paths validated against actual surfaces using finite-radius swept capsules; three explicit opening bridges; closed-air membership; sampled air-boundary wall coverage. This proves selected geometric corridors at the tested radius, not optimal cross-sectional area, all alternate paths, micro-leaks, motion, CFD, clinical or full nasal anatomy.",
+  "assetSha256": "a91dc0db14fa1ba8a6780f27d04887ea04e80a4d74b6c1a47fa3629d7a16fe28",
+  "airAssetSha256": "e6c4a5b9e1e3cba94cb017c1929b3a516629ffd02ce25e4082d5c76dda323b96",
+  "faceAssetSha256": "dce24684c15a7a18683f55beee17609a97330ce86de7dec61429c3db1305cf94",
+  "manifestSha256": "caec5dfb766755fe8887b944930f587299a99cc5e22707924a6cdecadfb444f7",
+  "toolSha256": "17296a8eafe63c45cf6121b01c7a3104d5d95c0e67093d70107434cedaf55dc9",
+  "helperSha256": "3ccf95d82832a98083a1e0aaf79075d1ec80d9b525b79100ec834a830549666d",
+  "evaluatedGeometrySha256": "c0fcef45c1cf8b9857640e32079ee85c11e49b1055b6deefb556755900df1f5f",
+  "frame": "+X anterior,+Y superior,+Z subject right; metres",
+  "evaluatedBy": "Blender actual GLB importer; evaluated rest world matrices; explicit zero morphs; no external head volume",
+  "wallParts": [
+    "NASAL_MUCOSA"
+  ],
+  "runtimeNegativeAirMeshFound": false,
+  "sourceAttribution": "See source NOTICE.md"
+}
